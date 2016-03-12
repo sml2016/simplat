@@ -1,0 +1,95 @@
+.registrada {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    h1 {
+        font-family: 'TenorSans',sans-serif;
+        font-size: 28px;
+        color: #212121;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    h2 {
+        font-family: 'Opensans',sans-serif;
+        font-size: 22px;
+        color: #333;
+        text-align: center;
+        padding-top: 10px;
+        line-height: 2;
+        padding-bottom: 30px;
+    }
+
+    p {
+        font-family: 'Opensans',sans-serif;
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+
+    @media (max-width: $sizeLessThanTablet) {
+        margin-left: -10px;
+        margin-right: -5px;
+
+        h1 {
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        h2 {
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: bold;
+            text-align: justify;
+        }
+    }
+
+    @media (min-width:$sizeTablet ) and (max-width: $sizeLessThanDesktop) {
+        margin-left: 45px;
+        margin-right: 45px;
+
+        h1 {
+            font-size: 22px;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 15px;
+            font-weight: bold;
+        }
+    }
+
+    @media (min-width:$sizeDesktop ) and (max-width: $sizeLargeDesktop) {
+        h1 {
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+.fecha1 {
+    color: #f04942;
+}
+
+.cancelar {
+    color: #0cb095;
+}

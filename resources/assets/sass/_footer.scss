@@ -1,0 +1,76 @@
+/*---------------------------
+         footer
+----------------------------*/
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #0cb095;
+    padding-top: 20px;
+    color: #fff;
+    font-family: 'Opensans', sans-serif;
+}
+
+.footerLinks {
+    list-style-type: none;
+    border-radius: 0;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 0px;
+
+    li {
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-family: 'Opensans', sans-serif;
+            font-size: 16px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        a:hover {
+            font-weight: bold;
+            background-color: none;
+            color: #dbdbdb;
+        }
+    }
+
+    @media (max-width: $sizeLessThanTablet) {
+        height: auto;
+
+        li {
+            display: block;
+            text-align: center;
+        }
+    }
+}
+
+.socialmedia {
+    background: #fafafa;
+    max-width: 133px;
+
+    span {
+        border-bottom: 2px solid #0cb095;
+        font-family: 'Opensans-Light',sans-serif;
+        font-size: 14px;
+        color: #9541c7;
+        text-align: center;
+        padding: 12px;
+        line-height: 30px;
+    }
+
+    ul {
+        text-align: center;
+        list-style-type: none;
+        padding: 15px 0px 0px 0px;
+
+        li {
+            display: inline-block;
+        }
+    }
+
+    @media (max-width: $sizeTablet) {
+        margin: auto;
+    }
+}

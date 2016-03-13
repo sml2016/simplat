@@ -5752,6 +5752,22 @@ button.close {
 .body {
   background: #fefefe; }
 
+.naranjaR {
+  background: #f04942;
+  height: 350px;
+  margin-top: -80px; }
+
+.fondo1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  border-top: 1px solid #bdbdbd;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  margin-top: -370px;
+  margin-bottom: 50px;
+  padding-bottom: 40px; }
+
 /* --------------------------
      Buttons
 --------------------------*/
@@ -6394,22 +6410,6 @@ button.close {
 /* --------------------------
       Página de Registro
 ------------------------------*/
-.naranjaR {
-  background: #f04942;
-  height: 300px;
-  margin-top: -80px; }
-
-.fondo1 {
-  width: 100%;
-  height: auto;
-  position: relative;
-  border-top: 1px solid #bdbdbd;
-  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.15);
-  background: #ffffff;
-  margin-top: -320px;
-  margin-bottom: 50px;
-  padding-bottom: 40px; }
-
 .section1R {
   padding-top: 10px;
   margin-bottom: 30px; }
@@ -6656,9 +6656,6 @@ select.input-lg, .input-group-lg > select.form-control,
   margin-bottom: 70px; }
 
 /*  CSS Mensaje Enviado */
-.body {
-  background: #fefefe; }
-
 .mensaje {
   margin-left: 35px;
   margin-right: 35px;
@@ -6873,5 +6870,16 @@ select.input-lg, .input-group-lg > select.form-control,
     color: #fff;
     background-color: #0cb095;
     border-color: #0cb095; } }
+
+.galeria h1 {
+  font-family: 'TenorSans',sans-serif;
+  font-size: 30px;
+  color: #212121;
+  font-weight: bold;
+  text-align: center;
+  padding: 60px 0px; }
+
+.galeria img {
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=app.css.map */

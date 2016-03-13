@@ -56,7 +56,7 @@
     <div class="container">
         <div class="row row-of-blocks">
             <div class="col-xs-12  col-sm-4  col-md-4  "><a href="registro.html" class="button">Registro</a></div>
-            <div class="col-xs-12  col-sm-4  col-md-4 "><a href="patrocina.html" class="button">Patrocina</a></div>
+            <div class="col-xs-12  col-sm-4  col-md-4 "><a href="{{ url('/patrocinanos') }}" class="button">Patrocina</a></div>
             <div class="col-xs-12  col-sm-4  col-md-4" ><a href="involucrate.html" class="button">Involúcrate</a></div>
         </div>  
     </div>   <!--Contanier-->

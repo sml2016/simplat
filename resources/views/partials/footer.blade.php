@@ -4,7 +4,8 @@
             <li><a href="{{ url('/historia') }}">Historia</a></li>
             <li><a href="{{ url('/testimonios') }}">Testimonios</a></li>
             <li><a href="{{ url('/grupos') }}">Grupos</a></li>
-            <li><a href="{{ url('/galeria') }}">Galería</a></li>
+            <li><a href="{{ url('/galeria/2014') }}">Galería 2014</a></li>
+            <li><a href="{{ url('/galeria/2015') }}">Galería 2015</a></li>
             <li><a href="{{ url('/conferencias/2014') }}">Conferencias 2014</a></li>
             <li><a href="{{ url('/conferencias/2015') }}">Conferencias 2015</a></li>
             <li><a href="{{ url('/contacto') }}">Contacto</a></li>

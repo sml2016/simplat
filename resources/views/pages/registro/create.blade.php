@@ -41,7 +41,7 @@
         </div>
       </div>
       <div class="section3R" style="display:none">
-      <h1>¿Cuántos niños o niñas va a registrar?</h1>  
+      <h1>{{ trans('registro.cuantosNinos') }}</h1>  
       <h2>Cada participante puede registrar máximo dos menores de edad entre 3 y 11 años de edades.</h2>
        
         <div class="row">

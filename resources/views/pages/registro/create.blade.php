@@ -41,9 +41,9 @@
         </div>
       </div>
       <div class="section3R" style="display:none">
-        <h1>* Cada participante puede registrar máximo dos menores de edad.</h1>
-        <h2>* Solamente se pueden registrar a menores de edad a partir de los 3 años hasta los 11 años de edad.</h2>
-        <h3>¿Cuántos niños o niñas va a registrar?</h3>
+      <h1>¿Cuántos niños o niñas va a registrar?</h1>  
+      <h2>Cada participante puede registrar máximo dos menores de edad entre 3 y 11 años de edades.</h2>
+       
         <div class="row">
           <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
             <div class="ninos">

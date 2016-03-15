@@ -5,6 +5,11 @@
     <div class="fondo1">
         <div class="contacto1">
             <h1>Contáctenos</h1>
+            <h2>Teléfono: 206 - 934 - 3749
+                <span class="ext">Ext. 2336</span></h2>
+             <h2>Correo Electrónico:<span class="email"> simposiomujereslatinas@gmail.com</span> </h2>
+                
+            
             <form type="POST" role="form" method="POST" action="{{ url('/contacto') }}">
                 {!! csrf_field() !!}
                 <div class="form-group-lg">

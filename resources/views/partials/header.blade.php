@@ -49,7 +49,7 @@
                             <span class="{{ set_active('patrocinanos').' '.set_active('patrocinadores') }}">{{ trans('header.Patrocina') }}</span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-left">
-                            <li><a href="{{ url('/patrocinanos') }}">Patrocinanos</a></li>
+                            <li><a href="{{ url('/patrocinanos') }}">Patrocínanos</a></li>
                             <li><a href="{{ url('/patrocinadores') }}">Nuestros Patrocinadores</a></li>
                         </ul>
                     </li>
@@ -66,7 +66,7 @@
                     <ul class="nav navbar-nav">
                         <li><a href="{{ url('/noticias') }}"><span class="{{ set_active('noticias', 'active1') }}">Noticias</span></a></li>
                         <li><a href="{{ url('/conocenos') }}"><span class="{{ set_active('conocenos', 'active1') }}">Conócenos</span></a></li>
-                        <li><a href="{{ url('/contacto') }}"><span class="{{ set_active('contacto', 'active1') }}">Contacto</span></a></li>
+                        <li><a href="{{ url('/contacto') }}"><span class="active1">Contacto</a></li>
                     </ul>
                 </div>
             </div> <!--End menu2 -->

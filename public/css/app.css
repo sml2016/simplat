@@ -5752,6 +5752,22 @@ button.close {
 .body {
   background: #fefefe; }
 
+.naranjaR {
+  background: #f04942;
+  height: 350px;
+  margin-top: -80px; }
+
+.fondo1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  border-top: 1px solid #bdbdbd;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  margin-top: -370px;
+  margin-bottom: 50px;
+  padding-bottom: 40px; }
+
 /* --------------------------
      Buttons
 --------------------------*/
@@ -5849,14 +5865,13 @@ button.close {
 
 .social i {
   margin-left: -23px;
-  width: 33px;
-  height: 33px;
+  width: 26px;
+  height: 26px;
   color: #FFF;
   background-color: #C0C0C0;
-  /* #E3E3E3;*/
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 7px;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -5992,14 +6007,15 @@ button.close {
     padding: 0;
     margin: 0; }
   @media (max-width: 768px) {
-    .navbar-default .navbar-nav > li > a:hover {
+    .navbar-default .menu1 .navbar-nav > li > a:hover {
       /*color del menu del movile*/
       background-color: #fde7e6;
       color: #f04942;
-      font-weight: bold; }
-    .navbar-default .navbar-margin-bottom {
-      margin-bottom: 60px;
-      /*subir el carousel cerca del logo*/ } }
+      font-weight: bold;
+      border: none; } }
+  .navbar-default .navbar-margin-bottom {
+    margin-bottom: 60px;
+    /*subir el carousel cerca del logo*/ }
 
 .menu1 {
   margin-right: 60px;
@@ -6016,7 +6032,7 @@ button.close {
       width: 100%;
       font-size: 16px; }
       .menu1 a:hover {
-        border: 1px solid #fde7e6; } }
+        border: none; } }
   @media (min-width: 768px) {
     .menu1 {
       margin-right: 0px;
@@ -6076,7 +6092,7 @@ button.close {
   border-bottom: 1px solid #bdbdbd; }
   @media (max-width: 480px) {
     .menu1 a:hover {
-      border: 1px solid #fde7e6; } }
+      border: none; } }
 
 .menu1 a:active {
   color: #757575; }
@@ -6093,6 +6109,15 @@ button.close {
   color: #a6a6a6;
   font-family: 'TenorSans', sans-serif;
   font-weight: lighter; }
+  @media (min-width: 768px) {
+    .menu2 {
+      margin-right: 0px;
+      font-size: 15px;
+      color: #757575; } }
+  @media (min-width: 992px) {
+    .menu2 {
+      margin-right: 60px;
+      font-size: 16px; } }
   @media (min-width: 1200px) {
     .menu2 {
       margin-right: 80px;
@@ -6107,7 +6132,19 @@ button.close {
 
 .active1 {
   color: #000;
-  font-weight: normal; }
+  font-weight: bold; }
+  @media (min-width: 768px) {
+    .active1 {
+      font-size: 15px;
+      color: #000; } }
+  @media (min-width: 992px) {
+    .active1 {
+      font-size: 16px;
+      color: #000; } }
+  @media (min-width: 1200px) {
+    .active1 {
+      font-size: 18px;
+      color: #373737; } }
 
 /* --------------------------
       Menu Principal Mobile
@@ -6136,12 +6173,11 @@ button.close {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fde7e6;
-  /* #fac4c1;*/
   border-color: #fde7e6; }
 
-.navbar-margin-bottom {
-  margin-bottom: 70px; }
-
+/*.navbar-margin-bottom {
+    margin-bottom: 70px;
+}*/
 .row-of-blocks {
   margin: 30px; }
 
@@ -6208,41 +6244,11 @@ button.close {
    --------------------------*/
 .naranja {
   background: #f04942;
-  height: auto;
-  margin-top: -70px; }
+  height: auto; }
 
-#myCarousel {
-  margin-top: -30px;
-  box-shadow: 2px 2px 2px #424242; }
-  #myCarousel .item {
-    height: 360px; }
-
-.carousel-control {
-  width: 3%; }
-
-.carousel-control.left, .carousel-control.right {
-  background-image: none; }
-
-.carousel-caption {
-  font-size: 24px;
-  right: 20%; }
-
-.donar {
-  position: relative;
-  float: right;
-  margin-right: -130px;
-  margin-bottom: 10px;
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 2px; }
-
-.donar h4 {
-  font-family: 'OpenSans-light', sans-serif;
-  font-size: 18px;
-  color: #fafafa;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px; }
+.cover {
+  box-shadow: 2px 2px 2px  #424242;
+  margin-top: -22px; }
 
 .negro {
   font-family: 'OpenSans-light', sans-serif;
@@ -6394,22 +6400,6 @@ button.close {
 /* --------------------------
       Página de Registro
 ------------------------------*/
-.naranjaR {
-  background: #f04942;
-  height: 300px;
-  margin-top: -80px; }
-
-.fondo1 {
-  width: 100%;
-  height: auto;
-  position: relative;
-  border-top: 1px solid #bdbdbd;
-  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.15);
-  background: #ffffff;
-  margin-top: -320px;
-  margin-bottom: 50px;
-  padding-bottom: 40px; }
-
 .section1R {
   padding-top: 10px;
   margin-bottom: 30px; }
@@ -6441,7 +6431,7 @@ label {
 
 .radio {
   /* margin-left:400px;*/
-  margin-bottom: 50px; }
+  margin-bottom: 0px; }
 
 .radio label {
   display: inline-block;
@@ -6465,20 +6455,16 @@ label {
   text-align: center; }
 
 .section3R h1 {
-  font-size: 18px;
-  font-family: 'Opensans-Light',sans-serif;
-  color: #333; }
+  font-family: 'TenorSans',sans-serif;
+  font-size: 22px;
+  color: #212121;
+  margin-top: -30px; }
 
 .section3R h2 {
   font-size: 18px;
   font-family: 'Opensans-Light',sans-serif;
-  color: #333; }
-
-.section3R h3 {
-  font-family: 'TenorSans',sans-serif;
-  font-size: 22px;
-  color: #212121;
-  margin-top: 60px; }
+  color: #333;
+  margin-bottom: 40px; }
 
 .ninos {
   margin-top: 20px;
@@ -6656,9 +6642,6 @@ select.input-lg, .input-group-lg > select.form-control,
   margin-bottom: 70px; }
 
 /*  CSS Mensaje Enviado */
-.body {
-  background: #fefefe; }
-
 .mensaje {
   margin-left: 35px;
   margin-right: 35px;
@@ -6873,5 +6856,16 @@ select.input-lg, .input-group-lg > select.form-control,
     color: #fff;
     background-color: #0cb095;
     border-color: #0cb095; } }
+
+.galeria h1 {
+  font-family: 'TenorSans',sans-serif;
+  font-size: 30px;
+  color: #212121;
+  font-weight: bold;
+  text-align: center;
+  padding: 60px 0px; }
+
+.galeria img {
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=app.css.map */

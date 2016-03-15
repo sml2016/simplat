@@ -84,7 +84,8 @@ Route::group(['middleware' => ['web', 'setlocale']], function () {
     Route::get('/historia', 'HomeController@historiaView');
     Route::get('/testimonios', 'HomeController@testimoniosView');
     Route::get('/grupos', 'HomeController@gruposView');
-    Route::get('/galeria', 'HomeController@galeriaView');
+    Route::get('/galeria/2014', 'HomeController@galeria2014View');
+    Route::get('/galeria/2015', 'HomeController@galeria2015View');
     Route::get('/conferencias/2014', 'HomeController@conferencias2014View');
     Route::get('/conferencias/2015', 'HomeController@conferencias2015View');
 });

@@ -5,49 +5,12 @@
 .naranja {
     background: #f04942;
     height: auto;
-    margin-top: -70px;
 }
 
-#myCarousel {
-    margin-top: -30px;
-    box-shadow: 2px 2px 2px #424242;
-
-    .item {
-        height: 360px;
+.cover{
+    box-shadow:2px 2px 2px  #424242;
+    margin-top:-22px;
     }
-}
-
-.carousel-control {
-    width: 3%;
-}
-
-.carousel-control.left, .carousel-control.right {
-    background-image: none;
-}
-
-.carousel-caption {
-    font-size: 24px;
-    right: 20%;
-}
-
-.donar {
-    position: relative;
-    float: right;
-    margin-right: -130px;
-    margin-bottom: 10px;
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 2px;
-}
-
-.donar h4 {
-    font-family: 'OpenSans-light', sans-serif;
-    font-size: 18px;
-    color: #fafafa;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
 
 .negro {
     font-family: 'OpenSans-light', sans-serif;

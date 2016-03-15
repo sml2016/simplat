@@ -2,25 +2,6 @@
       Página de Registro
 ------------------------------*/
 
-.naranjaR {
-    background: #f04942;
-    height: 300px;
-    margin-top: -80px;
-}
-
-
-.fondo1 {
-    width: 100%;
-    height: auto;
-    position: relative;
-    border-top: 1px solid #bdbdbd;
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.15);
-    background: #ffffff;
-    margin-top: -320px;
-    margin-bottom: 50px;
-    padding-bottom: 40px;
-}
-
 .section1R {
     padding-top: 10px;
     margin-bottom: 30px;
@@ -56,7 +37,7 @@ label {
 
 .radio {
     /* margin-left:400px;*/
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .radio label {
@@ -84,22 +65,17 @@ label {
 }
 
 .section3R h1 {
-    font-size: 18px;
-    font-family: 'Opensans-Light',sans-serif;
-    color: #333;
+    font-family: 'TenorSans',sans-serif;
+    font-size: 22px;
+    color: #212121;
+    margin-top: -30px;
 }
 
 .section3R h2 {
     font-size: 18px;
     font-family: 'Opensans-Light',sans-serif;
     color: #333;
-}
-
-.section3R h3 {
-    font-family: 'TenorSans',sans-serif;
-    font-size: 22px;
-    color: #212121;
-    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .ninos {

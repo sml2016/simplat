@@ -138,9 +138,19 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function galeriaView()
+    public function galeria2014View()
     {
-        return view('pages.galeria');
+        return view('pages.galeria2014');
+    }
+
+    /**
+     * Display galeria page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function galeria2015View()
+    {
+        return view('pages.galeria2015');
     }
 
     /**

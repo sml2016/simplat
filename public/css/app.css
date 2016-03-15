@@ -6012,6 +6012,15 @@ button.close {
       background-color: #fde7e6;
       color: #f04942;
       font-weight: bold;
+      border: none; }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      text-align: center;
+      font-size: 16px; }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+      /*color del menu del movile*/
+      background-color: #fde7e6;
+      color: #f04942;
+      font-weight: bold;
       border: none; } }
   .navbar-default .navbar-margin-bottom {
     margin-bottom: 60px;
@@ -6145,6 +6154,51 @@ button.close {
     .active1 {
       font-size: 18px;
       color: #373737; } }
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background: #fff; }
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  z-index: 1000;
+  float: left;
+  min-width: 200px;
+  padding: 10px 5px;
+  margin: 2px 0 0 0;
+  font-size: 22px;
+  color: #757575;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-top: 1px solid #bdbdbd;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  border: none;
+  border-radius: 1px; }
+  @media (max-width: 768px) {
+    .dropdown-menu {
+      font-size: 16px; } }
+  @media (min-width: 768px) {
+    .dropdown-menu {
+      font-size: 16px; } }
+  @media (min-width: 992px) {
+    .dropdown-menu {
+      font-size: 18px; } }
+  .dropdown-menu li > a {
+    display: block;
+    padding: 10px 20px 5px;
+    clear: both;
+    font-family: 'TenorSans',sans-serif;
+    font-weight: lighter;
+    line-height: 2;
+    color: #757575;
+    white-space: nowrap; }
+  .dropdown-menu li > a:hover {
+    background: #fff;
+    color: #757575; }
 
 /* --------------------------
       Menu Principal Mobile

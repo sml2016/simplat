@@ -5,7 +5,7 @@
 <div class="naranja">
     <div class="container">
       <div class="cover">
-         <img class="img-responsive" src="/images/LatinasPrueba_1170x430.png"  style="width:100% height:320px";/>
+         <img class="img-responsive" src="/images/LatinasPrueba_1170x430.png"  style="width:100% height:auto";/>
       </div>  
     </div> <!--Contanier-->
 </div> <!-- end naranaja -->
@@ -53,7 +53,7 @@
                <h1> Maru Mora Villalpardo</h1>
                <h2> Por su entrega en defensa de los derechos de los inmigrantes latinos y su trabajo constante para empoderar a la mujer latina.
                   </br></br>Nos honra entregar el premio:
-                 </br></br><span class="puño">Puño de Oro</span></h2>
+                 </br></br><span class="puno">Puño de Oro</span></h2>
               </div>
               <div class="col-md-5">
              <div class="embed-responsive embed-responsive-16by9"> 
@@ -126,7 +126,7 @@
             <h1>¿Dónde me estaciono?</h1>
            <p>El estacionamiento <span class="gratis">será gratuito</span>.</p>
           <p>Nos estacionaremos en el área de Biblioteca, cerca del Centro de Educación y Cuidado de Niños. La entrada está ubicada en la calle 97th.</p>
-         </div> <!--End sidebar -->
+         </div> <!--End sidebar C -->
         </div>  
        </div> <!-- End Row --> 
       </div> <!--End SectionC -->
@@ -134,10 +134,10 @@
       <div class="sectionD">
        <div class="row">
         <div class="col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">  
-         <img class="img-responsive" src="Imagenes/patrocinadores/NSC.png"/>  
+         <img class="img-responsive" src="images/patrocinadores/NSC.png"/>  
          </div>
           <div class="col-ms-5 col-sm-offset-1 col-md-5 col-md-offset-1">   
-           <img class="img-responsive" src="Imagenes/patrocinadores/latinofoundation.png"/>   
+           <img class="img-responsive" src="images/patrocinadores/latinofoundation.png"/>   
            </div> 
           </div> <!---End Row D---> 
          </div><!--End sectionD-->        

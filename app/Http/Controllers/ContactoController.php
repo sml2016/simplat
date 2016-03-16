@@ -29,6 +29,13 @@ class ContactoController extends Controller
      */
     public function store(Request $request)
     {
+        $this->validate($request, [ 
+            'name' => 'required|string|min:5|max:100',
+            'email' =>'required|email',
+            'title' => 'required|string|min:1|max:255',
+            'message' => 'required|string|min:1|max:255',
+        ]);
+
         return redirect('/contacto/enviado')->with('enviado', 'true');
     }
 

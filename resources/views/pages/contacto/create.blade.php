@@ -15,14 +15,19 @@
                 <div class="form-group-lg">
                     <div class="row">
                         <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                            @if ($errors->any())
+                              @foreach ($errors->all() as $error)
+                                  <div class="alert alert-danger" role="alert">{{ $error }}</div>
+                              @endforeach
+                            @endif
                             <label for="InputNombreC">Nombre</label>
-                            <input type="text" class="form-control" id="InputNombreC" placeholder="Nombre" name="name" required>
+                            <input type="text" class="form-control" id="InputNombreC" placeholder="Nombre" name="name" value="{{Request::old('name')}}" required>
                             <label for="InputEmailC">Correo Electrónico</label>
-                            <input type="email" class="form-control" id="InputEmailC" placeholder="Correo Electrónico" name="email" required> 
+                            <input type="email" class="form-control" id="InputEmailC" placeholder="Correo Electrónico" name="email" value="{{Request::old('email')}}" required> 
                             <label for="InputAsunto">Asunto</label>
-                            <input type="telefono" class="form-control" id="InputAsunto" placeholder="Asunto" name="title" required>
+                            <input type="telefono" class="form-control" id="InputAsunto" placeholder="Asunto" name="title" value="{{Request::old('title')}}" required>
                             <label> Mensaje </label>
-                            <textarea class="form-control" rows="10" name="body" required></textarea>
+                            <textarea class="form-control" rows="10" name="message" required>{{Request::old('message')}}</textarea>
                             <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar</button>
                         </div>
                     </div> <!-- row -->

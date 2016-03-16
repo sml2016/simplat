@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>LALA 123</title>
     <style>
         h1 {
             color:red;

@@ -37,7 +37,15 @@ class CreateAttendeeRequest extends Request
 
         if (array_key_exists('daycarenumber', $input)) {
             $daycarenumber = $input['daycarenumber'];
-            $needsdaycare = $input['needsdaycare'];
+
+            if (array_key_exists('needsdaycare', $input)) 
+            {
+                $needsdaycare = $input['needsdaycare'];
+            }
+            else
+            {
+                 $needsdaycare =  ($daycarenumber > 0) ? 'yes' : 'no';
+            }
 
             if (!empty($needsdaycare) && $needsdaycare == 'no') {
                 $daycarenumber = 0;

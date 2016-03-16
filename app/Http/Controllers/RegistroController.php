@@ -45,7 +45,6 @@ class RegistroController extends Controller
         $needsdaycare = $request->get('needsdaycare');
         if (!empty($needsdaycare) && $needsdaycare == 'si') {
             $daycarenumber = $request->get('daycarenumber');
-            dd($daycarenumber);
             if ($daycarenumber > 0 && $daycarenumber <= 2)
             {
                 if ($daycarenumber >= 1)

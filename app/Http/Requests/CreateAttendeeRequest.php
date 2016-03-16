@@ -36,34 +36,31 @@ class CreateAttendeeRequest extends Request
         ];
 
         $daycarenumber = $input['daycarenumber'];
+        $needsdaycare = $input['needsdaycare'];
 
-        if (!empty($daycarenumber))
-        {    
-            $needsdaycare = $input['needsdaycare'];
-            if (!empty($needsdaycare) && $needsdaycare == 'no') {
-                $daycarenumber = 0;
-            }
+        if (!empty($needsdaycare) && $needsdaycare == 'no') {
+            $daycarenumber = 0;
+        }
 
-            if ($daycarenumber > 0 && $daycarenumber <= 2)
+        if ($daycarenumber > 0 && $daycarenumber <= 2)
+        {
+            if ($daycarenumber >= 1)
             {
-                if ($daycarenumber >= 1)
-                {
-                    $validationRules = array_merge($validationRules, [
-                        'child1name' => 'required|min:1|max:60',
-                        'child1lastname' => 'required|min:1|max:60',
-                        'child1sex' => 'required|integer|between:0,1',
-                        'child1age' => 'required|integer|between:'.$settings->daycare_min_age.','.$settings->daycare_max_age
-                    ]);
-                }
-                if ($daycarenumber == 2)
-                {
-                    $validationRules = array_merge($validationRules, [
-                        'child2name' => 'required|min:1|max:60',
-                        'child2lastname' => 'required|min:1|max:60',
-                        'child2sex' => 'required|integer|between:0,1',
-                        'child2age' => 'required|integer|between:'.$settings->daycare_min_age.','.$settings->daycare_max_age
-                    ]);
-                }
+                $validationRules = array_merge($validationRules, [
+                    'child1name' => 'required|min:1|max:60',
+                    'child1lastname' => 'required|min:1|max:60',
+                    'child1sex' => 'required|integer|between:0,1',
+                    'child1age' => 'required|integer|between:'.$settings->daycare_min_age.','.$settings->daycare_max_age
+                ]);
+            }
+            if ($daycarenumber == 2)
+            {
+                $validationRules = array_merge($validationRules, [
+                    'child2name' => 'required|min:1|max:60',
+                    'child2lastname' => 'required|min:1|max:60',
+                    'child2sex' => 'required|integer|between:0,1',
+                    'child2age' => 'required|integer|between:'.$settings->daycare_min_age.','.$settings->daycare_max_age
+                ]);
             }
         }
 

@@ -54,16 +54,16 @@
 -----------------------*/
 
 
-.semiblanco{
+.semiblanco {
     background: #F0F0F0/*eaeaea;*/
-    }
+}
 
 .fondo{
     border-top: 1px solid #bdbdbd;
     box-shadow:  0 0 1px 0 rgba(0,0,0,0.15);
     background: #ffffff;
     margin-bottom: 70px;
-  }
+}
 
 .section{
    margin-left: 30px;
@@ -104,16 +104,39 @@
     font-weight: bolder;   
   }
    
-    
-   @media (min-width: $sizeTablet) {
-      padding:30px 40px 0px 40px;
+   @media (max-width: $sizePhone){
+      padding:25px 15px 0px 15px;
       
-    h1{
-      padding-top: 30px;
+       h1 {
+      padding-top: 20px;
+      font-size:20px;
+      }
+      
+      h2{
+      font-size:17px;
+      }
+   }  
+  
+ @media  (max-width: $sizeLessThanDesktop) {
+      padding-top:40px;
+      padding-left:25px;
+      padding-right:25px;
+    }
+    
+  @media (min-width:$sizeTablet ){
+      padding-top:40px;
+      padding-left:40px;
+      padding-right:40px;
+      
+    h1 {
+       font-size:18px; 
+       margin-top:5px;
       }
    }
    
-    @media (min-width: $sizeDesktop){
+   @media (min-width: $sizeDesktop){
+        padding:20px 25px;
+        
        h1{
            font-size:18px; 
            margin-top:5px;
@@ -126,10 +149,13 @@
       
       h3{
           font-size:18px; 
+          padding-top:5px;
       }
-    } 
+   } 
    
     @media (min-width: $sizeLargeDesktop) {
+         padding:25px;
+        
        h1{
            font-size:20px; 
            margin-top:10px;
@@ -137,11 +163,13 @@
       
        h2{
            font-size:18px; 
-           margin-top:10px;
+           padding-top:20px;
+           line-height: 1.5;
       }
       
       h3{
-          font-size:19px; 
+          font-size:19px;
+          padding-top:15px; 
       }
   }
 
@@ -152,6 +180,11 @@
     font-family:'OpenSans',sans-serif;
     font-size:18px;
    
+     @media (max-width: $sizePhone){
+     font-size:17px;
+      }   
+   
+   
     @media (min-width: $sizeDesktop){
        font-size:17px; 
       }
@@ -159,11 +192,11 @@
     @media (min-width: $sizeLargeDesktop) {
       font-size:18px;
     } 
-   }
+}
 
 .espacio{
     margin-left:25px;
-    }
+}
 
 
     
@@ -186,42 +219,81 @@
     h1 {
     font-family: 'Lobster', cursive;
     font-size: 50px; 
+    padding-top:10px;
     }
     
      h2 {
     font-family:'TenorSans',sans-serif;
-    font-size: 20px;
+    font-size: 22px;
+    padding-left:15px;
+    padding-right:15px;
      }
      
-   
-    @media (min-width: $sizeTablet) {
+   .puno{
+    font-family: 'Lobster', cursive;
+    font-size: 35px; 
+    text-align: center;
+    padding-bottom:10px;
+  
+   } 
+    
+    @media (max-width: $sizePhone){
+       margin:30px 25px;
+    
+     h1{
+      font-size: 35px;
+      padding:0px;  
+     }
+     
+     h2{
+     font-size: 18px; 
+     padding-left: 15px;
+     padding-right:15px;  
+     }
+     
+     .puno{
+       font-size: 32px;  
+     }
+  }   
+      
+      
+    @media (min-width: $sizeTablet) and (max-width: $sizeLessThanDesktop) {
+         margin:30px 25px;
+    
       h1{
       font-size: 40px;
+      padding:0px;
      }
+     
+     h2{
+     font-size: 20px;    
+     }
+     
     }
   
     
     @media (min-width:$sizeDesktop) {
-    margin: 25px 20px; 
+        margin: 25px 20px; 
     
-    h1{
-      font-size: 40px;
-      margin-top: 5px;
-   }
-   
-   h2{
-      font-size: 18px;
-      margin-top: 25px;
-   }
-   
-}
-   
-.puno{
-    font-family: 'Lobster', cursive;
-    font-size: 30px; 
-    text-align: center;
-  
-   }    
+        h1{
+        font-size: 40px;
+        margin-top: 5px;
+        }
+    
+        h2 {
+        font-size: 18px;
+        margin-top: 25px;
+        padding-left:15px;
+        padding-right:15px;
+       }
+       
+       .embed-responsive-16by9 {
+        padding-bottom: 60.25%;
+       }
+ 
+ }
+
+}  
 
 
 /*-----------------------
@@ -277,9 +349,30 @@
     text-align: center;
     margin-top:-30px;
     padding-bottom: 20px;
-    border-bottom:1px solid #bdbdbd;
     }
- }
+    
+    h2{
+    font-family:'TenorSans',sans-serif;
+    font-size:18px;
+    color: #f04942;
+    font-weight: bolder;
+    text-align: center;
+    margin-top:-30px;
+    padding-bottom: 20px;
+    border-bottom:1px solid #bdbdbd;
+    
+   @media (min-width: $sizeTablet) and (max-width: $sizeLessThanDesktop) {
+    h1{
+     border-top:1px solid #bdbdbd;
+    }
+  }
+
+}
+ 
+  @media (min-width: $sizeTablet) and (max-width: $sizeLessThanDesktop) {
+    padding-bottom: 20px;
+   }
+
 }
 
 /*-----------------------
@@ -291,14 +384,14 @@
     margin:0px 20px;
     padding:35px 0px 35px 0px;
     text-align: justify;
-  
    
+  
  h1{
     margin:30px 20px 10px;
     font-family:'TenorSans',sans-serif;
     font-size: 22px;
     color:#000;
-}
+ }
 
  h2{
     margin:30px 20px 10px;
@@ -329,12 +422,42 @@
     font-size: 17px;
     color:#333;
     }
-
- }
+    
+  @media (max-width: $sizePhone){
+      padding:25px 0px 35px 0px; 
+     }
+     
+    @media (min-width: $sizeTablet) and (max-width: $sizeLessThanDesktop) {
+        padding:25px 0px 35px 0px; 
+        
+     hi{   
+        padding-top:30px;
+        border-top: 1px solid #bdbdbd;
+     }
+    }
+}
+ 
 .sectionD{
     border-top:1px solid #bdbdbd;
-    padding:45px 0px;
+    padding:45px 20px 45px 90px;
     margin:0px 20px;
+    
+     @media (max-width: $sizePhone){
+        padding:45px 10px;
+     } 
+         
+    @media (max-width: $sizeLessThanDesktop) {   
+       padding:45px 0px 45px 30px; 
+    } 
+         
+     @media (min-width: $sizeTablet) {
+       padding:45px 20px 45px 30px; 
+     }
+     
+     @media (min-width:$sizeDesktop) {
+       padding:45px 20px 45px 80px;  
+     }
+     
    }
 
 

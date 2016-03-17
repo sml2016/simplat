@@ -123,7 +123,7 @@
             <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10740.873382142783!2d-122.3322916!3d47.6995983!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xef595859431902b6!2sNorth+Seattle+College!5e0!3m2!1sen!2sus!4v1456280677788"></iframe>   
             </div>
            
-            <h1>¿Dónde me estaciono?</h1>
+            <h2>¿Dónde me estaciono?</h2>
            <p>El estacionamiento <span class="gratis">será gratuito</span>.</p>
           <p>Nos estacionaremos en el área de Biblioteca, cerca del Centro de Educación y Cuidado de Niños. La entrada está ubicada en la calle 97th.</p>
          </div> <!--End sidebar C -->
@@ -133,10 +133,10 @@
       
       <div class="sectionD">
        <div class="row">
-        <div class="col-xs-6">  
+        <div class="col-xs-5 col-xs-offset-1">  
          <img class="img-responsive" src="images/patrocinadores/NSC.png"/>  
          </div>
-          <div class="col-xs-6">   
+          <div class="col-xs-5 col-xs-offset-1">   
            <img class="img-responsive" src="images/patrocinadores/latinofoundation.png"/>   
            </div> 
           </div> <!---End Row D---> 

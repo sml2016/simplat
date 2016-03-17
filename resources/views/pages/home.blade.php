@@ -53,7 +53,7 @@
                <h1> Maru Mora Villalpardo</h1>
                <h2> Por su entrega en defensa de los derechos de los inmigrantes latinos y su trabajo constante para empoderar a la mujer latina.
                   </br></br>Nos honra entregar el premio:
-                 </br></br><span class="puno">Puño de Oro</span></h2>
+                 </br></br><span class="puno">Puño de Oro</span></h2></br>
               </div>
               <div class="col-md-5">
              <div class="embed-responsive embed-responsive-16by9"> 
@@ -133,10 +133,10 @@
       
       <div class="sectionD">
        <div class="row">
-        <div class="col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">  
+        <div class="col-xs-6">  
          <img class="img-responsive" src="images/patrocinadores/NSC.png"/>  
          </div>
-          <div class="col-ms-5 col-sm-offset-1 col-md-5 col-md-offset-1">   
+          <div class="col-xs-6">   
            <img class="img-responsive" src="images/patrocinadores/latinofoundation.png"/>   
            </div> 
           </div> <!---End Row D---> 

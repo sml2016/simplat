@@ -32,14 +32,21 @@ class CreateAttendeeRequest extends Request
             'lastname' => 'required|min:1|max:60',
             'email' => 'required|email|unique:attendees',
             'phonenumber' => 'required|min:10|max:16',
-            'daycarenumber' => 'required|integer|between:0,2'
+            'daycarenumber' => 'integer|between:0,2'
         ];
 
-        $daycarenumber = $input['daycarenumber'];
+        if (array_key_exists('daycarenumber', $input)) {
+            $daycarenumber = $input['daycarenumber'];
 
-        if (!empty($daycarenumber))
-        {    
-            $needsdaycare = $input['needsdaycare'];
+            if (array_key_exists('needsdaycare', $input)) 
+            {
+                $needsdaycare = $input['needsdaycare'];
+            }
+            else
+            {
+                 $needsdaycare =  ($daycarenumber > 0) ? 'yes' : 'no';
+            }
+
             if (!empty($needsdaycare) && $needsdaycare == 'no') {
                 $daycarenumber = 0;
             }

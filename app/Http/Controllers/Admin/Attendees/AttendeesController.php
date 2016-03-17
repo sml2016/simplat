@@ -97,6 +97,7 @@ class AttendeesController extends Controller
     {
         $attendee = Attendee::find($id);
         if ($attendee != null) {
+            Children::Where('attendee_id', $attendee->id)->delete();
             $attendee->delete();
         }
         return redirect('/admin/attendees');

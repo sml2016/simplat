@@ -4,12 +4,15 @@
 <div class="container">
     <div class="fondo1">
         <div class="contacto1">
-            <h1>Contáctenos</h1>
-            <h2>Teléfono: 206 - 934 - 3749
-                <span class="ext">Ext. 2336</span></h2>
-             <h2>Correo Electrónico:<span class="email"> simposiomujereslatinas@gmail.com</span> </h2>
-                
-            
+          <h1>Contáctenos</h1>
+           <div class="row">
+            <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">     
+               <h2>Teléfono: 206 - 934 - 3749
+                </br>Ext.<span class="ext"> 2336</span></h2>
+               <h3>Correo Electrónico:
+             </br><span class="email"> simposiomujereslatinas@gmail.com</span> </h3>
+           </div>     
+          </div>  
             <form type="POST" role="form" method="POST" action="{{ url('/contacto') }}">
                 {!! csrf_field() !!}
                 <div class="form-group-lg">

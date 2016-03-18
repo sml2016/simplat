@@ -6,20 +6,29 @@
     padding-top: 10px;
     margin-bottom: 30px;
 
- h1 {
+    h1 {
     font-family: 'TenorSans',sans-serif;
     font-size: 25px;
     color: #212121;
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 60px;
- }
+    margin-bottom: 80px;
+    }
  
      h2{
-     margin-left: 22px;
      font-family: 'TenorSans', sans-serif;
-     font-size: 25px;
+     font-size: 20px;
      margin-top:10px;
+     padding-bottom:20px;
+     color: #333;
+     }
+     
+     h3{
+     font-family: 'TenorSans', sans-serif;
+     font-size: 20px;
+     margin-top:10px;
+     padding-bottom:50px;
+     color: #333;
      }
      
      .ext{
@@ -30,5 +39,108 @@
      .email{
        color: #f04942;
        font-family: 'OpenSans', sans-serif;
+       font-weight: normal;
      }
+      
+    @media (max-width: $sizePhone){
+     
+      h1{
+       font-size: 20px;
+       margin-bottom: 40px;
+       }
+       
+       h2{
+       font-size: 16px;
+       padding-bottom: 10px; 
+       line-height: 1.5;
+       }
+      
+       h3{
+        font-size: 16px;
+        padding-bottom:10px;
+        line-height: 1.5;
+        padding-bottom: 0px;   
+        } 
+      
+      .ext{
+       font-size: 16px;
+      }
+      
+      .email{
+        font-size: 14px;
+      }
+    }
+   
+   @media (max-width:$sizeLessThanTablet){
+      
+       h1{
+       font-size: 20px;
+       } 
+       
+       h2{
+       font-size: 18px;
+       padding-bottom: 10px; 
+       line-height: 1.5;
+       }
+       
+       h3{
+        font-size: 18px;
+        padding-bottom:0px; 
+        line-height: 1.5;  
+       } 
+       
+      .ext{
+       font-size: 18px;
+       
+      }
+       .email{
+        font-size: 18px;
+        font-weight: normal;
+       }
+   }
+   
+  
+   @media (min-width: $sizeDesktop){
+        
+       h1{
+        font-size: 22px;
+        margin-bottom: 80px;
+       }
+       
+       h2{
+        font-size: 19px;
+        padding-bottom:20px;
+       }
+      
+       h3{
+        font-size: 19px;
+        padding-bottom:40px;
+       }
+       
+       .ext{
+       font-size: 19px;
+      }
+      
+      .email{
+      font-size:19px;
+      }
+    }
+    
+   @media (min-widht:$sizeLargeDesktop){
+      
+       h1{
+        font-size: 25px;
+        margin-bottom: 80px;
+       }
+     
+       h2{
+        font-size:20px;
+        padding-bottom:20px;
+       }
+      
+       h3{
+        font-size: 20px;
+        padding-bottom:50px;
+       }
+   }
 }

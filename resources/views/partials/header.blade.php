@@ -1,4 +1,4 @@
-<div class="container-fluid">
+
   <div class="navbar navbar-default navbar-margin-bottom">
     <div class="container">
         <!--Logo-->
@@ -74,4 +74,4 @@
         </div>
     </div> <!-- container -->
   </div> <!-- navbar -->
-</div>
+

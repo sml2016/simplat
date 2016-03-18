@@ -349,31 +349,15 @@
     text-align: center;
     margin-top:-30px;
     padding-bottom: 20px;
-    }
-    
-    h2{
-    font-family:'TenorSans',sans-serif;
-    font-size:18px;
-    color: #f04942;
-    font-weight: bolder;
-    text-align: center;
-    margin-top:-30px;
-    padding-bottom: 20px;
     border-bottom:1px solid #bdbdbd;
-    
-   @media (min-width: $sizeTablet) and (max-width: $sizeLessThanDesktop) {
-    h1{
-     border-top:1px solid #bdbdbd;
     }
   }
-
-}
  
   @media (min-width: $sizeTablet) and (max-width: $sizeLessThanDesktop) {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
    }
-
 }
+
 
 /*-----------------------
      section C
@@ -425,16 +409,31 @@
     
   @media (max-width: $sizePhone){
       padding:25px 0px 35px 0px; 
+      
+      .sidebarC h1{   
+        padding-top:20px;
+        border-top: 1px solid #bdbdbd;
+        }
      }
      
-    @media (min-width: $sizeTablet) and (max-width: $sizeLessThanDesktop) {
+    @media (max-width: $sizeLessThanDesktop){
+       padding:25px 0px 35px 0px; 
+        
+     .sidebarC h1{   
+        padding-top:30px;
+        border-top: 1px solid #bdbdbd; 
+       }
+    
+    }
+    
+    @media (min-width: $sizeTablet) {
         padding:25px 0px 35px 0px; 
         
-     hi{   
+     .sidebarC h1{   
         padding-top:30px;
         border-top: 1px solid #bdbdbd;
      }
-    }
+   }
 }
  
 .sectionD{

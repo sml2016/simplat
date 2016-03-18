@@ -5754,17 +5754,17 @@ button.close {
 
 .naranjaR {
   background: #f04942;
-  height: 350px;
-  margin-top: -80px; }
+  height: 300px;
+  margin-top: 10px; }
 
 .fondo1 {
   width: 100%;
   height: auto;
   position: relative;
   border-top: 1px solid #bdbdbd;
-  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
   background: #ffffff;
-  margin-top: -370px;
+  margin-top: -340px;
   margin-bottom: 50px;
   padding-bottom: 40px; }
 
@@ -6621,7 +6621,7 @@ hr p {
       border-bottom: 1px solid #bdbdbd; }
   @media (min-width: 768px) and (max-width: 991px) {
     .sectionB {
-      padding-bottom: 20px; } }
+      padding-bottom: 30px; } }
 
 /*-----------------------
      section C
@@ -6659,11 +6659,20 @@ hr p {
     color: #333; }
   @media (max-width: 480px) {
     .sectionC {
-      padding: 25px 0px 35px 0px; } }
-  @media (min-width: 768px) and (max-width: 991px) {
+      padding: 25px 0px 35px 0px; }
+      .sectionC .sidebarC h1 {
+        padding-top: 20px;
+        border-top: 1px solid #bdbdbd; } }
+  @media (max-width: 991px) {
     .sectionC {
       padding: 25px 0px 35px 0px; }
-      .sectionC hi {
+      .sectionC .sidebarC h1 {
+        padding-top: 30px;
+        border-top: 1px solid #bdbdbd; } }
+  @media (min-width: 768px) {
+    .sectionC {
+      padding: 25px 0px 35px 0px; }
+      .sectionC .sidebarC h1 {
         padding-top: 30px;
         border-top: 1px solid #bdbdbd; } }
 
@@ -6942,7 +6951,8 @@ select.input-lg, .input-group-lg > select.form-control,
 .mensaje {
   margin-left: 35px;
   margin-right: 35px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  color: #212121; }
   .mensaje h1 {
     padding-top: 60px;
     font-family: 'TenorSans', sans-serif;
@@ -7034,6 +7044,11 @@ select.input-lg, .input-group-lg > select.form-control,
     font-weight: lighter;
     margin-top: -2px;
     border-bottom: 2px solid #bdbdbd;
+    padding-bottom: 10px; }
+  .conferencistas1a h4 {
+    font-family: 'TenorSans',sans-serif;
+    font-size: 20px;
+    color: #9541c7;
     padding-bottom: 10px; }
   .conferencistas1a p {
     font-family: 'Opensans',sans-serif;

@@ -71,7 +71,7 @@
       }
     }
    
-   @media (max-width:$sizeLessThanTablet){
+   @media (max-width:$sizeLessThanTablet){ 
       
        h1{
        font-size: 20px;
@@ -99,32 +99,62 @@
        }
    }
    
+   
+  @media (min-width:$sizeTablet){
+      
+       h1{
+       font-size: 20px;
+       } 
+      
+      h2{
+       font-size: 18px;
+       padding-bottom: 10px; 
+       line-height: 1.5;
+       }
+       
+       h3{
+        font-size: 18px;
+        padding-bottom:0px; 
+        line-height: 1.5;  
+       } 
+       
+      .ext{
+       font-size: 18px;
+       
+      }
+       .email{
+        font-size: 18px;
+        font-weight: normal;
+       }
   
+   }
+   
    @media (min-width: $sizeDesktop){
         
        h1{
-        font-size: 22px;
+        font-size: 20px;
         margin-bottom: 80px;
        }
        
        h2{
-        font-size: 19px;
+        font-size: 18px;
         padding-bottom:20px;
        }
       
        h3{
-        font-size: 19px;
+        font-size: 18px;
         padding-bottom:40px;
        }
        
        .ext{
-       font-size: 19px;
+       font-size: 18px;
       }
       
       .email{
-      font-size:19px;
+      font-size:18px;
       }
     }
+    
     
    @media (min-widht:$sizeLargeDesktop){
       

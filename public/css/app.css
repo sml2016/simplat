@@ -6987,20 +6987,36 @@ select.input-lg, .input-group-lg > select.form-control,
     .contacto1 .email {
       font-size: 18px;
       font-weight: normal; } }
+  @media (min-width: 768px) {
+    .contacto1 h1 {
+      font-size: 20px; }
+    .contacto1 h2 {
+      font-size: 18px;
+      padding-bottom: 10px;
+      line-height: 1.5; }
+    .contacto1 h3 {
+      font-size: 18px;
+      padding-bottom: 0px;
+      line-height: 1.5; }
+    .contacto1 .ext {
+      font-size: 18px; }
+    .contacto1 .email {
+      font-size: 18px;
+      font-weight: normal; } }
   @media (min-width: 992px) {
     .contacto1 h1 {
-      font-size: 22px;
+      font-size: 20px;
       margin-bottom: 80px; }
     .contacto1 h2 {
-      font-size: 19px;
+      font-size: 18px;
       padding-bottom: 20px; }
     .contacto1 h3 {
-      font-size: 19px;
+      font-size: 18px;
       padding-bottom: 40px; }
     .contacto1 .ext {
-      font-size: 19px; }
+      font-size: 18px; }
     .contacto1 .email {
-      font-size: 19px; } }
+      font-size: 18px; } }
   @media (min-widht: 1200px) {
     .contacto1 h1 {
       font-size: 25px;

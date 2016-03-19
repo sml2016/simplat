@@ -12,21 +12,21 @@
        <div class="col-sm-4">
          <div class="thumbnail">
             <img src="/images/patrocinadores/NSC.png" alt="NSC"/>
-             <p> ¡Gracias! </p>  
+             <h1> ¡Gracias! </h1>  
             </div>
            </div>
 
             <div class="col-sm-4">
              <div class="thumbnail">
                <img src="/images/patrocinadores/latinofoundation.png" alt="LCF"/>
-                <p> ¡Gracias! </p>
+                <h1> ¡Gracias! </h1>
               </div>
              </div>
                 
              <div class="col-sm-4">
               <div class="thumbnail">
                <img src="/images/patrocinadores/NSC.png" alt="NSC"/>
-                <p> ¡Gracias! </p>
+                <h1> ¡Gracias! </h1>
               </div>
              </div>
           </div>  <!---End ROw -->

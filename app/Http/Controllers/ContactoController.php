@@ -31,12 +31,13 @@ class ContactoController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [ 
-            'name' => 'required|string|min:5|max:100',
+            'name' => 'required|string|min:2|max:100',
             'email' =>'required|email',
             'title' => 'required|string|min:1|max:255',
             'message' => 'required|string|min:1|max:255',
         ]);
 
+        /*
         $name = $request->get('name');
         $email = $request->get('email');
         $title = $request->get('title');
@@ -50,7 +51,7 @@ class ContactoController extends Controller
 
             $m->to($simposioEmail, 'Contactanos simposio de mujeres latinas')->subject('CONTACTANOS: '.$title);
         });
-
+        */
         return redirect('/contacto/enviado')->with('enviado', 'true');
     }
 

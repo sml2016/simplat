@@ -6927,10 +6927,56 @@ select.input-lg, .input-group-lg > select.form-control,
 ------------------------------*/
 .contacto1 {
   padding-top: 10px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  /*   
+   @media (min-width:$sizeDesktop){
+        
+       h1{
+        font-size: 25px;
+        margin-bottom: 80px;
+       }
+       
+       h2{
+        font-size: 18px;
+        padding-bottom:20px;
+       }
+      
+       h3{
+        font-size: 18px;
+        padding-bottom:40px;
+       }
+       
+       .ext{
+       font-size: 18px;
+      }
+      
+      .email{
+      font-size:18px;
+      }
+    }
+    
+    
+   @media (min-widht:$sizeLargeDesktop){
+      
+       h1{
+        font-size: 30px;
+        margin-bottom: 80px;
+       }
+     
+       h2{
+        font-size:20px;
+        padding-bottom:20px;
+       }
+      
+       h3{
+        font-size: 20px;
+        padding-bottom:50px;
+       }
+   }
+   */ }
   .contacto1 h1 {
     font-family: 'TenorSans',sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color: #212121;
     text-align: center;
     margin-top: 60px;
@@ -6971,7 +7017,7 @@ select.input-lg, .input-group-lg > select.form-control,
       font-size: 16px; }
     .contacto1 .email {
       font-size: 14px; } }
-  @media (max-width: 767px) {
+  @media (min-width: 481px) and (max-width: 768px) {
     .contacto1 h1 {
       font-size: 20px; }
     .contacto1 h2 {
@@ -6987,7 +7033,7 @@ select.input-lg, .input-group-lg > select.form-control,
     .contacto1 .email {
       font-size: 18px;
       font-weight: normal; } }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) and (max-width: 992px) {
     .contacto1 h1 {
       font-size: 20px; }
     .contacto1 h2 {
@@ -7003,30 +7049,6 @@ select.input-lg, .input-group-lg > select.form-control,
     .contacto1 .email {
       font-size: 18px;
       font-weight: normal; } }
-  @media (min-width: 992px) {
-    .contacto1 h1 {
-      font-size: 20px;
-      margin-bottom: 80px; }
-    .contacto1 h2 {
-      font-size: 18px;
-      padding-bottom: 20px; }
-    .contacto1 h3 {
-      font-size: 18px;
-      padding-bottom: 40px; }
-    .contacto1 .ext {
-      font-size: 18px; }
-    .contacto1 .email {
-      font-size: 18px; } }
-  @media (min-widht: 1200px) {
-    .contacto1 h1 {
-      font-size: 25px;
-      margin-bottom: 80px; }
-    .contacto1 h2 {
-      font-size: 20px;
-      padding-bottom: 20px; }
-    .contacto1 h3 {
-      font-size: 20px;
-      padding-bottom: 50px; } }
 
 /*  CSS Mensaje Enviado */
 .mensaje {
@@ -7085,25 +7107,24 @@ select.input-lg, .input-group-lg > select.form-control,
   padding-bottom: 50px;
   letter-spacing: 1px; }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .conferencistas {
-    margin-left: 30px;
-    margin-right: 30px; }
+    margin-left: 20px;
+    margin-right: 20px; }
     .conferencistas h1 {
-      font-size: 18px;
+      font-size: 23px;
       margin-bottom: -10px; } }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 481px) and (max-width: 767px) {
   .conferencistas {
-    margin-left: 30px;
-    margin-right: 30px; }
+    margin-left: 50px;
+    margin-right: 50px; }
     .conferencistas h1 {
-      font-size: 25px;
-      margin-bottom: -10px; } }
+      font-size: 28px; } }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 769px) and (max-width: 992px) {
   .conferencistas h1 {
-    font-size: 21px; } }
+    font-size: 27px; } }
 
 .conferencistas1 {
   margin-top: 20px; }
@@ -7111,62 +7132,144 @@ select.input-lg, .input-group-lg > select.form-control,
     .conferencistas1 {
       margin-top: 15px; } }
 
-.conferencistas1a {
+.conferencistas1a h2 {
+  font-family: 'TenorSans',sans-serif;
+  font-size: 23px;
+  color: #000;
+  font-weight: bold; }
+
+.conferencistas1a h3 {
+  font-family: 'Opensans-light',sans-serif;
+  font-size: 18px;
+  color: #333;
+  font-weight: lighter;
+  margin-top: -2px;
+  border-bottom: 2px solid #bdbdbd;
+  padding-bottom: 10px; }
+
+.conferencistas1a h4 {
+  font-family: 'TenorSans',sans-serif;
+  font-size: 20px;
+  color: #9541c7;
+  padding-bottom: 10px; }
+
+.conferencistas1a p {
+  font-family: 'Opensans',sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 70px;
   text-align: justify; }
+
+@media (max-width: 480px) {
   .conferencistas1a h2 {
-    font-family: 'TenorSans',sans-serif;
-    font-size: 23px;
-    color: #000;
-    font-weight: bold; }
-  .conferencistas1a h3 {
-    font-family: 'Opensans-light',sans-serif;
     font-size: 18px;
-    color: #333;
-    font-weight: lighter;
-    margin-top: -2px;
-    border-bottom: 2px solid #bdbdbd;
-    padding-bottom: 10px; }
+    margin-top: 35px;
+    text-align: center; }
+  .conferencistas1a h3 {
+    font-size: 17px;
+    text-align: center; }
   .conferencistas1a h4 {
-    font-family: 'TenorSans',sans-serif;
-    font-size: 20px;
-    color: #9541c7;
-    padding-bottom: 10px; }
+    font-size: 18px;
+    text-align: center; }
   .conferencistas1a p {
-    font-family: 'Opensans',sans-serif;
-    font-size: 14px;
-    color: #333;
-    margin-top: 10px;
-    margin-bottom: 70px; }
-  @media (max-width: 767px) {
-    .conferencistas1a {
-      text-align: justify; }
-      .conferencistas1a h2 {
-        font-size: 19px;
-        margin-top: 35px; }
-      .conferencistas1a h3 {
-        font-size: 16px;
-        text-align: center; }
-      .conferencistas1a p {
-        font-size: 15px; } }
-  @media (min-width: 768px) and (max-width: 991px) {
-    .conferencistas1a {
-      text-align: justify; }
-      .conferencistas1a h2 {
-        font-size: 19px;
-        text-align: center;
-        margin-top: 35px; }
-      .conferencistas1a h3 {
-        font-size: 15px;
-        text-align: center; }
-      .conferencistas1a p {
-        font-size: 14px; } }
-  @media (min-width: 992px) and (max-width: 1200px) {
-    .conferencistas1a h2 {
-      font-size: 20px; }
-    .conferencistas1a h3 {
-      font-size: 16px; }
-    .conferencistas1a p {
-      font-size: 14px; } }
+    font-size: 16px;
+    text-align: justify; } }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .conferencistas1a h2 {
+    font-size: 23px;
+    margin-top: 35px;
+    text-align: center; }
+  .conferencistas1a h3 {
+    font-size: 18px;
+    text-align: center; }
+  .conferencistas1a h4 {
+    font-size: 20px;
+    text-align: center; }
+  .conferencistas1a p {
+    font-size: 15px;
+    text-align: justify; } }
+
+.panelistas h1 {
+  font-family: 'TenorSans',sans-serif;
+  font-size: 30px;
+  color: #212121;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  letter-spacing: 1px; }
+
+@media (max-width: 480px) {
+  .panelistas {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 1px solid #bdbdbd; }
+    .panelistas h1 {
+      font-size: 23px;
+      margin-bottom: 0px;
+      padding-top: 40px;
+      padding-bottom: 30px; } }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .panelistas {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-top: 1px solid #bdbdbd; }
+    .panelistas h1 {
+      font-size: 28px; } }
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .panelistas h1 {
+    font-size: 27px; } }
+
+.panelistas1a h2 {
+  font-family: 'TenorSans',sans-serif;
+  font-size: 23px;
+  color: #000;
+  font-weight: bold; }
+
+.panelistas1a h3 {
+  font-family: 'Opensans-light',sans-serif;
+  font-size: 18px;
+  color: #333;
+  font-weight: lighter;
+  margin-top: -2px;
+  border-bottom: 2px solid #bdbdbd;
+  padding-bottom: 10px; }
+
+.panelistas1a p {
+  font-family: 'Opensans',sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  text-align: justify; }
+
+@media (max-width: 480px) {
+  .panelistas1a h2 {
+    font-size: 18px;
+    margin-top: 35px;
+    text-align: center; }
+  .panelistas1a h3 {
+    font-size: 17px;
+    text-align: center; }
+  .panelistas1a p {
+    font-size: 16px;
+    text-align: justify; } }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .panelistas1a h2 {
+    font-size: 23px;
+    margin-top: 35px;
+    text-align: center; }
+  .panelistas1a h3 {
+    font-size: 18px;
+    text-align: center; }
+  .panelistas1a p {
+    font-size: 15px;
+    text-align: justify; } }
 
 .conferencistas2 {
   margin-top: 23px; }
@@ -7333,7 +7436,7 @@ select.input-lg, .input-group-lg > select.form-control,
         padding-top: 58px; } }
   @media (max-width: 767px) {
     .patrocinadores h1 {
-      font-size: 25px; }
+      font-size: 22px; }
     .patrocinadores .thumbnail:hover h1 {
       padding-top: 60px;
       font-size: 30px; }
@@ -7362,6 +7465,6 @@ select.input-lg, .input-group-lg > select.form-control,
         padding-top: 60px; }
       .patrocinadores .thumbnail:hover p {
         font-size: 26px;
-        padding-top: 45px; } }
+        padding-top: 50px; } }
 
 /*# sourceMappingURL=app.css.map */

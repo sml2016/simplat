@@ -6,7 +6,7 @@
         <div class="contacto1">
           <h1>Contáctenos</h1>
            <div class="row">
-            <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">     
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">     
                <h2>Teléfono: 206 - 934 - 3749
                 </br>Ext.<span class="ext"> 2336</span></h2>
                <h3>Correo Electrónico:
@@ -17,7 +17,7 @@
                 {!! csrf_field() !!}
                 <div class="form-group-lg">
                     <div class="row">
-                        <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                             @if ($errors->any())
                               @foreach ($errors->all() as $error)
                                   <div class="alert alert-danger" role="alert">{{ $error }}</div>

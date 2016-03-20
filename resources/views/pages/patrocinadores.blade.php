@@ -1,6 +1,8 @@
 @extends('layouts.master')
 @section('content')
 <div class="naranjaR"></div> <!-- naranjaR -->
+ 
+<div class="semiblanco">
  <div class="container">
    <div class="fondo1"> 
         
@@ -64,6 +66,7 @@
        </div> <!--End Patrocinadores -->
 
     </div> <!-- Fondo1 -->
- </div> <!-- container -->
+  </div> <!-- container -->
+</div> <!---END semiblanco-->
 @stop
 

@@ -5757,6 +5757,9 @@ button.close {
   height: 300px;
   margin-top: 10px; }
 
+.semiblanco {
+  background: #F0F0F0; }
+
 .fondo1 {
   width: 100%;
   height: auto;
@@ -6412,9 +6415,6 @@ hr p {
 /*-----------------------
      Section
 -----------------------*/
-.semiblanco {
-  background: #F0F0F0; }
-
 .fondo {
   border-top: 1px solid #bdbdbd;
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.15);
@@ -7288,7 +7288,8 @@ select.input-lg, .input-group-lg > select.form-control,
         text-align: center; }
       .conferencistas2 p {
         font-size: 15px;
-        margin-bottom: 50px; } }
+        margin-bottom: 50px;
+        text-align: justify; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .conferencistas2 {
       margin-top: 10px; } }
@@ -7329,7 +7330,8 @@ select.input-lg, .input-group-lg > select.form-control,
         text-align: center; }
       .conferencistas2a p {
         font-size: 14px;
-        margin-bottom: 50px; } }
+        margin-bottom: 50px;
+        text-align: justify; } }
 
 .bio {
   color: #d7d7d7; }
@@ -7466,5 +7468,22 @@ select.input-lg, .input-group-lg > select.form-control,
       .patrocinadores .thumbnail:hover p {
         font-size: 26px;
         padding-top: 50px; } }
+
+/*------------------------------
+          Patrocinanos
+ -------------------------------*/
+.patrocinanos {
+  margin: 50px 20px; }
+  .patrocinanos h1 {
+    font-family: 'TenorSans',sans-serif;
+    font-size: 30px;
+    color: #212121;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 40px; }
+  .patrocinanos p {
+    font-family: 'Opensans-light',sans-serif;
+    font-size: 16px;
+    color: #333; }
 
 /*# sourceMappingURL=app.css.map */

@@ -133,10 +133,10 @@
       
       <div class="sectionD">
        <div class="row">
-        <div class="col-xs-5 col-xs-offset-1">  
+        <div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1">  
          <img class="img-responsive" src="images/patrocinadores/NSC.png"/>  
          </div>
-          <div class="col-xs-5 col-xs-offset-1">   
+          <div class="col-xs-5 col-sm-5 col-sm-offset-1">   
            <img class="img-responsive" src="images/patrocinadores/latinofoundation.png"/>   
            </div> 
           </div> <!---End Row D---> 

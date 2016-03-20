@@ -1,8 +1,10 @@
 @extends('layouts.master')
 @section('content')
 <div class="naranjaR"> </div>
-<div class="container">
-    <div class="fondo1">
+  
+   <div class="semiblanco">
+    <div class="container">
+      <div class="fondo1">
         <div class="contacto1">
           <h1>Contáctenos</h1>
            <div class="row">
@@ -37,6 +39,7 @@
                 </div> 
             </form>
         </div>
-    </div> <!-- Fondo1 -->
-</div> <!-- container -->
+     </div> <!-- Fondo1 -->
+  </div> <!-- container -->
+</div><!--End semiblanco-->
 @stop

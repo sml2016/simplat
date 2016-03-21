@@ -4,6 +4,7 @@ return [
     'BotonRegistro' => 'Register',
     'BotonPatrocina' => 'Sponsor',
     'BotonInvolucrate' => 'Get Involved',
+    'VideoUrl' => 'https://player.vimeo.com/video/155624043',
     'TeEsperamos' => '<h1>The 3rd Latin American Women Symposium is a free event!</br></h1>
                       <h2>To be held <span class="fecha">Saturday May 21st </span>2016,
                       from <span class="fecha"> 10:30 AM to 3:00 PM</span>

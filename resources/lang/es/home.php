@@ -4,6 +4,7 @@ return [
     'BotonRegistro' => 'Registro',
     'BotonPatrocina' => 'Patrocina',
     'BotonInvolucrate' => 'Involúcrate',
+    'VideoUrl' => 'https://player.vimeo.com/video/159162565',
     'TeEsperamos' => '<h1>¡El Tercer Simposio de Mujeres Latina</br> es un evento gratuito!</h1>
                       <h2>Se llevará acabo el <span class="fecha">sábado 21 de Mayo </span> del 2016
                       a partir de las <span class="fecha"> 10:30 a.m. hasta las 3:00 p.m.</span>

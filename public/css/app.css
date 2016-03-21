@@ -5750,8 +5750,16 @@ button.close {
     display: none !important; } }
 
 @font-face {
+  font-family: 'Lobster';
+  src: url("Lobster-Regular.ttf"); }
+
+@font-face {
   font-family: 'TenorSans';
-  src: url("/fonts/TenorSans-Regular.ttf"); }
+  src: url("TenorSans-Regular.ttf"); }
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("OpenSans-Regular.ttf"); }
 
 .body {
   background: #fefefe; }
@@ -6542,7 +6550,7 @@ hr p {
     padding-left: 15px;
     padding-right: 15px; }
   .premio .puno {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
     font-size: 35px;
     text-align: center;
     padding-bottom: 10px; }
@@ -6677,8 +6685,7 @@ hr p {
     .sectionC {
       padding: 25px 0px 35px 0px; }
       .sectionC .sidebarC h1 {
-        padding-top: 30px;
-        border-top: 1px solid #bdbdbd; } }
+        padding-top: 30px; } }
 
 .sectionD {
   border-top: 1px solid #bdbdbd;

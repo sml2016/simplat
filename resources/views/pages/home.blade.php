@@ -66,7 +66,7 @@
            
             <div class="col-md-5">
              <div class="sidebarB thumbnail">    
-              <h1>¡Síguenos en Twitter!</h1>   
+              <h1>{{ trans('home.Twitter') }}</h1>   
               <a class="twitter-timeline" href="https://twitter.com/SimposioLatinas" data-widget-id="702376127755587588">Tweets by @SimposioLatinas</a>
               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
              </div>
@@ -77,30 +77,8 @@
           <div class="sectionC">
            <div class="row">
            <div class="col-md-7">
-           <h1>¿Cómo llegar al Simposio?</h1> 
-          <p>North Seattle College está al lado de I-5, justo 4 millas al norte del centro de Seattle. Si está llegando al Colegio desde los puentes 520 o I-90, deberá viajar hacia el norte por I-5 para llegar al campus.</br></br>
-          </p>
-         
-          <h2>Si vienes del Norte</h2>  
-          <p>1. Tome la salida #173 (Salida Northgate)
-           2. Doble a la derecha en Northgate Way N.
-           3.Doble a la izquierda en la avenida Meridian N (se vuelve College Way N)
-           4. El colegio está sobre la izquierda.
-           5. Estaciónese en la zona de Biblioteca.</p>
-        
-          <h2>Si vienes del Sur</h2>
-          <p>1. Tome la salida  #173 (Salida Northgate)
-            2. Doble a la derecha en  la avenida 1st NE.
-            3. Doble a la derecha de nuevo en la calle 92st NE.
-            4. Doble a la derecha en College Way N.
-            5. El colegio está sobre  la derecha.
-            6. Estaciónese en la zona de Biblioteca, en la calle 97th y College Way N.</p>
-         
-          <h2>Si viene de Highway 99 (Aurora)</h2>
-          <p>Doble a la izquierda o  la derecha (dependiendo de si está conduciendo al norte o al sur) en la calle 117th. Doble a la derecha en Meridian St. N. Conduzca hacia el sur hasta 97th St y College Way N. Podrá estacionarse sobre la izquierda.</p>
-
-          <p><span class="active">*La Avenida Meridian se vuelve  College Way N. entre la calle 100th y la 90th.</span></p>
-         </div>
+           {!! trans('home.Direcciones') !!} 
+           </div>
        
          <div class="col-md-5">
           <div class="sidebarC">  

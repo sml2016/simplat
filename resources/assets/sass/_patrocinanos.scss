@@ -35,22 +35,31 @@
        }
     }
    
-    @media (min-width: $sizeDesktop){
+    @media (min-width:$sizeTablet) and (max-width: $sizeLessThanDesktop){
+       margin: 35px 0px;
+       
        h1{
-       font-size: 25px;
+       font-size: 22px;
+       padding-bottom: 30px;
+       }
+       
+    }
+    
+    @media (min-width: $sizeDesktop){
+       
+       h1{
+       font-size: 28px;
        }
     }
-   
-   
-   
-   
  }
+ 
+ 
  
    #pricing-table{
     margin:50px 0px;
    
    .pricing {
-   marign: 0;
+   margin: 0;
    padding: 0;
    font-family: 'Opensans-light',sans-serif;
    }
@@ -114,13 +123,16 @@
   padding: 10px 0;
   text-align: justify;
 }
+
   .pricing  .pricing-list ul li:last-child {
   border: none;
 }
+
   .pricing  .pricing-list ul li i {
   margin-right: 12px;
   color: #9541c7;
 }
+
   .pricing  .pricing-list ul li span {
   color: #9541c7;
 }
@@ -146,7 +158,13 @@
   border: 1px solid #ffffff;
 }
   
-   @media (min-width: $sizeDesktop){
+ @media (min-width:$sizeTablet) and (max-width: $sizeLessThanDesktop){
+   
+   
+ }
+   
+   
+ @media (min-width: $sizeDesktop){
     
    .pricing .pricing-table .pricing-header{
    padding: 22px 1px;
@@ -154,11 +172,11 @@
    }
    
    .pricing .pricing-table .pricing-header .pricing-title {
-   font-size: 16px;
+   font-size: 18px;
    } 
    
    .pricing-table .pricing-header .pricing-rate {
-   font-size: 30px;
+   font-size: 28px;
    }
    
    .button-donar{
@@ -170,6 +188,45 @@
    margin-left: -22px;
    }
 
-
-   }   
+ }   
    
+ }
+ 
+ .donacion{
+   margin:50px 0px;
+   
+   .impuestos{
+   
+   p{
+    font-family: 'Opensans-light',sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+   } 
+   
+   span{
+   color: #9541c7;
+   }
+  }
+  
+  .donaciones{
+
+    h1{
+    font-family: 'TenorSans',sans-serif;
+    font-size: 25px;
+    color:  #9541c7;
+    border-bottom: 1px solid #c597e6;
+   }
+   
+   p{
+    font-family: 'Opensans-light',sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: justify; 
+   }
+   
+   .donaciones1{
+   background: #f0f0f0;
+   }
+  }
+ }

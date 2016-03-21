@@ -7494,12 +7494,21 @@ select.input-lg, .input-group-lg > select.form-control,
         font-size: 20px;
         padding-bottom: 20px; }
       .patrocinanos p {
-        padding-bottom: 25px; } }
+        padding: 20px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .patrocinanos {
+      margin: 35px 0px; }
+      .patrocinanos h1 {
+        font-size: 22px;
+        padding-bottom: 30px; } }
+  @media (min-width: 992px) {
+    .patrocinanos h1 {
+      font-size: 28px; } }
 
 #pricing-table {
   margin: 50px 0px; }
   #pricing-table .pricing {
-    marign: 0;
+    margin: 0;
     padding: 0;
     font-family: 'Opensans-light',sans-serif; }
   #pricing-table .pricing .pricing-table {
@@ -7570,5 +7579,40 @@ select.input-lg, .input-group-lg > select.form-control,
   #pricing-table .button-donar:hover {
     color: #ffffff;
     border: 1px solid #ffffff; }
+  @media (min-width: 992px) {
+    #pricing-table .pricing .pricing-table .pricing-header {
+      padding: 22px 1px;
+      margin-left: -22px; }
+    #pricing-table .pricing .pricing-table .pricing-header .pricing-title {
+      font-size: 18px; }
+    #pricing-table .pricing-table .pricing-header .pricing-rate {
+      font-size: 28px; }
+    #pricing-table .button-donar {
+      font-size: 16px; }
+    #pricing-table .pricing .pricing-list {
+      padding: 22px 10px 0px 10px;
+      margin-left: -22px; } }
+
+.donacion {
+  margin: 50px 0px; }
+  .donacion .impuestos p {
+    font-family: 'Opensans-light',sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: justify; }
+  .donacion .impuestos span {
+    color: #9541c7; }
+  .donacion .donaciones h1 {
+    font-family: 'TenorSans',sans-serif;
+    font-size: 25px;
+    color: #9541c7;
+    border-bottom: 1px solid #c597e6; }
+  .donacion .donaciones p {
+    font-family: 'Opensans-light',sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: justify; }
+  .donacion .donaciones .donaciones1 {
+    background: #f0f0f0; }
 
 /*# sourceMappingURL=app.css.map */

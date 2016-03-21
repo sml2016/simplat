@@ -16,15 +16,16 @@
         </p>
         </div>
        </div> <!--End Row-->
-     
    </div> <!--End Patrocinanos--> 
+   
+   
   <!--Tabla de patrocinadores -->
   
         <section id="pricing-table">
             <div class="container">
                 <div class="row">
                     <div class="pricing">
-                        <div class="col-sm-4 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
+                        <div class="col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
                             <div class="pricing-table">
                                 <div class="pricing-header">
                                     <p class="pricing-title">PATROCINADOR DIAMANTE</p>
@@ -44,7 +45,7 @@
                             </div><!--End pricing-table-->
                         </div><!--END col-->
 
-                        <div class="col-sm-4 col-md-2  col-lg-2">
+                        <div class=" col-md-2  col-lg-2">
                             <div class="pricing-table">
                                 <div class="pricing-header">
                                     <p class="pricing-title">PATROCINADOR PLATINO</p>
@@ -63,7 +64,7 @@
                             </div>
                         </div><!--END col-->
                        
-                        <div class="col-sm-4 col-md-2 col-lg-2">
+                        <div class=" col-md-2 col-lg-2">
                             <div class="pricing-table">
                                 <div class="pricing-header">
                                     <p class="pricing-title">PATROCINADOR ORO</p>
@@ -81,7 +82,7 @@
                             </div>
                         </div><!--END col-->
                         
-                         <div class="col-sm-5 col-md-2 col-lg-2">
+                         <div class="col-md-2 col-lg-2">
                             <div class="pricing-table">
                                 <div class="pricing-header">
                                     <p class="pricing-title">PATROCINADOR  PLATA</p>
@@ -98,7 +99,7 @@
                             </div>
                         </div><!--END col-->
 
-                        <div class="col-sm-5 col-md-2 col-lg-2">
+                        <div class=" col-md-2 col-lg-2">
                             <div class="pricing-table">
                                 <div class="pricing-header">
                                     <p class="pricing-title">PATROCINADOR  BRONCE</p>
@@ -119,9 +120,34 @@
         </section>
 
 
-
-
-
+ <div class="donacion">
+   <div class="container">
+    <div class="impuestos">
+      <div class="row">
+      <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">    
+        <p class="text-justify"><b>Importante:</b>  Tu aporte te permitirá la reducción de impuestos porque estarás donando a una organización sin fines de lucro, al fondo de educación del NSC. 
+       <span>Impuestos federales ID# 41-2178833</span>. Todos los logos de los patrocinantes estarán incluidos en la agenda del evento.</p> 
+     </div> 
+    </div> <!--END ROW---> 
+   </div><!--Impuestos-->
+   
+  <div class="donaciones">
+     <div class="row">
+       <div class="col-lg-5 col-lg-offset-1">    
+         <h1>Tu donación es importante</h1>
+          <p>Para apoyar este evento que se dedica a mejorar las habilidades de las mujeres latinas en Seattle, solo tienes que hacer <a href="https://nscef.ejoinme.org/latina">clic aquí</a></p>
+         </div>
+       <div class="col-lg-5">
+        <div class="donaciones1">  
+        <p>Coloca la cantidad de dinero que quieres donar, rellena los datos de información personal y bancaria, para hacer el Simposio de Mujeres Latinas posible. Todas las donaciones hechas al North Seattle College te permitirán la reducción en el pago de impuestos, pues estás donando a una organización sin fines de lucro.</p>
+        <p>Es importante que al finalizar la donación imprimas el recibo que te dará la página web, el cual servirá para 
+      </div>
+     </div>
+    </div><!--END ROW-->
+   </div> <!--END Donaciones-->
+  </div><!--END container-->
+ </div><!--END donacion-->
+  
   </div><!---END fondo1--->
  </div> <!--Container-->
 </div><!--End semiblanco-->

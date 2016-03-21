@@ -5749,6 +5749,10 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+@font-face {
+  font-family: 'TenorSans', sans-serif;
+  src: url("/fonts/TenorSans-Regular.ttf"); }
+
 .body {
   background: #fefefe; }
 

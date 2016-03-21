@@ -30,7 +30,7 @@
          <div class="row">
            <div class="col-md-7">
             <div class="embed-responsive embed-responsive-16by9">  
-             <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/159162565" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+             <iframe class="embed-responsive-item" src="{!! trans('home.VideoUrl') !!}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
            </div> <!--End col-md-7 Section-->
           

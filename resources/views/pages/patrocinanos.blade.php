@@ -1,4 +1,154 @@
 @extends('layouts.master')
 @section('content')
-<h1>Patrocinanos!</h1>
+<div class="naranjaR"></div> <!-- naranjaR -->
+
+<div class="semiblanco">
+  <div class="container">
+    <div class="fondo1">
+   
+    <div class="patrocinanos"> 
+      <div class="row">     
+       <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+        <h1>Con tu patrocinio será posible el Simposio de Mujeres Latinas</h1>
+         <p>Brinda una oportunidad a la mujer latina de capacitarse para liderar proyectos en su comunidad con tu donación.
+         El patrocinio a nuestro evento es una oportunidad para que otros líderes conozcan tu apoyo firme a la creación de comunidades a través de las mujeres latinas, además,
+         a través del mismo demuestras tu deseo de colaborar y dar. Se trata de un evento gratuito para las 255 participantes.  
+        </p>
+        </div>
+       </div> <!--End Row-->
+   </div> <!--End Patrocinanos--> 
+   
+   
+  <!--Tabla de patrocinadores -->
+  
+        <section id="pricing-table">
+            <div class="container">
+                <div class="row">
+                    <div class="pricing">
+                        <div class="col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
+                            <div class="pricing-table">
+                                <div class="pricing-header">
+                                    <p class="pricing-title">PATROCINADOR DIAMANTE</p>
+                                    <p class="pricing-rate"><sup>$</sup> 1,500 </p>
+                                    <a href="https://nscef.ejoinme.org/latina" class="button-donar">Dona aquí</a>
+                                </div>
+
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li><i class="fa fa-heart-o"></i>Su nombre en el programa del evento. Su <span> logo en la página principal</span> de nuestro sitio de Internet. </li>
+                                        <li><i class="fa fa-heart-o"></i>Menciones del patrocinador durante el evento.</li>
+                                        <li><i class="fa fa-heart-o"></i>Espacio para promoción en el programa del evento.</li>
+                                        <li><i class="fa fa-heart-o"></i>Material de mercadeo y banner de la compañía en el evento.</li>
+                                        <li><i class="fa fa-heart"></i>Logo del patrocinador en la página del evento.</li>
+                                    </ul>
+                                </div><!--End pricing-list-->
+                            </div><!--End pricing-table-->
+                        </div><!--END col-->
+
+                        <div class=" col-md-2  col-lg-2">
+                            <div class="pricing-table">
+                                <div class="pricing-header">
+                                    <p class="pricing-title">PATROCINADOR PLATINO</p>
+                                    <p class="pricing-rate"><sup>$</sup> 1,000 </p>
+                                    <a href="https://nscef.ejoinme.org/latina" class="button-donar">Dona aquí</a>
+                                </div>
+
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li><i class="fa fa-heart-o"></i>Su nombre en el programa del evento. Su <span> logo en la página principal</span> de nuestro sitio de Internet. </li>
+                                        <li><i class="fa fa-heart-o"></i>Menciones del patrocinador durante el evento.</li>
+                                        <li><i class="fa fa-heart-o"></i>Espacio para promoción en el programa del evento.</li>
+                                        <li><i class="fa fa-heart"></i>Material de mercadeo y banner de la compañía en el evento.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!--END col-->
+                       
+                        <div class=" col-md-2 col-lg-2">
+                            <div class="pricing-table">
+                                <div class="pricing-header">
+                                    <p class="pricing-title">PATROCINADOR ORO</p>
+                                    <p class="pricing-rate"><sup>$</sup> 500 </p>
+                                    <a href="https://nscef.ejoinme.org/latina" class="button-donar">Dona aquí</a>
+                                </div>
+
+                                <div class="pricing-list">
+                                    <ul> 
+                                        <li><i class="fa fa-heart-o"></i>Su nombre en el programa del evento. Su logo en la página interna de nuestro sitio de Internet. </li>
+                                        <li><i class="fa fa-heart-o"></i>Menciones del patrocinador durante el evento.</li>
+                                        <li><i class="fa fa-heart"></i>Espacio para promoción en el programa del evento.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!--END col-->
+                        
+                         <div class="col-md-2 col-lg-2">
+                            <div class="pricing-table">
+                                <div class="pricing-header">
+                                    <p class="pricing-title">PATROCINADOR  PLATA</p>
+                                    <p class="pricing-rate"><sup>$</sup> 250 </p>
+                                    <a href="https://nscef.ejoinme.org/latina" class="button-donar">Dona aquí</a>
+                                </div>
+
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li><i class="fa fa-heart-o"></i>Su nombre en el programa del evento. Su logo en la página interna de nuestro sitio de Internet.</li>
+                                        <li><i class="fa fa-heart"></i>Menciones del patrocinador durante el evento.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!--END col-->
+
+                        <div class=" col-md-2 col-lg-2">
+                            <div class="pricing-table">
+                                <div class="pricing-header">
+                                    <p class="pricing-title">PATROCINADOR  BRONCE</p>
+                                    <p class="pricing-rate"><sup>$</sup> 150 </p>
+                                    <a href="https://nscef.ejoinme.org/latina" class="button-donar">Dona aquí</a>
+                                </div>
+
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li><i class="fa fa-heart"></i>Su nombre en el programa del evento. Su logo en la página interna de nuestro sitio de Internet. </li>
+                                    </ul>
+                                </div>
+                            </div><!--END pricing-table-->
+                        </div><!--END col-->
+                    </div><!--END Pricing-->
+                </div><!--END Row-->
+             </div><!--END container-->
+        </section>
+
+
+ <div class="donacion">
+   <div class="container">
+    <div class="impuestos">
+      <div class="row">
+      <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">    
+        <p class="text-justify"><b>Importante:</b>  Tu aporte te permitirá la reducción de impuestos porque estarás donando a una organización sin fines de lucro, al fondo de educación del NSC. 
+       <span>Impuestos federales ID# 41-2178833</span>. Todos los logos de los patrocinantes estarán incluidos en la agenda del evento.</p> 
+     </div> 
+    </div> <!--END ROW---> 
+   </div><!--Impuestos-->
+   
+  <div class="donaciones">
+     <div class="row">
+       <div class="col-lg-5 col-lg-offset-1">    
+         <h1>Tu donación es importante</h1>
+          <p>Para apoyar este evento que se dedica a mejorar las habilidades de las mujeres latinas en Seattle, solo tienes que hacer <a href="https://nscef.ejoinme.org/latina">clic aquí</a></p>
+         </div>
+       <div class="col-lg-5">
+        <div class="donaciones1">  
+        <p>Coloca la cantidad de dinero que quieres donar, rellena los datos de información personal y bancaria, para hacer el Simposio de Mujeres Latinas posible. Todas las donaciones hechas al North Seattle College te permitirán la reducción en el pago de impuestos, pues estás donando a una organización sin fines de lucro.</p>
+        <p>Es importante que al finalizar la donación imprimas el recibo que te dará la página web, el cual servirá para 
+      </div>
+     </div>
+    </div><!--END ROW-->
+   </div> <!--END Donaciones-->
+  </div><!--END container-->
+ </div><!--END donacion-->
+  
+  </div><!---END fondo1--->
+ </div> <!--Container-->
+</div><!--End semiblanco-->
 @stop

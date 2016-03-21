@@ -5,18 +5,23 @@
 
 .naranjaR {
     background: #f04942;
-    height: 350px;
-    margin-top: -80px;
+    height: 300px;
+    margin-top: 10px;
 }
+
+.semiblanco {
+    background: #F0F0F0;
+}
+
 
 .fondo1 {
     width: 100%;
     height: auto;
     position: relative;
     border-top: 1px solid #bdbdbd;
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
     background: #ffffff;
-    margin-top: -370px;
+    margin-top: -340px;
     margin-bottom: 50px;
     padding-bottom: 40px;
 }
@@ -26,7 +31,7 @@
 --------------------------*/
 
 .button {
-    background-color: #ffffff; /*fafafa checalo con amarilisis*/
+    background-color: #ffffff; 
     border: 2px solid #0cb095;
     color:#000;
     width:100%;

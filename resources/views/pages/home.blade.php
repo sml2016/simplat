@@ -5,7 +5,7 @@
 <div class="naranja">
     <div class="container">
       <div class="cover">
-         <img class="img-responsive" src="/images/LatinasPrueba_1170x430.png"  style="width:100% height:320px";/>
+         <img class="img-responsive" src="/images/LatinasPrueba_1170x430.png"  style="width:100% height:auto";/>
       </div>  
     </div> <!--Contanier-->
 </div> <!-- end naranaja -->
@@ -13,9 +13,9 @@
 <div class="semiblanco">
     <div class="container">
         <div class="row row-of-blocks">
-            <div class="col-xs-12  col-sm-4  col-md-4  "><a href="registro.html" class="button">Registro</a></div>
-            <div class="col-xs-12  col-sm-4  col-md-4 "><a href="{{ url('/patrocinanos') }}" class="button">Patrocina</a></div>
-            <div class="col-xs-12  col-sm-4  col-md-4" ><a href="involucrate.html" class="button">Involúcrate</a></div>
+            <div class="col-xs-12  col-sm-4  col-md-4  "><a href="{{ url('/registro') }}" class="button">{{ trans('home.BotonRegistro') }}</a></div>
+            <div class="col-xs-12  col-sm-4  col-md-4 "><a href="{{ url('/patrocinanos') }}" class="button">{{ trans('home.BotonPatrocina') }}</a></div>
+            <div class="col-xs-12  col-sm-4  col-md-4" ><a href="{{ url('/involucrate') }}" class="button">{{ trans('home.BotonInvolucrate') }}</a></div>
         </div>  
     </div>   <!--Contanier-->
 
@@ -30,17 +30,13 @@
          <div class="row">
            <div class="col-md-7">
             <div class="embed-responsive embed-responsive-16by9">  
-             <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/155624043" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+             <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/159162565" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
            </div> <!--End col-md-7 Section-->
           
            <div class="col-md-5">
              <div class="sidebar">
-               <h1>¡El Tercer Simposio de Mujeres Latina</br> es un evento gratuito!</h1>
-               <h2>Se llevará acabo el <span class="fecha">sábado 21 de Mayo </span> del 2016.
-                 <span class="espacio">A </span>partir de las <span class="fecha"> 10:30 a.m. hasta las 3:00 p.m.</span>
-                 En las instalaciones de North Seattle College.</h2>
-                <h3>¡Te esperamos!</h3>  
+                 {!! trans('home.TeEsperamos') !!}
               </div> <!--End sidebar -->
             </div>  
            </div> <!-- End Row -->
@@ -49,11 +45,8 @@
          <div class="sectionA">
             <div class="premio">
               <div class="row">
-               <div class="col-md-7 text-center">   
-               <h1> Maru Mora Villalpardo</h1>
-               <h2> Por su entrega en defensa de los derechos de los inmigrantes latinos y su trabajo constante para empoderar a la mujer latina.
-                  </br></br>Nos honra entregar el premio:
-                 </br></br><span class="puño">Puño de Oro</span></h2>
+               <div class="col-md-7 text-center">
+                   {!! trans('home.ElPremio') !!}
               </div>
               <div class="col-md-5">
              <div class="embed-responsive embed-responsive-16by9"> 
@@ -67,14 +60,8 @@
         <div class="sectionB">
          <div class="row">
           <div class="col-md-7">
-            <h1> Nuestra Visión</h1>
-            <p>El Simposio de Mujeres Latinas es nuestro punto de partida para dotar a la comunidad de herramientas que le permitan participar activamente sobre las decisiones y acciones que afectan sus vidas.</p>
-            <h2>¿Quiénes somos?</h2>
-            <p>Somos un grupo de mujeres que ofrece ayuda a la comunidad de latinas a través de un simposio.
-            Nuestra meta es proveer las herramientas necesarias para tomar decisiones y ejercer el control en los distintos aspectos de su vida.</p>
-            <h2>¿A quién reconocemos?</h2>
-            <p>Como parte de nuestro aporte a la comunidad, en el Simposio de Mujeres Latinas nosotras reconocemos a las mujeres que lideran proyectos para empoderar
-             a las familias latinas.</p>
+           {!! trans('home.Vision') !!}
+         
             </div>
            
             <div class="col-md-5">
@@ -123,21 +110,21 @@
             <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10740.873382142783!2d-122.3322916!3d47.6995983!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xef595859431902b6!2sNorth+Seattle+College!5e0!3m2!1sen!2sus!4v1456280677788"></iframe>   
             </div>
            
-            <h1>¿Dónde me estaciono?</h1>
+            <h2>¿Dónde me estaciono?</h2>
            <p>El estacionamiento <span class="gratis">será gratuito</span>.</p>
           <p>Nos estacionaremos en el área de Biblioteca, cerca del Centro de Educación y Cuidado de Niños. La entrada está ubicada en la calle 97th.</p>
-         </div> <!--End sidebar -->
+         </div> <!--End sidebar C -->
         </div>  
        </div> <!-- End Row --> 
       </div> <!--End SectionC -->
       
       <div class="sectionD">
        <div class="row">
-        <div class="col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">  
-         <img class="img-responsive" src="Imagenes/patrocinadores/NSC.png"/>  
+        <div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1">  
+         <img class="img-responsive" src="images/patrocinadores/NSC.png"/>  
          </div>
-          <div class="col-ms-5 col-sm-offset-1 col-md-5 col-md-offset-1">   
-           <img class="img-responsive" src="Imagenes/patrocinadores/latinofoundation.png"/>   
+          <div class="col-xs-5 col-sm-5 col-sm-offset-1">   
+           <img class="img-responsive" src="images/patrocinadores/latinofoundation.png"/>   
            </div> 
           </div> <!---End Row D---> 
          </div><!--End sectionD-->        

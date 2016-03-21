@@ -2,8 +2,8 @@
 @section('content')
 <!--section1 -->
 <div class="naranjaR"></div>
-
-<div class="container">
+ <div class="semiblanco">
+   <div class="container">
     <div class="fondo1">
         <div class="mensaje">
             <h1>Su mensaje ha sido enviado.</h1>
@@ -11,6 +11,7 @@
             <h3>¡Gracias por escribirnos!</h3>
         </div>
     </div> <!-- Fondo1 -->
-</div> <!-- container -->
+  </div> <!-- container -->
+</div> <!--SemiBlanco-->
 @stop
 

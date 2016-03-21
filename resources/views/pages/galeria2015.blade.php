@@ -14,14 +14,14 @@
                
                <div class="row">
                 <div class="col-sm-3">
-                 <a href="/images/galeria2015/2015SML1.png"  data-title="Simposio de Mujeres Latinas 2015" data-lightbox="Galeria2015">
-                  <img src="/images/galeria2015/2015SML1.png"   class="img-thumbnail"/>
+                 <a href="/images/galeria2015/2015SML1.png" data-title="Simposio de Mujeres Latinas 2015" data-lightbox="Galeria2015">
+                  <img src="/images/galeria2015/2015SML1-thumb.jpeg"    class="img-thumbnail"/>
                    </a>
                 </div> <!---End col---> 
                    
                  <div class="col-sm-3">
                  <a href="/images/galeria2015/2015SML2.png"  data-title="Simposio de Mujeres Latinas 2015" data-lightbox="Galeria2015">
-                  <img src="/images/galeria2015/2015SML2.png"  class="img-thumbnail"/>
+                  <img src="/images/galeria2015/2015SML2a.png"  width="293" height="198" class="img-thumbnail"/>
                  </a>
                </div> <!---End col--->  
                

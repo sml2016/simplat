@@ -1,4 +1,5 @@
-<div class="navbar navbar-default navbar-margin-bottom">
+
+  <div class="navbar navbar-default navbar-margin-bottom">
     <div class="container">
         <!--Logo-->
         <div class="row">
@@ -72,4 +73,5 @@
             </div> <!--End menu2 -->
         </div>
     </div> <!-- container -->
-</div> <!-- navbar -->
+  </div> <!-- navbar -->
+

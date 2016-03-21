@@ -1,9 +1,21 @@
 
 
 @font-face {
-font-family: 'TenorSans', sans-serif;
-src: url('/fonts/TenorSans-Regular.ttf');
+font-family: 'Lobster';
+src: url('Lobster-Regular.ttf');
 }
+
+@font-face {
+font-family: 'TenorSans';
+src: url('TenorSans-Regular.ttf');
+}
+
+@font-face {
+font-family: 'OpenSans';
+src: url('OpenSans-Regular.ttf');
+}
+
+
 
 .body{
   background: #fefefe;

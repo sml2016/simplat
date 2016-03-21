@@ -5750,7 +5750,7 @@ button.close {
     display: none !important; } }
 
 @font-face {
-  font-family: 'TenorSans', sans-serif;
+  font-family: 'TenorSans';
   src: url("/fonts/TenorSans-Regular.ttf"); }
 
 .body {
@@ -6202,7 +6202,7 @@ button.close {
     display: block;
     padding: 10px 20px 5px;
     clear: both;
-    font-family: 'TenorSans',sans-serif;
+    font-family: 'TenorSans';
     font-weight: lighter;
     line-height: 2;
     color: #757575;

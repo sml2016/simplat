@@ -7138,69 +7138,75 @@ select.input-lg, .input-group-lg > select.form-control,
     font-size: 27px; } }
 
 .conferencistas1 {
-  margin-top: 20px; }
-  @media (max-width: 991px) {
+  margin-top: 30px; }
+  @media (min-width: 481px) and (max-width: 767px) {
     .conferencistas1 {
-      margin-top: 15px; } }
+      margin-top: 20px; } }
+  @media (min-width: 992px) {
+    .conferencistas1 {
+      margin-top: 20px; } }
 
-.conferencistas1a h2 {
-  font-family: 'TenorSans',sans-serif;
-  font-size: 23px;
-  color: #000;
-  font-weight: bold; }
-
-.conferencistas1a h3 {
-  font-family: 'Opensans-light',sans-serif;
-  font-size: 18px;
-  color: #333;
-  font-weight: lighter;
-  margin-top: -2px;
-  border-bottom: 2px solid #bdbdbd;
-  padding-bottom: 10px; }
-
-.conferencistas1a h4 {
-  font-family: 'TenorSans',sans-serif;
-  font-size: 20px;
-  color: #9541c7;
-  padding-bottom: 10px; }
-
-.conferencistas1a p {
-  font-family: 'Opensans',sans-serif;
-  font-size: 14px;
-  color: #333;
-  margin-top: 10px;
-  margin-bottom: 70px;
-  text-align: justify; }
-
-@media (max-width: 480px) {
+.conferencistas1a {
+  margin-top: 30px;
+  margin-bottom: 30px; }
   .conferencistas1a h2 {
-    font-size: 18px;
-    margin-top: 35px;
-    text-align: center; }
-  .conferencistas1a h3 {
-    font-size: 17px;
-    text-align: center; }
-  .conferencistas1a h4 {
-    font-size: 18px;
-    text-align: center; }
-  .conferencistas1a p {
-    font-size: 16px;
-    text-align: justify; } }
-
-@media (min-width: 481px) and (max-width: 767px) {
-  .conferencistas1a h2 {
+    font-family: 'TenorSans',sans-serif;
     font-size: 23px;
-    margin-top: 35px;
-    text-align: center; }
+    color: #000;
+    font-weight: bold; }
   .conferencistas1a h3 {
+    font-family: 'Opensans-light',sans-serif;
     font-size: 18px;
-    text-align: center; }
+    color: #333;
+    font-weight: lighter;
+    margin-top: -2px;
+    border-bottom: 2px solid #bdbdbd;
+    padding-bottom: 10px; }
   .conferencistas1a h4 {
+    font-family: 'TenorSans',sans-serif;
     font-size: 20px;
-    text-align: center; }
+    color: #9541c7;
+    padding-bottom: 10px; }
   .conferencistas1a p {
-    font-size: 15px;
-    text-align: justify; } }
+    font-family: 'Opensans',sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    text-align: justify; }
+  @media (max-width: 480px) {
+    .conferencistas1a h2 {
+      font-size: 18px;
+      margin-top: 35px;
+      text-align: center; }
+    .conferencistas1a h3 {
+      font-size: 16px;
+      text-align: center; }
+    .conferencistas1a h4 {
+      font-size: 18px;
+      text-align: center; }
+    .conferencistas1a p {
+      font-size: 16px;
+      text-align: justify; } }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .conferencistas1a {
+      margin-top: 1px; }
+      .conferencistas1a h2 {
+        font-size: 23px;
+        margin-top: 35px;
+        text-align: center; }
+      .conferencistas1a h3 {
+        font-size: 18px;
+        text-align: center; }
+      .conferencistas1a h4 {
+        font-size: 20px;
+        text-align: center; }
+      .conferencistas1a p {
+        font-size: 15px;
+        text-align: justify; } }
+  @media (min-width: 992px) {
+    .conferencistas1a {
+      margin-top: 1px; } }
 
 .panelistas h1 {
   font-family: 'TenorSans',sans-serif;
@@ -7220,8 +7226,8 @@ select.input-lg, .input-group-lg > select.form-control,
     .panelistas h1 {
       font-size: 23px;
       margin-bottom: 0px;
-      padding-top: 40px;
-      padding-bottom: 30px; } }
+      padding-top: 35px;
+      padding-bottom: 25px; } }
 
 @media (min-width: 481px) and (max-width: 767px) {
   .panelistas {
@@ -7233,54 +7239,56 @@ select.input-lg, .input-group-lg > select.form-control,
 
 @media (min-width: 769px) and (max-width: 992px) {
   .panelistas h1 {
+    padding-top: 10px;
     font-size: 27px; } }
 
-.panelistas1a h2 {
-  font-family: 'TenorSans',sans-serif;
-  font-size: 23px;
-  color: #000;
-  font-weight: bold; }
-
-.panelistas1a h3 {
-  font-family: 'Opensans-light',sans-serif;
-  font-size: 18px;
-  color: #333;
-  font-weight: lighter;
-  margin-top: -2px;
-  border-bottom: 2px solid #bdbdbd;
-  padding-bottom: 10px; }
-
-.panelistas1a p {
-  font-family: 'Opensans',sans-serif;
-  font-size: 14px;
-  color: #333;
-  margin-top: 10px;
-  margin-bottom: 70px;
-  text-align: justify; }
-
-@media (max-width: 480px) {
+.panelistas1a {
+  margin-top: 15px;
+  margin-bottom: 30px; }
   .panelistas1a h2 {
-    font-size: 18px;
-    margin-top: 35px;
-    text-align: center; }
-  .panelistas1a h3 {
-    font-size: 17px;
-    text-align: center; }
-  .panelistas1a p {
-    font-size: 16px;
-    text-align: justify; } }
-
-@media (min-width: 481px) and (max-width: 767px) {
-  .panelistas1a h2 {
+    font-family: 'TenorSans',sans-serif;
     font-size: 23px;
-    margin-top: 35px;
-    text-align: center; }
+    color: #000;
+    font-weight: bold; }
   .panelistas1a h3 {
+    font-family: 'Opensans-light',sans-serif;
     font-size: 18px;
-    text-align: center; }
+    color: #333;
+    font-weight: lighter;
+    margin-top: -2px;
+    border-bottom: 2px solid #bdbdbd;
+    padding-bottom: 10px; }
   .panelistas1a p {
-    font-size: 15px;
-    text-align: justify; } }
+    font-family: 'Opensans',sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    text-align: justify; }
+  @media (max-width: 480px) {
+    .panelistas1a h2 {
+      font-size: 18px;
+      margin-top: 35px;
+      text-align: center; }
+    .panelistas1a h3 {
+      font-size: 16px;
+      text-align: center; }
+    .panelistas1a p {
+      font-size: 16px;
+      text-align: justify; } }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .panelistas1a {
+      margin-top: 0px; }
+      .panelistas1a h2 {
+        font-size: 23px;
+        margin-top: 35px;
+        text-align: center; }
+      .panelistas1a h3 {
+        font-size: 18px;
+        text-align: center; }
+      .panelistas1a p {
+        font-size: 15px;
+        text-align: justify; } }
 
 .btn-leer {
   background-color: #fafafa;
@@ -7288,8 +7296,7 @@ select.input-lg, .input-group-lg > select.form-control,
   color: #0cb095;
   font-size: 12px;
   font-family: 'Opensans',sans-serif;
-  margin-top: -120px;
-  margin-left: 0px; }
+  margin-bottom: 10px; }
 
 .btn-leer:focus,
 .btn-leer.focus {

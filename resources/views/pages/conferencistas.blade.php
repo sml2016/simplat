@@ -62,11 +62,11 @@
                 </div>
                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
                     <div class="conferencistas1a">
-                        <h2>Maria-Jose Soerens <span class="bio"> Biografía</span></h2>
+                        <h2>María-José Soerens <span class="bio"> Biografía</span></h2>
                         <h3>Puentes Seattle</h3>
-                        <p>English writer Virginia Woolf was raised in a remarkable household. Her father, Sir Leslie Stephen, was an historian and author, and also one of the most prominent figures in the golden age of mountaineering. Woolf’s mother, Julia Prinsep Stephen (née Jackson), had been born in India and later served as a model for several Pre-Raphaelite painters. She was also a nurse and wrote a book on the profession. Woolf had three full siblings and four half-siblings; both of her parents had been married and widowed before marrying each other. The eight children lived under one roof at 22 Hyde Park Gate, Kensington.
+                        <p>English writer Virginia Woolf was raised in a remarkable household. Her father, Sir Leslie Stephen, was an historian and author, and also one of the most prominent figures in the golden age of mountaineering. Woolf’s mother, Julia Prinsep Stephen (née Jackson), had been born in India and later served as a model for several Pre-Raphaelite painters. She was also a nurse and wrote a book on the profession. Woolf had three full siblings and four half-siblings; both of her parents had been married and widowed before marrying each other. The eight children lived under one roof at 22 Hyde Park Gate, Kensington.</p>
                         <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                        Two of Woolf’s brothers had been educated at Cambridge, but all the 
+                       <p> Two of Woolf’s brothers had been educated at Cambridge, but all the 
                         </p>
                     </div>
                 </div>
@@ -127,11 +127,11 @@
                     <div class="panelistas1a">
                         <h2>Elodia González <span class="bio"> Biografía</span></h2>
                         <h3>Psicologa</h3>
-                        <p>English writer Virginia Woolf was raised in a remarkable household. Her father, Sir Leslie Stephen, was an historian and author, and also .
+                        <p>English writer Virginia Woolf was raised in a remarkable household. Her father, Sir Leslie Stephen, was an historian and author, and also .</p>
                        
                                 <button type="button" class="btn btn-leer btn-sm">Leer más</button>
                         
-                            Two of Woolf’s brothers had been educated at Cambridge, but all the girls were taught at home and utilized the splendid confines of the family’s lush Victorian library. Moreover, Woolf’s parents were extremely well connected, both socially and artistically. Her father was a friend to William Thackeray and George Henry Lewes, as well as many other noted thinkers. Her mother’s aunt was the famous 19th century photographer Julia Margaret Cameron. For these reasons and more, Virginia Woolf was ideally situated to appreciate and 
+                        <p>Two of Woolf’s brothers had been educated at Cambridge, but all the girls were taught at home and utilized the splendid confines of the family’s lush Victorian library. Moreover, Woolf’s parents were extremely well connected, both socially and artistically. Her father was a friend to William Thackeray and George Henry Lewes, as well as many other noted thinkers. Her mother’s aunt was the famous 19th century photographer Julia Margaret Cameron. For these reasons and more, Virginia Woolf was ideally situated to appreciate and 
                         </p>
                     </div>
                 </div>
@@ -147,10 +147,10 @@
                     <div class="panelistas1a">
                         <h2>Maribel Meza Tomara <span class="bio"> Biografía</span></h2>
                         <h3>Maestra en la Universidad de Washington</h3>
-                        <p>English writer Virginia Woolf was raised in a remarkable household. arents had been married and widowed before marrying each other. The eight children lived under one roof at 22 Hyde Park Gate, Kensington.
+                        <p>English writer Virginia Woolf was raised in a remarkable household. arents had been married and widowed before marrying each other. The eight children lived under one roof at 22 Hyde Park Gate, Kensington.</p>
                                 <button type="button" class="btn btn-leer btn-sm">Leer más</button>
  
-                    Two of Woolf’s brothers had been educated at Cambridge, but all the girls were taught at home and utilized the splendid confines of the family’s lush Victorian library. Moreover, Woolf’s parents were extremely well connected, both socially and artistically. Her father was a friend to William Thackeray and George Henry Lewes, as
+                    <p>Two of Woolf’s brothers had been educated at Cambridge, but all the girls were taught at home and utilized the splendid confines of the family’s lush Victorian library. Moreover, Woolf’s parents were extremely well connected, both socially and artistically. Her father was a friend to William Thackeray and George Henry Lewes, as
                     </p>
                     </div>
                 </div>

@@ -248,9 +248,35 @@
 }
 
 
+.btn-leer{
+  background-color: #fafafa;
+  border-color:#0cb095;
+  color:#0cb095;
+  font-size:12px;
+  font-family:'Opensans',sans-serif;
+  margin-top:-120px;
+  margin-left:0px;
+}
+
+.btn-leer:focus,
+.btn-leer.focus {
+  color: #fff;
+  background-color: #0cb095;
+  border-color: #0cb095;
+}
+
+.btn-leer:hover{
+  color: #fff;
+  background-color: #0cb095;
+  border-color: #0cb095; 
+  }
+
+   
 
 
-.conferencistas2 {
+
+
+/*.conferencistas2 {
     margin-top: 23px;
 
     @media (max-width: $sizeLessThanTablet) {
@@ -362,4 +388,4 @@
         background-color: #0cb095;
         border-color: #0cb095;
     }
-}
+}  */

@@ -7282,90 +7282,139 @@ select.input-lg, .input-group-lg > select.form-control,
     font-size: 15px;
     text-align: justify; } }
 
-.conferencistas2 {
-  margin-top: 23px; }
-  @media (max-width: 767px) {
-    .conferencistas2 {
-      margin-top: 10px;
-      text-align: justify;
-      margin-top: 15px; }
-      .conferencistas2 h2 {
-        font-size: 19px;
+.btn-leer {
+  background-color: #fafafa;
+  border-color: #0cb095;
+  color: #0cb095;
+  font-size: 12px;
+  font-family: 'Opensans',sans-serif;
+  margin-top: -120px;
+  margin-left: 0px; }
+
+.btn-leer:focus,
+.btn-leer.focus {
+  color: #fff;
+  background-color: #0cb095;
+  border-color: #0cb095; }
+
+.btn-leer:hover {
+  color: #fff;
+  background-color: #0cb095;
+  border-color: #0cb095; }
+
+/*.conferencistas2 {
+    margin-top: 23px;
+
+    @media (max-width: $sizeLessThanTablet) {
+        margin-top: 10px;
+        text-align: justify;
         margin-top: 15px;
-        text-align: center;
-        margin-top: 35px; }
-      .conferencistas2 h3 {
-        font-size: 16px;
-        text-align: center; }
-      .conferencistas2 p {
-        font-size: 15px;
-        margin-bottom: 50px;
-        text-align: justify; } }
-  @media (min-width: 768px) and (max-width: 991px) {
-    .conferencistas2 {
-      margin-top: 10px; } }
+
+        h2 {
+            font-size: 19px;
+            margin-top: 15px;
+            text-align: center;
+            margin-top: 35px;
+        }
+
+        h3 {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 15px;
+            margin-bottom: 50px;
+            text-align: justify;
+        }
+    }
+
+    @media (min-width: $sizeTablet) and (max-width: $sizeLessThanDesktop) {
+        margin-top: 10px;
+    }
+}
 
 .conferencistas2a {
-  text-align: justify;
-  margin-top: 20px; }
-  .conferencistas2a h2 {
-    font-family: 'TenorSans',sans-serif;
-    font-size: 23px;
-    color: #000;
-    font-weight: bold;
-    margin-top: 20px; }
-  .conferencistas2a h3 {
-    font-family: 'Opensans-light',sans-serif;
-    font-size: 18px;
-    color: #333;
-    font-weight: lighter;
-    margin-top: -2px;
-    border-bottom: 2px solid #bdbdbd;
-    padding-bottom: 10px; }
-  .conferencistas2a p {
-    font-family: 'Opensans',sans-serif;
-    font-size: 14px;
-    color: #333;
-    margin-top: 10px; }
-  @media (min-width: 768px) and (max-width: 991px) {
-    .conferencistas2a {
-      text-align: justify;
-      margin-top: 15px; }
-      .conferencistas2a h2 {
-        font-size: 19px;
-        margin-top: 15px;
-        text-align: center;
-        margin-top: 35px; }
-      .conferencistas2a h3 {
-        font-size: 16px;
-        text-align: center; }
-      .conferencistas2a p {
+    text-align: justify;
+    margin-top: 20px;
+
+    h2 {
+        font-family: 'TenorSans',sans-serif;
+        font-size: 23px;
+        color: #000;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    h3 {
+        font-family: 'Opensans-light',sans-serif;
+        font-size: 18px;
+        color: #333;
+        font-weight: lighter;
+        margin-top: -2px;
+        border-bottom: 2px solid #bdbdbd;
+        padding-bottom: 10px;
+    }
+    
+    p {
+        font-family: 'Opensans',sans-serif;
         font-size: 14px;
-        margin-bottom: 50px;
-        text-align: justify; } }
+        color: #333;
+        margin-top: 10px;
+    }
+
+    @media (min-width: $sizeTablet) and (max-width: $sizeLessThanDesktop) {
+        text-align: justify;
+        margin-top: 15px;
+
+        h2 {
+            font-size: 19px;
+            margin-top: 15px;
+            text-align: center;
+            margin-top: 35px;
+        }
+
+        h3 {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 50px;
+            text-align: justify;
+        }
+    }
+}
 
 .bio {
-  color: #d7d7d7; }
+    color: #d7d7d7;
+}
 
-@media (max-width: 768px) {
-  .btn-leer {
-    background-color: #fafafa;
-    border-color: #0cb095;
-    color: #0cb095;
-    font-size: 12px;
-    font-family: 'Opensans',sans-serif;
-    margin-top: -120px;
-    margin-left: 0px; }
-  .btn-leer:focus,
-  .btn-leer.focus {
-    color: #fff;
-    background-color: #0cb095;
-    border-color: #0cb095; }
-  .btn-leer:hover {
-    color: #fff;
-    background-color: #0cb095;
-    border-color: #0cb095; } }
+@media (max-width: $sizeTablet) {
+    .btn-leer {
+        background-color: #fafafa;
+        border-color: #0cb095;
+        color: #0cb095;
+        font-size: 12px;
+        font-family: 'Opensans',sans-serif;
+        margin-top: -120px;
+        margin-left: 0px;
+    }
 
+    .btn-leer:focus,
+    .btn-leer.focus {
+        color: #fff;
+        background-color: #0cb095;
+        border-color: #0cb095;
+    }
+
+    .btn-leer:hover {
+        color: #fff;
+        background-color: #0cb095;
+        border-color: #0cb095;
+    }
+}  */
 .galeria h1 {
   font-family: 'TenorSans',sans-serif;
   font-size: 30px;

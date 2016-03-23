@@ -6844,10 +6844,12 @@ select.input-lg, .input-group-lg > select.form-control,
   border-color: #f04942;
   background-position: 0 -15px; }
 
+.btn-primary:active,
+.btn-primary.active,
 .btn-primary:active:focus {
-  color: #ffffff;
-  background-color: #f04942;
-  border-color: #F36D68; }
+  color: #ffffff !important;
+  background-color: #f04942 !important;
+  border-color: #F36D68 !important; }
 
 .btn-default {
   background-color: #bdbdbd;
@@ -7062,11 +7064,25 @@ select.input-lg, .input-group-lg > select.form-control,
       font-weight: normal; } }
 
 /*  CSS Mensaje Enviado */
+.fondo1a {
+  width: 100%;
+  height: auto;
+  position: relative;
+  border-top: 1px solid #bdbdbd;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  margin-top: -340px;
+  margin-bottom: 20px;
+  padding-bottom: 30px; }
+  @media (max-width: 767px) {
+    .fondo1a {
+      margin-bottom: 18px;
+      padding-bottom: 35px; } }
+
 .mensaje {
   margin-left: 35px;
   margin-right: 35px;
-  margin-top: 30px;
-  color: #212121; }
+  margin-top: 30px; }
   .mensaje h1 {
     padding-top: 60px;
     font-family: 'TenorSans', sans-serif;
@@ -7087,12 +7103,15 @@ select.input-lg, .input-group-lg > select.form-control,
     text-align: center;
     padding-bottom: 50px; }
   @media (max-width: 767px) {
-    .mensaje h1 {
-      font-size: 18px; }
-    .mensaje h2 {
-      font-size: 16px; }
-    .mensaje h3 {
-      font-size: 16px; } }
+    .mensaje {
+      margin-top: 25px; }
+      .mensaje h1 {
+        font-size: 18px; }
+      .mensaje h2 {
+        font-size: 16px; }
+      .mensaje h3 {
+        font-size: 16px;
+        padding-bottom: 45px; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .mensaje h1 {
       font-size: 22px; }

@@ -158,11 +158,19 @@ select.input-lg {
     background-position: 0 -15px;
 }
 
+.btn-primary:active,
+.btn-primary.active,
 .btn-primary:active:focus {
-    color: #ffffff;
-    background-color: #f04942;
-    border-color: #F36D68;
+    color: #ffffff !important;
+    background-color: #f04942 !important;
+    border-color: #F36D68 !important;
 }
+
+
+
+
+
+
 
 .btn-default {
     background-color: #bdbdbd;

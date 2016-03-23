@@ -37,7 +37,7 @@
                 <div class="row">
                 <div class="col-sm-3">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/latinofoundation.png" alt="NSC"/>
+                <img src="/images/patrocinadores/laraza.png" alt="NSC"/>
                 <p> ¡Gracias! </p>
                 </div>
                 </div>

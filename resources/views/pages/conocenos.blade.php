@@ -19,7 +19,7 @@
                 <div class="caption">
                <h2> Jessica Cabrera</h2>
              <h3>Comité de Registro y Canastas</h3>
-            <p>Quiero que sepan que como mujer Latina me llena de emoción, alegría y orgullo apoyar esta iniciativa y participar como parte del comité de planificación en el segundo simposio de mujeres latinas, el cual busca maximizar su potencial y resaltar la importancia de la mujer latina en la sociedad estadounidense.</p></br>
+             {!! trans('conocenos.Jessica') !!}
             <button type="button" class="btn btn-leer btn-sm">Leer más</button>
                   
             <p> Queridas Mujeres Latinas,
@@ -42,10 +42,9 @@
                  <div class="caption">
                  <h2>Tania Hino</h2>
                  <h3>Comité de Finanzas</h3>
-                <p>Hola como esta amiga del alma fkldasjflkadsjfkladjsfakldf adfkjashfjkhads.</p>
+               {!! trans('conocenos.Tania') !!}
                <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-              <p>jdkfjkadjflakdjfkadjflkasdjfkadfjadls;dlsjfsd;fja;slkfaj,
-                    DJFLJASKFJADSKLFJAKLSDJFKALSDJF;LDSAJFK;ADFDLKFJADKLJFADKLS;FDSFL;AS</p>
+              {!! trans('conocenos.Tania1') !!}
              </div> <!--End Caption--->
             </div> <!--End thumbnails-->
             </div> <!--End Col--->
@@ -85,9 +84,13 @@
                <div class="caption">
                  <h2>Perla Mendoza</h2>
                    <h3>Comité de Publicidad y Web</h3>
-                   <p> Las esperamos con muchas ansias!
+                   <p> Retomar ese suspiro de esperanza y compartirlo con las demás mujeres que buscan crecer en este país , es lo que me sigue motivando a ser parte de este simposio. 
+                       Como mujer creo que tenemos el compromiso de formar a nuestras familias con amor, respeto y educación. Es importante reconocer nuestro roll, educarnos para así poder poder motivar a nuestras familias de que tenemos que evolucionar, enseñarles a soñar, a crear metas y sobre todo apoyar a quién va a nuestro lado.</p>  
+                        <button type="button" class="btn btn-leer btn-sm">Leer más</button>
+                     <p>Cuando uno migra sin importar bajo que circunstancia todos probamos ese sabor a vacío, ese sentir de dejar lo que se era, y aun en contra de nuestros ideales o perspectivas la señora vida nos va moldeando. Crecemos consciente o inconscientemente, y ese cambio, esa evolución siempre será un regalo. </p>
+                     <p>Soy Perla, hija, madre, esposa y migrante. Viajo con la vida, y a veces me pierdo en ella. Llegue al estado de Washington con dos maletas, las cuales las tuve que dejar y con ello algunas de mis limitaciones y miedos. Seguí mis sueños  y migre a Dublín. 
+                         Después de experimentar ser madre y estudiante termine mi maestría y la vida me regreso a Seattle. Hoy estoy aquí, ayudando en este evento para crecer junto con todas las mujeres que llegan al simposio con miedos,  anhelos y sueños.
                    </p>
-
                </div> <!--End Caption--->
                </div> <!--End thumbnails-->
                </div> <!--End Col--->
@@ -124,12 +127,10 @@
                <div class="caption">
                  <h2>Sixta Morel </h2>
                    <h3>Comité de Publicidad</h3>
-                   <p>“Llegué al simposio como invitada el primer año del evento cuando recién llegaba de mi país, disfruté tanto la experiencia que decidí  unirme al comité organizador desde hace ya dos años. Compartir con tantas mujeres luchadoras, inspiradoras, ha sido una experiencia que me llena de esperanza en cuanto a el futuro de las Latinas en los EU. Feliz de colaborar con tan hermosa iniciativa".
-                   </p>
+                    {!! trans('conocenos.Sixta') !!}
                    <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                   <p>“ Amo la gente y las historias detrás de sus caras, creo que las sonrisas, la buena energía y la bondad pueden hacer la diferencia en nuestras vidas” 
-                   Profesional de la comunicación bilingüe quien se inició en los medios de comunicación en su natal Republica Dominicana  a los 17 años.  Su experiencia incluye la conducción y producción de televisión, conducción de noticias, entrevistas, Editora de Artes y Espectáculos, maestrías de ceremonias, comerciales, voice overs y actuación. Graduada de Administración de Empresas y Locución, cuenta con diplomado en Periodismo Cultural, así como en Comunicación Estratégica y Relaciones Públicas de la Universidad de Washington. Periódicamente escribe en su blog "Gente, Historias y Sonrisas”.    
-                  </p>
+                    {!! trans('conocenos.Sixta1') !!}
+                   
                 </div> <!--End Caption--->
                </div> <!--End thumbnails-->
              </div> <!--End Col--->
@@ -166,10 +167,10 @@
                  <h2>Angélica</h2>
                    <h3>Comité de Voluntariado</h3>
                     <p>Hola fjakljfklajflaskdfkjlkjlkjljkjk;j;jj  </p>
-                  <button type="button" class="btn btn-leer btn-sm">Leer más</button>
+                   <button type="button" class="btn btn-leer btn-sm">Leer más</button>
                   <p>Hola fjakljfklajflaskdfkjlkjlkjljkjk;j;jj  </p>
-               </div> <!--End Caption--->
-               </div> <!--End thumbnails-->
+                 </div> <!--End Caption--->
+                </div> <!--End thumbnails-->
                </div> <!--End Col--->
            
           
@@ -183,9 +184,10 @@
                <div class="caption">
                  <h2>Elia Gómez</h2>
                    <h3>Comité de Finanzas</h3>
-                   <p>Ya lo tengo emalfjalkdfjkalsfjkadjsflf</p> 
+                   {!! trans('conocenos.Elia') !!} 
                    <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                 <p>djfadjflkajfkd;ajsflkadls;fl;dsafkldas </p>
+                    {!! trans('conocenos.Elia1') !!} 
+                   
                </div> <!--End Caption--->
               </div> <!--End thumbnails-->
              </div> <!--End Col--->
@@ -210,24 +212,6 @@
                </div> <!--End thumbnails-->
                </div> <!--End Col--->
            
-           
-            <!---Yaya-->       
-             <div class="col-sm-4">
-               <div class="thumbnails"> 
-                <div class="img-thumbnail img-circle">  
-                 <img src="Imagenes/logocirculo.png" alt="logocirculo" class="img-circle"/>
-                </div>
-                
-               <div class="caption">
-                 <h2>Yaya Limón</h2>
-                   <h3>Maestra de Ceremonia</h3>
-                    <p>Hola fjakljfklajflaskdfkjlkjlkjljkjk;j;jj  </p>
-                  <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                  <p>Hola fjakljfklajflaskdfkjlkjlkjljkjk;j;jj  </p>
-                </div> <!--End Caption--->
-               </div> <!--End thumbnails-->
-               </div> <!--End Col--->
-              </div> <!--End row--> 
     
              <h1>Nuestros Aliados</h1> 
     
@@ -242,17 +226,9 @@
                <div class="caption">
                  <h2>Guillermo Carvajal</h2>
                    <h3>Comité de Finanzas</h3>
-                   <p> Las mujeres son la clave para crear un mundo más justo y contenido, ellas tienen la capacidad y experiencia para comprender qué necesitan los seres humanos para disfrutar una vida más sana y alegre.  Mientras más éxitos acumulan las mujeres en sus vidas, más segura y sana se siente su familia.</p>
+                   {!! trans('conocenos.Guillermo') !!}
                    <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                   <p>Para mí, los hijos de estas mujeres tienen una mejor posibilidad para triunfar académicamente y cumplir sus propios sueños.  Está en mi interés ver más y más mujeres latinas teniendo éxito.  
-                 El éxito de nuestros estudiantes está ligado directamente a sus madres.  Las mujeres que han participado en el Simposio de Mujeres Latinas aprecian el poder de tener esperanzas y aspiraciones.  Nosotros quienes tenemos la capacidad de extender una mano para que más y más mujeres puedan tener éxito, debemos hacerlo. </p>
-                <p> Nací en Costa Rica y fui criado en Nueva York, la ciudad que es conocida por muchos como “la gran Manzana”.  Mi trabajo es brindarle apoyo a las familia de las escuelas públicas de Seattle y tengo una maestría en desarrollo humano.  Durante los últimos 15 años, he trabajado en la rama de servicio social y he dedicado una gran parte de mi vida como adulto a defender los derechos humanos de todos.  También tengo muchos años de voluntariado apoyando la cultura y artes latinas. También he tenido el privilegio de trabajar con muchas comunidades étnicas y minorías.  Trabajar en escuelas con una gran población de Latinos, me ha dado una apreciación más profunda de los retos de las familias con quien comparto, especialmente las madres.
-                 </p>
-                <p> Mi madre y el barrio a donde crecí han sido mi inspiración.  Históricamente las mujeres han detrás de sus hombres, apoyando de muchas maneras a sus maridos mientras ellos desarrollan sus carreras profesionales.  Pero ahora la economía mundial ha obligado a la familia a reconsiderar el papel "pasivo" de la madre, ahora las madres no tienen opción de ser solo damas de casa. Ellas están obligadas a salir al mundo y competir por puestos de trabajo por el bien de sus familias. Este nuevo mundo demanda que la mujer tenga la oportunidad de no solo soñar con  tener una buena carrera, pero también tener recursos y  oportunidades para sobresalir. 
-                </p>
-                <p>Mi madre vino a este país en sus 30 años y paso el resto de sus días trabajando limpiando casas o haciendo trabajo para diferentes factorías. Ella tenía un buen corazón y era inteligente, pero vivíamos en una zona muy pobre y peligrosa de la ciudad de Nueva York. Nunca pudo encontrar y obtener contactos o recursos para realizar su propios sueños. En las madres con las que trabajo reconozco un poco de mi propia mamá, tienen aspiraciones y luchas similares, así como situaciones de tristeza y melancolía; momentos de risa y la esperanza. Cuando me siento a conversar con ellas las escucho y también a mi madre. 
-                </p>
-                <p>La mayoría de las personas con las que trabajo son mujeres, siempre trato de recordar la experiencia con mi madre al estar con ellas. Siempre me esfuerzo por no poner “peros” a sus sueños y si están listas para “volar”, ayudarlas a buscar recursos que les aseguren un exitoso vuelo. Una gran parte de mi trabajo día a día es alimentar sus sueños y esperanzas.</p>
+                    {!! trans('conocenos.Guillermo1') !!}
                </div> <!--End Caption--->
                </div> <!--End thumbnails-->
                </div> <!--End Col--->

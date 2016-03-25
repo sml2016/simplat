@@ -26,7 +26,7 @@
             <div class="container">
                 <div class="row">
                     <div class="pricing">
-                        <div class="col-sm-5 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
+                        <div class="col-xs-11 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
                             <div class="pricing-table">
                                 <div class="pricing-header">
                                     <p class="pricing-title">PATROCINADOR DIAMANTE</p>
@@ -46,7 +46,7 @@
                             </div><!--End pricing-table-->
                         </div><!--END col-->
 
-                        <div class="col-sm-5 col-md-2  col-lg-2">
+                        <div class="col-xs-11   col-md-2  col-lg-2">
                             <div class="pricing-table">
                                 <div class="pricing-header">
                                     <p class="pricing-title">PATROCINADOR PLATINO</p>
@@ -65,7 +65,7 @@
                             </div>
                         </div><!--END col-->
                        
-                        <div class="col-sm-5 col-sm-offset-2 col-md-2 col-lg-2">
+                        <div class="col-xs-11  col-md-2 col-lg-2">
                             <div class="pricing-table">
                                 <div class="pricing-header">
                                     <p class="pricing-title">PATROCINADOR ORO</p>
@@ -83,7 +83,7 @@
                             </div>
                         </div><!--END col-->
                         
-                         <div class="col-sm-5 col-sm-pull-1 col-md-2 col-lg-2">
+                         <div class="col-xs-11 col-md-2 col-lg-2">
                             <div class="pricing-table">
                                 <div class="pricing-header">
                                     <p class="pricing-title">PATROCINADOR  PLATA</p>
@@ -100,7 +100,7 @@
                             </div>
                         </div><!--END col-->
 
-                        <div class="col-sm-5 col-md-2 col-lg-2">
+                        <div class="col-xs-11 col-md-2 col-lg-2">
                             <div class="pricing-table">
                                 <div class="pricing-header">
                                     <p class="pricing-title">PATROCINADOR  BRONCE</p>
@@ -125,7 +125,7 @@
   
     <div class="impuestos">
       <div class="row">
-      <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">    
+      <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">    
         <p class="text-justify"><b>Importante:</b>  Tu aporte te permitirá la reducción de impuestos porque estarás donando a una organización sin fines de lucro, al fondo de educación del NSC. 
        <span><b>Impuestos federales</b> ID# 41-2178833</span>. Todos los logos de los patrocinantes estarán incluidos en la agenda del evento.</p> 
      </div> 
@@ -134,7 +134,7 @@
    
   <div class="donaciones">
     <div class="row">
-      <div class="col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1"> 
+      <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1"> 
         <div class="donaciones1a">  
          <h1>Tu donación es importante</h1>
            <h2>Para apoyar este evento que se dedica a mejorar las habilidades de las mujeres latinas en Seattle, solo tienes que hacer <a href="https://nscef.ejoinme.org/latina">clic aquí.</a></h2>
@@ -143,7 +143,7 @@
         </div>
       </div><!--END Donaciones1a-->
       
-      <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1"> 
+      <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1"> 
        <div class="donaciones1b"> 
          <h1>¿Quieres apoyar pero no tienes dinero para donaciones?</h1>     
          <p>El Simposio de Mujeres Latinas es un evento gratuito para la comunidad y queremos que se mantenga así.</p>

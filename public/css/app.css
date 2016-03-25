@@ -7587,9 +7587,13 @@ select.input-lg, .input-group-lg > select.form-control,
         border-bottom: 1px solid #bdbdbd; }
         .fondo1b .patrocinanos h1 {
           font-size: 20px;
-          padding-bottom: 20px; }
+          padding-bottom: 0px; }
         .fondo1b .patrocinanos p {
-          padding: 20px; } }
+          padding: 15px 8px 20px 8px; } }
+    @media (min-width: 481px) and (max-width: 767px) {
+      .fondo1b .patrocinanos h1 {
+        font-size: 23px;
+        padding-bottom: 30px; } }
     @media (min-width: 768px) and (max-width: 991px) {
       .fondo1b .patrocinanos {
         margin: 35px 0px; }
@@ -7675,19 +7679,40 @@ select.input-lg, .input-group-lg > select.form-control,
     .fondo1b #pricing-table .button-donar:hover {
       color: #ffffff;
       border: 1px solid #ffffff; }
+    @media (max-width: 480px) {
+      .fondo1b #pricing-table {
+        margin: 30px 0px 50px 35px; } }
+    @media (min-width: 481px) and (max-width: 767px) {
+      .fondo1b #pricing-table {
+        margin: 50px 0px 50px 60px; } }
+    @media (min-width: 768px) {
+      .fondo1b #pricing-table {
+        margin: 50px 0px 50px 25px; }
+        .fondo1b #pricing-table .pricing .pricing-table .pricing-header .pricing-title {
+          font-size: 22px; }
+        .fondo1b #pricing-table .button-donar {
+          font-size: 25px;
+          width: 80%;
+          padding-top: 10px;
+          padding-bottom: 10px; } }
+    @media (min-width: 769px) and (max-width: 991px) {
+      .fondo1b #pricing-table {
+        margin: 50px 0px 50px 25px; } }
     @media (min-width: 992px) {
-      .fondo1b #pricing-table .pricing .pricing-table .pricing-header {
-        padding: 22px 1px;
-        margin-left: -22px; }
-      .fondo1b #pricing-table .pricing .pricing-table .pricing-header .pricing-title {
-        font-size: 18px; }
-      .fondo1b #pricing-table .pricing-table .pricing-header .pricing-rate {
-        font-size: 28px; }
-      .fondo1b #pricing-table .button-donar {
-        font-size: 16px; }
-      .fondo1b #pricing-table .pricing .pricing-list {
-        padding: 22px 10px 0px 10px;
-        margin-left: -22px; } }
+      .fondo1b #pricing-table {
+        margin: 50px 0px 50px 0px; }
+        .fondo1b #pricing-table .pricing .pricing-table .pricing-header {
+          padding: 22px 1px;
+          margin-left: -22px; }
+        .fondo1b #pricing-table .pricing .pricing-table .pricing-header .pricing-title {
+          font-size: 18px; }
+        .fondo1b #pricing-table .pricing-table .pricing-header .pricing-rate {
+          font-size: 28px; }
+        .fondo1b #pricing-table .button-donar {
+          font-size: 16px; }
+        .fondo1b #pricing-table .pricing .pricing-list {
+          padding: 22px 10px 0px 10px;
+          margin-left: -22px; } }
   .fondo1b .donacion {
     margin: 50px 0px; }
     .fondo1b .donacion .impuestos p {
@@ -7697,12 +7722,19 @@ select.input-lg, .input-group-lg > select.form-control,
       font-size: 16px;
       color: #333;
       text-align: justify; }
+      @media (max-width: 480px) {
+        .fondo1b .donacion .impuestos p {
+          margin-top: -50px;
+          margin-bottom: 0px; } }
     .fondo1b .donacion .impuestos span {
       color: #9541c7; }
     .fondo1b .donacion .donaciones {
       background: #737b7f;
       height: auto;
       margin-top: 50px; }
+      @media (max-width: 480px) {
+        .fondo1b .donacion .donaciones {
+          margin-top: 30px; } }
       .fondo1b .donacion .donaciones .donaciones1a {
         margin-top: 50px;
         margin-bottom: 40px; }
@@ -7733,6 +7765,29 @@ select.input-lg, .input-group-lg > select.form-control,
           font-size: 16px;
           color: #fff;
           text-align: justify; }
+        @media (max-width: 480px) {
+          .fondo1b .donacion .donaciones .donaciones1a {
+            margin-top: 30px;
+            margin-bottom: 30px; }
+            .fondo1b .donacion .donaciones .donaciones1a h1 {
+              line-height: 1.5;
+              font-size: 20px;
+              padding-bottom: 5px; }
+            .fondo1b .donacion .donaciones .donaciones1a h2 {
+              padding-top: 8px;
+              padding-bottom: 8px; } }
+        @media (min-width: 481px) and (max-width: 767px) {
+          .fondo1b .donacion .donaciones .donaciones1a {
+            margin-top: 30px; }
+            .fondo1b .donacion .donaciones .donaciones1a h1 {
+              padding-bottom: 10px;
+              font-size: 23px;
+              line-height: 1.5; } }
+        @media (min-width: 768px) {
+          .fondo1b .donacion .donaciones .donaciones1a {
+            margin-top: 40px; }
+            .fondo1b .donacion .donaciones .donaciones1a h1 {
+              padding-bottom: 10px; } }
       .fondo1b .donacion .donaciones .donaciones1b {
         background: #c5c8ca;
         margin-top: 30px;
@@ -7753,6 +7808,30 @@ select.input-lg, .input-group-lg > select.form-control,
           text-align: justify; }
         .fondo1b .donacion .donaciones .donaciones1b span {
           color: #9541c7; }
+        @media (max-width: 480px) {
+          .fondo1b .donacion .donaciones .donaciones1b {
+            height: auto;
+            margin-top: 0px;
+            margin-bottom: 20px; }
+            .fondo1b .donacion .donaciones .donaciones1b hi {
+              font-size: 20px;
+              padding: 20px 0px 0px 0px; }
+            .fondo1b .donacion .donaciones .donaciones1b p {
+              padding: 10px 15px; }
+            .fondo1b .donacion .donaciones .donaciones1b span {
+              font-size: 15px; } }
+        @media (min-width: 481px) and (max-width: 767px) {
+          .fondo1b .donacion .donaciones .donaciones1b {
+            height: auto;
+            padding-bottom: 10px; }
+            .fondo1b .donacion .donaciones .donaciones1b h1 {
+              font-size: 19px; } }
+        @media (min-width: 768px) {
+          .fondo1b .donacion .donaciones .donaciones1b {
+            height: auto;
+            padding-bottom: 10px; }
+            .fondo1b .donacion .donaciones .donaciones1b hi {
+              font-size: 20px; } }
         @media (min-width: 992px) {
           .fondo1b .donacion .donaciones .donaciones1b {
             height: auto;

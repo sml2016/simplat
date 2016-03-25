@@ -13,7 +13,7 @@
         <div class="col-sm-4">
            <div class="thumbnails"> 
              <div class="img-thumbnail img-circle">  
-               <img src="Imagenes/logocirculo.png" alt="logocirculo" class="img-circle"/>
+               <img src="images/logocirculo.png" alt="logocirculo" class="img-circle"/>
                 </div>
                 
                 <div class="caption">
@@ -30,7 +30,7 @@
         <div class="col-sm-4">
           <div class="thumbnails"> 
             <div class="img-thumbnail img-circle">  
-               <img src="Imagenes/logocirculo.png" alt="logocirculo" class="img-circle"/>
+               <img src="images/logocirculo.png" alt="logocirculo" class="img-circle"/>
                 </div>
                  <div class="caption">
                  <h2>Tania Hino</h2>
@@ -46,7 +46,7 @@
             <div class="col-sm-4">
               <div class="thumbnails"> 
                 <div class="img-thumbnail img-circle">  
-                 <img src="Imagenes/logocirculo.png" alt="logocirculo" class="img-circle"/>
+                 <img src="images/logocirculo.png" alt="logocirculo" class="img-circle"/>
                   </div>
                  <div class="caption">
                 <h2>Velia Lara</h2>
@@ -64,7 +64,7 @@
              <div class="col-sm-4">
                <div class="thumbnails"> 
                 <div class="img-thumbnail img-circle">  
-                 <img src="Imagenes/logocirculo.png" alt="logocirculo" class="img-circle"/>
+                 <img src="images/logocirculo.png" alt="logocirculo" class="img-circle"/>
                 </div>
                 
                <div class="caption">
@@ -86,7 +86,7 @@
              <div class="col-sm-4">
                <div class="thumbnails"> 
                 <div class="img-thumbnail img-circle">  
-                 <img src="Imagenes/logocirculo.png" alt="logocirculo" class="img-circle"/>
+                 <img src="images/logocirculo.png" alt="logocirculo" class="img-circle"/>
                 </div>
                 
                <div class="caption">
@@ -107,7 +107,7 @@
              <div class="col-sm-4">
                <div class="thumbnails"> 
                 <div class="img-thumbnail img-circle">  
-                 <img src="Imagenes/logocirculo.png" alt="logocirculo" class="img-circle"/>
+                 <img src="images/logocirculo.png" alt="logocirculo" class="img-circle"/>
                 </div>
                 
                <div class="caption">
@@ -128,7 +128,7 @@
              <div class="col-sm-4">
                <div class="thumbnails"> 
                 <div class="img-thumbnail img-circle">  
-                 <img src="Imagenes/logocirculo.png" alt="logocirculo" class="img-circle"/>
+                 <img src="images/logocirculo.png" alt="logocirculo" class="img-circle"/>
                   </div>
                 
                <div class="caption">
@@ -146,7 +146,7 @@
              <div class="col-sm-4">
                <div class="thumbnails"> 
                 <div class="img-thumbnail img-circle">  
-                 <img src="Imagenes/logocirculo.png" alt="logocirculo" class="img-circle"/>
+                 <img src="images/logocirculo.png" alt="logocirculo" class="img-circle"/>
                 </div>
                 
                <div class="caption">
@@ -164,7 +164,7 @@
              <div class="col-sm-4">
                <div class="thumbnails"> 
                 <div class="img-thumbnail img-circle">  
-                 <img src="Imagenes/logocirculo.png" alt="logocirculo" class="img-circle"/>
+                 <img src="images/logocirculo.png" alt="logocirculo" class="img-circle"/>
                 </div>
                 
                <div class="caption">
@@ -185,7 +185,7 @@
              <div class="col-sm-4">
                <div class="thumbnails"> 
                 <div class="img-thumbnail img-circle">  
-                 <img src="Imagenes/logocirculo.png" alt="logocirculo" class="img-circle"/>
+                 <img src="images/logocirculo.png" alt="logocirculo" class="img-circle"/>
                 </div>
                 
                <div class="caption">

@@ -7558,148 +7558,210 @@ select.input-lg, .input-group-lg > select.form-control,
 /*------------------------------
           Patrocinanos
  -------------------------------*/
-.patrocinanos {
-  margin: 50px 0px; }
-  .patrocinanos h1 {
-    font-family: 'TenorSans',sans-serif;
-    font-size: 30px;
-    color: #212121;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 40px; }
-  .patrocinanos p {
-    font-family: 'Opensans-light',sans-serif;
-    font-size: 16px;
-    color: #333;
-    text-align: justify; }
-  @media (max-width: 480px) {
-    .patrocinanos {
-      margin: 20px 0px;
-      border-bottom: 1px solid #bdbdbd; }
-      .patrocinanos h1 {
-        font-size: 20px;
-        padding-bottom: 20px; }
-      .patrocinanos p {
-        padding: 20px; } }
-  @media (min-width: 768px) and (max-width: 991px) {
-    .patrocinanos {
-      margin: 35px 0px; }
-      .patrocinanos h1 {
-        font-size: 22px;
-        padding-bottom: 30px; } }
-  @media (min-width: 992px) {
-    .patrocinanos h1 {
-      font-size: 28px; } }
-
-#pricing-table {
-  margin: 50px 0px; }
-  #pricing-table .pricing {
-    margin: 0;
-    padding: 0;
-    font-family: 'Opensans-light',sans-serif; }
-  #pricing-table .pricing .pricing-table {
-    padding-bottom: 30px; }
-  #pricing-table .pricing .pricing-table .pricing-header {
-    position: relative;
-    background: #9541c7;
-    padding: 22px 10px;
-    margin-left: -15px;
-    text-align: center;
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px; }
-  #pricing-table .pricing .pricing-table .pricing-header .pricing-title {
-    color: #ffffff;
-    font-size: 18px;
-    text-align: center;
-    font-weight: bold; }
-  #pricing-table .pricing .pricing-table .pricing-header .pricing-rate {
-    font-size: 35px;
-    font-weight: bold;
-    color: #ffffff;
-    position: relative;
-    text-align: center;
-    margin-top: 35px; }
-  #pricing-table .pricing .pricing-table .pricing-header .pricing-rate sup {
-    font-size: 24px;
-    position: relative;
-    top: -30px;
-    color: #bdc3c7; }
-  #pricing-table .pricing .pricing-list {
-    padding: 22px 10px 0px 10px;
-    margin-left: -15px;
-    background: #ffffff;
-    border: 1px solid #e3e3e3; }
-  #pricing-table .pricing .pricing-list ul {
-    padding: 0px;
-    display: table;
-    margin: 0px auto; }
-  #pricing-table .pricing .pricing-list ul li {
-    list-style: none;
-    border-bottom: 1px solid #EAECEB;
-    color: #bdc3c7;
-    font-size: 16px;
-    line-height: 1.5;
-    padding: 10px 0;
-    text-align: justify; }
-  #pricing-table .pricing .pricing-list ul li:last-child {
-    border: none; }
-  #pricing-table .pricing .pricing-list ul li i {
-    margin-right: 12px;
-    color: #9541c7; }
-  #pricing-table .pricing .pricing-list ul li span {
-    color: #9541c7; }
-  #pricing-table .button-donar {
-    color: #bdc3c7;
-    font-size: 18px;
-    border: 1px solid #bdc3c7;
-    width: 70%;
-    margin-top: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    /* Safari */
-    transition-duration: 0.4s; }
-  #pricing-table .button-donar:hover {
-    color: #ffffff;
-    border: 1px solid #ffffff; }
-  @media (min-width: 992px) {
-    #pricing-table .pricing .pricing-table .pricing-header {
-      padding: 22px 1px;
-      margin-left: -22px; }
-    #pricing-table .pricing .pricing-table .pricing-header .pricing-title {
-      font-size: 18px; }
-    #pricing-table .pricing-table .pricing-header .pricing-rate {
-      font-size: 28px; }
-    #pricing-table .button-donar {
-      font-size: 16px; }
-    #pricing-table .pricing .pricing-list {
+.fondo1b {
+  width: 100%;
+  height: auto;
+  position: relative;
+  border-top: 1px solid #bdbdbd;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  margin-top: -340px;
+  margin-bottom: 50px; }
+  .fondo1b .patrocinanos {
+    margin: 50px 0px; }
+    .fondo1b .patrocinanos h1 {
+      font-family: 'TenorSans',sans-serif;
+      font-size: 30px;
+      color: #212121;
+      font-weight: bold;
+      text-align: center;
+      padding-bottom: 40px; }
+    .fondo1b .patrocinanos p {
+      font-family: 'Opensans-light',sans-serif;
+      font-size: 16px;
+      color: #333;
+      text-align: justify; }
+    @media (max-width: 480px) {
+      .fondo1b .patrocinanos {
+        margin: 20px 0px;
+        border-bottom: 1px solid #bdbdbd; }
+        .fondo1b .patrocinanos h1 {
+          font-size: 20px;
+          padding-bottom: 20px; }
+        .fondo1b .patrocinanos p {
+          padding: 20px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .fondo1b .patrocinanos {
+        margin: 35px 0px; }
+        .fondo1b .patrocinanos h1 {
+          font-size: 22px;
+          padding-bottom: 30px; } }
+    @media (min-width: 992px) {
+      .fondo1b .patrocinanos h1 {
+        font-size: 28px;
+        padding-left: 20px;
+        padding-right: 20px; } }
+  .fondo1b #pricing-table {
+    margin: 50px 0px; }
+    .fondo1b #pricing-table .pricing {
+      margin: 0;
+      padding: 0;
+      font-family: 'Opensans-light',sans-serif; }
+    .fondo1b #pricing-table .pricing .pricing-table {
+      padding-bottom: 30px; }
+    .fondo1b #pricing-table .pricing .pricing-table .pricing-header {
+      position: relative;
+      background: #9541c7;
+      padding: 22px 10px;
+      margin-left: -15px;
+      text-align: center;
+      border-top-right-radius: 4px;
+      border-top-left-radius: 4px; }
+    .fondo1b #pricing-table .pricing .pricing-table .pricing-header .pricing-title {
+      color: #ffffff;
+      font-size: 18px;
+      text-align: center;
+      font-weight: bold; }
+    .fondo1b #pricing-table .pricing .pricing-table .pricing-header .pricing-rate {
+      font-size: 35px;
+      font-weight: bold;
+      color: #ffffff;
+      position: relative;
+      text-align: center;
+      margin-top: 35px; }
+    .fondo1b #pricing-table .pricing .pricing-table .pricing-header .pricing-rate sup {
+      font-size: 24px;
+      position: relative;
+      top: -30px;
+      color: #bdc3c7; }
+    .fondo1b #pricing-table .pricing .pricing-list {
       padding: 22px 10px 0px 10px;
-      margin-left: -22px; } }
-
-.donacion {
-  margin: 50px 0px; }
-  .donacion .impuestos p {
-    font-family: 'Opensans-light',sans-serif;
-    font-size: 16px;
-    color: #333;
-    text-align: justify; }
-  .donacion .impuestos span {
-    color: #9541c7; }
-  .donacion .donaciones h1 {
-    font-family: 'TenorSans',sans-serif;
-    font-size: 25px;
-    color: #9541c7;
-    border-bottom: 1px solid #c597e6; }
-  .donacion .donaciones p {
-    font-family: 'Opensans-light',sans-serif;
-    font-size: 16px;
-    color: #333;
-    text-align: justify; }
-  .donacion .donaciones .donaciones1 {
-    background: #f0f0f0; }
+      margin-left: -15px;
+      background: #ffffff;
+      border: 1px solid #e3e3e3; }
+    .fondo1b #pricing-table .pricing .pricing-list ul {
+      padding: 0px;
+      display: table;
+      margin: 0px auto; }
+    .fondo1b #pricing-table .pricing .pricing-list ul li {
+      list-style: none;
+      border-bottom: 1px solid #EAECEB;
+      color: #bdc3c7;
+      font-size: 16px;
+      line-height: 1.5;
+      padding: 10px 0;
+      text-align: justify; }
+    .fondo1b #pricing-table .pricing .pricing-list ul li:last-child {
+      border: none; }
+    .fondo1b #pricing-table .pricing .pricing-list ul li i {
+      margin-right: 12px;
+      color: #9541c7; }
+    .fondo1b #pricing-table .pricing .pricing-list ul li span {
+      color: #9541c7; }
+    .fondo1b #pricing-table .button-donar {
+      color: #bdc3c7;
+      font-size: 18px;
+      border: 1px solid #bdc3c7;
+      width: 70%;
+      margin-top: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      /* Safari */
+      transition-duration: 0.4s; }
+    .fondo1b #pricing-table .button-donar:hover {
+      color: #ffffff;
+      border: 1px solid #ffffff; }
+    @media (min-width: 992px) {
+      .fondo1b #pricing-table .pricing .pricing-table .pricing-header {
+        padding: 22px 1px;
+        margin-left: -22px; }
+      .fondo1b #pricing-table .pricing .pricing-table .pricing-header .pricing-title {
+        font-size: 18px; }
+      .fondo1b #pricing-table .pricing-table .pricing-header .pricing-rate {
+        font-size: 28px; }
+      .fondo1b #pricing-table .button-donar {
+        font-size: 16px; }
+      .fondo1b #pricing-table .pricing .pricing-list {
+        padding: 22px 10px 0px 10px;
+        margin-left: -22px; } }
+  .fondo1b .donacion {
+    margin: 50px 0px; }
+    .fondo1b .donacion .impuestos p {
+      margin-top: -20px;
+      margin-bottom: 20px;
+      font-family: 'Opensans-light';
+      font-size: 16px;
+      color: #333;
+      text-align: justify; }
+    .fondo1b .donacion .impuestos span {
+      color: #9541c7; }
+    .fondo1b .donacion .donaciones {
+      background: #737b7f;
+      height: auto;
+      margin-top: 50px; }
+      .fondo1b .donacion .donaciones .donaciones1a {
+        margin-top: 50px;
+        margin-bottom: 40px; }
+        .fondo1b .donacion .donaciones .donaciones1a h1 {
+          font-family: 'TenorSans',sans-serif;
+          font-size: 25px;
+          color: #fff;
+          border-bottom: 1px solid #c597e6;
+          text-align: center;
+          line-height: 2; }
+        .fondo1b .donacion .donaciones .donaciones1a h2 {
+          padding-top: 10px;
+          padding-bottom: 15px;
+          font-family: 'Opensans-light';
+          font-size: 16px;
+          color: #fff;
+          text-align: justify; }
+        .fondo1b .donacion .donaciones .donaciones1a h2 a {
+          color: #c597e6;
+          text-decoration: none; }
+        .fondo1b .donacion .donaciones .donaciones1a h2 a:hover,
+        .fondo1b .donacion .donaciones .donaciones1a h2 a:focus {
+          color: #f04942;
+          text-decoration: none; }
+        .fondo1b .donacion .donaciones .donaciones1a p {
+          margin-top: 10px;
+          font-family: 'Opensans-light';
+          font-size: 16px;
+          color: #fff;
+          text-align: justify; }
+      .fondo1b .donacion .donaciones .donaciones1b {
+        background: #c5c8ca;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        height: 390px; }
+        .fondo1b .donacion .donaciones .donaciones1b h1 {
+          font-family: 'TenorSans',sans-serif;
+          font-size: 22px;
+          color: #737b7f;
+          padding: 20px 10px 0px 10px;
+          text-align: center;
+          line-height: 1.5; }
+        .fondo1b .donacion .donaciones .donaciones1b p {
+          padding: 10px 25px;
+          font-family: 'Opensans-light';
+          font-size: 16px;
+          color: #fff;
+          text-align: justify; }
+        .fondo1b .donacion .donaciones .donaciones1b span {
+          color: #9541c7; }
+        @media (min-width: 992px) {
+          .fondo1b .donacion .donaciones .donaciones1b {
+            height: auto;
+            padding-bottom: 10px; }
+            .fondo1b .donacion .donaciones .donaciones1b h1 {
+              font-size: 20px;
+              padding: 20px 0px 0px 10px; }
+            .fondo1b .donacion .donaciones .donaciones1b p {
+              padding: 5px 20px; } }
 
 /* --------------------
        Conócenos

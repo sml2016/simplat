@@ -1,7 +1,16 @@
 /*------------------------------
           Patrocinanos
  -------------------------------*/
- 
+.fondo1b{
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-top: 1px solid #bdbdbd;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+        background: #ffffff;
+        margin-top: -340px;
+        margin-bottom: 50px;
+        
  .patrocinanos{
    margin:50px 0px;
    
@@ -49,6 +58,8 @@
        
        h1{
        font-size: 28px;
+       padding-left: 20px;
+       padding-right: 20px;
        }
     }
  }
@@ -195,14 +206,16 @@
  .donacion{
    margin:50px 0px;
    
-   .impuestos{
+    .impuestos{
    
-   p{
-    font-family: 'Opensans-light',sans-serif;
+    p{
+    margin-top: -20px;
+    margin-bottom: 20px;   
+    font-family: 'Opensans-light';
     font-size: 16px;
     color: #333;
     text-align: justify;
-   } 
+    } 
    
    span{
    color: #9541c7;
@@ -210,23 +223,93 @@
   }
   
   .donaciones{
-
+   background: #737b7f;
+   height: auto;
+   margin-top: 50px;
+   
+    .donaciones1a{
+    margin-top: 50px;
+    margin-bottom:40px;
+   
     h1{
     font-family: 'TenorSans',sans-serif;
     font-size: 25px;
-    color:  #9541c7;
+    color:  #fff;
     border-bottom: 1px solid #c597e6;
-   }
+    text-align: center;
+    line-height: 2;
+    }
    
-   p{
-    font-family: 'Opensans-light',sans-serif;
+    h2{
+    padding-top:10px;
+    padding-bottom: 15px;
+    font-family: 'Opensans-light';
     font-size: 16px;
-    color: #333;
+    color: #fff;
     text-align: justify; 
+    }
+   
+    h2 a{
+    color:#c597e6; 
+    text-decoration: none;      
+    }
+   
+    h2 a:hover,
+    h2 a:focus{
+    color:#f04942;
+    text-decoration: none; 
+    }
+   
+    p{
+    margin-top:10px;
+    font-family: 'Opensans-light';
+    font-size: 16px;
+    color: #fff;
+    text-align: justify; 
+    }
    }
    
-   .donaciones1{
-   background: #f0f0f0;
+   .donaciones1b{
+   background: #c5c8ca;
+   margin-top: 30px;
+   margin-bottom:40px;
+   height: 390px;
+   
+     h1{
+     font-family: 'TenorSans',sans-serif;
+     font-size: 22px;
+     color: #737b7f;
+     padding: 20px 10px 0px 10px;
+     text-align: center;
+     line-height: 1.5;
+     }
+     
+     p{
+     padding:10px 25px;
+     font-family: 'Opensans-light';
+     font-size: 16px;
+     color: #fff;
+     text-align: justify; 
+     }
+     
+     span{
+     color: #9541c7;
+     }
+    
+    @media (min-width: $sizeDesktop){
+       height:auto;
+       padding-bottom: 10px;
+       
+       h1{
+       font-size: 20px;
+       padding: 20px 0px 0px 10px;
+       } 
+       
+       p{
+       padding: 5px 20px;
+       }  
+      }
+     }
+    }
    }
-  }
- }
+}

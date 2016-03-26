@@ -9,12 +9,7 @@
     <div class="patrocinanos"> 
       <div class="row">     
        <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-        
-        <h1>Con tu patrocinio será posible el Simposio de Mujeres Latinas</h1>
-         <p>Brinda una oportunidad a la mujer latina de capacitarse para liderar proyectos en su comunidad con tu donación.
-         El patrocinio a nuestro evento es una oportunidad para que otros líderes conozcan tu apoyo firme a la creación de comunidades a través de las mujeres latinas, además,
-         a través del mismo demuestras tu deseo de colaborar y dar. Se trata de un evento gratuito para las 255 participantes.  
-        </p>
+          {!! trans('patrocinanos.Introduccion') !!}
         </div>
        </div> <!--End Row-->
    </div> <!--End Patrocinanos--> 
@@ -29,18 +24,16 @@
                         <div class="col-xs-11 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
                             <div class="pricing-table">
                                 <div class="pricing-header">
-                                    <p class="pricing-title">PATROCINADOR DIAMANTE</p>
+                          
+                                    <p class="pricing-title">{{ trans('patrocinanos.Patrocinadores1') }}</p>
                                     <p class="pricing-rate"><sup>$</sup> 1,500 </p>
-                                    <a href="https://nscef.ejoinme.org/latina" class="button-donar">Dona aquí</a>
+                                    <a href="https://nscef.ejoinme.org/latina" class="button-donar">{{ trans('patrocinanos.Donar') }}</a>
                                 </div>
 
                                 <div class="pricing-list">
                                     <ul>
-                                        <li><i class="fa fa-heart-o"></i>Su nombre en el programa del evento. Su <span> logo en la página principal</span> de nuestro sitio de Internet. </li>
-                                        <li><i class="fa fa-heart-o"></i>Menciones del patrocinador durante el evento.</li>
-                                        <li><i class="fa fa-heart-o"></i>Espacio para promoción en el programa del evento.</li>
-                                        <li><i class="fa fa-heart-o"></i>Material de mercadeo y banner de la compañía en el evento.</li>
-                                        <li><i class="fa fa-heart"></i>Logo del patrocinador en la página del evento.</li>
+                                          {!! trans('patrocinanos.Beneficios1') !!}
+                                        
                                     </ul>
                                 </div><!--End pricing-list-->
                             </div><!--End pricing-table-->
@@ -49,17 +42,14 @@
                         <div class="col-xs-11   col-md-2  col-lg-2">
                             <div class="pricing-table">
                                 <div class="pricing-header">
-                                    <p class="pricing-title">PATROCINADOR PLATINO</p>
+                                    <p class="pricing-title">{{ trans('patrocinanos.Patrocinadores2') }}</p>
                                     <p class="pricing-rate"><sup>$</sup> 1,000 </p>
-                                    <a href="https://nscef.ejoinme.org/latina" class="button-donar">Dona aquí</a>
+                                    <a href="https://nscef.ejoinme.org/latina" class="button-donar">{{ trans('patrocinanos.Donar') }}</a>
                                 </div>
 
                                 <div class="pricing-list">
                                     <ul>
-                                        <li><i class="fa fa-heart-o"></i>Su nombre en el programa del evento. Su <span> logo en la página principal</span> de nuestro sitio de Internet. </li>
-                                        <li><i class="fa fa-heart-o"></i>Menciones del patrocinador durante el evento.</li>
-                                        <li><i class="fa fa-heart-o"></i>Espacio para promoción en el programa del evento.</li>
-                                        <li><i class="fa fa-heart"></i>Material de mercadeo y banner de la compañía en el evento.</li>
+                                        {!! trans('patrocinanos.Beneficios2') !!}
                                     </ul>
                                 </div>
                             </div>

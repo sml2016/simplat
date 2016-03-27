@@ -83,7 +83,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
                     <div class="conferencistas1a">
-                        <h2>Lizeth Gutierrez <span class="bio"> Biografía</span></h2>
+                        <h2>Lizeth Gutiérrez  <span class="bio"> Biografía</span></h2>
                         <h3>Ph.D. candidate in the American Studies program</h3>
                         <p>Her program housed in the Department of Critical Culture, Gender and Race Studies at Washington State University (WSU). She is a 
                            Mellon Mays Undergraduate Fellow in the middle stages of her dissertation, “Reclaiming 

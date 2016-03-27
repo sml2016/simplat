@@ -6,8 +6,9 @@
 
 @section('content')
   <div class="naranjaR"></div> <!-- naranjaR -->
+     <div class="semiblanco">
        <div class="container">
-          <div class="fondo1"> 
+         <div class="fondo1">
           
              <div class="galeria">
                <h1>{{ trans('galeria2015.Titulo1') }}</h1>
@@ -142,11 +143,10 @@
                 </div> <!---End col---> 
             </div> <!--End Row5 -->
           </div> <!---End galeria--->
-
-
           
-        </div> <!-- Fondo1 -->
-     </div> <!-- container -->
+    </div><!---END fondo1--->
+  </div><!--Container-->
+</div> <!--<END Semiblanco---> 
 @stop
 
 @section('scripts')

@@ -7506,7 +7506,7 @@ select.input-lg, .input-group-lg > select.form-control,
     height: 100%;
     top: 0%;
     left: 0%;
-    padding-top: 60px;
+    padding-top: 20px;
     font-family: 'TenorSans',sans-serif;
     text-align: center;
     font-size: 28px;
@@ -7530,22 +7530,22 @@ select.input-lg, .input-group-lg > select.form-control,
       font-size: 22px; }
     .patrocinadores .thumbnail:hover h1 {
       padding-top: 60px;
-      font-size: 30px; }
+      font-size: 32px; }
     .patrocinadores .thumbnail:hover p {
-      font-size: 30px;
+      font-size: 32px;
       padding-top: 60px; } }
-  @media (min-width: 768px) {
+  @media (min-width: 768px) and (max-width: 991px) {
     .patrocinadores {
       margin-left: 30px;
       margin-right: 30px; }
       .patrocinadores h1 {
         font-size: 20px; }
       .patrocinadores .thumbnail:hover h1 {
-        padding-top: 50px;
-        font-size: 28px; }
+        padding-top: 30px;
+        font-size: 25px; }
       .patrocinadores .thumbnail:hover p {
-        font-size: 24px;
-        padding-top: 30px; } }
+        font-size: 17px;
+        padding-top: 15px; } }
   @media (min-width: 992px) {
     .patrocinadores {
       margin-left: 25px;
@@ -7553,10 +7553,10 @@ select.input-lg, .input-group-lg > select.form-control,
       .patrocinadores h1 {
         font-size: 25px; }
       .patrocinadores .thumbnail:hover h1 {
-        padding-top: 60px; }
+        padding-top: 50px; }
       .patrocinadores .thumbnail:hover p {
-        font-size: 26px;
-        padding-top: 50px; } }
+        font-size: 22px;
+        padding-top: 26px; } }
 
 /*------------------------------
           Patrocinanos

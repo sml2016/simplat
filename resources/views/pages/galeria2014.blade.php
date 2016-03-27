@@ -14,27 +14,27 @@
                
                <div class="row">
                 <div class="col-sm-3">
-                 <a href="images/galeria2015/2015SML1.jpg"  data-title="{{ trans('galeria2014.Titulo2') }}" data-lightbox="Galeria2015">
-                  <img src="/images/galeria2015/2015SML1-thumb.jpg"    class="img-thumbnail"/>
+                 <a href="images/galeria2014/2014SML1.jpg"  data-title="{{ trans('galeria2014.Titulo2') }}" data-lightbox="Galeria2015">
+                  <img src="/images/galeria2014/2014SML1-thumb.jpg"    class="img-thumbnail"/>
                  </a>
                 </div> <!---End col---> 
                    
              
                 <div class="col-sm-3">
-                 <a href="images/galeria2015/2015SML2.jpg"  data-title="{{ trans('galeria2014.Titulo2') }}" data-lightbox="Galeria2015">
-                  <img src="/images/galeria2015/2015SML2-thumb.jpg"    class="img-thumbnail"/>
+                 <a href="images/galeria2014/2014SML2.jpg"  data-title="{{ trans('galeria2014.Titulo2') }}" data-lightbox="Galeria2015">
+                  <img src="/images/galeria2014/2014SML2-thumb.jpg"    class="img-thumbnail"/>
                  </a>
                 </div> <!---End col---> 
                
               <div class="col-sm-3">
-                 <a href="images/galeria2015/2015SML3.jpg"  data-title="{{ trans('galeria2014.Titulo2') }}" data-lightbox="Galeria2015">
-                  <img src="/images/galeria2015/2015SML3-thumb.jpg"    class="img-thumbnail"/>
+                 <a href="images/galeria2014/2014SML3.jpg"  data-title="{{ trans('galeria2014.Titulo2') }}" data-lightbox="Galeria2015">
+                  <img src="/images/galeria2014/2014SML3-thumb.jpg"    class="img-thumbnail"/>
                  </a>
                 </div> <!---End col---> 
              
                <div class="col-sm-3">
-                 <a href="images/galeria2015/2015SML4.jpg"  data-title="{{ trans('galeria2014.Titulo2') }}" data-lightbox="Galeria2015">
-                  <img src="/images/galeria2015/2015SML4-thumb.jpg"    class="img-thumbnail"/>
+                 <a href="images/galeria2014/2014SML4.jpg"  data-title="{{ trans('galeria2014.Titulo2') }}" data-lightbox="Galeria2015">
+                  <img src="/images/galeria2014/2014SML4-thumb.jpg"    class="img-thumbnail"/>
                  </a>
                 </div> <!---End col---> 
             </div> <!--End Row1 -->

@@ -5,10 +5,8 @@
 
 .conocenos{
    margin:50px 10px;
-}
 
-
-.conocenos h1{
+   h1{
    font-family:'TenorSans',sans-serif;
    font-size: 30px;
    color:#212121;
@@ -16,36 +14,79 @@
    text-align: center;
    padding:50px 0px;
    }
+   
+   @media (max-width: $sizePhone){
+     h1{
+     font-size: 25px;
+     }
+   }
+  
+   @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
+     
+     h1{
+     font-size: 28px;
+     }
+   }
 
-.thumbnails{
+  
+  @media (min-width:$sizeTablet ) and (max-width:$sizeLargeDesktop){
+     
+     h1{
+     font-size: 28px;
+     }
+    }
+
+  
+   .thumbnails{
    text-align: center;  
    margin-top:30px;
-}
 
-
-
-.caption h2{
+   .caption{
+       
+   h2{
    font-family:'TenorSans',sans-serif;
    font-size: 25px;
    color:#212121;
    font-weight: bold;
    text-align: center;
-}
+   }
 
-.caption h3{
+   h3{
    font-family:'OpenSans',sans-serif;
    font-size: 18px;
    color:#a3a3a3;
+   font-weight: lighter;
    text-align: center;
    padding-bottom: 10px;
    margin: 0px 10px;
    border-bottom: 1px solid #bdbdbd;
-}
+   }
 
-.caption p{
+   p{
    font-family:'OpenSans',sans-serif;
    font-size: 16px;
    color:#333;
    text-align: justify;
    padding:15px 15px;
+   }
+   
+     @media (max-width: $sizePhone){
+     h3{
+     font-size: 17px;
+     }
+  }
+   
+    @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
+     h3{
+     font-size: 19px;
+     }
+  }
+   
+   @media (min-width:$sizeTablet ) and (max-width:$sizeLargeDesktop){
+     h3{
+     font-size: 16px;
+     }
+    }
+   }
+ } 
 }

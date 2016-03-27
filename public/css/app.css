@@ -7127,6 +7127,9 @@ select.input-lg, .input-group-lg > select.form-control,
     .mensaje h3 {
       font-size: 18px; } }
 
+/*---------------------------
+       CONFERENCISTAS 
+-------------------------- */
 .conferencistas h1 {
   font-family: 'TenorSans',sans-serif;
   font-size: 30px;
@@ -7896,5 +7899,50 @@ select.input-lg, .input-group-lg > select.form-control,
     @media (min-width: 768px) and (max-width: 1200px) {
       .conocenos .thumbnails .caption h3 {
         font-size: 16px; } }
+
+/* --------------------------
+        HISTORIA
+   --------------------------*/
+.historia h1 {
+  font-family: 'TenorSans',sans-serif;
+  font-size: 30px;
+  color: #212121;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  letter-spacing: 1px; }
+
+.historia p {
+  font-family: 'Opensans',sans-serif;
+  font-size: 15px;
+  color: #333;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  text-align: justify; }
+
+@media (max-width: 480px) {
+  .historia h1 {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 20px; }
+  .historia p {
+    font-size: 16px; } }
+
+@media (min-width: 481px) {
+  .historia p {
+    font-size: 16px; } }
+
+@media (min-width: 767px) and (max-width: 768px) {
+  .historia h1 {
+    font-size: 28px;
+    padding-bottom: 25px; }
+  .historia p {
+    font-size: 16px; } }
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .historia h1 {
+    font-size: 28px;
+    padding-bottom: 30px; } }
 
 /*# sourceMappingURL=app.css.map */

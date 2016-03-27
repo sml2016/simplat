@@ -6,19 +6,20 @@
   <div class="container">
     <div class="fondo1">
       
-      
-        <div class="historia">
-            <div class="row">
+         <div class="historia">
+          
+             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h1>Nuestra Historia</h1>
                 </div>
-            </div> <!--End ROW subt. conferencistas -->
-      
-       <div class="historia1">
+            </div> <!--End ROW subt. Historia -->
+   <div class="conainer">  
+     <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">  
         <p>Tania Hino y Guillermo Carvajal se unieron hace 3 años para buscar formas de mejorar la calidad de vida de la comunidad latina, en especial sobre los retos de las mujeres y sus familias. Así surgió la idea de hacer el Simposio de Mujeres Latinas. Esta fue su manera de poner en práctica ideas y años de experiencia para ayudar a la comunidad.</p>  
 
-        <p>Tania y Guillermo se conocieron en el Northgate Elementary cuando coincidieron como creadores de un programa para ayudar a más niños a cumplir sus sueños universitarios, llamado “De la cuna a la universidad”. Al tratar de enganchar a esta comunidad latina, surgió la necesidad de empezar a educar a los padres. Ellos son vitales para que sus niños no paren sus estudios al finalizar la preparatoria, se trata de una idea conjunta que debe convertirse en un proyecto familiar. </p>
-        Ir a la universidad debe ser el sueño de una familia, donde los padres son un pilar fundamental para que sus hijos alcancen el éxito académico.
+        <p>Tania y Guillermo se conocieron en el Northgate Elementary cuando coincidieron como creadores de un programa para ayudar a más niños a cumplir sus sueños universitarios, llamado “De la cuna a la universidad”. Al tratar de enganchar a esta comunidad latina, surgió la necesidad de empezar a educar a los padres. Ellos son vitales para que sus niños no paren sus estudios al finalizar la preparatoria, se trata de una idea conjunta que debe convertirse en un proyecto familiar.
+        Ir a la universidad debe ser el sueño de una familia, donde los padres son un pilar fundamental para que sus hijos alcancen el éxito académico. </p>
 
         <p>Con el trabajo ligado a las comunidades latinas en Seattle, tanto Tania como Guillermo se dieron cuenta de la gran responsabilidad que tienen las mujeres en asegurarle una mejor calidad de vida a los suyos. Considerando las situaciones que vivían estas personas, se unieron para empezar a empoderar e inspirar a otras mujeres a tener mejores vidas.</p>
 
@@ -37,6 +38,11 @@
         <p>Esperamos que más hombres, esposos y sus hijos participen también, pues las mujeres son el pilar que sostiene a las familias. Su éxito, es positivo e importante para todos.</p> 
 
         <p>Nuestro sueño es organizar y reunir Mujeres Latinas de diversos niveles educativos, estratos socioeconómicos y culturales para formar una comunidad de apoyo mutuo. De esa manera nos levantaremos todos juntos como comunidad hacia un mundo mejor.</p>
-       </div><!--End of Historia1-->
-     <div><!--END Historia-->  
+        </div>
+       </div><!--End Row-->   
+      </div> 
+      <div><!--END Historia-->     
+    </div><!---END fondo1--->
+  </div><!--Container-->
+</div> <!--<END Semiblanco---> 
 @stop

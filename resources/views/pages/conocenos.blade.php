@@ -1,8 +1,9 @@
 @extends('layouts.master')
 @section('content')
 <div class="naranjaR"></div> <!-- naranjaR -->
-   <div class="container">
-      <div class="fondo1"> 
+  <div class="semiblanco">
+    <div class="container">
+      <div class="fondo1">
           
         <div class="conocenos">
           <h1> {{ trans('conocenos.Quienes') }}</h1> 
@@ -208,13 +209,8 @@
                 </div> <!--End Col--->
              </div><!--End ROW-->  
           
-         </div> <!--End Conocenos-->       
-
-          
-      </div> <!-- Fondo1 -->
-     </div> <!-- container -->
-       
-
-
-
+       </div> <!--End Conocenos-->        
+    </div><!---END fondo1--->
+  </div><!--Container-->
+</div> <!--<END Semiblanco---> 
 @stop

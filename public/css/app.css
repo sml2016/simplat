@@ -5766,8 +5766,8 @@ button.close {
 
 .naranjaR {
   background: #f04942;
-  height: 300px;
-  margin-top: 10px; }
+  height: 500px;
+  margin-top: -200px; }
 
 .semiblanco {
   background: #F0F0F0; }
@@ -7444,6 +7444,9 @@ select.input-lg, .input-group-lg > select.form-control,
         border-color: #0cb095;
     }
 }  */
+/*---------------------------
+     Galeria 2014
+----------------------------*/
 .galeria h1 {
   font-family: 'TenorSans',sans-serif;
   font-size: 30px;
@@ -7454,6 +7457,42 @@ select.input-lg, .input-group-lg > select.form-control,
 
 .galeria img {
   margin-bottom: 30px; }
+
+/*---------------------------
+     Galeria 2015
+----------------------------*/
+.galeria h1 {
+  font-family: 'TenorSans';
+  font-size: 30px;
+  color: #212121;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px 0px; }
+
+.galeria img {
+  margin-bottom: 20px; }
+
+@media (max-width: 480px) {
+  .galeria {
+    text-align: center; }
+    .galeria h1 {
+      font-size: 20px;
+      padding: 20px 10px;
+      line-height: 1.5; } }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .galeria {
+    text-align: center; }
+    .galeria h1 {
+      font-size: 25px;
+      padding: 30px 0px; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .galeria {
+    text-align: center;
+    padding-left: 25px; }
+    .galeria h1 {
+      font-size: 28px; } }
 
 /*----------------------------------------------------------
             Nuestros Patrocinadores
@@ -7556,7 +7595,7 @@ select.input-lg, .input-group-lg > select.form-control,
         padding-top: 50px; }
       .patrocinadores .thumbnail:hover p {
         font-size: 22px;
-        padding-top: 26px; } }
+        padding-top: 27px; } }
 
 /*------------------------------
           Patrocinanos

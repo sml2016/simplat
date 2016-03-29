@@ -5,7 +5,7 @@
 <div class="naranja">
     <div class="container">
       <div class="cover">
-         <img class="img-responsive" src="/images/LatinasPrueba_1170x430.png"  style="width:100% height:auto";/>
+         <img class="img-responsive" src="/images/plantilla-foto-inicio.jpg"  style="width:100% height:auto";/>
       </div>  
     </div> <!--Contanier-->
 </div> <!-- end naranaja -->

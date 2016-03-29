@@ -6541,7 +6541,7 @@ hr p {
 .premio {
   margin: 40px 20px; }
   .premio h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
     font-size: 50px;
     padding-top: 10px; }
   .premio h2 {
@@ -7448,15 +7448,37 @@ select.input-lg, .input-group-lg > select.form-control,
      Galeria 2014
 ----------------------------*/
 .galeria h1 {
-  font-family: 'TenorSans',sans-serif;
+  font-family: 'TenorSans';
   font-size: 30px;
   color: #212121;
   font-weight: bold;
   text-align: center;
-  padding: 60px 0px; }
+  padding: 40px 0px; }
 
 .galeria img {
-  margin-bottom: 30px; }
+  margin-bottom: 20px; }
+
+@media (max-width: 480px) {
+  .galeria {
+    text-align: center; }
+    .galeria h1 {
+      font-size: 20px;
+      padding: 20px 10px;
+      line-height: 1.5; } }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .galeria {
+    text-align: center; }
+    .galeria h1 {
+      font-size: 25px;
+      padding: 30px 0px; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .galeria {
+    text-align: center;
+    padding-left: 25px; }
+    .galeria h1 {
+      font-size: 28px; } }
 
 /*---------------------------
      Galeria 2015
@@ -7983,5 +8005,66 @@ select.input-lg, .input-group-lg > select.form-control,
   .historia h1 {
     font-size: 28px;
     padding-bottom: 30px; } }
+
+/*------------------
+  Testimonios 
+  ___________________*/
+.testimonio {
+  margin: 50px 20px 70px; }
+  .testimonio h1 {
+    font-family: 'TenorSans',sans-serif;
+    font-size: 30px;
+    color: #212121;
+    font-weight: bold;
+    text-align: center; }
+  .testimonio .testimonio1 {
+    margin-left: 28px;
+    margin-top: 50px; }
+    .testimonio .testimonio1 .bubble {
+      position: relative;
+      display: inline-block;
+      max-width: 450px;
+      height: 170px;
+      padding: 20px 40px 0px 40px;
+      border: #f2f2f2 solid 2px;
+      border-radius: 20px; }
+    .testimonio .testimonio1 .bubble:after {
+      content: "";
+      position: absolute;
+      bottom: -15px;
+      left: 60%;
+      border-style: solid;
+      border-width: 15px 15px 0;
+      border-color: #FFFFFF transparent;
+      display: block;
+      width: 0;
+      z-index: 1; }
+    .testimonio .testimonio1 .bubble:before {
+      content: "";
+      position: absolute;
+      bottom: -19.5px;
+      left: calc(60% - 3px);
+      border-style: solid;
+      border-width: 18px 18px 0;
+      border-color: #f2f2f2 transparent;
+      display: block;
+      width: 0;
+      z-index: 0; }
+    .testimonio .testimonio1 p {
+      font-family: 'Opensans';
+      font-size: 16px;
+      color: #333;
+      text-align: justify;
+      margin-top: 5px; }
+    .testimonio .testimonio1 h2 {
+      font-family: 'Lobster', cursive;
+      font-size: 30px;
+      color: #f04942;
+      padding: 20px 0px 0px 90px; }
+    .testimonio .testimonio1 h3 {
+      font-family: 'TenorSans',sans-serif;
+      font-size: 20px;
+      color: #7F7F7F;
+      padding: 5px 0px 20px 150px; }
 
 /*# sourceMappingURL=app.css.map */

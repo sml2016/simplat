@@ -1,0 +1,81 @@
+/*------------------
+  Testimonios 
+  ___________________*/
+  
+.testimonio{
+     margin: 50px 20px 70px;
+     
+     h1{
+        font-family: 'TenorSans',sans-serif;
+        font-size: 30px;
+        color: #212121;
+        font-weight: bold;
+        text-align: center;
+       } 
+       
+      .testimonio1{
+        margin-left: 28px;
+        margin-top: 50px;
+        
+         
+      .bubble {
+       position: relative;
+       display: inline-block;
+       max-width: 450px;
+       height: 170px;
+       padding: 20px 40px 0px 40px;
+       border: #f2f2f2 solid 2px;
+       border-radius: 20px;
+       }
+       
+        .bubble:after {
+         content: "";
+         position: absolute;
+         bottom: -15px;
+         left: 60%;
+border-style: solid;
+border-width: 15px 15px 0;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+}
+
+       .bubble:before {
+       content: "";
+       position: absolute;
+       bottom: -19.5px;
+       left: calc(60% - 3px) ;
+       border-style: solid;
+       border-width: 18px 18px 0;
+       border-color: #f2f2f2 transparent;
+       display: block;
+       width: 0;
+       z-index: 0;
+       }
+      
+      p{
+        font-family: 'Opensans';
+        font-size: 16px;
+        color: #333;
+        text-align: justify; 
+        margin-top: 5px;
+        }
+      
+      h2{
+      font-family: 'Lobster', cursive;
+      font-size: 30px;
+      color: #f04942;
+      padding: 20px 0px 0px 90px;
+      }
+      
+      h3{
+      font-family: 'TenorSans',sans-serif;
+      font-size: 20px;
+      color: #7F7F7F;
+      padding: 5px 0px 70px 150px;   
+      }
+    }
+      
+      
+ }

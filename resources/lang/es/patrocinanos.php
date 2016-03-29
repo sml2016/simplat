@@ -7,21 +7,21 @@ return [
                         a través del mismo demuestras tu deseo de colaborar y dar. Se trata de un evento gratuito para las 255 participantes. </p>',
     'Patrocinadores1' => 'PATROCINADOR DIAMANTE',
     'Donar' => 'Dona aquí',
-    'Beneficios1' => '<li><i class="fa fa-heart-o"></i>Su nombre en el programa del evento. Su <span> logo en la página principal</span> de nuestro sitio de Internet. </li>
-                     <li><i class="fa fa-heart-o"></i>Menciones del patrocinador durante el evento.</li>
-                     <li><i class="fa fa-heart-o"></i>Espacio para promoción en el programa del evento.</li>
-                     <li><i class="fa fa-heart-o"></i>Material de mercadeo y banner de la compañía en el evento.</li>
-                     <li><i class="fa fa-heart"></i>Logo del patrocinador en la página del evento.</li>',
+    'Beneficios1' => '<li><i class="fa fa-heart-o"></i>Agradecimiento en el programa del evento.</li>
+                     <li><i class="fa fa-heart-o"></i>Logo en la página interna de nuestro sitio de Internet.</li>
+                     <li><i class="fa fa-heart-o"></i>Logo en el volante de promoción del Simposio.</li>
+                     <li><i class="fa fa-heart-o"></i>Mencion de agradecimiento al inicio y final del evento.</li>
+                     <li><i class="fa fa-heart"></i>Logo del patrocinador en la página principal del website</li>',
     'Patrocinadores2' => 'PATROCINADOR PLATINO',
-    'Beneficios2' => '<li><i class="fa fa-heart-o"></i>Su nombre en el programa del evento. Su <span> logo en la página principal</span> de nuestro sitio de Internet. </li>
-                     <li><i class="fa fa-heart-o"></i>Menciones del patrocinador durante el evento.</li>
-                     <li><i class="fa fa-heart-o"></i>Espacio para promoción en el programa del evento.</li>
-                     <li><i class="fa fa-heart"></i>Material de mercadeo y banner de la compañía en el evento.</li>',
+    'Beneficios2' => '<li><i class="fa fa-heart-o"></i>Agradecimiento en el programa del evento. </li>
+                     <li><i class="fa fa-heart-o"></i>Logo en la página interna de nuestro sitio de Internet.</li>
+                     <li><i class="fa fa-heart-o"></i>Logo en el volante de promoción del Simposio.</li>
+                     <li><i class="fa fa-heart"></i>Mencion de agradecimiento al inicio y final del evento.</li>',
 'Patrocinadores3' => 'PATROCINADOR ORO',
 'Patrocinadores4' => 'PATROCINADOR  PLATA',
 'Patrocinadores5' => 'PATROCINADOR  BRONCE',
       'Impuestos' => '<p class="text-justify"><b>Importante:</b>  Tu aporte te permitirá la reducción de impuestos porque estarás donando a una organización sin fines de lucro, al fondo de educación del NSC. 
-                      <span><b>Impuestos federales</b> ID# 41-2178833</span>. Todos los logos de los patrocinantes estarán incluidos en la agenda del evento.</p> ',
+                      <span><b>Impuestos federales</b> ID# 41-2178833</span>.</p> ',
       'comoDonar' => ' <h1>Tu donación es importante</h1>
                      <h2>Para apoyar este evento que se dedica a mejorar las habilidades de las mujeres latinas en Seattle, solo tienes que hacer <a href="https://nscef.ejoinme.org/latina">clic aquí.</a></h2>
                      <p>Coloca la cantidad de dinero que quieres donar, rellena los datos de información personal y bancaria, para hacer el Simposio de Mujeres Latinas posible. Todas las donaciones hechas al North Seattle College te permitirán la reducción en el pago de impuestos, pues estás donando a una organización sin fines de lucro.</p>

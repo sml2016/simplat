@@ -65,9 +65,9 @@
 
                                 <div class="pricing-list">
                                     <ul> 
-                                        <li><i class="fa fa-heart-o"></i>Su nombre en el programa del evento. Su logo en la página interna de nuestro sitio de Internet. </li>
-                                        <li><i class="fa fa-heart-o"></i>Menciones del patrocinador durante el evento.</li>
-                                        <li><i class="fa fa-heart"></i>Espacio para promoción en el programa del evento.</li>
+                                        <li><i class="fa fa-heart-o"></i>Agradecimiento en el programa del evento.</li>
+                                        <li><i class="fa fa-heart-o"></i>Logo en la página interna de nuestro sitio de Internet.</li>
+                                        <li><i class="fa fa-heart"></i>Logo en el volante de promoción del Simposio.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -83,8 +83,8 @@
 
                                 <div class="pricing-list">
                                     <ul>
-                                        <li><i class="fa fa-heart-o"></i>Su nombre en el programa del evento. Su logo en la página interna de nuestro sitio de Internet.</li>
-                                        <li><i class="fa fa-heart"></i>Menciones del patrocinador durante el evento.</li>
+                                        <li><i class="fa fa-heart-o"></i>Agradecimiento en el programa del evento.</li>
+                                        <li><i class="fa fa-heart"></i>Logo en la página interna de nuestro sitio de Internet.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@
 
                                 <div class="pricing-list">
                                     <ul>
-                                        <li><i class="fa fa-heart"></i>Su nombre en el programa del evento. Su logo en la página interna de nuestro sitio de Internet. </li>
+                                        <li><i class="fa fa-heart"></i>Agradecimiento en el programa del evento.</li>
                                     </ul>
                                 </div>
                             </div><!--END pricing-table-->

@@ -10,7 +10,7 @@ return [
                       a partir de las <span class="fecha"> 10:30 a.m. hasta las 3:00 p.m.</span>
                       En las instalaciones de North Seattle College.</h2>
                       <h3>¡Te esperamos!</h3>',
-    'ElPremio' => '<h1> Maru Mora Villalpardo</h1>
+    'ElPremio' => '<h1> Maru Mora Villalpando</h1>
                    <h2> Por su entrega en defensa de los derechos de los inmigrantes latinos y su trabajo constante para empoderar a la mujer latina.
                    </br></br>Nos honra entregar el premio:
                    </br></br><span class="puno">Puño de Oro</span></h2></br>',

@@ -8018,7 +8018,7 @@ select.input-lg, .input-group-lg > select.form-control,
     font-weight: bold;
     text-align: center; }
   .testimonio .testimonio1 {
-    margin-left: 28px;
+    text-align: center;
     margin-top: 50px; }
     .testimonio .testimonio1 .bubble {
       position: relative;
@@ -8055,7 +8055,8 @@ select.input-lg, .input-group-lg > select.form-control,
       font-size: 16px;
       color: #333;
       text-align: justify;
-      margin-top: 5px; }
+      margin-top: 5px;
+      line-height: 1.7; }
     .testimonio .testimonio1 h2 {
       font-family: 'Lobster', cursive;
       font-size: 30px;
@@ -8065,6 +8066,26 @@ select.input-lg, .input-group-lg > select.form-control,
       font-family: 'TenorSans',sans-serif;
       font-size: 20px;
       color: #7F7F7F;
-      padding: 5px 0px 20px 150px; }
+      padding: 5px 0px 70px 150px; }
+    @media (max-width: 767px) {
+      .testimonio .testimonio1 .bubble {
+        max-width: 550px;
+        height: auto;
+        padding: 20px; } }
+    @media (min-width: 991px) and (max-width: 1199px) {
+      .testimonio .testimonio1 {
+        margin: 50px 0px 70px; } }
+    .testimonio .testimonio1 .testimonio1 {
+      margin-right: 60px;
+      text-align: none; }
+    .testimonio .testimonio1 .bubble {
+      max-width: 380px;
+      height: 205px;
+      padding: 20px 20px; }
+  @media (min-width: 1200px) {
+    .testimonio .bubble {
+      max-width: 450px;
+      height: 170px;
+      padding: 20px 40px 0px 40px; } }
 
 /*# sourceMappingURL=app.css.map */

@@ -6445,6 +6445,9 @@ hr p {
   @media (max-width: 480px) {
     .section {
       margin-bottom: 20px; } }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .section {
+      margin-bottom: 20px; } }
 
 .sidebar {
   padding: 0px 25px; }
@@ -6563,16 +6566,26 @@ hr p {
     padding-bottom: 10px; }
   @media (max-width: 480px) {
     .premio {
-      margin: 20px 10px; }
+      margin: 20px; }
       .premio h1 {
         font-size: 35px;
-        padding: 0px; }
+        padding: 0px;
+        margin-top: 10px; }
       .premio h2 {
         font-size: 18px;
         padding-left: 10px;
         padding-right: 10px; }
       .premio .puno {
         font-size: 32px; } }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .premio .premio {
+      margin: 20px; }
+    .premio h1 {
+      font-size: 37px;
+      padding-top: 0px;
+      margin-top: 10px; }
+    .premio h2 {
+      font-size: 20px; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .premio {
       margin: 30px 25px; }
@@ -6642,7 +6655,16 @@ hr p {
       .sectionB .sidebarB {
         margin-right: 10px;
         margin-left: 10px;
-        margin-bottom: 20px; } }
+        margin-bottom: 20px; }
+        .sectionB .sidebarB h1 {
+          margin-top: -15px; } }
+    @media (min-width: 481px) and (max-width: 767px) {
+      .sectionB .sidebarB {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px; }
+        .sectionB .sidebarB h1 {
+          margin-top: -10px; } }
   @media (max-width: 480px) {
     .sectionB {
       margin-top: 0px;
@@ -6657,6 +6679,17 @@ hr p {
       .sectionB p {
         padding-left: 10px;
         padding-right: 20px; } }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .sectionB {
+      margin-top: 0px; }
+      .sectionB h1 {
+        padding-left: 10px;
+        padding-top: 30px; }
+      .sectionB h2 {
+        padding-left: 10px; }
+      .sectionB p {
+        padding-left: 10px;
+        padding-right: 10px; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .sectionB {
       padding-bottom: 30px; } }
@@ -6690,11 +6723,19 @@ hr p {
     font-family: 'TenorSans',sans-serif;
     font-size: 22px;
     line-height: 1.3;
-    color: #000; }
+    color: #000;
+    margin: 0px 0px 10px;
+    padding-top: 20px; }
+  .sectionC .sidebarC h2 {
+    margin: 40px 0px 10px; }
+  .sectionC .sidearC p {
+    margin: 15px 0px 10px 0px; }
   .sectionC .edificio {
     font-family: 'Opensans',sans-serif;
     font-size: 17px;
     color: #333; }
+  .sectionC .gratis {
+    font-weight: bold; }
   @media (max-width: 480px) {
     .sectionC {
       padding: 25px 0px 35px 0px; }
@@ -6707,18 +6748,48 @@ hr p {
         margin: 15px 10px 10px 10px; }
       .sectionC .sidebarC h1 {
         padding-top: 20px;
-        border-top: 1px solid #bdbdbd; } }
+        margin-left: 10px;
+        margin-right: 10px;
+        border-top: 1px solid #bdbdbd;
+        font-size: 21px;
+        font-weight: bold;
+        margin-top: 25px; }
+      .sectionC .sidebarC h2 {
+        margin: 40px 10px 10px 10px; }
+      .sectionC .edificio {
+        font-weight: normal;
+        font-size: 16px; } }
   @media (min-width: 481px) and (max-width: 767px) {
     .sectionC {
-      padding: 25px 0px 35px 0px; }
+      padding: 25px 0px 35px 0px;
+      margin-left: 10px;
+      margin-right: 10px; }
+      .sectionC .sidebarC {
+        padding-left: 15px;
+        padding-right: 15px; }
       .sectionC .sidebarC h1 {
         padding-top: 30px;
-        border-top: 1px solid #bdbdbd; } }
+        border-top: 1px solid #bdbdbd;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 30px; }
+      .sectionC .sidebar h2 {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 10px;
+        margin-right: 10px; }
+      .sectionC .sidebarC p {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px; } }
   @media (min-width: 768px) {
     .sectionC {
       padding: 25px 0px 35px 0px; }
       .sectionC .sidebarC h1 {
-        padding-top: 30px; } }
+        padding-top: 30px; }
+      .sectionC .sidebarC p {
+        margin: 15px 0px 10px 0px; } }
 
 .sectionD {
   border-top: 1px solid #bdbdbd;

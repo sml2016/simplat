@@ -40,5 +40,8 @@ return [
                  6. Estaciónese en la zona de Biblioteca, en la calle 97th y College Way N.</p>
                  <h2>Si viene de Highway 99 (Aurora)</h2>
                  <p>Doble a la izquierda o  la derecha (dependiendo de si está conduciendo al norte o al sur) en la calle 117th. Doble a la derecha en Meridian St. N. Conduzca hacia el sur hasta 97th St y College Way N. Podrá estacionarse sobre la izquierda.</p>
-                 <p><span class="active">*La Avenida Meridian se vuelve  College Way N. entre la calle 100th y la 90th.</span></p>'
+                 <p><span class="active">*La Avenida Meridian se vuelve  College Way N. entre la calle 100th y la 90th.</span></p>',
+'Estacionamiento' => '<h2>¿Dónde me estaciono? </h2>
+           <p>El estacionamiento será <span class="gratis">gratuito</span>.</p>
+          <p>Nos estacionaremos en el área de Biblioteca, cerca del Centro de Educación y Cuidado de Niños. La entrada está ubicada en la calle 97th.</p>'                      
 ];

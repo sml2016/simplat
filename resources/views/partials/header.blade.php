@@ -50,13 +50,13 @@
                             <span class="{{ set_active('patrocinanos').' '.set_active('patrocinadores') }}">{{ trans('header.Patrocina') }}</span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-left">
-                            <li><a href="{{ url('/patrocinanos') }}">Patrocínanos</a></li>
-                            <li><a href="{{ url('/patrocinadores') }}">Nuestros Patrocinadores</a></li>
+                            <li><a href="{{ url('/patrocinanos') }}">{{ trans('header.Patrocinanos') }}</a></li>
+                            <li><a href="{{ url('/patrocinadores') }}">{{ trans('header.nuestrosPatrocinadores') }}</a></li>
                         </ul>
                     </li>
-                    <li><a href="{{ url('/involucrate') }}">Involúcrate</a></li>
-                    <li class="visible-xs"><a href="{{ url('/noticias') }}">Noticias</a></li>
-                    <li class="visible-xs"><a href="{{ url('/conocenos') }}">Conócenos</a> </li>
+                    <li><a href="{{ url('/involucrate') }}">{{ trans('header.Involucrate') }}</a></li>
+                    <li class="visible-xs"><a href="{{ url('/noticias') }}">{{ trans('header.Noticias') }}</a></li>
+                    <li class="visible-xs"><a href="{{ url('/conocenos') }}">{{ trans('header.Conocenos') }}</a> </li>
                     <li class="visible-xs"><a href="{{ url('/contacto') }}"><span class="{{ set_active('contacto', 'active1') }}">{{ trans('header.Contacto') }}</a></li>
                 </ul>
             </div>
@@ -65,8 +65,8 @@
             <div class="menu2 hidden-xs">
                 <div class="navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="{{ url('/noticias') }}"><span class="{{ set_active('noticias', 'active1') }}">Noticias</span></a></li>
-                        <li><a href="{{ url('/conocenos') }}"><span class="{{ set_active('conocenos', 'active1') }}">Conócenos</span></a></li>
+                        <li><a href="{{ url('/noticias') }}"><span class="{{ set_active('noticias', 'active1') }}">{{ trans('header.Noticias') }}</span></a></li>
+                        <li><a href="{{ url('/conocenos') }}"><span class="{{ set_active('conocenos', 'active1') }}">{{ trans('header.Conocenos') }}</span></a></li>
                         <li><a href="{{ url('/contacto') }}"><span class="{{ set_active('contacto', 'active1') }}">{{ trans('header.Contacto') }}</a></li>
                     </ul>
                 </div>

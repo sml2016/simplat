@@ -8019,73 +8019,95 @@ select.input-lg, .input-group-lg > select.form-control,
     text-align: center; }
   .testimonio .testimonio1 {
     text-align: center;
-    margin-top: 50px; }
-    .testimonio .testimonio1 .bubble {
-      position: relative;
-      display: inline-block;
-      max-width: 450px;
-      height: 170px;
-      padding: 20px 40px 0px 40px;
-      border: #f2f2f2 solid 2px;
-      border-radius: 20px; }
-    .testimonio .testimonio1 .bubble:after {
-      content: "";
-      position: absolute;
-      bottom: -15px;
-      left: 60%;
-      border-style: solid;
-      border-width: 15px 15px 0;
-      border-color: #FFFFFF transparent;
-      display: block;
-      width: 0;
-      z-index: 1; }
-    .testimonio .testimonio1 .bubble:before {
-      content: "";
-      position: absolute;
-      bottom: -19.5px;
-      left: calc(60% - 3px);
-      border-style: solid;
-      border-width: 18px 18px 0;
-      border-color: #f2f2f2 transparent;
-      display: block;
-      width: 0;
-      z-index: 0; }
-    .testimonio .testimonio1 p {
-      font-family: 'Opensans';
-      font-size: 16px;
-      color: #333;
-      text-align: justify;
-      margin-top: 5px;
-      line-height: 1.7; }
-    .testimonio .testimonio1 h2 {
-      font-family: 'Lobster', cursive;
-      font-size: 30px;
-      color: #f04942;
-      padding: 20px 0px 0px 90px; }
-    .testimonio .testimonio1 h3 {
-      font-family: 'TenorSans',sans-serif;
-      font-size: 20px;
-      color: #7F7F7F;
-      padding: 5px 0px 70px 150px; }
-    @media (max-width: 767px) {
-      .testimonio .testimonio1 .bubble {
+    margin-top: 50px;
+    margin-right: 60px; }
+  .testimonio .bubble {
+    position: relative;
+    display: inline-block;
+    max-width: 450px;
+    height: 170px;
+    padding: 20px 40px 0px 40px;
+    border: #f2f2f2 solid 2px;
+    border-radius: 20px; }
+  .testimonio .bubble:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 60%;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1; }
+  .testimonio .bubble:before {
+    content: "";
+    position: absolute;
+    bottom: -19.5px;
+    left: calc(60% - 3px);
+    border-style: solid;
+    border-width: 18px 18px 0;
+    border-color: #f2f2f2 transparent;
+    display: block;
+    width: 0;
+    z-index: 0; }
+  .testimonio p {
+    font-family: 'Opensans';
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+    margin-top: 5px;
+    line-height: 1.7; }
+  .testimonio h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #f04942;
+    padding: 20px 0px 0px 90px; }
+  .testimonio h3 {
+    font-family: 'TenorSans',sans-serif;
+    font-size: 20px;
+    color: #7F7F7F;
+    padding: 5px 0px 70px 150px; }
+  @media (max-width: 480px) {
+    .testimonio {
+      margin: 30px 5px 20px 5px; }
+      .testimonio .testimonio1 {
+        text-align: center;
+        margin-right: 0px;
+        margin-top: 30px; }
+      .testimonio h2 {
+        font-size: 25px;
+        padding: 20px 0px 0px 0px; }
+      .testimonio h3 {
+        font-size: 18px;
+        padding: 5px 0px 45px 30px; } }
+  @media (max-width: 768px) {
+    .testimonio {
+      margin: 40px 10px 50px; }
+      .testimonio .testimonio1 {
+        text-align: center;
+        margin-right: 0px;
+        margin-top: 40px; }
+      .testimonio .bubble {
         max-width: 550px;
         height: auto;
-        padding: 20px; } }
-    @media (min-width: 991px) and (max-width: 1199px) {
+        padding: 20px; }
+      .testimonio h2 {
+        font-size: 28px;
+        padding: 20px 0px 0px 0px; }
+      .testimonio h3 {
+        font-size: 20px;
+        padding: 5px 0px 45px 150px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .testimonio {
+      margin: 50px 0px 70px;
+      /*    .bubble{
+        max-width: 380px;
+        height: 205px;
+        padding: 20px 20px;
+        }*/ }
       .testimonio .testimonio1 {
-        margin: 50px 0px 70px; } }
-    .testimonio .testimonio1 .testimonio1 {
-      margin-right: 60px;
-      text-align: none; }
-    .testimonio .testimonio1 .bubble {
-      max-width: 380px;
-      height: 205px;
-      padding: 20px 20px; }
-  @media (min-width: 1200px) {
-    .testimonio .bubble {
-      max-width: 450px;
-      height: 170px;
-      padding: 20px 40px 0px 40px; } }
+        margin-right: 60px;
+        text-align: none; } }
 
 /*# sourceMappingURL=app.css.map */

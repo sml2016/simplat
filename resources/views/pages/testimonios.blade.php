@@ -38,7 +38,7 @@
            
             
             <div class="row">
-              <div class="col-md-6">
+             <div class="col-sm-10 col-md-6">
                <div class="bubble">
                  {!! trans('testimonios.Dicen2') !!}
                 </div>

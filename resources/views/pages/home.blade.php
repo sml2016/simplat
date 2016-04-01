@@ -4,8 +4,12 @@
 <!-- Imagen principal -->
 <div class="naranja">
     <div class="container">
-      <div class="cover">
-         <img class="img-responsive" src="/images/plantilla-foto-inicio.jpg"  style="width:100% height:auto";/>
+      <div class="cover1 hidden-xs">
+         <img class="img-responsive" src="/images/cover.jpg"  style="width:100% height:auto";/>
+      </div>  
+     
+    <div class="cover2 visible-xs">
+         <img class="img-responsive" src="/images/cover2.jpg"  style="width:100% height:auto";/>
       </div>  
     </div> <!--Contanier-->
 </div> <!-- end naranaja -->
@@ -96,7 +100,7 @@
        </div> <!-- End Row --> 
       </div> <!--End SectionC -->
       
-      <div class="sectionD">
+      <div class="sectionD hidden-xs">
        <div class="row">
         <div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1">  
          <img class="img-responsive" src="images/patrocinadores/NSC.png"/>  

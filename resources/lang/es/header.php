@@ -5,5 +5,6 @@ return [
     'Conferencistas' => 'Conferencistas',
     'Registro' => 'Registro',
     'Patrocina' => 'Patrocina',
+    'Contacto' => 'Contacto',
     'test' => 'Provando localizacion'
 ];

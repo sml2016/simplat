@@ -10,7 +10,7 @@ return [
                       a partir de las <span class="fecha"> 10:30 a.m. hasta las 3:00 p.m.</span>
                       En las instalaciones de North Seattle College.</h2>
                       <h3>¡Te esperamos!</h3>',
-    'ElPremio' => '<h1> Maru Mora Villalpardo</h1>
+    'ElPremio' => '<h1> Maru Mora Villalpando</h1>
                    <h2> Por su entrega en defensa de los derechos de los inmigrantes latinos y su trabajo constante para empoderar a la mujer latina.
                    </br></br>Nos honra entregar el premio:
                    </br></br><span class="puno">Puño de Oro</span></h2></br>',
@@ -21,5 +21,24 @@ return [
                   Nuestra meta es proveer las herramientas necesarias para tomar decisiones y ejercer el control en los distintos aspectos de su vida.</p>
                   <h2>¿A quién reconocemos?</h2>
                   <p>Como parte de nuestro aporte a la comunidad, en el Simposio de Mujeres Latinas nosotras reconocemos a las mujeres que lideran proyectos para empoderar
-                  a las familias latinas.</p>'
+                  a las familias latinas.</p>',
+     'Twitter'=> '¡Síguenos en Twitter!',
+ 'Direcciones' => '<h1>¿Cómo llegar al Simposio?</h1> 
+                <p>North Seattle College está al lado de I-5, justo 4 millas al norte del centro de Seattle. Si está llegando al Colegio desde los puentes 520 o I-90, deberá viajar hacia el norte por I-5 para llegar al campus.</br></br></p>
+                <h2>Si vienes del Norte</h2>  
+                <p>1. Tome la salida #173 (Salida Northgate)
+                 2. Doble a la derecha en Northgate Way N.
+                 3.Doble a la izquierda en la avenida Meridian N (se vuelve College Way N)
+                 4. El colegio está sobre la izquierda.
+                 5. Estaciónese en la zona de Biblioteca.</p>
+                 <h2>Si vienes del Sur</h2>
+                 <p>1. Tome la salida  #173 (Salida Northgate)
+                 2. Doble a la derecha en  la avenida 1st NE.
+                 3. Doble a la derecha de nuevo en la calle 92st NE.
+                 4. Doble a la derecha en College Way N.
+                 5. El colegio está sobre  la derecha.
+                 6. Estaciónese en la zona de Biblioteca, en la calle 97th y College Way N.</p>
+                 <h2>Si viene de Highway 99 (Aurora)</h2>
+                 <p>Doble a la izquierda o  la derecha (dependiendo de si está conduciendo al norte o al sur) en la calle 117th. Doble a la derecha en Meridian St. N. Conduzca hacia el sur hasta 97th St y College Way N. Podrá estacionarse sobre la izquierda.</p>
+                 <p><span class="active">*La Avenida Meridian se vuelve  College Way N. entre la calle 100th y la 90th.</span></p>'
 ];

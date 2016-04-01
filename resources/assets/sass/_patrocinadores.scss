@@ -62,7 +62,7 @@
      height:100%;
      top:0%;
      left:0%;
-     padding-top:60px;
+     padding-top:20px;
      font-family:'TenorSans',sans-serif;
      text-align: center;
      font-size: 28px;
@@ -98,16 +98,16 @@
      
      .thumbnail:hover h1{
      padding-top:60px; 
-     font-size: 30px;
+     font-size: 32px;
      } 
-     
+    
      .thumbnail:hover p{
-     font-size: 30px;
+     font-size: 32px;
      padding-top:60px;
      }
    }
    
-  @media (min-width:$sizeTablet){
+  @media (min-width:$sizeTablet) and (max-width:$sizeLessThanDesktop){
       margin-left:30px;
       margin-right:30px;
      
@@ -116,13 +116,13 @@
      }
      
      .thumbnail:hover h1 {
-     padding-top:50px; 
-     font-size: 28px;
+     padding-top:30px; 
+     font-size: 25px;
      }
      
      .thumbnail:hover p{
-     font-size: 24px;
-     padding-top:30px;
+     font-size: 17px;
+     padding-top:15px;
      }
   }
 
@@ -135,12 +135,12 @@
      }
     
     .thumbnail:hover h1{
-     padding-top:60px; 
+     padding-top:50px; 
     } 
     
     .thumbnail:hover p{
-     font-size: 26px;
-     padding-top:50px;
+     font-size: 22px;
+     padding-top:27px;
     }
   }
 } 

@@ -1,11 +1,25 @@
 /*  CSS Mensaje Enviado */
+.fondo1a {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-top: 1px solid #bdbdbd;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+    background: #ffffff;
+    margin-top: -340px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    
+   @media (max-width: $sizeLessThanTablet) {
+    margin-bottom: 18px;
+    padding-bottom: 35px;
+   }
+}
 
 .mensaje {
     margin-left: 35px;
     margin-right: 35px;
     margin-top: 30px;
-    color: #212121;
-    
 
     h1 {
         padding-top: 60px;
@@ -31,8 +45,10 @@
         text-align: center;
         padding-bottom: 50px;
     }
-
+    
     @media (max-width: $sizeLessThanTablet) {
+        margin-top: 25px;
+       
         h1 {
             font-size: 18px;
         }
@@ -43,6 +59,7 @@
 
         h3 {
             font-size: 16px;
+             padding-bottom: 45px;
         }
     }
 
@@ -73,4 +90,5 @@
             font-size: 18px;
         }
     }
+  
 }

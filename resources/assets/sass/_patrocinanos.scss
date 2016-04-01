@@ -1,7 +1,16 @@
 /*------------------------------
           Patrocinanos
  -------------------------------*/
- 
+.fondo1b{
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-top: 1px solid #bdbdbd;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+        background: #ffffff;
+        margin-top: -340px;
+        margin-bottom: 50px;
+        
  .patrocinanos{
    margin:50px 0px;
    
@@ -27,13 +36,20 @@
        
        h1{
        font-size: 20px;
-       padding-bottom: 20px;
+       padding-bottom: 0px;
        }
        
        p{
-       padding:20px;
+       padding: 15px 8px 20px 8px;
        }
     }
+    
+   @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
+       h1{
+       font-size: 23px;
+       padding-bottom: 30px;
+       }
+   }
    
     @media (min-width:$sizeTablet) and (max-width: $sizeLessThanDesktop){
        margin: 35px 0px;
@@ -49,6 +65,8 @@
        
        h1{
        font-size: 28px;
+       padding-left: 20px;
+       padding-right: 20px;
        }
     }
  }
@@ -156,15 +174,37 @@
   .button-donar:hover {
   color: #ffffff;
   border: 1px solid #ffffff;
-}
+  }
+ 
+ @media (max-width:$sizePhone){
+     margin:30px 0px 50px 35px; 
+    }
+ 
+ @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
+     margin:50px 0px 50px 60px;
+     }
   
- @media (min-width:$sizeTablet) and (max-width: $sizeLessThanDesktop){
+ @media (min-width:$sizeTablet){
+    margin:50px 0px 50px 25px;
    
+   .pricing .pricing-table .pricing-header .pricing-title {
+   font-size: 22px;
+   } 
    
+   .button-donar{
+   font-size: 25px; 
+   width:80%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   }
  }
    
+@media(min-width:$sizeMoreThanTablet) and (max-width:$sizeLessThanDesktop){
+    margin:50px 0px 50px 25px;
+   }
    
  @media (min-width: $sizeDesktop){
+    margin:50px 0px 50px 0px;
     
    .pricing .pricing-table .pricing-header{
    padding: 22px 1px;
@@ -188,21 +228,28 @@
    margin-left: -22px;
    }
 
- }   
+  }   
    
- }
+}
  
  .donacion{
    margin:50px 0px;
    
-   .impuestos{
+    .impuestos{
    
-   p{
-    font-family: 'Opensans-light',sans-serif;
+    p{
+    margin-top: -20px;
+    margin-bottom: 20px;   
+    font-family: 'Opensans-light';
     font-size: 16px;
     color: #333;
     text-align: justify;
-   } 
+    
+    @media (max-width:$sizePhone){
+        margin-top: -50px;
+        margin-bottom: 0px;
+       }
+    } 
    
    span{
    color: #9541c7;
@@ -210,23 +257,169 @@
   }
   
   .donaciones{
-
+   background: #737b7f;
+   height: auto;
+   margin-top: 50px;
+   
+   @media (max-width:$sizePhone){
+       margin-top:30px;
+       }
+       
+    .donaciones1a{
+    margin-top: 50px;
+    margin-bottom:40px;
+   
     h1{
     font-family: 'TenorSans',sans-serif;
     font-size: 25px;
-    color:  #9541c7;
+    color:  #fff;
     border-bottom: 1px solid #c597e6;
-   }
+    text-align: center;
+    line-height: 2;
+    }
    
-   p{
-    font-family: 'Opensans-light',sans-serif;
+    h2{
+    padding-top:10px;
+    padding-bottom: 15px;
+    font-family: 'Opensans-light';
     font-size: 16px;
-    color: #333;
+    color: #fff;
     text-align: justify; 
+    }
+   
+    h2 a{
+    color:#c597e6; 
+    text-decoration: none;      
+    }
+   
+    h2 a:hover,
+    h2 a:focus{
+    color:#f04942;
+    text-decoration: none; 
+    }
+   
+    p{
+    margin-top:10px;
+    font-family: 'Opensans-light';
+    font-size: 16px;
+    color: #fff;
+    text-align: justify; 
+    }
+    
+    @media (max-width:$sizePhone){
+        margin-top: 30px;
+        margin-bottom: 30px;
+      
+        h1{
+        line-height: 1.5;
+        font-size: 20px;
+        padding-bottom: 5px;
+        } 
+        
+        h2{
+        padding-top: 8px;
+        padding-bottom: 8px
+        }
+      }
+      
+    @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
+       margin-top:30px; 
+       
+       h1{
+       padding-bottom: 10px;
+       font-size: 23px;
+       line-height: 1.5;
+       }
+    }
+    
+    @media (min-width:$sizeTablet){
+       margin-top:40px;
+       
+       h1{
+       padding-bottom: 10px;
+       }
+     }
    }
    
-   .donaciones1{
-   background: #f0f0f0;
+   .donaciones1b{
+   background: #c5c8ca;
+   margin-top: 30px;
+   margin-bottom:40px;
+   height: auto;
+   
+     h1{
+     font-family: 'TenorSans',sans-serif;
+     font-size: 22px;
+     color: #737b7f;
+     padding: 20px 10px 0px 10px;
+     text-align: center;
+     line-height: 1.5;
+     }
+     
+     p{
+     padding:10px 25px;
+     font-family: 'Opensans-light';
+     font-size: 16px;
+     color: #fff;
+     text-align: justify; 
+     }
+     
+     span{
+     color: #9541c7;
+     }
+    
+     @media (max-width:$sizePhone){
+        height: auto;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        
+        hi{
+        font-size: 20px;
+        padding: 20px 0px 0px 0px;
+        }
+        
+        p{
+        padding: 10px 15px;
+        }
+        
+        span{
+        font-size: 15px;
+        }
+       }
+     
+     @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
+       height:auto;
+       padding-bottom: 10px;
+       
+       h1{
+       font-size:19px;
+       } 
+       
+     }
+
+    @media (min-width:$sizeTablet){
+       height:auto;
+       padding-bottom: 10px;
+       
+       hi{
+       font-size:20px;
+       }
+    }
+    
+    @media (min-width: $sizeDesktop){
+       height:auto;
+       padding-bottom: 10px;
+       
+       h1{
+       font-size: 20px;
+       padding: 20px 0px 0px 10px;
+       } 
+       
+       p{
+       padding: 5px 20px;
+       }  
+      }
+     }
+    }
    }
-  }
- }
+}

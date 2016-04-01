@@ -57,7 +57,7 @@
                     <li><a href="{{ url('/involucrate') }}">Involúcrate</a></li>
                     <li class="visible-xs"><a href="{{ url('/noticias') }}">Noticias</a></li>
                     <li class="visible-xs"><a href="{{ url('/conocenos') }}">Conócenos</a> </li>
-                    <li class="visible-xs"><a href="{{ url('/contacto') }}"><span class="active1">Contacto</a></li>
+                    <li class="visible-xs"><a href="{{ url('/contacto') }}"><span class="{{ set_active('contacto', 'active1') }}">{{ trans('header.Contacto') }}</a></li>
                 </ul>
             </div>
             <!--End menu1 -->
@@ -67,7 +67,7 @@
                     <ul class="nav navbar-nav">
                         <li><a href="{{ url('/noticias') }}"><span class="{{ set_active('noticias', 'active1') }}">Noticias</span></a></li>
                         <li><a href="{{ url('/conocenos') }}"><span class="{{ set_active('conocenos', 'active1') }}">Conócenos</span></a></li>
-                        <li><a href="{{ url('/contacto') }}"><span class="active1">Contacto</a></li>
+                        <li><a href="{{ url('/contacto') }}"><span class="{{ set_active('contacto', 'active1') }}">{{ trans('header.Contacto') }}</a></li>
                     </ul>
                 </div>
             </div> <!--End menu2 -->

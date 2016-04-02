@@ -8,11 +8,20 @@
 
 }
 
-.cover{
+.cover1{
+    box-shadow: 0 8px 10px 8px rgba(0,0,0,0.20), 0 12px 12px 5px rgba(0,0,0,0.15);
+    margin-top: -22px;
+    }
+    
+.cover2{
     box-shadow: 0 8px 10px 8px rgba(0,0,0,0.20), 0 12px 12px 5px rgba(0,0,0,0.15);
     margin-top: -22px;
     }
 
+cover2logos{
+     box-shadow: 0 8px 10px 8px rgba(0,0,0,0.20), 0 12px 12px 5px rgba(0,0,0,0.15);
+    }
+    
 .negro {
     font-family: 'OpenSans-light', sans-serif;
     font-size: 18px;
@@ -66,8 +75,17 @@
    margin-top:30px;
    margin-bottom:50px;
 
-}
 
+ @media (max-width: $sizePhone){
+    margin-bottom:20px;
+  }
+ 
+ @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet) {
+     margin-bottom:20px;
+    }
+  
+} 
+ 
 .sidebar {
    padding:0px 25px;
   
@@ -100,7 +118,7 @@
   }
    
    @media (max-width: $sizePhone){
-      padding:25px 15px 0px 15px;
+     padding: 20px 10px 0px 0px;
       
        h1 {
       padding-top: 20px;
@@ -112,7 +130,7 @@
       }
    }  
   
- @media  (max-width: $sizeLessThanDesktop) {
+ @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet) {
       padding-top:40px;
       padding-left:25px;
       padding-right:25px;
@@ -233,17 +251,18 @@
    } 
     
     @media (max-width: $sizePhone){
-       margin:30px 25px;
+     margin:20px;
     
      h1{
-      font-size: 35px;
-      padding:0px;  
+     font-size: 35px;
+     padding:0px;
+     margin-top: 10px;  
      }
      
      h2{
      font-size: 18px; 
-     padding-left: 15px;
-     padding-right:15px;  
+     padding-left: 10px;
+     padding-right: 10px;
      }
      
      .puno{
@@ -251,7 +270,23 @@
      }
   }   
       
-      
+   @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet) {
+     
+     .premio{
+     margin: 20px;
+     }
+    
+      h1{
+     font-size: 37px;
+     padding-top:0px; 
+     margin-top:10px;
+     }
+     
+     h2{
+     font-size: 20px
+    }   
+   }  
+    
     @media (min-width: $sizeTablet) and (max-width: $sizeLessThanDesktop) {
          margin:30px 25px;
     
@@ -346,7 +381,68 @@
     padding-bottom: 20px;
     border-bottom:1px solid #bdbdbd;
     }
+    
+     @media (max-width: $sizePhone){       
+     margin-right: 10px;
+     margin-left: 10px;
+     margin-bottom: 20px;
+     
+     h1{
+      margin-top: -15px;
+      }
+      
+     } 
+     
+      @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 20px;
+      
+      h1{
+      margin-top: -10px;
+      }
+    }
   }
+  
+  @media (max-width: $sizePhone){
+      margin-top: 0px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-bottom: 20px;
+      
+      h1{
+      padding-top: 35px;
+      padding-left: 10px;
+      }
+      
+      h2{
+      padding-left: 10px;
+      }
+      
+      p{
+      padding-left: 10px;
+      padding-right: 20px;
+      }
+  }
+  
+  @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
+      margin-top:0px;
+      
+      h1{
+      padding-left: 10px;
+      padding-top: 30px;
+      }
+      
+      h2{
+      padding-left: 10px;
+      }
+      
+      p{
+      padding-left: 10px;
+      padding-right: 10px;
+      }
+      
+  }     
  
   @media (min-width: $sizeTablet) and (max-width: $sizeLessThanDesktop) {
     padding-bottom: 30px;
@@ -370,7 +466,7 @@
     font-family:'TenorSans',sans-serif;
     font-size: 22px;
     color:#000;
- }
+    }
 
  h2{
     margin:30px 20px 10px;
@@ -378,7 +474,7 @@
     font-size: 20px;
     color:#000;
     font-weight: bolder;
-}
+   }
 
  p{
     margin:15px 35px 10px 20px;
@@ -394,30 +490,94 @@
     font-size: 22px;
     line-height: 1.3;
     color:#000;
-}
+    margin:0px 0px 10px;
+    padding-top:20px;
+    }
     
+.sidebarC h2{
+   margin:40px 0px 10px;
+  }
+  
+.sidearC p{
+  margin:15px 0px 10px 0px;
+}
+
 .edificio{
     font-family:'Opensans',sans-serif;
     font-size: 17px;
     color:#333;
     }
+
+.gratis{
+        font-weight: bold;
+        }
     
   @media (max-width: $sizePhone){
       padding:25px 0px 35px 0px; 
       
+      h1{
+      margin:30px 20px 10px;
+      font-size: 21px;
+      }
+      
+      h2{
+      margin: 30px 10px 10px;
+      }
+      
+      p{
+      margin: 15px 10px 10px 10px;
+      }
+      
       .sidebarC h1{   
         padding-top:20px;
+        margin-left: 10px;
+        margin-right: 10px;
         border-top: 1px solid #bdbdbd;
+        font-size: 21px;
+        font-weight: bold;
+        margin-top: 25px;
+        }
+        
+        .sidebarC h2{
+        margin:40px 10px 10px 10px;
+        }
+        
+        .edificio{
+        font-weight: normal;
+        font-size: 16px;
         }
      }
      
-    @media (max-width: $sizeLessThanDesktop){
+    @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
        padding:25px 0px 35px 0px; 
+       margin-left:10px;
+       margin-right:10px;
         
+     .sidebarC{
+        padding-left: 15px;
+        padding-right: 15px;
+       }
+       
      .sidebarC h1{   
         padding-top:30px;
         border-top: 1px solid #bdbdbd; 
+        padding-left:10px;
+        padding-right:10px;
+        margin-top: 30px;
        }
+     
+     .sidebar h2{
+      padding-left:0px;
+      padding-right:0px;
+      margin-left:10px;
+      margin-right:10px;
+     }
+     .sidebarC p{
+      padding-left:10px;
+      padding-right:10px;
+      margin-left:0px;
+      margin-right:0px;
+      }
     
     }
     
@@ -425,8 +585,11 @@
         padding:25px 0px 35px 0px; 
         
      .sidebarC h1{   
-        padding-top:30px;
-        
+        padding-top:30px;   
+     }
+     
+     .sidebarC p{
+     margin:15px 0px 10px 0px;
      }
    }
 }
@@ -436,9 +599,9 @@
     padding:45px 20px 45px 90px;
     margin:0px 20px;
     
-     @media (max-width: $sizePhone){
+   /*  @media (max-width: $sizePhone){
         padding:45px 10px;
-     } 
+     } */
          
     @media (max-width: $sizeLessThanDesktop) {   
        padding:45px 0px 45px 30px; 

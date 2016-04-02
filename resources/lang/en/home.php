@@ -10,7 +10,7 @@ return [
                       from <span class="fecha"> 10:30 AM to 3:00 PM</span>
                       at the North Seattle Community College.</h2>
                       <h3>Please Join Us!</h3>',
-    'ElPremio' => '<h1> Maru Mora Villalpardo</h1>
+    'ElPremio' => '<h1> Maru Mora Villalpando</h1>
                    <h2>For her contribution in the defense of Latin American immigrants\' rights and constant work empowering the Hispanic woman.
                    </br></br>We are honored to give this award to:
                    </br></br><span class="puno">Puño de Oro</span></h2></br>',
@@ -39,6 +39,8 @@ return [
                  6. Park by Library and Childcare Educational Center on 97th St and College Way N. (on right).</p>
                  <h2>From highway 99 (Aurora).</h2>
                  <p>From highway 99 (Aurora).  Take a left of right (depending on if you are driving north or south) on 117th St.  Take a right on 
-                  Meridian St. N.  Drive south  until 97th St and College Way N. Parking available on the left.</p>'
-                          
+                  Meridian St. N.  Drive south  until 97th St and College Way N. Parking available on the left.</p>',
+ 'Estacionamiento' => '<h2>Where I park?</h2>
+           <p>Parking is <span class="gratis">free</span>.</p>
+           <p>Parking will be at the Library area / Childcare Educational Center vicinity.  The entrance is on 97th street.  The Symposium is at the cafeteria at the South side of the College.</p>'                      
 ];

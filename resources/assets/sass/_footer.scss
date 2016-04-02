@@ -22,6 +22,11 @@
     
    @media (max-width: $sizePhone){
     padding-right: 20px;
+    padding-left: 20px;
+   }
+   
+   @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
+   padding-left: 20px;
    }
    
     li {
@@ -155,12 +160,16 @@
         letter-spacing: 18px;
   
    @media (max-width: $sizePhone){
-    padding-right: 50px;
+    padding-right: 28px;
     font-size: 35px; 
     letter-spacing: 10px;
    }
+   
+   @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
+   margin-left: -1px;
+   }
     
-   @media (max-width: $sizeTablet) {
+   @media (min-width: $sizeTablet) {
      margin-left:40px;
     }
   }

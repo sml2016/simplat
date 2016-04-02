@@ -9,8 +9,13 @@
       </div>  
      
     <div class="cover2 visible-xs">
-         <img class="img-responsive" src="/images/cover2.jpg"  style="width:100% height:auto";/>
+         <img class="img-responsive" src="/images/covermobile.jpg"  style="width:100% height:auto";/>
       </div>  
+      
+    <div class="cover2logos visible-xs">
+         <img class="img-responsive" src="/images/cover2logos.jpg"  style="width:100% height:auto";/>
+      </div>  
+      
     </div> <!--Contanier-->
 </div> <!-- end naranaja -->
 

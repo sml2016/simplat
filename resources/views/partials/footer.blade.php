@@ -5,23 +5,23 @@
           <ul class="footerLinks clear">
             <div class="row">
              <div class="col-sm-3">
-              <li><a href="{{ url('/historia') }}">Historia</a></li>
-               <li><a href="{{ url('/testimonios') }}">Testimonios</a></li>
+              <li><a href="{{ url('/historia') }}">{{ trans('footer.Historia') }}</a></li>
+               <li><a href="{{ url('/testimonios') }}">{{ trans('footer.Testimonios') }}</a></li>
                </div>  <!--Col-->
    
                <div class="col-sm-3">
-               <li><a href="{{ url('/galeria/2014') }}">Galería 2014</a></li>
-               <li><a href="{{ url('/galeria/2015') }}">Galería 2015</a></li>
+               <li><a href="{{ url('/galeria/2014') }}">{{ trans('footer.Galeria2014') }}</a></li>
+               <li><a href="{{ url('/galeria/2015') }}">{{ trans('footer.Galeria2015') }}</a></li>
                </div> <!--Col-->
              
               <div class="col-sm-3">
-               <li><a href="{{ url('/conferencias/2014') }}">Conferencias 2014</a></li>
-               <li><a href="{{ url('/conferencias/2015') }}">Conferencias 2015</a></li>
+               <li><a href="{{ url('/conferencias/2014') }}">{{ trans('footer.Conferencias2014') }}</a></li>
+               <li><a href="{{ url('/conferencias/2015') }}">{{ trans('footer.Conferencias2015') }}</a></li>
               </div>  <!--Col-->
             
               <div class="col-sm-3">
-              <li><a href="{{ url('/grupos') }}">Grupos</a></li>
-              <li><a href="{{ url('/contacto') }}">Contacto</a></li>
+              <li><a href="{{ url('/grupos') }}">{{ trans('footer.Grupos') }}</a></li>
+              <li><a href="{{ url('/contacto') }}">{{ trans('footer.Contacto') }}</a></li>
               </div>   <!--Col-->
             </div> <!--End row -->
            </ul>

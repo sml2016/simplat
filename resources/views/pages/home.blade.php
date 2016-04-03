@@ -12,16 +12,25 @@
          <img class="img-responsive" src="/images/covermobile.jpg"  style="width:100% height:auto";/>
       </div>  
       
-    <div class="cover2logos visible-xs">
-         <img class="img-responsive" src="/images/cover2logos.jpg"  style="width:100% height:auto";/>
-      </div>  
-      
     </div> <!--Contanier-->
 </div> <!-- end naranaja -->
 
+  <div class="cover2logos visible-xs">
+   <!--   <div class="row">
+        <div class="col-xs-5 col-xs-offset-1">  
+         <img class="img-responsive" src="images/patrocinadores/NSCmobile.png" style="padding:10px"/>  
+         </div>
+          <div class="col-xs-5">   
+           <img class="img-responsive" src="images/patrocinadores/latinofoundationmobile.png"/>   
+           </div> 
+          </div> <!---End Row -->
+      <img class="img-responsive" src="/images/cover2logos.jpg"  style="width:100% height:auto";/>
+   </div>  
+      
+      
 <div class="semiblanco">
     <div class="container">
-        <div class="row row-of-blocks">
+ <div class="row row-of-blocks">
             <div class="col-xs-12  col-sm-4  col-md-4  "><a href="{{ url('/registro') }}" class="button">{{ trans('home.BotonRegistro') }}</a></div>
             <div class="col-xs-12  col-sm-4  col-md-4 "><a href="{{ url('/patrocinanos') }}" class="button">{{ trans('home.BotonPatrocina') }}</a></div>
             <div class="col-xs-12  col-sm-4  col-md-4" ><a href="{{ url('/involucrate') }}" class="button">{{ trans('home.BotonInvolucrate') }}</a></div>

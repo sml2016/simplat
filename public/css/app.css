@@ -6404,7 +6404,9 @@ hr p {
   box-shadow: 0 8px 10px 8px rgba(0, 0, 0, 0.2), 0 12px 12px 5px rgba(0, 0, 0, 0.15);
   margin-top: -22px; }
 
-cover2logos {
+.cover2logos {
+  background: #fff;
+  height: 100px;
   box-shadow: 0 8px 10px 8px rgba(0, 0, 0, 0.2), 0 12px 12px 5px rgba(0, 0, 0, 0.15); }
 
 .negro {
@@ -6561,11 +6563,11 @@ cover2logos {
 .premio {
   margin: 40px 20px; }
   .premio h1 {
-    font-family: 'Lobster';
+    font-family: 'Lobster', curve;
     font-size: 50px;
     padding-top: 10px; }
   .premio h2 {
-    font-family: 'TenorSans',sans-serif;
+    font-family: 'TenorSans';
     font-size: 22px;
     padding-left: 15px;
     padding-right: 15px; }

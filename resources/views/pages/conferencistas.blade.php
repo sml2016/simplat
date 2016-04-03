@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-4 col-md-offset-1  col-lg-4 col-lg-offset-1">
                     <div class="conferencistas1">
-                        <img  src="images/conferencistasMaru.jpg"  class="img-responsive" alt="maria" width="250" height="200"/>
+                        <img  src="images/conferencistasMaru.jpg"  class="img-responsive" alt="maru" width="250" height="200"/>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
@@ -51,7 +51,7 @@
              <div class="row">
                 <div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-4 col-md-offset-1  col-lg-4 col-lg-offset-1">
                     <div class="conferencistas1">
-                        <img  src="images/conferencistasLizeth.jpg"  class="img-responsive" alt="maria" width="250" height="200"/>
+                        <img  src="images/conferencistasLizeth.jpg"  class="img-responsive" alt="lizeth" width="250" height="200"/>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
@@ -75,7 +75,7 @@
             <div class="row">
                 <div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-4 col-md-offset-1  col-lg-4 col-lg-offset-1">
                     <div class="conferencistas1">
-                        <img  src="images/ElodiaGlz.jpg"  class="img-responsive" alt="maria" width="250" height="200"/>
+                        <img  src="images/ElodiaGlz.jpg"  class="img-responsive" alt="elodia" width="250" height="200"/>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
@@ -90,7 +90,7 @@
             <div class="row">
                 <div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-4 col-md-offset-1  col-lg-4 col-lg-offset-1">
                     <div class="conferencistas1">
-                        <img  src="images/conferencista1.jpg"  class="img-responsive" alt="maria" width="250" height="200"/>
+                        <img  src="images/conferencista1.jpg"  class="img-responsive" alt="ana" width="250" height="200"/>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6">

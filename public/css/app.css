@@ -6374,7 +6374,7 @@ button.close {
   .socialmedia .fa-instagram:hover {
     background: #517fa4; }
   .socialmedia span {
-    font-family: 'Lobster';
+    font-family: 'Tenor-Sans';
     font-size: 50px;
     color: #fff;
     text-align: center;
@@ -7327,22 +7327,25 @@ select.input-lg, .input-group-lg > select.form-control,
   .conferencistas1a .bio {
     color: #d7d7d7; }
   @media (max-width: 480px) {
-    .conferencistas1a h2 {
-      font-size: 18px;
-      margin-top: 35px;
-      text-align: center; }
-    .conferencistas1a h3 {
-      font-size: 16px;
-      text-align: center; }
-    .conferencistas1a h4 {
-      font-size: 18px;
-      text-align: center; }
-    .conferencistas1a p {
-      font-size: 16px;
-      text-align: justify; } }
+    .conferencistas1a {
+      margin-bottom: 30px; }
+      .conferencistas1a h2 {
+        font-size: 18px;
+        margin-top: 35px;
+        text-align: center; }
+      .conferencistas1a h3 {
+        font-size: 16px;
+        text-align: center; }
+      .conferencistas1a h4 {
+        font-size: 18px;
+        text-align: center; }
+      .conferencistas1a p {
+        font-size: 16px;
+        text-align: justify; } }
   @media (min-width: 481px) and (max-width: 767px) {
     .conferencistas1a {
-      margin-top: 1px; }
+      margin-top: 1px;
+      margin-bottom: 30px; }
       .conferencistas1a h2 {
         font-size: 23px;
         margin-top: 35px;
@@ -7420,19 +7423,22 @@ select.input-lg, .input-group-lg > select.form-control,
   .panelistas1a .bio {
     color: #d7d7d7; }
   @media (max-width: 480px) {
-    .panelistas1a h2 {
-      font-size: 18px;
-      margin-top: 35px;
-      text-align: center; }
-    .panelistas1a h3 {
-      font-size: 16px;
-      text-align: center; }
-    .panelistas1a p {
-      font-size: 16px;
-      text-align: justify; } }
+    .panelistas1a {
+      margin-bottom: 30px; }
+      .panelistas1a h2 {
+        font-size: 18px;
+        margin-top: 35px;
+        text-align: center; }
+      .panelistas1a h3 {
+        font-size: 16px;
+        text-align: center; }
+      .panelistas1a p {
+        font-size: 16px;
+        text-align: justify; } }
   @media (min-width: 481px) and (max-width: 767px) {
     .panelistas1a {
-      margin-top: 0px; }
+      margin-top: 0px;
+      margin-bottom: 30px; }
       .panelistas1a h2 {
         font-size: 23px;
         margin-top: 35px;

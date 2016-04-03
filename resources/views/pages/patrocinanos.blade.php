@@ -65,9 +65,7 @@
 
                                 <div class="pricing-list">
                                     <ul> 
-                                        <li><i class="fa fa-heart-o"></i>Agradecimiento en el programa del evento.</li>
-                                        <li><i class="fa fa-heart-o"></i>Logo en la página interna de nuestro sitio de Internet.</li>
-                                        <li><i class="fa fa-heart"></i>Logo en el volante de promoción del Simposio.</li>
+                                       {!! trans('patrocinanos.Beneficios3') !!}
                                     </ul>
                                 </div>
                             </div>
@@ -83,8 +81,7 @@
 
                                 <div class="pricing-list">
                                     <ul>
-                                        <li><i class="fa fa-heart-o"></i>Agradecimiento en el programa del evento.</li>
-                                        <li><i class="fa fa-heart"></i>Logo en la página interna de nuestro sitio de Internet.</li>
+                                      {!! trans('patrocinanos.Beneficios4') !!}
                                     </ul>
                                 </div>
                             </div>
@@ -100,7 +97,7 @@
 
                                 <div class="pricing-list">
                                     <ul>
-                                        <li><i class="fa fa-heart"></i>Agradecimiento en el programa del evento.</li>
+                                      {!! trans('patrocinanos.Beneficios5') !!}   
                                     </ul>
                                 </div>
                             </div><!--END pricing-table-->

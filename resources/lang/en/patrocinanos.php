@@ -7,21 +7,27 @@ return [
                      </p>',
  'Patrocinadores1' => 'SPONSORSHIP DIAMOND',                 
           'Donar' => 'Donate here',
-     'Beneficios1' => '<li><i class="fa fa-heart-o"></i>Name placement in event program. Su <span> logo en la página principal</span> de nuestro sitio de Internet. </li>
+     'Beneficios1' => '<li><i class="fa fa-heart-o"></i>Name placement in event program. </li>
+                       <li><i class="fa fa-heart-o"></i>Sponsor logo in internal website pages.</li>
+                       <li><i class="fa fa-heart-o"></i>Advertising space in event flyer.</li>
                        <li><i class="fa fa-heart-o"></i>Donor recognition during the event.</li>
-                       <li><i class="fa fa-heart-o"></i>Advertising space in event program</li>
-                       <li><i class="fa fa-heart-o"></i>Placement of company banners and marketing materials of event</li>
-                       <li><i class="fa fa-heart"></i>Sponsor logo recognition on event website</li>',
+                       <li><i class="fa fa-heart"></i>Sponsor logo recognition on home website event.</li>',
 'Patrocinadores2' => 'SPONSORSHIP PLATINUM',
-    'Beneficios2' => '<li><i class="fa fa-heart-o"></i>Su nombre en el programa del evento. Su <span> logo en la página principal</span> de nuestro sitio de Internet. </li>
-                     <li><i class="fa fa-heart-o"></i>Menciones del patrocinador durante el evento.</li>
-                     <li><i class="fa fa-heart-o"></i>Espacio para promoción en el programa del evento.</li>
-                     <li><i class="fa fa-heart"></i>Material de mercadeo y banner de la compañía en el evento.</li>',
+    'Beneficios2' => '<li><i class="fa fa-heart-o"></i>Name placement in event program.</li>
+                     <li><i class="fa fa-heart-o"></i>Sponsor logo in internal website pages.</li>
+                     <li><i class="fa fa-heart-o"></i>Advertising space in event flyer.</li>
+                     <li><i class="fa fa-heart"></i>Donor recognition during the event.</li>',
 'Patrocinadores3' => 'SPONSHORSHIP GOLD',
-'Patrocinadores4' => 'SPONSORSHIP SILVER',
-'Patrocinadores5' => 'SPONSORSHIP BRONZE',
+    'Beneficios3' => '<li><i class="fa fa-heart-o"></i>Name placement in event program.</li>
+                      <li><i class="fa fa-heart-o"></i>Sponsor logo in internal website pages.</li>
+                      <li><i class="fa fa-heart"></i>Advertising space in event flyer.</li>',
+'Patrocinadores4' => 'SPONSHORSHIP  SILVER',
+   'Beneficios4' => '<li><i class="fa fa-heart-o"></i>Name placement in event program.</li>
+                     <li><i class="fa fa-heart"></i>Sponsor logo in internal website pages.</li>',
+'Patrocinadores5' => 'SPONSHORSHIP   BRONZE',
+    'Beneficios5' => '<li><i class="fa fa-heart"></i>Name placement in event program.</li>',
       'Impuestos' => '<p class="text-justify"><b>Important: </b> Your donation qualifies for tax deduction. The NSC Education Fund is a 501(c) nonprofit organization.  
-                      <span><b>Federal Tax</b> ID# 41-2178833</span>. All sponsorships will have name placement in the Latina Symposium Agenda.</p> ',
+                      <span><b>Federal Tax</b> ID# 41-2178833</span>. If you prefer to make a check donation, you may do so to: <span>"The North Seattle Educational Fund"</span>.  On the memo, please make sure write: <span><b>"Parented Latina Symposium"</b></span>.</p> ',
       'comoDonar' => ' <h1>Your donations matter</h1>
                      <h2>To support this event that helps the Latina Community in Seattle, you only need to <a href="https://nscef.ejoinme.org/latina"> click here.</a></h2>
                      <p>Enter the amount of money that you want to give us, your contact information and, your credit card information. All donations made to North Seattle College qualifies for tax deduction. 

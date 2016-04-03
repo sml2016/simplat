@@ -7960,7 +7960,9 @@ select.input-lg, .input-group-lg > select.form-control,
       font-size: 25px;
       color: #212121;
       font-weight: bold;
-      text-align: center; }
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 20px; }
     .conocenos .thumbnails .caption h3 {
       font-family: 'OpenSans',sans-serif;
       font-size: 18px;

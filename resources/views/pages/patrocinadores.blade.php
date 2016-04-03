@@ -14,14 +14,14 @@
                 <div class="row">
                 <div class="col-sm-2">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/univisionSeattle.jpg" alt="NSC"/>
+                <img src="/images/patrocinadores/latinofoundation.png" alt="NSC"/>
                 <p> {{ trans('patrocinadores.Gracias1') }}</p>
                 </div>
                 </div>
                 
                 <div class="col-sm-2">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/latinofoundation.png" alt="NSC"/>
+                <img src="/images/patrocinadores/univisionSeattle.jpg" alt="NSC"/>
                 <p>{{ trans('patrocinadores.Gracias1') }}</p>
                 </div>
                 </div>

@@ -6108,6 +6108,12 @@ button.close {
 .menu1 ul {
   margin-top: -10px;
   padding-left: 10px; }
+  @media (max-width: 480px) {
+    .menu1 ul {
+      margin-top: 10px; } }
+  @media (max-width: 768px) {
+    .menu1 ul {
+      margin-top: 10px; } }
   @media (min-width: 1200px) {
     .menu1 ul li {
       margin-top: -10px;
@@ -7945,10 +7951,14 @@ select.input-lg, .input-group-lg > select.form-control,
     padding: 50px 0px; }
   @media (max-width: 480px) {
     .conocenos h1 {
-      font-size: 25px; } }
+      font-size: 25px;
+      padding-top: 0px;
+      padding-bottom: 20px; } }
   @media (min-width: 481px) and (max-width: 767px) {
     .conocenos h1 {
-      font-size: 28px; } }
+      font-size: 28px;
+      padding-top: 0px;
+      padding-bottom: 20px; } }
   @media (min-width: 768px) and (max-width: 1200px) {
     .conocenos h1 {
       font-size: 28px; } }
@@ -7961,7 +7971,7 @@ select.input-lg, .input-group-lg > select.form-control,
       color: #212121;
       font-weight: bold;
       text-align: center;
-      padding-top: 30px;
+      padding-top: 25px;
       padding-bottom: 20px; }
     .conocenos .thumbnails .caption h3 {
       font-family: 'OpenSans',sans-serif;

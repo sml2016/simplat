@@ -25,7 +25,7 @@
     }
     
 .negro {
-    font-family: 'OpenSans-light', sans-serif;
+    font-family: 'OpenSans-light';
     font-size: 18px;
     line-height: 2;
 }
@@ -35,7 +35,7 @@
     background-color: #9541c7;
     border: 2px solid #9541c7;
     color: #ffffff;
-    font-family: 'TenorSans',sans-serif;
+    font-family: 'TenorSans';
     font-weight: lighter;
     padding-top: 15px;
     padding-bottom: 20px;
@@ -92,7 +92,7 @@
    padding:0px 25px;
   
   h1{
-    font-family:'TenorSans',sans-serif;
+    font-family:'TenorSans';
     font-size:20px;
     color:#212121;
     font-weight: bolder;
@@ -103,7 +103,7 @@
     
   h2{
     padding-top:10px;
-    font-family:'OpenSans',sans-serif;
+    font-family:'OpenSans';
     font-size:18px;
     text-align: justify;
     line-height: 1.5;
@@ -112,7 +112,7 @@
  
   h3{
     padding-top:0px;
-    font-family:'TenorSans',sans-serif;
+    font-family:'TenorSans';
     font-size:19px;
     color:#000;
     text-align: center;
@@ -192,7 +192,7 @@
 
 .fecha{
     color: #f04942;
-    font-family:'OpenSans',sans-serif;
+    font-family:'OpenSans';
     font-size:18px;
    
      @media (max-width: $sizePhone){
@@ -232,7 +232,7 @@
     margin:40px 20px;
     
     h1 {
-    font-family: 'Lobster', curve;
+    font-family: 'Lobster', cursive;
     font-size: 50px; 
     padding-top:10px;
     }
@@ -245,7 +245,7 @@
      }
      
    .puno{
-    font-family: 'Lobster';
+    font-family: 'Lobster', cursive;
     font-size: 35px; 
     text-align: center;
     padding-bottom:10px;
@@ -342,7 +342,7 @@
     padding-top:50px;
     padding-bottom:10px;
     padding-left:20px;
-    font-family:'TenorSans',sans-serif;
+    font-family:'TenorSans';
     font-size: 22px;
     color:#000;
     }
@@ -351,7 +351,7 @@
     padding-top:20px;
     padding-bottom:10px;
     padding-left:20px;
-    font-family:'TenorSans',sans-serif;
+    font-family:'TenorSans';
     font-size: 22px;
     color:#000;
     }
@@ -359,7 +359,7 @@
  p{
     padding-left:20px;
     padding-right:35px;
-    font-family:'OpenSans',sans-serif;
+    font-family:'OpenSans';
     font-size: 16px;
     text-align: justify; 
     color:#333;
@@ -374,7 +374,7 @@
   
   
     h1{
-    font-family:'TenorSans',sans-serif;
+    font-family:'TenorSans';
     font-size:18px;
     color: #f04942;
     font-weight: bolder;
@@ -465,14 +465,14 @@
   
  h1{
     margin:30px 20px 10px;
-    font-family:'TenorSans',sans-serif;
+    font-family:'TenorSans';
     font-size: 22px;
     color:#000;
     }
 
  h2{
     margin:30px 20px 10px;
-    font-family:'TenorSans',sans-serif;
+    font-family:'TenorSans';
     font-size: 20px;
     color:#000;
     font-weight: bolder;
@@ -480,7 +480,7 @@
 
  p{
     margin:15px 35px 10px 20px;
-    font-family:'OpenSans',sans-serif;
+    font-family:'OpenSans';
     font-size: 16px;
     text-align: justify; 
     color:#333;
@@ -488,7 +488,7 @@
 
     
 .sidebarC h1{
-    font-family:'TenorSans',sans-serif;
+    font-family:'TenorSans';
     font-size: 22px;
     line-height: 1.3;
     color:#000;
@@ -505,7 +505,7 @@
 }
 
 .edificio{
-    font-family:'Opensans',sans-serif;
+    font-family:'Opensans';
     font-size: 17px;
     color:#333;
     }

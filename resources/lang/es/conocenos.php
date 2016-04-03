@@ -70,15 +70,23 @@ return [
              Llegué al simposio como invitada el primer año del evento  cuando recién llegaba de la Republica Dominicana y disfruté tanto la experiencia que decidí unirme al comité organizador desde hace ya dos años.</p>',
   'Sixta1'=> '<p>Compartir con tantas mujeres luchadoras, inspiradoras, ha sido una experiencia que me llena de esperanza en cuanto            a el futuro de las Latinas en los EU. </p>
              <p>Vivo en Seattle junto a mi esposo e hijo, disfruto de las flores, la buena lectura y escribo periódicamente en mi   blog Gente, Historias y Sonrisas.</p>',
- 
- 
+ 'nomVeronica' => 'Veronica Duran', 
+ 'comiteVeronica' => 'Comité de Recuerdos',
+ 'Veronica' => '<p></p>',  
+ 'Veronica1' => '<p></p>
+                <p></p>',  
+'nomPuerto' => 'Puerto',  
+   'Puerto' => '<p></p>',  
+  'Puerto1' => '<p></p>
+                <p></p>', 
+   'nomElia' => 'Elia Gómez',
 'comiteElia' => 'Comité de Finanzas', 
-  'Elia' => '<p>Me gusta complementar mi tiempo libre integrándome a organizaciones que beneficien a mi comunidad tanto             aquí  en Seattle como en  mi comunidad de origen.
-               también me gusta la fotografía,  leer, salir a caminar, hacer  yoga, la música y el café con una buena amiga.</p>',
-   'Elia1' => '<p>  Mi nombre es Elia Gómez, nací en Guadalajara, Jalisco e inicié mi aventura como migrante hace 19 años               apoyando a  mi esposo en su oferta laboral.
+      'Elia' => '<p>Me gusta complementar mi tiempo libre integrándome a organizaciones que beneficien a mi comunidad tanto                   aquí  en Seattle como en  mi comunidad de origen.
+                También me gusta la fotografía,  leer, salir a caminar, hacer  yoga, la música y el café con una buena amiga.</p>',
+   'Elia1' => '<p>  Mi nombre es Elia Gómez, nací en Guadalajara, Jalisco e inicié mi aventura como migrante hace 19 años                        apoyando a  mi esposo en su oferta laboral.
                 A el día de hoy, dos de nuestros hijos ahora universitarios y el pequeño en quinto grado de primaria.</p>
                 <p>Soy consciente de la importancia de mi función en el rol familiar y disfruto mucho tener la oportunidad de apoyar e impulsar tanto a mis hijos como a mi esposo. </p>',
- 'comiteVeronica' => 'Comité de Recuerdos',
+'nomGuillermo' => 'Guillermo Carvajal',  
  'Guillermo' =>'<p>Las mujeres son la clave para crear un mundo más justo y contenido, ellas tienen la capacidad y                       experiencia de comprender lo qué necesitan los seres humanos para  disfrutar una vida más sana y alegre.                  Mientras más éxitos acumulan las mujeres en sus vidas,  más segura y sana se siente su familia. Para mí,                  los hijos de estas mujeres tienen una mejor posibilidad para triunfar académicamente  y cumplir sus                       propios sueños. Está en mi interés ver más y más mujeres latinas teniendo éxito.</p>',
  'comiteGuillermo' => 'Comité de Finanzas',
  'Guillermo1'=>'<p>El éxito de nuestros estudiantes está ligado directamente a sus madres.  Las mujeres que han                           participado en el Simposio de Mujeres Latinas aprecian el poder de tener esperanzas y aspiraciones.                       Nosotros quienes tenemos la capacidad de extender una mano para que más y más mujeres puedan tener éxito,                 debemos hacerlo. </p>

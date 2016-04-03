@@ -6366,12 +6366,13 @@ button.close {
   .socialmedia .fa-instagram:hover {
     background: #517fa4; }
   .socialmedia span {
-    font-family: 'Loster', cursiva;
+    font-family: 'Loster';
     font-size: 50px;
     color: #fff;
     text-align: center;
     line-height: 30px;
-    letter-spacing: 18px; }
+    letter-spacing: 18px;
+    margin-left: 0px; }
     @media (max-width: 480px) {
       .socialmedia span {
         padding-right: 28px;
@@ -6383,6 +6384,9 @@ button.close {
     @media (min-width: 768px) {
       .socialmedia span {
         margin-left: 40px; } }
+    @media (min-width: 992px) {
+      .socialmedia span {
+        margin-left: 7px; } }
 
 hr p {
   font-size: 14px;
@@ -7286,7 +7290,7 @@ select.input-lg, .input-group-lg > select.form-control,
 
 .conferencistas1a {
   margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 50px; }
   .conferencistas1a h2 {
     font-family: 'TenorSans',sans-serif;
     font-size: 23px;
@@ -7312,6 +7316,8 @@ select.input-lg, .input-group-lg > select.form-control,
     margin-top: 10px;
     padding-bottom: 15px;
     text-align: justify; }
+  .conferencistas1a .bio {
+    color: #d7d7d7; }
   @media (max-width: 480px) {
     .conferencistas1a h2 {
       font-size: 18px;
@@ -7382,7 +7388,7 @@ select.input-lg, .input-group-lg > select.form-control,
 
 .panelistas1a {
   margin-top: 15px;
-  margin-bottom: 30px; }
+  margin-bottom: 50px; }
   .panelistas1a h2 {
     font-family: 'TenorSans',sans-serif;
     font-size: 23px;
@@ -7403,6 +7409,8 @@ select.input-lg, .input-group-lg > select.form-control,
     margin-top: 10px;
     padding-bottom: 15px;
     text-align: justify; }
+  .panelistas1a .bio {
+    color: #d7d7d7; }
   @media (max-width: 480px) {
     .panelistas1a h2 {
       font-size: 18px;

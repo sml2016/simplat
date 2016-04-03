@@ -90,6 +90,7 @@ return [
    'Elia1' => '<p>My name is Elia Gómez. I was born in Guadalajara, Jalisco México. I started the adventure as immigrant                        19 years ago when my husband got an offer job.
               We have three children, two of them at college and the youngest at 5th grade.
               I know that the woman has an important roll in the family and I consider myself lucky to have the opportunity to help and support them. </p> ',
+  'Aliados' => 'Our  Allies',
   'nomGuillermo' => 'Guillermo Carvajal',      
  'comiteGuillermo' => 'Finance Committee',
  'Guillermo' =>'<p>I’ve also come to believe that women are the key to creating a more just and content world. They have                           the capacity and lived experience to appreciate and understand what human beings need for a decent life.   The more               successes women accumulate, the more secured and healthy their family.  And for me, the children    of these women                 have a greater chance to do well in school and take hold of their own dreams.  So it’s in my   interest to see a                   growing number of Latina women succeeding.</p>',

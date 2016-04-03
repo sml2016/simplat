@@ -226,7 +226,7 @@
              </div><!--End ROW-->
            
     
-         <h1>Nuestros Aliados</h1> 
+         <h1>{{ trans('conocenos.Aliados') }}</h1> 
        
          
          <!---Guillermo Carvajal-->       

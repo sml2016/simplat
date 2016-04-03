@@ -19,6 +19,8 @@
    @media (max-width: $sizePhone){
      h1{
      font-size: 25px;
+     padding-top: 0px;
+     padding-bottom: 20px
      }
    }
   
@@ -26,6 +28,8 @@
      
      h1{
      font-size: 28px;
+     padding-top: 0px;
+     padding-bottom: 20px
      }
    }
 
@@ -50,7 +54,7 @@
    color:#212121;
    font-weight: bold;
    text-align: center;
-   padding-top:30px;
+   padding-top:25px;
    padding-bottom:20px;
    }
 

@@ -167,23 +167,44 @@
              </div> <!--End Col--->
             
          <div class="clearfix hidden-xs hidden-sm"></div> 
+        
+        
          <!---Veronica-->       
             <div class="col-sm-6 col-md-4">
                <div class="thumbnails"> 
                 <div class="img-thumbnail img-circle">  
-                 <img src="images/logocirculo.png" alt="logocirculo" class="img-circle"/>
+                 <img src="images/ComiteSMLVeronica.jpg" alt="veronica" class="img-circle"/>
                 </div>
                 
                <div class="caption">
-                 <h2>Veronica</h2>
+                 <h2>{{ trans('conocenos.nomVeronica') }}</h2>
                   <h3>{{ trans('conocenos.comiteVeronica') }}</h3> 
-                    <p>Hola fjakljfklajflaskdfkjlkjlkjljkjk;j;jj  </p>
+                    {!! trans('conocenos.Vernonica') !!}
                   <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                  <p>Hola fjakljfklajflaskdfkjlkjlkjljkjk;j;jj  </p>
+                    {!! trans('conocenos.Vernonica1') !!}
                  </div> <!--End Caption--->
                </div> <!--End thumbnails-->
               </div> <!--End Col--->
               
+             
+                  <!---Puerto-->       
+            <div class="col-sm-6 col-md-4">
+               <div class="thumbnails"> 
+                <div class="img-thumbnail img-circle">  
+                 <img src="images/ComiteSMLPuerto.jpg" alt="puerto" class="img-circle"/>
+                </div>
+                
+               <div class="caption">
+                 <h2>{{ trans('conocenos.nomPuerto') }}</h2>
+                    <h3>{{ trans('conocenos.comitePuerto') }}</h3>
+                   {!! trans('conocenos.Puerto') !!} 
+                   <button type="button" class="btn btn-leer btn-sm">Leer más</button>
+                    {!! trans('conocenos.Puerto1') !!} 
+                   
+               </div> <!--End Caption--->
+              </div> <!--End thumbnails-->
+             </div> <!--End Col--->
+             
               
                  <!---Elia Gómez-->       
             <div class="col-sm-6 col-md-4">
@@ -193,7 +214,7 @@
                 </div>
                 
                <div class="caption">
-                 <h2>Elia Gómez</h2>
+                 <h2>{{ trans('conocenos.nomElia') }}</h2>
                     <h3>{{ trans('conocenos.comiteElia') }}</h3>
                    {!! trans('conocenos.Elia') !!} 
                    <button type="button" class="btn btn-leer btn-sm">Leer más</button>
@@ -201,7 +222,7 @@
                    
                </div> <!--End Caption--->
               </div> <!--End thumbnails-->
-             </div> <!--End Col--->
+             </div> <!--End Col--->              
              </div><!--End ROW-->
            
     
@@ -213,11 +234,11 @@
               <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
                <div class="thumbnails"> 
                 <div class="img-thumbnail img-circle">  
-                 <img src="images/logocirculo.png" alt="logocirculo" class="img-circle"/>
+                 <img src="images/AliadoSMLGuillermo.jpg" alt="Guillermo" class="img-circle"/>
                 </div>
                 
                <div class="caption">
-                 <h2>Guillermo Carvajal</h2>
+                 <h2>{{ trans('conocenos.nomGuillermo') }}</h2>
                     <h3>{{ trans('conocenos.comiteGuillermo') }}</h3> 
                    {!! trans('conocenos.Guillermo') !!}
                    <button type="button" class="btn btn-leer btn-sm">Leer más</button>

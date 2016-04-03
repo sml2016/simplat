@@ -74,22 +74,26 @@ return [
               <p>I started working in the television business since the age of 17, Im experienced as news anchor, magazines host, arts  and entertainment editor, bilingual MC, interviewer, marketing coordinator, and also as producer in my own inspirational TV show: "Vida y Valores".</p>
              <p> Graduated as Radio and TV broadcaster, I hold a bachelors degree in Business Administration and certificates in Cultural  Journalism and Public Relations and Strategic Communications. </p>
              </p>',
-  
-  'comiteAngie' => 'Volunteer Committee',
-         'Angie' => '<p>La frontera fue parte de mi vida desde niña, crecí en el norte de México, en la frontera con Estados Unidos. En una comunidad bicultural divida por un río. Cruzar al “otro lado”, fue el pan de cada día. La cultura estadounidense y el idioma ingles formaron parte de mi crecimiento. El hablar inglés me ayudo al viajar a otros países y para relacionarme con personas de otras culturas.</p>',
-      'Angie1' => '<p>Por cuestiones del destino me mude a Alemania a estudiar y ahí, en un país totalmente diferente al mío con un idioma desconocido, tuve que reinventarme para poder adaptarme a mi nueva realidad. No fue fácil, y al principio mayormente debido a la barrera del idioma, me sentí desvalida, ignorante y sobre todo fuera de lugar. Tuve que aprender las costumbres, tradiciones e ideología de mi nuevo hogar. Este proceso me hizo entender mejor a todas aquellas personas que como yo, dejan atrás su país, para realizar un sueño o mejorar su situación de vida.</p>
-             <p>Soy administradora de profesión pero maestra por vocación. He estudiado en varias universidades en 3 diferentes países, lo que me ha permitido tener una visión más general de los diferentes sistemas educativos. Me gusta la tecnología y siempre la he integrado tanto en mis clases como en las demás actividades que realizo. Creo que la mejor manera de que una persona puede superarse es a través del estudio. Me interesa ayudar a otros a que se superen y tengan una mejor calidad de vida.</p>
-             <p>Vivo en Seattle desde hace 4 años con mi marido y mis 2 hijos. Ahora en mi etapa de madre y ama de casa, una vez más he tenido que reinventarme. Me enfrento al reto de criar a mis hijos en un hogar multilingüe y multicultural. Y al no trabajar formalmente, he buscado otras actividades donde puedo sentirme productiva y contribuir con la comunidad. Soy consultora en el área de ventas a Latinoamérica en el negocio familiar, trabajo de voluntaria en la biblioteca pública y soy parte de la mesa directiva de una cooperativa preescolar en español. Así mismo me siento muy afortunada de ser parte del Simposio de mujeres latinas.</p>',  
-  'comiteElia' => 'Finance Committee',
-    'Elia' => '<p> I like work as volunteer with agencies that help the Hispanic community either here or in Jalisco                 state.  I also like to take pictures, yoga, read, music,going to walk  or have coffe with a good 
+'nomVeronica' => 'Veronica Duran', 
+'comiteVeronica' => 'Souvenir Committee',
+ 'Veronica' => '<p></p>',  
+'Veronica1' => '<p></p>
+                <p></p>', 
+'nomPuerto' => 'Puerto',  
+   'Puerto' => '<p></p>',  
+  'Puerto1' => '<p></p>
+                <p></p>',  
+ 'nomElia' => 'Elia Gómez',               
+'comiteElia' => 'Finance Committee',
+    'Elia' => '<p> I like work as volunteer with agencies that help the Hispanic community either here or in Jalisco                           state.  I also like to take pictures, yoga, read, music,going to walk  or have coffe with a good 
               friend.</p>',      
-   'Elia1' => '<p>My name is Elia Gómez. I was born in Guadalajara, Jalisco México. I started the adventure as immigrant              19 years ago when my husband got an offer job.
+   'Elia1' => '<p>My name is Elia Gómez. I was born in Guadalajara, Jalisco México. I started the adventure as immigrant                        19 years ago when my husband got an offer job.
               We have three children, two of them at college and the youngest at 5th grade.
               I know that the woman has an important roll in the family and I consider myself lucky to have the opportunity to help and support them. </p> ',
- 'comiteVeronica' => 'Souvenir Committee',
+  'nomGuillermo' => 'Guillermo Carvajal',      
  'comiteGuillermo' => 'Finance Committee',
- 'Guillermo' =>'<p>I’ve also come to believe that women are the key to creating a more just and content world. They have                 the capacity and lived experience to appreciate and understand what human beings need for a decent life.                  The more successes women accumulate, the more secured and healthy their family.  And for me, the children                 of these women have a greater chance to do well in school and take hold of their own dreams.  So it’s in my               interest to see a growing number of Latina women succeeding.</p>',
-  'Guillermo1'=>'<p>The success of our students is directly tied to the success of their mothers.  The women that have                  participated in the Symposium appreciate the power of hopes and aspirations.  And all of men, women and us               that can help provide tools and resources for their success should do so. </p>
+ 'Guillermo' =>'<p>I’ve also come to believe that women are the key to creating a more just and content world. They have                           the capacity and lived experience to appreciate and understand what human beings need for a decent life.   The more               successes women accumulate, the more secured and healthy their family.  And for me, the children    of these women                 have a greater chance to do well in school and take hold of their own dreams.  So it’s in my   interest to see a                   growing number of Latina women succeeding.</p>',
+  'Guillermo1'=>'<p>The success of our students is directly tied to the success of their mothers.  The women that have                            participated in the Symposium appreciate the power of hopes and aspirations.  And all of men, women and us                        that can help provide tools and resources for their success should do so. </p>
                 <p> I was born in Costa Rica and raised in the Big Apple. I am a family support worker for Seattle Public Schools.  I have a Master’s degree in human development.  I have spent the last 15 years in the social service sector and a dedicated human rights supporter.  I have also volunteered in behalf of Latino arts and culture, and been privileged to work with many ethnic and minority communities.</p>
                 <p> For the last few years I have worked in a school with a large Latino population.  This experience has given me a deeper appreciation of the challenges facing the families I work with, especially the mothers.</p>
                 <p>I’ve been inspired by my mom and the neighborhood we grew up in.  Historically women have stood behind their men, supporting them in many ways while their husbands staked out a place in the world for themselves. The world economy has forced the family to make the mother work more taking several jobs besides her responsibility at home, because now moms don’t have much of a choice but to go out into the world and compete for jobs. Instead of one partner standing behind the other, why not join the two and hand in hand. This is a healthier, enriching and powerful way to make the women’s dreams, and that of the entire family, come true.</p>

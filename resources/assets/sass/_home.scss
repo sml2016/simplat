@@ -192,7 +192,7 @@
 
 .fecha{
     color: #f04942;
-    font-family:'OpenSans';
+    font-family:'OpenSans',  Sans-serif;
     font-size:18px;
    
      @media (max-width: $sizePhone){
@@ -232,7 +232,7 @@
     margin:40px 20px;
     
     h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster-Regular', cursive;
     font-size: 50px; 
     padding-top:10px;
     }
@@ -245,7 +245,7 @@
      }
      
    .puno{
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster-Regular', cursive;
     font-size: 35px; 
     text-align: center;
     padding-bottom:10px;

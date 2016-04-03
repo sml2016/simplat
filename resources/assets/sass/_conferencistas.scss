@@ -102,7 +102,8 @@
     }
     
    @media (max-width:$sizePhone){
-       
+      margin-bottom: 30px; 
+      
        h2{
        font-size: 18px;
        margin-top: 35px;    
@@ -127,6 +128,7 @@
      
     @media (min-width:$sizeMoreThanPhone) and (max-width: $sizeLessThanTablet){
        margin-top: 1px;
+       margin-bottom: 30px; 
        
        h2{
        font-size: 23px;
@@ -237,6 +239,7 @@
     
     
    @media (max-width:$sizePhone){
+       margin-bottom: 30px; 
        
        h2{
        font-size: 18px;
@@ -257,6 +260,7 @@
      
    @media (min-width:$sizeMoreThanPhone) and (max-width: $sizeLessThanTablet){
        margin-top: 0px;
+        margin-bottom: 30px; 
        
        h2{
        font-size: 23px;

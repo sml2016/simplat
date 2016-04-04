@@ -9,23 +9,20 @@
       <div class="involucrate">
         <div class="row">
          <div class="col-md-12">
-          <h1>“Ayudar a otros es ayudarse a uno mismo.”</h1>
+          <h1>{{ trans('involucrate.Ayudar') }}</h1>
           </div>
         </div><!--End ROw---> 
        
        <div class="row">
         <div class="col-md-10">
-         <h2>“Si quieres ser feliz una hora, toma una siesta.”
-             <br> “Si quieres ser feliz un día, ve de pesca. </br>
-              Si quieres ser feliz un mes, cásate.
-             <br> Si quieres ser feliz un año, hereda una fortuna.</br>
-              Si quieres ser feliz toda tu vida, ayuda a alguien más”.
-           <br><span>Proverbio Chino</span></br></h2>
+         {!! trans('involucrate.proverbioChino') !!}
+         
           </div>
         </div><!--End ROw---> 
        
        <div class="row">
         <div class="col-md-12">
+        {!! trans('involucrate.Invitacion') !!}
         <p>Te invitamos a que empoderes a una mujer latina con tu ayuda. Forma parte del grupo de personas 
         que quieren hacer un cambio en su comunidad. Participa como voluntario en la realización de 
         nuestro simposio. <span class="color"> ¡Involúcrate!</p>

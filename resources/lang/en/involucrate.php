@@ -10,8 +10,8 @@ return [
               <br><span>Chinese Proverb</span></br></h2>',
     'Invitacion' => '<p>We invite you to empower a Latina woman with your support. Join the group of people looking to make
               a change in their community. Become a volunteer in our symposium. <span class="color"> Get involved!</p>',
-    'QuieresApoyarnos' => ' <h1>Do you want to help but you don’t know how? Access our page in Genius.  Just 
-             <a href="https://nscef.ejoinme.org/MyPages/LatinaSymposiumEnglish/tabid/741216/Default.aspx"> click here</a></h1> ',
+    'QuieresApoyarnos' => ' <h1>Do you want to help but you don’t know how? Access our page in Genius.<br>Just 
+             <a href="https://nscef.ejoinme.org/MyPages/LatinaSymposiumEnglish/tabid/741216/Default.aspx"> click here</a></br></h1> ',
     'Email' => ' <h2>You’ll find there a list of activities in which you can participate. Or if you prefer, contact Angie writing an email to <br><span class="color1">simposiomujereslatinas.gente@gmail.com</span></br></h2>'
   
 ];

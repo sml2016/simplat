@@ -58,8 +58,8 @@ return [
               <p>Fui responsable de la marca digital del canal de noticias Globovisión, en Venezuela, desde 2009 hasta 2014 y de las estrategias de posicionamiento en redes sociales que convirtieron a la televisora en el medio de comunicación venezolano con mejor presencia digital hasta 2013.</p>',
 'nomAngie' => 'Angélica Esquivel',  
  'comiteAngie' => 'Volunteer Committee',
-       'Angie' => '<p>La frontera fue parte de mi vida desde niña, crecí en el norte de México, en la frontera con Estados Unidos.         En una comunidad bicultural divida por un río. Cruzar al “otro lado”, fue el pan de cada día. La cultura                     estadounidense y el idioma ingles formaron parte de mi crecimiento. El hablar inglés me ayudo al viajar a otros              países y para relacionarme con personas de otras culturas.</p>',
- 'Angie1' => '<p>Por cuestiones del destino me mude a Alemania a estudiar y ahí, en un país totalmente diferente al mío con un                   idioma desconocido, tuve que reinventarme para poder adaptarme a mi nueva realidad. No fue fácil, y al principio                   mayormente debido a la barrera del idioma, me sentí desvalida, ignorante y sobre todo fuera de lugar. Tuve que                    aprender las costumbres, tradiciones e ideología de mi nuevo hogar. Este proceso me hizo entender mejor a todas                    aquellas personas que como yo, dejan atrás su país, para realizar un sueño o mejorar su situación de vida.</p>
+       'Angie' => '<p>La frontera fue parte de mi vida desde niña, crecí en el norte de México, en la frontera con Estados Unidos.         En una           comunidad bicultural divida por un río. Cruzar al “otro lado”, fue el pan de cada día. La cultura                     estadounidense y         el idioma ingles formaron parte de mi crecimiento. El hablar inglés me ayudo al viajar a otros              países y para relacionarme         con personas de otras culturas.</p>',
+ 'Angie1' => '<p>Por cuestiones del destino me mude a Alemania a estudiar y ahí, en un país totalmente diferente al mío con un                                    idioma desconocido, tuve que reinventarme para poder adaptarme a mi nueva realidad. No fue fácil, y al principio                                     mayormente debido a la barrera del idioma, me sentí desvalida, ignorante y sobre todo fuera de lugar. Tuve que                                      aprender las costumbres, tradiciones e ideología de mi nuevo hogar. Este proceso me hizo entender mejor a todas                                      aquellas personas que como yo, dejan atrás su país, para realizar un sueño o mejorar su situación de vida.</p>
              <p>Soy administradora de profesión pero maestra por vocación. He estudiado en varias universidades en 3 diferentes países, lo que me ha permitido tener una visión más general de los diferentes sistemas educativos. Me gusta la tecnología y siempre la he integrado tanto en mis clases como en las demás actividades que realizo. Creo que la mejor manera de que una persona puede superarse es a través del estudio. Me interesa ayudar a otros a que se superen y tengan una mejor calidad de vida.</p>
              <p>Vivo en Seattle desde hace 4 años con mi marido y mis 2 hijos. Ahora en mi etapa de madre y ama de casa, una vez más he tenido que reinventarme. Me enfrento al reto de criar a mis hijos en un hogar multilingüe y multicultural. Y al no trabajar formalmente, he buscado otras actividades donde puedo sentirme productiva y contribuir con la comunidad. Soy consultora en el área de ventas a Latinoamérica en el negocio familiar, trabajo de voluntaria en la biblioteca pública y soy parte de la mesa directiva de una cooperativa preescolar en español. Así mismo me siento muy afortunada de ser parte del Simposio de mujeres latinas.</p>',  
  'nomleonor' => 'Leonor',   
@@ -76,9 +76,12 @@ return [
              </p>',
 'nomVeronica' => 'Veronica Duran', 
 'comiteVeronica' => 'Souvenir Committee',
- 'Veronica' => '<p></p>',  
-'Veronica1' => '<p></p>
-                <p></p>', 
+ 'Veronica' => '<p>17 years ago I came from Ecuador, where I had studied International Business and where I had 
+      completed a Masters in Marketing.  One year after arriving in Portland, Oregon, I was presented
+      the opportunity to work at Oregon Health and Sciences University as a Spanish Interpreter.</p>',  
+'Veronica1' => '<p>This job allowed me to meet many people from different origins and cultures.  Through this
+            experience I learned that while Spanish speakers were often looking for help with English they were also looking for a chance to share part of their life with others with whom they had things in common.</p>
+                <p>Now that I am dedicated to raising my three children here in Seattle, I realize that I also want to share my experiences with other women so that we can mutually enrich ourselves and thrive together.</p>', 
 'nomPuerto' => 'Puerto',  
    'Puerto' => '<p></p>',  
   'Puerto1' => '<p></p>

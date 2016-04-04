@@ -7466,7 +7466,8 @@ select.input-lg, .input-group-lg > select.form-control,
   color: #0cb095;
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
-  margin-bottom: 10px; }
+  margin-bottom: 35px;
+  margin-top: 20px; }
 
 .btn-leer:focus,
 .btn-leer.focus {

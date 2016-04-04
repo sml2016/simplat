@@ -9,18 +9,18 @@
 */
 
 @font-face {
-    font-family: 'Tenor-Sans';
-    src: url('../fonts/Tenor-Sans.ttf.woff') format('woff'),
-        url('../fonts/Tenor-Sans.ttf.svg#Tenor-Sans') format('svg'),
-        url('../fonts/Tenor-Sans.ttf.eot'),
-        url('../fonts/Tenor-Sans.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-family:'Tenor-Sans';
+    src: url('/fonts/Tenor-Sans.ttf.woff') format('woff'),
+        url('/fonts/Tenor-Sans.ttf.svg#Tenor-Sans') format('svg'),
+        url('/fonts/Tenor-Sans.ttf.eot'),
+        url('/fonts/Tenor-Sans.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }
 
 
 @font-face {
-    font-family:')OpenSans-Regular';
+    font-family:'OpenSans-Regular';
     src: url('/fonts/OpenSans-Regular-webfont.eot');
     src: url('/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('/fonts/OpenSans-Regular-webfont.woff') format('woff'),

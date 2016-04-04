@@ -5758,12 +5758,12 @@ button.close {
 */
 @font-face {
   font-family: 'Tenor-Sans';
-  src: url("../fonts/Tenor-Sans.ttf.woff") format("woff"), url("../fonts/Tenor-Sans.ttf.svg#Tenor-Sans") format("svg"), url("../fonts/Tenor-Sans.ttf.eot"), url("../fonts/Tenor-Sans.ttf.eot?#iefix") format("embedded-opentype");
+  src: url("/fonts/Tenor-Sans.ttf.woff") format("woff"), url("/fonts/Tenor-Sans.ttf.svg#Tenor-Sans") format("svg"), url("/fonts/Tenor-Sans.ttf.eot"), url("/fonts/Tenor-Sans.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: ')OpenSans-Regular';
+  font-family: 'OpenSans-Regular';
   src: url("/fonts/OpenSans-Regular-webfont.eot");
   src: url("/fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSans-Regular-webfont.woff") format("woff"), url("/fonts/OpenSans-Regular-webfont.ttf") format("truetype"), url("/fonts/OpenSans-Regular-webfont.svg#open_sansregular") format("svg");
   font-weight: normal;
@@ -7197,7 +7197,9 @@ select.input-lg, .input-group-lg > select.form-control,
       font-size: 18px;
       font-weight: normal; } }
 
-/*  CSS Mensaje Enviado */
+/* --------------------
+       Mensaje Enviado 
+-------------------------*/
 .fondo1a {
   width: 100%;
   height: auto;
@@ -7859,7 +7861,7 @@ select.input-lg, .input-group-lg > select.form-control,
           text-decoration: none; }
         .fondo1b .donacion .donaciones .donaciones1a h2 a:hover,
         .fondo1b .donacion .donaciones .donaciones1a h2 a:focus {
-          color: #f04942;
+          color: #9541c7;
           text-decoration: none; }
         .fondo1b .donacion .donaciones .donaciones1a p {
           margin-top: 10px;
@@ -8153,5 +8155,64 @@ select.input-lg, .input-group-lg > select.form-control,
       .testimonio .testimonio1 {
         margin-right: 60px;
         text-align: none; } }
+
+/*-------------------------------
+          Involúcrate
+ --------------------------------*/
+.involucrate {
+  margin: 40px 20px; }
+  .involucrate h1 {
+    font-family: 'TenorSans',sans-serif;
+    font-size: 30px;
+    color: #212121;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 50px; }
+  .involucrate h2 {
+    font-family: 'Lobster';
+    font-size: 23px;
+    color: #f04942;
+    font-weight: lighter;
+    line-height: 1.5;
+    padding-left: 200px;
+    padding-top: 10px;
+    text-align: center; }
+  .involucrate span {
+    font-weight: normal;
+    padding-left: 380px;
+    line-height: 2; }
+  .involucrate p {
+    font-family: 'OpenSans-Regular';
+    font-size: 18px;
+    color: #333;
+    padding-left: 55px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-right: 53px; }
+  .involucrate .color {
+    color: red;
+    padding-left: 0px; }
+  .involucrate .involucrate1 {
+    background-color: rgba(192, 192, 192, 0.3);
+    height: auto;
+    width: 90%;
+    margin-left: 55px; }
+    .involucrate .involucrate1 h1 {
+      font-family: 'OpenSans-Regular';
+      font-size: 18px;
+      color: #333;
+      line-height: 3.5; }
+    .involucrate .involucrate1 h1 a {
+      color: #c597e6;
+      text-decoration: none; }
+    .involucrate .involucrate1 h1 a:hover,
+    .involucrate .involucrate1 h1 a:focus {
+      color: #9541c7;
+      text-decoration: none; }
+    .involucrate .involucrate1 h2 {
+      font-family: 'OpenSans-Regular';
+      font-size: 18px;
+      color: #333; }
 
 /*# sourceMappingURL=app.css.map */

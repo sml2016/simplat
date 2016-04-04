@@ -1,6 +1,13 @@
+/*---------------------------
+       CONFERENCISTAS 
+-------------------------- */
+
+
+
 .conferencistas {
+    
     h1 {
-        font-family: 'TenorSans',sans-serif;
+        font-family: 'Tenor Sans', sans-serif;
         font-size: 30px;
         color: #212121;
         font-weight: bold;
@@ -9,230 +16,291 @@
         padding-bottom: 50px;
         letter-spacing: 1px;
     }
-
-    @media (max-width: $sizeLessThanTablet) {
-        margin-left: 30px;
-        margin-right: 30px;
-
+    
+   @media (max-width:$sizePhone){
+        margin-left: 20px;
+        margin-right: 20px;
+       
         h1 {
-            font-size: 18px;
-            margin-bottom: -10px;
+          font-size: 23px;
+          margin-bottom: -10px;
+          margin-top: 0px;
         }
-    }
-
-    @media (min-width: $sizeTablet) and (max-width: $sizeLessThanDesktop) {
-        margin-left: 30px;
-        margin-right: 30px;
-
+     } 
+   
+   @media (min-width:$sizeMoreThanPhone) and (max-width: $sizeLessThanTablet){
+       margin-left: 50px;
+       margin-right: 50px;
+      
+       h1 {
+          font-size: 28px;
+           margin-top: 0px;
+        }
+     } 
+   
+   @media (min-width:$sizeMoreThanTablet) and (max-width: $sizeDesktop){
+       
         h1 {
-            font-size: 25px;
-            margin-bottom: -10px;
+          font-size: 27px;
         }
-    }
-
-    @media (min-width: $sizeDesktop) and (max-width: $sizeLargeDesktop) {
-        h1 {
-            font-size: 21px;
-        }
-    }
+       
+   } 
 }
 
 .conferencistas1 {
-    margin-top: 20px;
-
-    @media (max-width: $sizeLessThanDesktop) {
-        margin-top: 15px;
+    margin-top: 30px;
+    
+    @media (min-width:$sizeMoreThanPhone) and (max-width: $sizeLessThanTablet){
+        margin-top: 20px;
+    }
+    @media (min-width: $sizeDesktop) {
+        margin-top: 20px;
     }
 }
 
 .conferencistas1a {
-    text-align: justify;
-
+   margin-top: 30px;
+   margin-bottom: 50px;
+   
     h2 {
-        font-family: 'TenorSans',sans-serif;
+        font-family: 'Tenor Sans', sans-serif;
         font-size: 23px;
         color: #000;
         font-weight: bold;
+       
     }
 
     h3 {
-        font-family: 'Opensans-light',sans-serif;
+        font-family: 'Open sans-light',  sans-serif;
         font-size: 18px;
         color: #333;
         font-weight: lighter;
         margin-top: -2px;
         border-bottom: 2px solid #bdbdbd;
         padding-bottom: 10px;
+        
+    }
+    
+     h4{
+       font-family: 'Tenor Sans', sans-serif;
+       font-size: 20px;
+       color: #9541c7;
+       padding-bottom: 10px;
+       
     }
 
+
     p {
-        font-family: 'Opensans',sans-serif;
+       font-family: 'Open Sans', sans-serif;
         font-size: 14px;
         color: #333;
         margin-top: 10px;
-        margin-bottom: 70px;
-    }
-
-    @media (max-width: $sizeLessThanTablet) {
+        padding-bottom: 15px;
         text-align: justify;
-
-        h2 {
-            font-size: 19px;
-            margin-top: 35px;
-        }
-
-        h3 {
-            font-size: 16px;
-            text-align: center;
-        }
-
-        p {
-            font-size: 15px;
-        }
     }
-
-    @media (min-width: $sizeTablet) and (max-width: $sizeLessThanDesktop) {
-        text-align: justify;
-
-        h2 {
-            font-size: 19px;
-            text-align: center;
-            margin-top: 35px;
-        }
-
-        h3 {
-            font-size: 15px;
-            text-align: center;
-        }
-
-        p {
-            font-size: 14px;
-        }
+    
+    .bio{
+     color: #d7d7d7;
     }
-
-    @media (min-width: $sizeDesktop) and (max-width: $sizeLargeDesktop) {
-        h2 {
-            font-size: 20px;
+    
+   @media (max-width:$sizePhone){
+      margin-bottom: 30px; 
+      
+       h2{
+       font-size: 18px;
+       margin-top: 35px;    
+       text-align: center;
+       }
+       
+       h3{
+       font-size: 16px;
+       text-align: center;
+       }
+       
+       h4{
+       font-size: 18px;    
+       text-align: center;
+       }
+       
+       p {
+         font-size: 16px;
+         text-align: justify;
         }
-
-        h3 {
-            font-size: 16px;
-        }
-
-        p {
-            font-size: 14px;
-        }
+     }
+     
+    @media (min-width:$sizeMoreThanPhone) and (max-width: $sizeLessThanTablet){
+       margin-top: 1px;
+       margin-bottom: 30px; 
+       
+       h2{
+       font-size: 23px;
+       margin-top: 35px;    
+       text-align: center;
+       }
+        
+       h3{
+       font-size: 18px;
+       text-align: center;
+       }
+       
+       h4{
+       font-size: 20px;    
+       text-align: center;
+       }
+       
+       p {
+         font-size: 15px;
+         text-align: justify;
+        } 
+    }
+    
+    @media (min-width: $sizeDesktop) {
+        margin-top: 1px;
     }
 }
 
-.conferencistas2 {
-    margin-top: 23px;
-
-    @media (max-width: $sizeLessThanTablet) {
-        margin-top: 10px;
-        text-align: justify;
-        margin-top: 15px;
-
-        h2 {
-            font-size: 19px;
-            margin-top: 15px;
-            text-align: center;
-            margin-top: 35px;
-        }
-
-        h3 {
-            font-size: 16px;
-            text-align: center;
-        }
-
-        p {
-            font-size: 15px;
-            margin-bottom: 50px;
-        }
+.panelistas {
+   
+    h1 {
+        font-family: 'Tenor Sans', sans-serif;
+        font-size: 30px;
+        color: #212121;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        letter-spacing: 1px;
     }
+    
+   @media (max-width:$sizePhone){
+        margin-left: 20px;
+        margin-right: 20px;
+        border-top: 1px solid #bdbdbd;
 
-    @media (min-width: $sizeTablet) and (max-width: $sizeLessThanDesktop) {
-        margin-top: 10px;
-    }
+        h1 {
+          font-size: 23px;
+          margin-bottom: 0px;
+          padding-top:35px;
+          padding-bottom: 25px;
+        }
+     } 
+   
+    @media (min-width:$sizeMoreThanPhone) and (max-width: $sizeLessThanTablet){
+       margin-left: 50px;
+       margin-right: 50px;
+       border-top: 1px solid #bdbdbd;
+       
+       h1 {
+          font-size: 28px;
+        }
+      }
+    
+     @media (min-width:$sizeMoreThanTablet) and (max-width: $sizeDesktop) {
+
+       h1 {
+         padding-top:10px;
+          font-size: 27px;
+        }
+     }    
 }
 
-.conferencistas2a {
-    text-align: justify;
-    margin-top: 20px;
-
+.panelistas1a {
+    margin-top:15px;
+    margin-bottom:50px;
+    
     h2 {
-        font-family: 'TenorSans',sans-serif;
+        font-family: 'Tenor Sans', sans-serif;
         font-size: 23px;
         color: #000;
         font-weight: bold;
-        margin-top: 20px;
+       
     }
 
     h3 {
-        font-family: 'Opensans-light',sans-serif;
+        font-family: 'Open sans-light', sans-serif;
         font-size: 18px;
         color: #333;
         font-weight: lighter;
         margin-top: -2px;
         border-bottom: 2px solid #bdbdbd;
         padding-bottom: 10px;
-    }
+       }
 
     p {
-        font-family: 'Opensans',sans-serif;
+       font-family: 'Open Sans', sans-serif;
         font-size: 14px;
         color: #333;
         margin-top: 10px;
-    }
-
-    @media (min-width: $sizeTablet) and (max-width: $sizeLessThanDesktop) {
+        padding-bottom: 15px;
         text-align: justify;
-        margin-top: 15px;
-
-        h2 {
-            font-size: 19px;
-            margin-top: 15px;
-            text-align: center;
-            margin-top: 35px;
+    }
+    
+     .bio{
+     color: #d7d7d7;
+     }
+    
+    
+   @media (max-width:$sizePhone){
+       margin-bottom: 30px; 
+       
+       h2{
+       font-size: 18px;
+       margin-top: 35px;    
+       text-align: center;
+       }
+       
+       h3{
+       font-size: 16px;
+       text-align: center;
+       }
+       
+       p {
+         font-size: 16px;
+         text-align: justify;
         }
-
-        h3 {
-            font-size: 16px;
-            text-align: center;
-        }
-
-        p {
-            font-size: 14px;
-            margin-bottom: 50px;
-        }
+     }
+     
+   @media (min-width:$sizeMoreThanPhone) and (max-width: $sizeLessThanTablet){
+       margin-top: 0px;
+        margin-bottom: 30px; 
+       
+       h2{
+       font-size: 23px;
+       margin-top: 35px;    
+       text-align: center;
+       }
+        
+       h3{
+       font-size: 18px;
+       text-align: center;
+       }
+       
+       p {
+         font-size: 15px;
+         text-align: justify;
+        } 
     }
 }
 
-.bio {
-    color: #d7d7d7;
+
+.btn-leer{
+  background-color: #fafafa;
+  border-color:#0cb095;
+  color:#0cb095;
+  font-size:12px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom:10px;
 }
 
-@media (max-width: $sizeTablet) {
-    .btn-leer {
-        background-color: #fafafa;
-        border-color: #0cb095;
-        color: #0cb095;
-        font-size: 12px;
-        font-family: 'Opensans',sans-serif;
-        margin-top: -120px;
-        margin-left: 0px;
-    }
-
-    .btn-leer:focus,
-    .btn-leer.focus {
-        color: #fff;
-        background-color: #0cb095;
-        border-color: #0cb095;
-    }
-
-    .btn-leer:hover {
-        color: #fff;
-        background-color: #0cb095;
-        border-color: #0cb095;
-    }
+.btn-leer:focus,
+.btn-leer.focus {
+  color: #fff;
+  background-color: #0cb095;
+  border-color: #0cb095;
 }
+
+.btn-leer:hover{
+  color: #fff;
+  background-color: #0cb095;
+  border-color: #0cb095; 
+  }

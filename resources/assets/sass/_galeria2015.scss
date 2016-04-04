@@ -1,13 +1,52 @@
- .galeria h1{
-     font-family:'TenorSans',sans-serif;
+/*---------------------------
+     Galeria 2015
+----------------------------*/
+
+
+
+ .galeria{
+ 
+    h1{
+      font-family:'TenorSans';
       font-size: 30px;
       color:#212121;
       font-weight: bold;
       text-align: center;
-      padding:60px 0px;
-     }
-     
-.galeria img{
-    margin-bottom:30px;
+      padding:40px 0px;
+      }
+    
+    img{
+    margin-bottom:20px;
+    }
   
+   @media (max-width:$sizePhone){
+        text-align: center;
+        
+        h1{
+        font-size: 20px;
+        padding: 20px 10px;
+        line-height: 1.5;
+        }
+        
+       
+   }
+   
+   @media(min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
+        text-align: center;
+        
+        h1{
+        font-size: 25px;
+        padding:30px 0px;
+        }
+   }
+   
+   @media (min-width:$sizeTablet) and (max-width: $sizeDesktop){
+         text-align: center;
+         padding-left: 25px;
+                 
+        h1{
+        font-size:28px;
+        }
+   }
+   
 }

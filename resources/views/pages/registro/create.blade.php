@@ -2,8 +2,9 @@
 @section('content')
 <div class="naranjaR"></div>
 
-<div class="container">
-  <div class="fondo1">
+<div class="semiblanco">
+  <div class="container">
+   <div class="fondo1">
     <form type="POST" role="form" method="POST" action="{{ url('/registro') }}">
 
       {!! csrf_field() !!}
@@ -140,6 +141,7 @@
       </div>
     </form>
   </div>
+ </div>
 </div>
 @stop
 @section('scripts')

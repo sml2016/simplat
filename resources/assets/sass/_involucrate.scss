@@ -3,33 +3,89 @@
  --------------------------------*/
  
  .involucrate{
-    margin: 50px 20px; 
+    margin: 40px 20px; 
+  
     
      h1{
         font-family: 'TenorSans',sans-serif;
         font-size: 30px;
         color: #212121;
         font-weight: bold;
+        text-align: center;
+        padding-left: 70px;
+        padding-right: 50px;
        } 
    
      h2{
-       font-family: 'Lobster', cursive;
-       font-size: 28px;
+       font-family: 'Lobster';
+       font-size: 23px;
        color: #f04942;
-       font-weight: bold;
-       }
-    
-    
-     h3{
-       font-family: 'Lobster', cursive;
-       font-size: 28px;
-       color: #f04942;
-       font-weight: bold;
+       font-weight: lighter;
        line-height: 1.5;
+       padding-left: 200px;
+       padding-top: 10px;
+       text-align: center;
        }
      
      span{
-       font-weight: bold;
+       font-weight: normal;
+       padding-left: 380px;
+       line-height: 2;
+     }
+     
+     p {
+      font-family: 'OpenSans-Regular';
+      font-size:18px;
+      color:#333;
+      padding-left: 55px;
+      padding-top: 30px;
+      padding-bottom: 40px;
+      padding-right: 53px;
+     }
+     
+     .color{
+     color: #f04942;
+     padding-left: 0px;
+     }
+     
+     .involucrate1{
+        background-color: rgba(192,192,192,0.3);
+        height: auto;
+        width: 90%;
+        margin-left: 55px;
+     
+       h1{
+       font-family: 'OpenSans-Regular';
+       font-size:18px;
+       color:#333;
+       line-height: 3.5;
+       }
+       
+       h1 a{
+       color:#c597e6; 
+       text-decoration: none;      
+       }
+   
+       h1 a:hover,
+       h1 a:focus{
+       color:  #9541c7;
+       text-decoration: none; 
+       }
+       
+       h2{
+       font-family: 'OpenSans-Regular';
+       font-size:18px;
+       color:#333;
+       padding: 40px 25px 20px 25px;
+       background-color: #fff;
+       height: 200px;
+       margin: 15px;
+       }
+       
+       .color1{
+       color: #f04942;
+       padding-left:0px;
+       }
      }
  }
  

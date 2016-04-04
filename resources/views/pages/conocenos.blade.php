@@ -41,7 +41,8 @@
              </div> <!--End Caption--->
             </div> <!--End thumbnails-->
             </div> <!--End Col--->
-           <div class="clearfix hidden-md hidden-lg"></div>    
+        
+            <div class="clearfix hidden-md hidden-lg"></div>  
            <!--Velia-->    
             <div class="col-sm-6 col-md-4">
               <div class="thumbnails"> 
@@ -57,9 +58,10 @@
                </div> <!--End Caption--->
              </div> <!--End thumbnails-->
             </div> <!--End Col--->  
-         <div class="clearfix hidden-xs hidden-sm"></div> 
+         <div class="clearfix hidden-xs hidden-sm"></div>   
  
-         <!---Ximena-->       
+         <!---Ximena-->   
+         <div class="row">     
            <div class="col-sm-6 col-md-4">
                <div class="thumbnails"> 
                 <div class="img-thumbnail img-circle">  
@@ -75,7 +77,8 @@
                  </div> <!--End Caption--->
                 </div> <!--End thumbnails-->
                </div> <!--End Col--->
- 
+     
+                <div class="clearfix hidden-md hidden-lg"></div>  
           <!---Perla-->       
              <div class="col-sm-6 col-md-4">
                <div class="thumbnails"> 
@@ -92,9 +95,9 @@
                   </div> <!--End Caption--->
                  </div> <!--End thumbnails-->
                </div> <!--End Col--->
-           
-       <div class="clearfix hidden-md hidden-lg"></div>       
         
+  
+       
             <!---Amarilis-->       
              <div class="col-sm-6 col-md-4">
                <div class="thumbnails"> 
@@ -109,13 +112,12 @@
                   <button type="button" class="btn btn-leer btn-sm">Leer más</button>
                     {!! trans('conocenos.Amarilis1') !!} 
                </div> <!--End Caption--->
-               </div> <!--End thumbnails-->
-               </div> <!--End Col---> 
-
-         <div class="clearfix hidden-xs hidden-sm"></div> 
-        <div class="clearfix hidden-md hidden-lg"></div> 
-          
-         <!---Angelica-->       
+              </div> <!--End thumbnails-->
+             </div> <!--End Col---> 
+           </div>
+            
+         <!---Angelica-->    
+             <div class="row">    
              <div class="col-sm-6 col-md-4">
                <div class="thumbnails"> 
                 <div class="img-thumbnail img-circle">  
@@ -148,6 +150,8 @@
                 </div> <!--End Caption--->
                </div> <!--End thumbnails-->
              </div> <!--End Col--->
+      
+             <div class="clearfix hidden-md hidden-lg"></div>  
           
           <!---Sixta-->       
              <div class="col-sm-6 col-md-4">
@@ -165,11 +169,12 @@
                 </div> <!--End Caption--->
                </div> <!--End thumbnails-->
              </div> <!--End Col--->
-            
-         <div class="clearfix hidden-xs hidden-sm"></div> 
-        
-        
-         <!---Veronica-->       
+         
+          
+     <div class="clearfix hidden-xs hidden-sm"></div>  
+          
+         <!---Veronica--> 
+                
             <div class="col-sm-6 col-md-4">
                <div class="thumbnails"> 
                 <div class="img-thumbnail img-circle">  
@@ -185,8 +190,9 @@
                  </div> <!--End Caption--->
                </div> <!--End thumbnails-->
               </div> <!--End Col--->
-              
-             
+               
+            <div class="clearfix hidden-md hidden-lg"></div>     
+         
                   <!---Puerto-->       
             <div class="col-sm-6 col-md-4">
                <div class="thumbnails"> 

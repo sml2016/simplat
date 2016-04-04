@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
                     <div class="conferencistas1a">
-                        <div class="collapsable" collapsed-height="256">
+                        <div class="collapsable" collapsed-height="280">
                             {!! trans('conferencistas.Maru') !!} 
                         </div>
                         <div id="leermas" class="" style="display:block;">
@@ -41,7 +41,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
                     <div class="conferencistas1a">
-                        <div class="collapsable" collapsed-height="256">
+                        <div class="collapsable" collapsed-height="280">
                             {!! trans('conferencistas.MariaS') !!} 
                         </div>
                         <div id="leermas" class="" style="display:block;">
@@ -61,10 +61,14 @@
                 </div>
                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
                     <div class="conferencistas1a">
+                       <div class="collapsable" collapsed-height="280">
                           {!! trans('conferencistas.Lizeth') !!} 
                         
-                        <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                          {!! trans('conferencistas.Lizeth1') !!} 
+                        </div>
+                        <div id="leermas" class="" style="display:block;">
+                            <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
+                            <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                        </div>
                     </div>
                 </div>
             </div> <!--End ROW 3er. conferencista -->
@@ -85,9 +89,13 @@
                 </div>
                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
                     <div class="panelistas1a">
+                       <div class="collapsable" collapsed-height="280">  
                        {!! trans('conferencistas.Elodia') !!} 
-                          <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                          {!! trans('conferencistas.Elodia1') !!}  
+                       </div>
+                        <div id="leermas" class="" style="display:block;">
+                            <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
+                            <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                        </div>
                     </div>
                 </div>
             </div> <!--End ROW -->
@@ -100,9 +108,13 @@
                 </div>
                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
                     <div class="panelistas1a">
+                      <div class="collapsable" collapsed-height="280">    
                       {!! trans('conferencistas.Ana') !!} 
-                       <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                      {!! trans('conferencistas.Ana1') !!} 
+                      </div>
+                        <div id="leermas" class="" style="display:block;">
+                            <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
+                            <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                        </div>
                     </div>
                 </div>
             </div> <!--End ROW -->

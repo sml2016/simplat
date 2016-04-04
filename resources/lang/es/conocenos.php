@@ -72,9 +72,9 @@ return [
              <p>Vivo en Seattle junto a mi esposo e hijo, disfruto de las flores, la buena lectura y escribo periódicamente en mi   blog Gente, Historias y Sonrisas.</p>',
  'nomVeronica' => 'Veronica Duran', 
  'comiteVeronica' => 'Comité de Recuerdos',
- 'Veronica' => '<p></p>',  
- 'Veronica1' => '<p></p>
-                <p></p>',  
+  'Veronica' => '<p>Vine del Ecuador hace 17 años, donde había estudiado Negocios Internacionales y sacado mi Maestría en Marketing.  Después de un  año de haber llegado a Portland, OR, se me presentó un trabajo en la Universidad de Salud y Ciencia de Oregon (OHSU) como Interprete de Español.</p>',  
+'Veronica1' => '<p>Este trabajo me dio la oportunidad de conocer a muchas personas de diferentes orígenes y culturas. A través de esta experiencia,   aprendí que las personas de habla hispana no solo buscaban ayuda con el idioma, sino que buscaban compartir parte de su vida con    alguien que tuviera algo en común.</p>
+                <p>Ahora que me dedico a cuidar a mis tres hijos aquí en Seattle, me doy cuenta que yo también quiero compartir mis experiencias con otras mujeres para poder enriquecernos mutuamente y salir adelante.</p>',
 'nomPuerto' => 'Puerto',  
    'Puerto' => '<p></p>',  
   'Puerto1' => '<p></p>

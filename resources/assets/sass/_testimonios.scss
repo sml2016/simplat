@@ -23,7 +23,7 @@
        position: relative;
        display: inline-block;
        max-width: 450px;
-       height: 170px;
+       height: auto;
        padding: 20px 40px 0px 40px;
        border: #f2f2f2 solid 2px;
        border-radius: 20px;
@@ -99,7 +99,7 @@
      }
       
       
-      @media (max-width:$sizeTablet){
+      @media (min-width:$sizeMoreThanPhone)  and (max-width:$sizeTablet){
         margin: 40px 10px 50px;
       
       .testimonio1{
@@ -110,7 +110,6 @@
       
       .bubble{
         max-width: 550px;
-        height: auto;
         padding: 20px ;
         }
         
@@ -133,12 +132,7 @@
        margin-right: 60px;
        text-align: none;
        }
-       
-   /*    .bubble{
-        max-width: 380px;
-        height: 205px;
-        padding: 20px 20px;
-        }*/
+      
      }     
     
 }

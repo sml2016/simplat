@@ -28,7 +28,7 @@
                 
                 <div class="col-sm-2">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/puentes.png" alt="NSC"/>
+                <img src="/images/patrocinadores/MarthaZahuita.png" alt="NSC"/>
                 <p>{{ trans('patrocinadores.Gracias1') }} </p>
                 </div>
                 </div>

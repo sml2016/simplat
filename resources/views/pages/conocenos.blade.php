@@ -184,9 +184,9 @@
                <div class="caption">
                  <h2>{{ trans('conocenos.nomVeronica') }}</h2>
                   <h3>{{ trans('conocenos.comiteVeronica') }}</h3> 
-                    {!! trans('conocenos.Vernonica') !!}
+                    {!! trans('conocenos.Veronica') !!}
                   <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                    {!! trans('conocenos.Vernonica1') !!}
+                   
                  </div> <!--End Caption--->
                </div> <!--End thumbnails-->
               </div> <!--End Col--->

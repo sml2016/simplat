@@ -26,12 +26,12 @@
                 <h3>{{ trans('testimonios.Fecha') }}</h3>
                </div>
             
+            
               <div class="col-sm-10 col-md-6">
                 <div class="bubble">
                  {!! trans('testimonios.Dicen1') !!}
-            
                 </div>
-                <h2>{{ trans('testimonios.nombreMarcela') }}</h2>
+                <h2>{{ trans('testimonios.nombreJueza') }}</h2>
                 <h3>{{ trans('testimonios.Fecha') }}</h3>
               </div>
             </div><!--END ROW-->
@@ -45,6 +45,14 @@
                 <h2>{{ trans('testimonios.nombreMaribel') }}</h2>
                 <h3>{{ trans('testimonios.Fecha') }}</h3>
               </div>
+              
+                 <div class="col-sm-10 col-md-6">
+                <div class="bubble">
+                 {!! trans('testimonios.Dicen3') !!}
+                </div>
+                <h2>{{ trans('testimonios.nombreMarcela') }}</h2>
+                <h3>{{ trans('testimonios.Fecha') }}</h3>
+              </div> 
             </div><!--END ROW-->
           </div>
          </div><!--End testimonio-->

@@ -78,8 +78,8 @@ return [
 'comiteVeronica' => 'Souvenir Committee',
  'Veronica' => '<p>17 years ago I came from Ecuador, where I had studied International Business and where I had 
       completed a Masters in Marketing.  One year after arriving in Portland, Oregon, I was presented
-      the opportunity to work at Oregon Health and Sciences University as a Spanish Interpreter.</p>',  
-'Veronica1' => '<p>This job allowed me to meet many people from different origins and cultures.  Through this
+      the opportunity to work at Oregon Health and Sciences University as a Spanish Interpreter.</p>
+            <p>This job allowed me to meet many people from different origins and cultures.  Through this
             experience I learned that while Spanish speakers were often looking for help with English they were also looking for a chance to share part of their life with others with whom they had things in common.</p>
                 <p>Now that I am dedicated to raising my three children here in Seattle, I realize that I also want to share my experiences with other women so that we can mutually enrich ourselves and thrive together.</p>', 
 'nomPuerto' => 'Puerto',  

@@ -8072,7 +8072,7 @@ select.input-lg, .input-group-lg > select.form-control,
     position: relative;
     display: inline-block;
     max-width: 450px;
-    height: 170px;
+    height: auto;
     padding: 20px 40px 0px 40px;
     border: #f2f2f2 solid 2px;
     border-radius: 20px; }
@@ -8128,7 +8128,7 @@ select.input-lg, .input-group-lg > select.form-control,
       .testimonio h3 {
         font-size: 18px;
         padding: 5px 0px 45px 30px; } }
-  @media (max-width: 768px) {
+  @media (min-width: 481px) and (max-width: 768px) {
     .testimonio {
       margin: 40px 10px 50px; }
       .testimonio .testimonio1 {
@@ -8137,7 +8137,6 @@ select.input-lg, .input-group-lg > select.form-control,
         margin-top: 40px; }
       .testimonio .bubble {
         max-width: 550px;
-        height: auto;
         padding: 20px; }
       .testimonio h2 {
         font-size: 28px;
@@ -8147,12 +8146,7 @@ select.input-lg, .input-group-lg > select.form-control,
         padding: 5px 0px 45px 150px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .testimonio {
-      margin: 50px 0px 70px;
-      /*    .bubble{
-        max-width: 380px;
-        height: 205px;
-        padding: 20px 20px;
-        }*/ }
+      margin: 50px 0px 70px; }
       .testimonio .testimonio1 {
         margin-right: 60px;
         text-align: none; } }

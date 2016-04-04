@@ -14,5 +14,5 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
     mix.sass('app.scss');
     mix.copy('resources/assets/js/admin.js', 'public/js/admin.js');
-    mix.scripts(['googlemaps.js', 'registro.js']);
+    mix.scripts(['googlemaps.js', 'registro.js', 'leerMas.js']);
 });

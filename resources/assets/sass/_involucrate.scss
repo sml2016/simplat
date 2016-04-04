@@ -44,7 +44,7 @@
      }
      
      .color{
-     color:red;
+     color: #f04942;
      padding-left: 0px;
      }
      
@@ -76,7 +76,15 @@
        font-family: 'OpenSans-Regular';
        font-size:18px;
        color:#333;
-       padding-left: 0px;
+       padding:20px;
+       background-color: #fff;
+       height: 200px;
+       margin:10px;
+       }
+       
+       .color1{
+       color: #f04942;
+       padding-left:0px;
        }
      }
  }

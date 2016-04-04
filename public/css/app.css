@@ -8191,7 +8191,7 @@ select.input-lg, .input-group-lg > select.form-control,
     padding-bottom: 40px;
     padding-right: 53px; }
   .involucrate .color {
-    color: red;
+    color: #f04942;
     padding-left: 0px; }
   .involucrate .involucrate1 {
     background-color: rgba(192, 192, 192, 0.3);
@@ -8213,6 +8213,13 @@ select.input-lg, .input-group-lg > select.form-control,
     .involucrate .involucrate1 h2 {
       font-family: 'OpenSans-Regular';
       font-size: 18px;
-      color: #333; }
+      color: #333;
+      padding: 20px;
+      background-color: #fff;
+      height: 200px;
+      margin: 10px; }
+    .involucrate .involucrate1 .color1 {
+      color: #f04942;
+      padding-left: 0px; }
 
 /*# sourceMappingURL=app.css.map */

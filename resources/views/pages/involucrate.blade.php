@@ -38,7 +38,7 @@
         </div>
        <div class="col-md-6">
         <h2>Ahí podrás encontrar las diferentes actividades en las que puedes participar. O si lo prefieres, comunícate con 
-        Angie al correo electrónico <span class="color">simposiomujereslatinas.gente@gmail.com</span></h2>
+        Angie al correo electrónico <br><span class="color1">simposiomujereslatinas.gente@gmail.com</span></br></h2>
          </div>
         </div>
        </div>

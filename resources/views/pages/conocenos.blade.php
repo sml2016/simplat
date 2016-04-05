@@ -196,7 +196,7 @@
          
            <div class="clearfix hidden-xs hidden-sm"></div>    
       
-          <div class="aliados">
+          <div  class="aliados">
            <h1>{{ trans('conocenos.Aliados') }}</h1> 
        
          

@@ -17,7 +17,7 @@
        } 
    
      h2{
-       font-family: 'Lobster';
+       font-family: 'TenorSans';
        font-size: 23px;
        color: #f04942;
        font-weight: lighter;
@@ -62,13 +62,13 @@
        }
        
        h1 a{
-       color:#c597e6; 
+       color: #9541c7;
        text-decoration: none;      
        }
    
        h1 a:hover,
        h1 a:focus{
-       color:  #9541c7;
+       color:  #c597e6;;
        text-decoration: none; 
        }
        
@@ -86,6 +86,190 @@
        color: #f04942;
        padding-left:0px;
        }
+  
+  @media (max-width:$sizeSmallPhone){
+     
+     .color1{
+     font-size: 12px;
      }
+  }
+  
+  @media (max-width:$sizePhone){
+      width: 100%;
+      margin-left: 0px;
+      
+      h1{
+      font-size: 16px;
+       padding:15px 5px 0px 5px;
+      line-height: 1.5;
+      }
+      
+      h2{
+      padding:15px 5px;
+      margin: 15px 8px 10px 8px;
+      font-size: 16px;
+      height: auto;
+      }
+      
+    }
+  
+  
+ @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
+      width: 100%;
+      margin-left: 0px;
+      
+      h1{
+      line-height: 2.5;
+      font-size: 16px;
+      padding:15px 30px 0px 30px;
+      }
+      
+      h2{
+      font-size: 16px;
+      padding:20px 25px;
+      height: auto;
+      line-height: 2;
+      }
+      
+ } 
+  
+  @media (min-width:$sizeTablet){
+      width: 100%;
+      margin-left: 0px;
+      
+      h1{
+      font-size: 16px;
+      line-height: 3;
+      padding:0px 30px;
+      }
+      
+      h2{
+      font-size: 16px;
+      height: auto;
+      padding-top: 20px;
+      }
+  }
+  
+       
+  @media (min-width:$sizeDesktop){
+      width: 100%;
+      margin-left: 0px; 
+      
+      h1{
+      line-height: 3;
+      padding-top: 20px;
+      padding-left: 60px;
+      }
+      
+      h2{
+      height: auto;
+      padding:30px 25px;
+      line-height: 2;
+      }
+      
+      .color1{
+      font-size: 16px;
+      }
+    }    
+       
+               
+  }
+  
+  @media (max-width:$sizePhone){
+     margin: 30px 15px 0px 15px;
+     
+     h1{
+     padding-left: 0px;
+     padding-right: 0px;
+     margin-top: 0px;
+     font-size: 20px;
+     }
+     
+     h2{
+     padding-left:1px;
+     font-size: 16px;
+     }
+     
+     .span{
+     font-size: 16px;
+     padding-left:0px;
+     }
+     
+     p{
+     padding:10px 0px 20px 0px;
+     font-size: 16px;
+     text-align: justify;
+     }
+  }
+  
+  @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
+      margin: 40px 20px 0px 20px; 
+      
+      h1{
+      margin-top:0px;
+      padding:0px;
+      font-size: 22px;
+      }
+      
+      h2{
+      font-size: 17px;
+      padding-left:0px;
+      }
+      
+      .span{
+      font-size: 17px;
+      padding-left: 300px;
+      }
+      
+      p{
+      padding-right: 0px;
+      padding-left: 10px;
+      font-size: 17px;
+      text-align: justify;
+      }
+  }
+  
+  @media (min-width:$sizeTablet){
+    margin-top:25px;
+    
+    h1{
+    font-size: 25px;
+    }
+    
+    h2{
+    padding-left: 0px;
+    font-size: 20px;
+    }
+    
+    .span{
+    font-size: 20px;
+    padding-left: 330px;
+    }
+    
+    p{
+    font-size: 16px;
+    padding:30px 10px;
+    }
+  }
+     
+  @media (min-width:$sizeDesktop) {
+    
+    h2{
+    padding-left: 180px;
+    font-size: 20px;
+    }
+    
+    .span{
+    font-size: 20px;
+    padding-left: 350px;
+    }
+    
+    p{
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: justify;
+    }
+   }
+     
  }
  

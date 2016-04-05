@@ -179,7 +179,7 @@
              <div class="col-sm-6 col-md-4">
                <div class="thumbnails"> 
                 <div class="img-thumbnail img-circle">  
-               <img src="images/ComiteSMLLeonor.jpg" alt="Leonor" class="img-circle"/>
+                <img src="images/ComiteSMLLeonor.jpg" alt="Leonor" class="img-circle"/>
               </div>
                 
                <div class="caption">
@@ -196,7 +196,7 @@
          
            <div class="clearfix hidden-xs hidden-sm"></div>    
       
-          <div class="Aliados">
+          <div class="aliados">
            <h1>{{ trans('conocenos.Aliados') }}</h1> 
        
          

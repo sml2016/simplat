@@ -12,7 +12,7 @@
          Galardonada con el premio Puño de Oro</h1>
           <h2>El Tercer Simposio de Mujeres Latinas acordó por unanimidad entregar el premio “Puño de Oro” a la activista política Maru Mora Villalpando. Su trabajo como creadora de Latino Advocacy para defender los derechos humanos de la comunidad latina y las luchas raciales de esta minoría, la hacen merecedora de este reconocimiento entregado a mujeres que son un ejemplo en su comunidad.</h2>
         <h3>Amarilis Aranguren Sánchez <span class="grey"> / </span> April 11, 2016</h3>
-      </div><!-- END News20161 -->
+     
       
       <div class="row">
        <div class="col-sm-5 col-md-4 col-lg-4">    
@@ -41,7 +41,7 @@
       </div><!-- END ROw --> 
       
       <div class="news20162">
-      <h1>“Reinventándonos después de migrar”.</br>
+      <h1>“Reinventándonos después de migrar”</br>
       Es el tema del Tercer Simposio de Mujeres Latinas</h1>
       <h2>Todas las familias que han llegado a los Estados Unidos han tenido que pasar por la situación de adaptar sus vidas a costumbres diferentes. Tomando en consideración que la temática de la migración está tan vinculada con la comunidad latina en Seattle, estado de Washington, el Tercer Simposio de Mujeres Latinas estará dedicado este año a abordar esta realidad.</h2>
       <h3>Amarilis Aranguren Sánchez <span class="grey"> / </span> April 04, 2016</h3>
@@ -76,7 +76,7 @@
        </article>  
        </div>
       </div><!-- END ROw --> 
-       
+       </div><!-- END News20161 --> 
       </div><!-- END Noticias -->  
      </div><!-- END fondo1 -->
   </div><!-- END Container -->

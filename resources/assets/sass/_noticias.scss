@@ -11,7 +11,7 @@
       h1{
       margin-top: 80px;
       font-family: 'TenorSans',sans-serif;
-      font-size: 1.9em;
+      font-size: 30px;
       color: #212121;
       font-weight: bold;
       text-align: left;
@@ -20,7 +20,7 @@
      h2{
      margin-top: 20px;
      font-family:'OpenSans-Regular', sans-serif;
-     font-size: 21px;
+     font-size: 22px;
      text-align: justify;
      color: #58585a;
      line-height: 1.4;
@@ -42,6 +42,17 @@
      .grey{
      color: grey;
     }
+    
+     @media (min-width:$sizeDesktop) and (max-width:$sizeLessThanLargeDesktop){
+       
+       h1{
+       font-size: 28px;
+       }
+       
+       h2{
+       font-size: 20px;
+       }
+     }
   }
   
   p{
@@ -56,5 +67,11 @@
   text-align: center;
   color:#333;
   }
-   
+  
+  @media (min-width:$sizeDesktop) and (max-width:$sizeLessThanLargeDesktop){
+        margin:0px 70px;  
+        
+          
+  }
+
 }

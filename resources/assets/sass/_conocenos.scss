@@ -101,26 +101,25 @@
    }
  }
    
-   .Aliados{
+   .aliados{
     margin:40px 10px;
     
         h1{
-        font-family:'TenorSans',sans-serif;
+        font-family:'Lobster',sans-serif;
         font-size: 30px;
         color:#212121;
         font-weight: bold;
         text-align: center;
         padding:50px 0px;
-       
+        }
+        
        @media (min-width:$sizeTablet ) and (max-width:$sizeLargeDesktop){
      
        h1{
        font-size: 27px;
        padding-top:45px;
        }
-    }
-       
-        }
+      }
     
        .thumbnails{
        text-align: center;  

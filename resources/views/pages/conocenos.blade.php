@@ -84,7 +84,6 @@
               <div class="img-thumbnail img-circle">  
                 <img src="images/ComiteSMLPerla.jpg" alt="Perla" class="img-circle"/>
               </div>
-
               <div class="caption">
                 <h2>{{ trans('conocenos.nomPerla') }}</h2>
                 <h3>{{ trans('conocenos.comitePerla') }}</h3>

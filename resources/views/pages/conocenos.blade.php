@@ -10,7 +10,7 @@
         <!-- Row Mujeres-->
         <div class="row">
           <!--Jessica--> 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails">
               <div class="img-thumbnail img-circle">
                 <img src="images/ComiteSMLJessica.jpg" alt="Jessica" class="img-circle"/>
@@ -27,7 +27,7 @@
           </div><!-- End Col -->
 
           <!--Tania-->
-          <div class="col-sm-6 col-md-4">
+          <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
                 <img src="images/ComiteSMLTania.jpg" alt="Tania" class="img-circle"/>
@@ -41,10 +41,11 @@
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
+          
           <div class="clearfix hidden-md hidden-lg"></div>  
 
           <!--Velia-->    
-          <div class="col-sm-6 col-md-4">
+          <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails">
               <div class="img-thumbnail img-circle">  
                 <img src="images/ComiteSMLVelia.jpg" alt="Velia" class="img-circle"/>
@@ -58,10 +59,9 @@
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
-          <div class="clearfix hidden-xs hidden-sm"></div>   
-
+           <div class="clearfix hidden-xs hidden-sm"></div> 
           <!---Ximena-->
-          <div class="col-sm-6 col-md-4">
+          <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
                 <img src="images/ComiteSMLXimena.jpg" alt="Ximena" class="img-circle"/>
@@ -77,9 +77,8 @@
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
           <div class="clearfix hidden-md hidden-lg"></div>  
-
           <!---Perla-->       
-          <div class="col-sm-6 col-md-4">
+          <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
                 <img src="images/ComiteSMLPerla.jpg" alt="Perla" class="img-circle"/>
@@ -94,7 +93,7 @@
           </div><!-- End Col -->
 
           <!-- Amarilis -->
-          <div class="col-sm-6 col-md-4">
+          <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
                 <img src="images/ComiteSMLAmarilis.jpg" alt="Amarilis" class="img-circle"/>
@@ -109,8 +108,9 @@
             </div> <!-- End thumbnails -->
           </div> <!-- End Col -->
 
+        <div class="clearfix hidden-xs hidden-sm"></div> 
           <!-- Sixta-->  
-          <div class="col-sm-6 col-md-4">
+          <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
                 <img src="images/ComiteSMLSixta.jpeg" alt="logocirculo" class="img-circle"/>
@@ -126,8 +126,10 @@
             </div><!--End thumbnails -->
           </div><!--End Col -->
 
+
+
           <!---Angelica-->
-          <div class="col-sm-6 col-md-4">
+          <div class="col-xs-122 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
                 <img src="images/ComiteSMLAngie.jpg" alt="Angie" class="img-circle"/>
@@ -140,10 +142,10 @@
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
-          <div class="clearfix hidden-md hidden-lg"></div>  
+         
 
           <!---Veronica--> 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
                 <img src="images/ComiteSMLVeronica.jpg" alt="veronica" class="img-circle"/>
@@ -156,10 +158,9 @@
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->         
-          <div class="clearfix hidden-xs hidden-sm"></div>  
-
+         <div class="clearfix hidden-xs hidden-sm"></div>   
           <!-- Leonor -->       
-          <div class="col-sm-6 col-md-4">
+          <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
                 <img src="images/ComiteSMLLeonor.jpg" alt="Leonor" class="img-circle"/>
@@ -173,14 +174,13 @@
             </div> <!--End thumbnails -->
           </div> <!--End Col -->
         </div><!-- End ROW-->
-        <div class="clearfix hidden-xs hidden-sm"></div>    
-
-        <div class="Aliados">
+       
+        <div class="aliados">
           <h1>{{ trans('conocenos.Aliados') }}</h1> 
-
+           </div><!-- END Aliados -->
           <!---Guillermo Carvajal-->       
           <div class="row">      
-            <div class="col-sm-12  col-md-12">
+            <div class="col-sm-8 col-sm-offset-2  col-md-6 col-md-offset-3">
               <div class="thumbnails"> 
                 <div class="img-thumbnail img-circle">  
                   <img src="images/AliadoSMLGuillermo.jpg" alt="Guillermo" class="img-circle"/>
@@ -195,7 +195,7 @@
               </div><!-- END thumbnails -->
             </div><!-- END Col -->
           </div><!-- END ROW -->
-        </div><!-- END Aliados -->
+      
       </div><!-- END Conocenos -->
     </div><!-- END fondo1 -->
   </div><!-- END Container -->

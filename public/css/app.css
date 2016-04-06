@@ -7960,10 +7960,13 @@ select.input-lg, .input-group-lg > select.form-control,
     text-align: center;
     padding: 50px 0px; }
   @media (max-width: 480px) {
-    .conocenos h1 {
-      font-size: 25px;
-      padding-top: 0px;
-      padding-bottom: 20px; } }
+    .conocenos {
+      margin: 30px 20px; }
+      .conocenos h1 {
+        font-size: 25px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        margin-top: 0px; } }
   @media (min-width: 481px) and (max-width: 767px) {
     .conocenos h1 {
       font-size: 28px;
@@ -8007,6 +8010,41 @@ select.input-lg, .input-group-lg > select.form-control,
     @media (min-width: 768px) and (max-width: 1200px) {
       .conocenos .thumbnails .caption h3 {
         font-size: 16px; } }
+  .conocenos .Aliados {
+    margin: 50px 10px; }
+    .conocenos .Aliados h1 {
+      font-family: 'TenorSans',sans-serif;
+      font-size: 30px;
+      color: #212121;
+      font-weight: bold;
+      text-align: center;
+      padding: 50px 0px; }
+    .conocenos .Aliados .thumbnails {
+      text-align: center;
+      margin-top: 30px; }
+      .conocenos .Aliados .thumbnails .caption h2 {
+        font-family: 'TenorSans',sans-serif;
+        font-size: 25px;
+        color: #212121;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 20px; }
+      .conocenos .Aliados .thumbnails .caption h3 {
+        font-family: 'OpenSans',sans-serif;
+        font-size: 18px;
+        color: #a3a3a3;
+        font-weight: lighter;
+        text-align: center;
+        padding-bottom: 10px;
+        margin: 0px 10px;
+        border-bottom: 1px solid #bdbdbd; }
+      .conocenos .Aliados .thumbnails .caption p {
+        font-family: 'OpenSans',sans-serif;
+        font-size: 16px;
+        color: #333;
+        text-align: justify;
+        padding: 15px 15px; }
 
 /* --------------------------
         HISTORIA
@@ -8165,7 +8203,7 @@ select.input-lg, .input-group-lg > select.form-control,
     padding-left: 70px;
     padding-right: 50px; }
   .involucrate h2 {
-    font-family: 'Lobster';
+    font-family: 'TenorSans';
     font-size: 23px;
     color: #f04942;
     font-weight: lighter;
@@ -8199,11 +8237,11 @@ select.input-lg, .input-group-lg > select.form-control,
       color: #333;
       line-height: 3.5; }
     .involucrate .involucrate1 h1 a {
-      color: #c597e6;
+      color: #9541c7;
       text-decoration: none; }
     .involucrate .involucrate1 h1 a:hover,
     .involucrate .involucrate1 h1 a:focus {
-      color: #9541c7;
+      color: #c597e6;
       text-decoration: none; }
     .involucrate .involucrate1 h2 {
       font-family: 'OpenSans-Regular';
@@ -8216,5 +8254,121 @@ select.input-lg, .input-group-lg > select.form-control,
     .involucrate .involucrate1 .color1 {
       color: #f04942;
       padding-left: 0px; }
+    @media (max-width: 375px) {
+      .involucrate .involucrate1 .color1 {
+        font-size: 12px; } }
+    @media (max-width: 480px) {
+      .involucrate .involucrate1 {
+        width: 100%;
+        margin-left: 0px; }
+        .involucrate .involucrate1 h1 {
+          font-size: 16px;
+          padding: 15px 5px 0px 5px;
+          line-height: 1.5; }
+        .involucrate .involucrate1 h2 {
+          padding: 15px 5px;
+          margin: 15px 8px 10px 8px;
+          font-size: 16px;
+          height: auto; } }
+    @media (min-width: 481px) and (max-width: 767px) {
+      .involucrate .involucrate1 {
+        width: 100%;
+        margin-left: 0px; }
+        .involucrate .involucrate1 h1 {
+          line-height: 2.5;
+          font-size: 16px;
+          padding: 15px 30px 0px 30px; }
+        .involucrate .involucrate1 h2 {
+          font-size: 16px;
+          padding: 20px 25px;
+          height: auto;
+          line-height: 2; } }
+    @media (min-width: 768px) {
+      .involucrate .involucrate1 {
+        width: 100%;
+        margin-left: 0px; }
+        .involucrate .involucrate1 h1 {
+          font-size: 16px;
+          line-height: 3;
+          padding: 0px 30px; }
+        .involucrate .involucrate1 h2 {
+          font-size: 16px;
+          height: auto;
+          padding-top: 20px; } }
+    @media (min-width: 992px) {
+      .involucrate .involucrate1 {
+        width: 100%;
+        margin-left: 0px; }
+        .involucrate .involucrate1 h1 {
+          line-height: 3;
+          padding-top: 20px;
+          padding-left: 60px; }
+        .involucrate .involucrate1 h2 {
+          height: auto;
+          padding: 30px 25px;
+          line-height: 2; }
+        .involucrate .involucrate1 .color1 {
+          font-size: 16px; } }
+  @media (max-width: 480px) {
+    .involucrate {
+      margin: 30px 15px 0px 15px; }
+      .involucrate h1 {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 0px;
+        font-size: 20px; }
+      .involucrate h2 {
+        padding-left: 1px;
+        font-size: 16px; }
+      .involucrate .span {
+        font-size: 16px;
+        padding-left: 0px; }
+      .involucrate p {
+        padding: 10px 0px 20px 0px;
+        font-size: 16px;
+        text-align: justify; } }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .involucrate {
+      margin: 40px 20px 0px 20px; }
+      .involucrate h1 {
+        margin-top: 0px;
+        padding: 0px;
+        font-size: 22px; }
+      .involucrate h2 {
+        font-size: 17px;
+        padding-left: 0px; }
+      .involucrate .span {
+        font-size: 17px;
+        padding-left: 300px; }
+      .involucrate p {
+        padding-right: 0px;
+        padding-left: 10px;
+        font-size: 17px;
+        text-align: justify; } }
+  @media (min-width: 768px) {
+    .involucrate {
+      margin-top: 25px; }
+      .involucrate h1 {
+        font-size: 25px; }
+      .involucrate h2 {
+        padding-left: 0px;
+        font-size: 20px; }
+      .involucrate .span {
+        font-size: 20px;
+        padding-left: 330px; }
+      .involucrate p {
+        font-size: 16px;
+        padding: 30px 10px; } }
+  @media (min-width: 992px) {
+    .involucrate h2 {
+      padding-left: 180px;
+      font-size: 20px; }
+    .involucrate .span {
+      font-size: 20px;
+      padding-left: 350px; }
+    .involucrate p {
+      padding-right: 20px;
+      padding-left: 20px;
+      text-align: justify; } }
 
 /*# sourceMappingURL=app.css.map */

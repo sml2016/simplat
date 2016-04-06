@@ -195,7 +195,6 @@
               </div><!-- END thumbnails -->
             </div><!-- END Col -->
           </div><!-- END ROW -->
-      
       </div><!-- END Conocenos -->
     </div><!-- END fondo1 -->
   </div><!-- END Container -->

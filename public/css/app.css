@@ -7863,6 +7863,48 @@ select.input-lg, .input-group-lg > select.form-control,
       padding-left: 20px;
       text-align: justify; } }
 
+/* ----------------------
+       Noticias
+   ----------------------*/
+.noticias {
+  margin: 40px 100px; }
+  .noticias .news20161 h1 {
+    margin-top: 80px;
+    font-family: 'TenorSans',sans-serif;
+    font-size: 1.9em;
+    color: #212121;
+    font-weight: bold;
+    text-align: left; }
+  .noticias .news20161 h2 {
+    margin-top: 20px;
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    color: #58585a;
+    line-height: 1.4; }
+  .noticias .news20161 h3 {
+    margin-top: 15px;
+    font-family: 'OpenSans-Regular', sans-serif;
+    text-align: left;
+    font-size: 17px;
+    font-style: italic;
+    border-top: 1px dashed #231f1e;
+    border-bottom: 1px dashed #231f1e;
+    bottom: 15px;
+    line-height: 2;
+    color: #f04942; }
+  .noticias .news20161 .grey {
+    color: grey; }
+  .noticias p {
+    line-height: 1.6;
+    font-size: 16px;
+    font-family: 'OpenSans-Regular', sans-serif;
+    text-align: justify;
+    color: #333; }
+  .noticias .figure-caption {
+    text-align: center;
+    color: #333; }
+
 /* --------------------
        Conócenos
 -----------------------*/
@@ -7955,7 +7997,7 @@ select.input-lg, .input-group-lg > select.form-control,
     padding-top: 10px; }
   @media (max-width: 480px) {
     .conocenos .aliados {
-      padding-top: 10px;
+      padding-top: 20px;
       border-top: 1px solid #bdbdbd; } }
   @media (min-width: 481px) and (max-width: 767px) {
     .conocenos .aliados {

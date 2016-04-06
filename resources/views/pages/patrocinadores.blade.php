@@ -14,21 +14,21 @@
                 <div class="row">
                 <div class="col-sm-2">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/latinofoundation.png" alt="NSC"/>
+                <img src="/images/patrocinadores/latinofoundation.png" alt="LatinosFoundation"/>
                 <p> {{ trans('patrocinadores.Gracias1') }}</p>
                 </div>
                 </div>
                 
                 <div class="col-sm-2">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/univisionSeattle.jpg" alt="NSC"/>
+                <img src="/images/patrocinadores/NSC.png" alt="NSC"/>
                 <p>{{ trans('patrocinadores.Gracias1') }}</p>
                 </div>
                 </div>
                 
                 <div class="col-sm-2">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/MarthaZahuita.png" alt="NSC"/>
+                <img src="/images/patrocinadores/marthazahuita.png" alt="MARTHA"/>
                 <p>{{ trans('patrocinadores.Gracias1') }} </p>
                 </div>
                 </div>
@@ -42,14 +42,14 @@
                 
                 <div class="col-sm-2">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/ActitudLatina.jpg" alt="NSC"/>
+                <img src="/images/patrocinadores/SeattlePublicLibrary.jpg" alt="Library"/>
                 <p> {{ trans('patrocinadores.Gracias1') }}  </p>
                 </div>
                 </div>
                 
                 <div class="col-sm-2">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/NSC.png" alt="NSC"/>
+                <img src="/images/patrocinadores/univisionSeattle.jpg" alt="Univision"/>
                 <p> {{ trans('patrocinadores.Gracias1') }}</p>
                 </div>
              </div>
@@ -74,7 +74,7 @@
                 
                 <div class="col-sm-2">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/SeattlePublicLibrary.jpg" alt="NSC"/>
+                <img src="/images/patrocinadores/ActitudLatina.jpg" alt="NSC"/>
                 <p>{{ trans('patrocinadores.Gracias1') }}  </p>
                 </div>
                 </div>

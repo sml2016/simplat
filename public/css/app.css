@@ -6412,20 +6412,17 @@ hr p {
    --------------------------*/
 .naranja {
   background: #f04942;
+  box-shadow: 0 8px 10px 8px rgba(0, 0, 0, 0.2), 0 12px 12px 5px rgba(0, 0, 0, 0.15);
   height: auto; }
 
 .cover1 {
-  box-shadow: 0 8px 10px 8px rgba(0, 0, 0, 0.2), 0 12px 12px 5px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 8px 10px 8px rgba(0,0,0,0.20), 0 12px 12px 5px rgba(0,0,0,0.15);*/
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
   margin-top: -22px; }
 
 .cover2 {
-  box-shadow: 0 8px 10px 8px rgba(0, 0, 0, 0.2), 0 12px 12px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
   margin-top: -22px; }
-
-.cover2logos {
-  background: #fff;
-  height: 100px;
-  box-shadow: 0 8px 10px 8px rgba(0, 0, 0, 0.2), 0 12px 12px 5px rgba(0, 0, 0, 0.15); }
 
 .negro {
   font-family: 'Open Sans-light', sans-serif;
@@ -7761,7 +7758,10 @@ select.input-lg, .input-group-lg > select.form-control,
           padding: 15px 5px;
           margin: 15px 8px 10px 8px;
           font-size: 16px;
-          height: auto; } }
+          height: auto; }
+        .involucrate .involucrate1 .span {
+          font-size: 16px;
+          padding-left: 0px; } }
     @media (min-width: 481px) and (max-width: 767px) {
       .involucrate .involucrate1 {
         width: 100%;
@@ -7801,6 +7801,10 @@ select.input-lg, .input-group-lg > select.form-control,
           line-height: 2; }
         .involucrate .involucrate1 .color1 {
           font-size: 16px; } }
+  @media (max-width: 375px) {
+    .involucrate .span {
+      font-size: 16px;
+      padding-left: 0px; } }
   @media (max-width: 480px) {
     .involucrate {
       margin: 30px 15px 0px 15px; }
@@ -7871,7 +7875,7 @@ select.input-lg, .input-group-lg > select.form-control,
   .noticias .news20161 h1 {
     margin-top: 80px;
     font-family: 'TenorSans',sans-serif;
-    font-size: 1.9em;
+    font-size: 30px;
     color: #212121;
     font-weight: bold;
     text-align: left; }
@@ -7895,6 +7899,11 @@ select.input-lg, .input-group-lg > select.form-control,
     color: #f04942; }
   .noticias .news20161 .grey {
     color: grey; }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .noticias .news20161 h1 {
+      font-size: 28px; }
+    .noticias .news20161 h2 {
+      font-size: 20px; } }
   .noticias p {
     line-height: 1.6;
     font-size: 16px;
@@ -7904,6 +7913,9 @@ select.input-lg, .input-group-lg > select.form-control,
   .noticias .figure-caption {
     text-align: center;
     color: #333; }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .noticias {
+      margin: 0px 70px; } }
 
 /* --------------------
        Conócenos

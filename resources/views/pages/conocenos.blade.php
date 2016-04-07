@@ -19,9 +19,13 @@
               <div class="caption">
                 <h2>{{ trans('conocenos.nomJessica') }}</h2>
                 <h3>{{ trans('conocenos.comiteJessica') }}</h3>
+              <div class="collapsable" collapsed-height="280">
                 {!! trans('conocenos.Jessica') !!}
-                <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                {!! trans('conocenos.Jessica1') !!}
+              </div>
+                <div id="leermas" class="" style="display:block;">
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                 </div>
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
@@ -35,9 +39,13 @@
               <div class="caption">
                 <h2>{{ trans('conocenos.nomTania') }}</h2>
                 <h3>{{ trans('conocenos.comiteTania') }}</h3>
+              <div class="collapsable" collapsed-height="280">
                 {!! trans('conocenos.Tania') !!}
-                <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                {!! trans('conocenos.Tania1') !!}
+              </div>
+                <div id="leermas" class="" style="display:block;">
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                 </div>  
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
@@ -53,9 +61,13 @@
               <div class="caption">
                 <h2>{{ trans('conocenos.nomVelia') }}</h2>
                 <h3>{{ trans('conocenos.comiteVelia') }}</h3>
+                <div class="collapsable" collapsed-height="280">
                 {!! trans('conocenos.Velia') !!}
-                <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                {!! trans('conocenos.Velia1') !!} 
+               </div>
+                <div id="leermas" class="" style="display:block;">
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                 </div>  
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
@@ -70,9 +82,13 @@
               <div class="caption">
                 <h2>{{ trans('conocenos.nomXimena') }}</h2>
                 <h3>{{ trans('conocenos.comiteXimena') }}</h3>
+                 <div class="collapsable" collapsed-height="280">
                 {!! trans('conocenos.Ximena') !!} 
-                <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                {!! trans('conocenos.Ximena1') !!} 
+                </div>
+                <div id="leermas" class="" style="display:block;">
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                 </div>  
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
@@ -86,8 +102,13 @@
               <div class="caption">
                 <h2>{{ trans('conocenos.nomPerla') }}</h2>
                 <h3>{{ trans('conocenos.comitePerla') }}</h3>
+               <div class="collapsable" collapsed-height="280">
                 {!! trans('conocenos.Perla') !!}
-                <button type="button" class="btn btn-leer btn-sm">Leer más</button>  
+                </div>
+                <div id="leermas" class="" style="display:block;">
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                 </div>  
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
@@ -102,8 +123,13 @@
               <div class="caption">
                 <h2>{{ trans('conocenos.nomAmarilis') }}</h2>
                 <h3>{{ trans('conocenos.comiteAmarilis') }}</h3>
+                 <div class="collapsable" collapsed-height="280">
                 {!! trans('conocenos.Amarilis') !!} 
-                <button type="button" class="btn btn-leer btn-sm">Leer más</button>
+                 </div>
+                <div id="leermas" class="" style="display:block;">
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                 </div>  
               </div> <!-- End Caption -->
             </div> <!-- End thumbnails -->
           </div> <!-- End Col -->
@@ -117,11 +143,15 @@
               </div>
 
               <div class="caption">
-                <h2>{{ trans('conocenos.nomSixta') }} </h2>
+               <h2>{{ trans('conocenos.nomSixta') }} </h2>
                 <h3>{{ trans('conocenos.comiteSixta') }}</h3>
-                {!! trans('conocenos.Sixta') !!}
-                <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                {!! trans('conocenos.Sixta1') !!}
+                 <div class="collapsable" collapsed-height="280">
+                 {!! trans('conocenos.Sixta') !!}
+                 </div>
+                 <div id="leermas" class="" style="display:block;">
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                </div>  
              </div><!-- End Caption -->
             </div><!--End thumbnails -->
           </div><!--End Col -->
@@ -137,8 +167,13 @@
               <div class="caption">
                 <h2>{{ trans('conocenos.nomAngie') }}</h2>
                 <h3>{{ trans('conocenos.comiteAngie') }}</h3>
-                {!! trans('conocenos.Angie') !!} 
-                <button type="button" class="btn btn-leer btn-sm">Leer más</button>
+              <div class="collapsable" collapsed-height="280">  
+               {!! trans('conocenos.Angie') !!} 
+                </div>
+                  <div id="leermas" class="" style="display:block;">
+                  <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                </div> 
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
@@ -153,8 +188,13 @@
               <div class="caption">
                 <h2>{{ trans('conocenos.nomVeronica') }}</h2>
                 <h3>{{ trans('conocenos.comiteVeronica') }}</h3> 
+               <div class="collapsable" collapsed-height="280">   
                 {!! trans('conocenos.Veronica') !!}
-                <button type="button" class="btn btn-leer btn-sm">Leer más</button>
+                </div>
+                  <div id="leermas" class="" style="display:block;">
+                  <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                </div> 
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->         
@@ -168,8 +208,13 @@
               <div class="caption">
                 <h2>Leonor </h2>
                 <h3>{{ trans('conocenos.comiteleonor') }}</h3>
-                {!! trans('conocenos.Leonor') !!}
-                <button type="button" class="btn btn-leer btn-sm">Leer más</button>
+                <div class="collapsable" collapsed-height="280">   
+                 {!! trans('conocenos.Leonor') !!}
+                 </div>
+                  <div id="leermas" class="" style="display:block;">
+                  <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                </div> 
               </div> <!--End Caption -->
             </div> <!--End thumbnails -->
           </div> <!--End Col -->
@@ -188,9 +233,13 @@
                 <div class="caption">
                   <h2>{{ trans('conocenos.nomGuillermo') }}</h2>
                   <h3>{{ trans('conocenos.comiteGuillermo') }}</h3> 
+                 <div class="collapsable" collapsed-height="280">   
                   {!! trans('conocenos.Guillermo') !!}
-                  <button type="button" class="btn btn-leer btn-sm">Leer más</button>
-                  {!! trans('conocenos.Guillermo1') !!}
+                   </div>
+                  <div id="leermas" class="" style="display:block;">
+                  <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                </div> 
                 </div><!-- END Caption -->
               </div><!-- END thumbnails -->
             </div><!-- END Col -->

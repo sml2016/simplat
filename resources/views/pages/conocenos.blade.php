@@ -23,8 +23,8 @@
                 {!! trans('conocenos.Jessica') !!}
               </div>
                 <div id="leermas" class="" style="display:block;">
-                 <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
                  </div>
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
@@ -43,8 +43,8 @@
                 {!! trans('conocenos.Tania') !!}
               </div>
                 <div id="leermas" class="" style="display:block;">
-                 <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
                  </div>  
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
@@ -65,8 +65,8 @@
                 {!! trans('conocenos.Velia') !!}
                </div>
                 <div id="leermas" class="" style="display:block;">
-                 <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
                  </div>  
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
@@ -86,8 +86,8 @@
                 {!! trans('conocenos.Ximena') !!} 
                 </div>
                 <div id="leermas" class="" style="display:block;">
-                 <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
                  </div>  
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
@@ -106,35 +106,14 @@
                 {!! trans('conocenos.Perla') !!}
                 </div>
                 <div id="leermas" class="" style="display:block;">
-                 <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
                  </div>  
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
 
-          <!-- Amarilis -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="thumbnails"> 
-              <div class="img-thumbnail img-circle">  
-                <img src="images/ComiteSMLAmarilis.jpg" alt="Amarilis" class="img-circle"/>
-              </div>
 
-              <div class="caption">
-                <h2>{{ trans('conocenos.nomAmarilis') }}</h2>
-                <h3>{{ trans('conocenos.comiteAmarilis') }}</h3>
-                 <div class="collapsable" collapsed-height="280">
-                {!! trans('conocenos.Amarilis') !!} 
-                 </div>
-                <div id="leermas" class="" style="display:block;">
-                 <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
-                 </div>  
-              </div> <!-- End Caption -->
-            </div> <!-- End thumbnails -->
-          </div> <!-- End Col -->
-
-        <div class="clearfix hidden-xs hidden-sm"></div> 
           <!-- Sixta-->  
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
@@ -149,12 +128,34 @@
                  {!! trans('conocenos.Sixta') !!}
                  </div>
                  <div id="leermas" class="" style="display:block;">
-                 <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
                 </div>  
              </div><!-- End Caption -->
             </div><!--End thumbnails -->
           </div><!--End Col -->
+          
+        <div class="clearfix hidden-xs hidden-sm"></div> 
+           <!-- Amarilis -->
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="thumbnails"> 
+              <div class="img-thumbnail img-circle">  
+                <img src="images/ComiteSMLAmarilis.jpg" alt="Amarilis" class="img-circle"/>
+              </div>
+
+              <div class="caption">
+                <h2>{{ trans('conocenos.nomAmarilis') }}</h2>
+                <h3>{{ trans('conocenos.comiteAmarilis') }}</h3>
+                 <div class="collapsable" collapsed-height="280">
+                {!! trans('conocenos.Amarilis') !!} 
+                 </div>
+                <div id="leermas" class="" style="display:block;">
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
+                 </div>  
+              </div> <!-- End Caption -->
+            </div> <!-- End thumbnails -->
+          </div> <!-- End Col -->
 
 
 
@@ -171,8 +172,8 @@
                {!! trans('conocenos.Angie') !!} 
                 </div>
                   <div id="leermas" class="" style="display:block;">
-                  <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                  <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
                 </div> 
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
@@ -192,8 +193,8 @@
                 {!! trans('conocenos.Veronica') !!}
                 </div>
                   <div id="leermas" class="" style="display:block;">
-                  <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                  <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
                 </div> 
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
@@ -212,8 +213,8 @@
                  {!! trans('conocenos.Leonor') !!}
                  </div>
                   <div id="leermas" class="" style="display:block;">
-                  <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                  <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
                 </div> 
               </div> <!--End Caption -->
             </div> <!--End thumbnails -->
@@ -237,8 +238,8 @@
                   {!! trans('conocenos.Guillermo') !!}
                    </div>
                   <div id="leermas" class="" style="display:block;">
-                  <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                  <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
                 </div> 
                 </div><!-- END Caption -->
               </div><!-- END thumbnails -->

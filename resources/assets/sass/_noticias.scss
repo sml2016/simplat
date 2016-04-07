@@ -42,15 +42,65 @@
      .grey{
      color: grey;
     }
-    
-     @media (min-width:$sizeDesktop) and (max-width:$sizeLessThanLargeDesktop){
+     
+     @media (max-width:$sizePhone){
+       h1{
+       margin-top:25px;
+       font-size: 20px; 
+       } 
+       
+       h2{
+       font-size: 17px;
+       }
+       
+       h3{
+       font-size:14px;
+       }
+     }
+     
+     @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
        
        h1{
-       font-size: 28px;
+       margin-top:30px;
+       font-size: 25px; 
        }
        
        h2{
-       font-size: 20px;
+       font-size: 19px;
+       }
+       
+       h3{
+       font-size:16px;
+       }
+     }
+     @media (min-width:$sizeTablet){
+       
+       h1{
+       font-size: 24px;
+       margin-top:40px;
+       }
+       
+       h2{
+       font-size: 17px;
+       }
+       
+       h3{
+       font-size:16px;
+       }
+     }
+     
+     @media (min-width:$sizeDesktop) and (max-width:$sizeLessThanLargeDesktop){
+       
+       h1{
+       font-size: 25px;
+       }
+       
+       h2{
+       font-size: 18px;
+       }
+       
+       h3{
+       font-size: 16px;
        }
      }
   }
@@ -66,8 +116,37 @@
   .figure-caption{
   text-align: center;
   color:#333;
+  padding-top:5px;
   }
-  
+   
+   @media (max-width:$sizePhone){
+       margin:0px 15px; 
+       
+        .figure-caption{
+        font-size: small;
+        }
+        
+        .figure-caption{
+        padding-bottom: 10px;
+        }
+   }
+   
+    @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
+        margin:0px 25px; 
+        
+        .figure img{
+        padding-left: 145px;
+        }
+        
+        .figure-caption{
+        padding-bottom: 10px;
+        }
+    }
+     
+   @media (min-width:$sizeTablet){
+       margin:0px 50px;
+   }
+       
   @media (min-width:$sizeDesktop) and (max-width:$sizeLessThanLargeDesktop){
         margin:0px 70px;  
         

@@ -111,6 +111,11 @@
       height: auto;
       }
       
+     .span{
+     font-size: 16px;
+     padding-left:0px;
+     }
+      
     }
   
   
@@ -173,6 +178,15 @@
     }    
        
                
+  }
+ 
+  @media (max-width:$sizeSmallPhone){
+     
+      .span{
+     font-size: 16px;
+     padding-left:0px;
+     }
+     
   }
   
   @media (max-width:$sizePhone){

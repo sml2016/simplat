@@ -42,7 +42,7 @@ return [
              <p>Ms. Gutierrez was recently awarded a MMUF Dissertation Grant ($20,000) for the 2016-2017  academic year by The Woodrow Wilson National Fellowship Foundation. In 2015 she received  the Mellon Mays Predoctoral Grant by the Social Science Research Council and the 2014  Graduate Studies Enhancement Grant. She is a POSSE scholar and a Newberry fellow from the 
              Associated Colleges of the Midwest. She helped start the Mujeres Activas en Letras y Cambio Social collective at WSU which consist of both Chicana graduate students and Chicana faculty.</p>
              <p>The collective works with student organizations such as MEChA, Mujeres Unidas and the  Women’s Resource Center to create educational events that empower students and encourage  activism both on and off-campus. She is also a mentor in the “First Scholars” program at WSU  and teaches courses in Women Studies, Ethnic Studies, Queer Studies and Sociology at WSU. </p>',
-'Panelistas' => 'Panelists',
+'Panelistas' => 'Panelistas',
 'Elodia' => '<h2>Elodia González <span class="bio"> Biography</span></h2>
             <h3>Mental Health Therapist</h3>
             <p>I was born and raised in the small village of La Garita, Mexico. I am the seventh of nine children from a very poor family with an 

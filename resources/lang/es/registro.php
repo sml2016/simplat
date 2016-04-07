@@ -4,7 +4,7 @@
   KEEP SAME ORDER IN ALL LOCALE FILES!!!!!!!
 */
 return [
-    'titulo' => 'Regitro para el Tercer Simposio de Mujeres Latinas 2016',
+    'titulo' => 'Registro para el Tercer Simposio de Mujeres Latinas 2016',
     'tituloListaDeEspera' => 'El simposio ya está lleno! Registrate en la lista de espera!',
     'nombre' => 'Nombre',
     'apellido' => 'Apellido',

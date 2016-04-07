@@ -7457,6 +7457,29 @@ select.input-lg, .input-group-lg > select.form-control,
           margin-bottom: 0px; } }
     .fondo1b .donacion .impuestos span {
       color: #9541c7; }
+    .fondo1b .donacion .mesainfo {
+      padding-top: 20px; }
+      .fondo1b .donacion .mesainfo h1 {
+        font-family: 'TenorSans',sans-serif;
+        font-size: 25px;
+        border-bottom: 1px solid #737b7f; }
+      .fondo1b .donacion .mesainfo p {
+        font-family: 'Opensans-light';
+        font-size: 16px;
+        color: #333;
+        text-align: justify; }
+      .fondo1b .donacion .mesainfo .mesa {
+        color: #f04942; }
+      @media (max-width: 375px) {
+        .fondo1b .donacion .mesainfo h1 {
+          font-size: 21px; }
+        .fondo1b .donacion .mesainfo .mesa {
+          font-size: 13px; } }
+      @media (min-width: 480px) {
+        .fondo1b .donacion .mesainfo h1 {
+          font-size: 23px; }
+        .fondo1b .donacion .mesainfo .mesa {
+          font-size: 15px; } }
     .fondo1b .donacion .donaciones {
       background: #737b7f;
       height: auto;
@@ -7537,6 +7560,9 @@ select.input-lg, .input-group-lg > select.form-control,
           text-align: justify; }
         .fondo1b .donacion .donaciones .donaciones1b span {
           color: #9541c7; }
+        @media (max-width: 375px) {
+          .fondo1b .donacion .donaciones .donaciones1b span {
+            font-size: 13px; } }
         @media (max-width: 480px) {
           .fondo1b .donacion .donaciones .donaciones1b {
             height: auto;

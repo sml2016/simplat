@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-xs-6  col-sm-4  col-md-4  col-lg-8 col-xl-5">
                 <div class="corazon">
-                    <img src="/images/logoSMLmd.png" class="img-responsive" style="width:100% height:auto" ;/>
+                    <a href="{{ url('/') }}"> <img src="/images/logoSMLmd.png" class="img-responsive" style="width:100% height:auto" ;/></a>
                 </div>
             </div>
             <!-- End corazon -->

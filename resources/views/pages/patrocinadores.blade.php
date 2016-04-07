@@ -28,8 +28,8 @@
                 
                 <div class="col-sm-2">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/marthazahuita.png" alt="MARTHA"/>
-                <p>{{ trans('patrocinadores.Gracias1') }} </p>
+                <img src="/images/patrocinadores/marthazahuita.png" alt="NSC"/>
+                <p>{{ trans('patrocinadores.Gracias1') }}</p>
                 </div>
                 </div>
                 

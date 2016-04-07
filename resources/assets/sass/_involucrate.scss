@@ -27,7 +27,7 @@
        text-align: center;
        }
      
-     span{
+     .chino{
        font-weight: normal;
        padding-left: 380px;
        line-height: 2;
@@ -47,6 +47,105 @@
      color: #f04942;
      padding-left: 0px;
      }
+     
+  
+  @media (max-width:$sizePhone){
+     margin: 30px 15px 0px 15px;
+     
+     h1{
+     padding-left: 0px;
+     padding-right: 0px;
+     margin-top: 0px;
+     font-size: 20px;
+     }
+     
+     h2{
+     padding-left:1px;
+     font-size: 16px;
+     }
+     
+     .chino{
+     font-size: 16px;
+     padding-left:0px;
+     }
+     
+     p{
+     padding:10px 0px 20px 0px;
+     font-size: 16px;
+     text-align: justify;
+     }
+  }
+  
+  @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
+      margin: 40px 20px 0px 20px; 
+      
+      h1{
+      margin-top:0px;
+      padding:0px;
+      font-size: 22px;
+      }
+      
+      h2{
+      font-size: 17px;
+      padding-left:0px;
+      }
+      
+      .chino{
+      font-size: 17px;
+      padding-left: 300px;
+      }
+      
+      p{
+      padding-right: 0px;
+      padding-left: 10px;
+      font-size: 17px;
+      text-align: justify;
+      }
+  }
+  
+  @media (min-width:$sizeTablet){
+    margin-top:25px;
+    
+    h1{
+    font-size: 25px;
+    }
+    
+    h2{
+    padding-left: 0px;
+    font-size: 20px;
+    }
+    
+    .chino{
+    font-size: 20px;
+    padding-left: 330px;
+    }
+    
+    p{
+    font-size: 16px;
+    padding:30px 10px;
+    }
+  }
+     
+  @media (min-width:$sizeDesktop) {
+    
+    h2{
+    padding-left: 180px;
+    font-size: 20px;
+    }
+    
+    .chino{
+    font-size: 20px;
+    padding-left: 350px;
+    }
+    
+    p{
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: justify;
+    }
+   }
+     
+     
      
      .involucrate1{
         background-color: rgba(192,192,192,0.3);
@@ -110,12 +209,6 @@
       font-size: 16px;
       height: auto;
       }
-      
-     .span{
-     font-size: 16px;
-     padding-left:0px;
-     }
-      
     }
   
   
@@ -175,115 +268,7 @@
       .color1{
       font-size: 16px;
       }
-    }    
-       
-               
+    }                
   }
- 
-  @media (max-width:$sizeSmallPhone){
-     
-      .span{
-     font-size: 16px;
-     padding-left:0px;
-     }
-     
-  }
-  
-  @media (max-width:$sizePhone){
-     margin: 30px 15px 0px 15px;
-     
-     h1{
-     padding-left: 0px;
-     padding-right: 0px;
-     margin-top: 0px;
-     font-size: 20px;
-     }
-     
-     h2{
-     padding-left:1px;
-     font-size: 16px;
-     }
-     
-     .span{
-     font-size: 16px;
-     padding-left:0px;
-     }
-     
-     p{
-     padding:10px 0px 20px 0px;
-     font-size: 16px;
-     text-align: justify;
-     }
-  }
-  
-  @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){
-      margin: 40px 20px 0px 20px; 
-      
-      h1{
-      margin-top:0px;
-      padding:0px;
-      font-size: 22px;
-      }
-      
-      h2{
-      font-size: 17px;
-      padding-left:0px;
-      }
-      
-      .span{
-      font-size: 17px;
-      padding-left: 300px;
-      }
-      
-      p{
-      padding-right: 0px;
-      padding-left: 10px;
-      font-size: 17px;
-      text-align: justify;
-      }
-  }
-  
-  @media (min-width:$sizeTablet){
-    margin-top:25px;
-    
-    h1{
-    font-size: 25px;
-    }
-    
-    h2{
-    padding-left: 0px;
-    font-size: 20px;
-    }
-    
-    .span{
-    font-size: 20px;
-    padding-left: 330px;
-    }
-    
-    p{
-    font-size: 16px;
-    padding:30px 10px;
-    }
-  }
-     
-  @media (min-width:$sizeDesktop) {
-    
-    h2{
-    padding-left: 180px;
-    font-size: 20px;
-    }
-    
-    .span{
-    font-size: 20px;
-    padding-left: 350px;
-    }
-    
-    p{
-    padding-right: 20px;
-    padding-left: 20px;
-    text-align: justify;
-    }
-   }
-     
  }
  

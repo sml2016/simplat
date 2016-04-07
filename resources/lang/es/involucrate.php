@@ -7,7 +7,7 @@ return [
                Si quieres ser feliz un mes, cásate.
                <br> Si quieres ser feliz un año, hereda una fortuna.</br>
                Si quieres ser feliz toda tu vida, ayuda a alguien más”.
-              <br><span>Proverbio Chino</span></br></h2>',
+              <br><span class="chino">Proverbio Chino</span></br></h2>',
     'Invitacion' => ' <p>Te invitamos a que empoderes a una mujer latina con tu ayuda. Forma parte del grupo de personas 
               que quieren hacer un cambio en su comunidad. Participa como voluntario en la realización de 
               nuestro simposio. <span class="color"> ¡Involúcrate!</p>',

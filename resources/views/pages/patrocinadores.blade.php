@@ -28,14 +28,7 @@
              
                 <div class="col-sm-2">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/latinoAdvocacy.jpg" alt="NSC"/>
-                <p>{{ trans('patrocinadores.Gracias1') }} </p>
-                </div>
-                </div>
-                
-                <div class="col-sm-2">
-                <div class="thumbnail">
-                <img src="/images/patrocinadores/SeattlePublicLibrary.jpg" alt="Library"/>
+                <img src="/images/patrocinadores/SeattlePublicLibrary.jpg" alt="SeattlePublicLibrary"/>
                 <p> {{ trans('patrocinadores.Gracias1') }}  </p>
                 </div>
                 </div>
@@ -47,6 +40,13 @@
                 </div>
                 </div>
                 
+                <div class="col-sm-2">
+                <div class="thumbnail">
+                <img src="/images/patrocinadores/latinoAdvocacy.jpg" alt="LatinoAdvocacy"/>
+                <p>{{ trans('patrocinadores.Gracias1') }} </p>
+                </div>
+                </div>
+        
                 <div class="col-sm-2">
                 <div class="thumbnail">
                 <img src="/images/patrocinadores/univisionSeattle.jpg" alt="Univision"/>

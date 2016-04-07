@@ -15,6 +15,8 @@ return [
             <p>While maintaining a full-time job and continuing my studies in college, I always considered it important to learn about how the educational system works so that my daughter could quickly adapt to her school and that is how I gradually became involved as a volunteer and started participating as a facilitator and serving as a guide for many Latino parent groups, which contributed to the formation of what today is known as “Natural Leaders”  and was able to become one of the first natural leaders at the Edmonds School District. </p>
             <p>I currently belong to the “EAACH” committee which means equal partnership for success, I was also able to complete the Parent Mentor certification program at the Edmonds Community College, and I got certified as a Parent Educator in Positive Discipline. I currently work for the group FLY (Foreign Language for Youth) as a Spanish teacher for several elementary schools in different districts. </p>
            <p> This life is a constant learning experience and I believe that every single one of us can achieve our goals and dreams as long as we support and fight together as the strong women that we are, and truly hope that our stories can serve as an inspiration for many women seeking means of support for the benefit of their personal and professional development. We look forward to see you all there!</p>',
+   'leerMas' => 'Read more',
+'leerMenos' => 'Read less',
  'nomTania' => 'Tania Hino',
  'comiteTania' => 'Finance Committee',  
   'Tania' => '<p>My goal as an organizer of the North Seattle College Latina Symposium is to create unity within the Latinas.                                      Everyone  has their own dreams in life.
@@ -51,12 +53,6 @@ return [
               to Washington State with two suitcases, the ones I had to leave behind and with them some limitations 
               and fears. I followed my dreams and migrate to Dublin.</p>
               <p>After experience being mother and student, I finished my master and life took me back to Seattle. Now I am here, helping in this event, to grow with all the women that come to the symposium with fears, hopes and dreams.</p>',
-'nomAmarilis' => 'Amarilis Aranguren',
-'comiteAmarilis' => 'Content - Register Committee', 
-'Amarilis' => '<p>I’m against injustice and women are affected by this every day. I met Tania Hino and Perla Mendoza in the Seattle Public Library,                 in the Spanish Storytime for kids. They are the heart of the Latina Symposium and an example of the strength that every Latina has                    inside.</p>
-              <p>We need more women with awareness and leadership to lead the Latin-American community. In our countries, we know that every family has a mighty member that push them to be better, the women who is responsible for the family and now is an active component of the changes in the community.</p>
-              <p>I wanna help to empower the Latinas, so they can lead their families and communities in a superior way. I love to be part of this program to help the Latinas. When you help women to realise they abilities to change their life, you open a new dimension in her life and the people around.</p>
-              <p>I am a Venezuelan journalist, Internet enthusiast, and early adopter, living in Seattle, WA, in the USA. Social Medial, digital content, and planning are my specialties. I have more than 10 years of experience working with news writing for TV and Internet. The last 6 years, I’ve been working with digital content optimized for SEO, Social Media strategy and content planner. </p>', 
 'nomSixta' => 'Sixta Morel',   
 'comiteSixta' => 'Publicity Committee ',
    'Sixta' => '<p>I love people, and the stories behind their faces, I believe that smiles, good energy and kindness can make a                                 difference. This is my third year at the symposium, I liked it so much when I first came, that I decided I wanted to             be a              part of it, and collaborate in any way that I could, to promote this great platform for the talented and full of            energy                 community of Latinas of the state of Washington.</p>
@@ -64,6 +60,12 @@ return [
               <p>I started working in the television business since the age of 17, Im experienced as news anchor, magazines host, arts  and entertainment editor, bilingual MC, interviewer, marketing coordinator, and also as producer in my own inspirational TV show: "Vida y Valores".</p>
              <p> Graduated as Radio and TV broadcaster, I hold a bachelors degree in Business Administration and certificates in Cultural  Journalism and Public Relations and Strategic Communications. </p>
              </p>',
+'nomAmarilis' => 'Amarilis Aranguren',
+'comiteAmarilis' => 'Content - Register Committee', 
+'Amarilis' => '<p>I’m against injustice and women are affected by this every day. I met Tania Hino and Perla Mendoza in the Seattle Public Library,                 in the Spanish Storytime for kids. They are the heart of the Latina Symposium and an example of the strength that every Latina has                    inside.</p>
+              <p>We need more women with awareness and leadership to lead the Latin-American community. In our countries, we know that every family has a mighty member that push them to be better, the women who is responsible for the family and now is an active component of the changes in the community.</p>
+              <p>I wanna help to empower the Latinas, so they can lead their families and communities in a superior way. I love to be part of this program to help the Latinas. When you help women to realise they abilities to change their life, you open a new dimension in her life and the people around.</p>
+              <p>I am a Venezuelan journalist, Internet enthusiast, and early adopter, living in Seattle, WA, in the USA. Social Medial, digital content, and planning are my specialties. I have more than 10 years of experience working with news writing for TV and Internet. The last 6 years, I’ve been working with digital content optimized for SEO, Social Media strategy and content planner. </p>', 
 'nomAngie' => 'Angie Esquivel',  
  'comiteAngie' => 'Volunteer Committee',
        'Angie' => '<p>The border was part of my life since I was a little girl. I grew up in the north of Mexico, in the border with the US, in a            bicultural community divided by a river. Crossing to the “other side”, was our daily bread. The American culture and English language          were part of my upbringing. Speaking English helped me when I traveled to other countries and to interact with people of other                 cultures.</p>

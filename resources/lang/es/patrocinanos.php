@@ -28,6 +28,9 @@ return [
     'Beneficios5' => '<li><i class="fa fa-heart"></i>Agradecimiento en el programa del evento.</li>',
       'Impuestos' => '<p class="text-justify"><b>Importante:</b>  Tu aporte te permitirá la reducción de impuestos porque estarás donando a una organización sin fines de lucro, al fondo de educación del NSC. 
                       <span><b>Impuestos federales</b> ID# 41-2178833</span>. Si prefieres hacer un cheque de donación va dirigido a: <span>"The North Seattle Educational Fund"</span>.  Es muy importanteque en el memorando escriba: <span><b>"Parented Latina Symposium"</b></span>.</p>',
+      'MesasInfo' => '<h1>Mesas de Información</h1>
+      <p>Durante el Tercer Simposio de Mujeres Latinas ofrecemos la colocación de mesas de información para quienes busquen dar a conocer sus servicios. Nuestro evento contará con 225 participantes de la comunidad latina en el estado de Washington. Los negocios o personas que quieran acompañarnos estarán ubicados puntos de mucho tráfico para garantizar la visita de las mujeres que nos acompañarán. </p>
+      <p>Para mayor información, contáctanos a <span class="mesa">simposiomujereslatina.media@gmail.com</span></p>',
       'comoDonar' => ' <h1>Tu donación es importante</h1>
                      <h2>Para apoyar este evento que se dedica a mejorar las habilidades de las mujeres latinas en Seattle, solo tienes que hacer <a href="https://nscef.ejoinme.org/latina">clic aquí.</a></h2>
                      <p>Coloca la cantidad de dinero que quieres donar, rellena los datos de información personal y bancaria, para hacer el Simposio de Mujeres Latinas posible. Todas las donaciones hechas al North Seattle College te permitirán la reducción en el pago de impuestos, pues estás donando a una organización sin fines de lucro.</p>

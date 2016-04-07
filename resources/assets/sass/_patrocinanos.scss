@@ -257,6 +257,49 @@
    }
   }
   
+  .mesainfo{
+    padding-top:20px; 
+    
+    h1{
+    font-family: 'TenorSans',sans-serif;
+    font-size: 25px;
+    border-bottom: 1px solid #737b7f;
+    }
+    
+    p{
+    font-family: 'Opensans-light';
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+    }
+    
+    .mesa{
+    color: #f04942;
+    }
+   
+   @media (max-width:$sizeSmallPhone){
+      
+      h1{
+      font-size: 21px;
+      }
+      
+      .mesa{
+      font-size:13px;
+      } 
+   }
+   
+   @media (min-width:$sizePhone){
+   
+     h1{
+     font-size: 23px;
+     }
+     
+    .mesa{
+    font-size: 15px;
+    } 
+   }  
+ }
+  
   .donaciones{
    background: #737b7f;
    height: auto;
@@ -368,7 +411,14 @@
      span{
      color: #9541c7;
      }
-    
+     
+     @media (max-width:$sizeSmallPhone){
+        
+        span{
+        font-size: 13px;
+        }
+     }
+     
      @media (max-width:$sizePhone){
         height: auto;
         margin-top: 0px;

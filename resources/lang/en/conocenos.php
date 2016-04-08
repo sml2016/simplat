@@ -81,7 +81,7 @@ return [
             experience I learned that while Spanish speakers were often looking for help with English they were also looking for a chance to share part of their life with others with whom they had things in common.</p>
             <p>Now that I am dedicated to raising my three children here in Seattle, I realize that I also want to share my experiences with other women so that we can mutually enrich ourselves and thrive together.</p>', 
  'nomleonor' => 'Leonor',   
-'comiteLeonor' => 'Comité de Mesas de Información',
+'comiteLeonor' => 'Exhibitor Tables Committee',
    'Leonor' => '<p>I was born in Turbo a coastal municipality of Antioquia department in Colombia. I grew up in a family of 3 sisters and a brother.              My mother, a house wife and my father a peddler of sweets and lottery tickets. These two wonderful human beings, specially my mom,                 instilled me to become a teacher. Because it was the most promising profession at that time. My mother did not have to work so hard,               because since I was a kid, I played to be a teacher. I liked it a lot, and it became my goal.</p>
                <p>In 1996, I finished my degree in Education and a year after my graduation, I was already working in the State of 
                Antioquia. I worked 18 years in public schools in my municipality. While working, I studied Educational management, in that moment, my professional life totally changed. I had the privilege of sharing with teachers that transformed the way I saw education. I wanted to change the educative system that I was working with, a system where it was allowed to degrade students.</p> 

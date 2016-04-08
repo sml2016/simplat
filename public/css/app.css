@@ -7241,9 +7241,7 @@ select.input-lg, .input-group-lg > select.form-control,
     font-size: 16px;
     color: #333;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    font-weight: bold; }
+    padding: 40px 55px 20px 55px; }
   @media (max-width: 767px) {
     .registrada {
       margin-left: -10px;
@@ -7258,17 +7256,19 @@ select.input-lg, .input-group-lg > select.form-control,
         font-size: 16px;
         font-weight: bold;
         text-align: justify; } }
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) {
     .registrada {
       margin-left: 45px;
       margin-right: 45px; }
       .registrada h1 {
-        font-size: 22px; }
+        font-size: 20px; }
       .registrada h2 {
-        font-size: 18px; }
+        font-size: 18px;
+        text-align: center; }
       .registrada p {
-        font-size: 15px;
-        font-weight: bold; } }
+        font-size: 16px;
+        padding-left: 18px;
+        padding-right: 18px; } }
   @media (min-width: 992px) and (max-width: 1200px) {
     .registrada h1 {
       font-size: 20px; }
@@ -7281,7 +7281,7 @@ select.input-lg, .input-group-lg > select.form-control,
   color: #f04942; }
 
 .cancelar {
-  color: #0cb095; }
+  color: #f04942; }
 
 /*------------------------------
           Patrocinanos
@@ -7959,13 +7959,22 @@ select.input-lg, .input-group-lg > select.form-control,
     text-align: center;
     color: #333;
     padding-top: 5px; }
+  @media (max-width: 375px) {
+    .noticias {
+      margin: 0px 15px; }
+      .noticias .figure-caption {
+        font-size: small;
+        padding-bottom: 10px; }
+      .noticias .figure img {
+        padding-left: 10px; } }
   @media (max-width: 480px) {
     .noticias {
       margin: 0px 15px; }
       .noticias .figure-caption {
-        font-size: small; }
-      .noticias .figure-caption {
-        padding-bottom: 10px; } }
+        font-size: small;
+        padding-bottom: 10px; }
+      .noticias .figure img {
+        padding-left: 40px; } }
   @media (min-width: 481px) and (max-width: 767px) {
     .noticias {
       margin: 0px 25px; }

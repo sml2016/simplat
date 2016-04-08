@@ -208,7 +208,7 @@
               </div>
               <div class="caption">
                 <h2>Leonor </h2>
-                <h3>{{ trans('conocenos.comiteleonor') }}</h3>
+                <h3>{{ trans('conocenos.comiteLeonor') }}</h3>
                 <div class="collapsable" collapsed-height="280">   
                  {!! trans('conocenos.Leonor') !!}
                  </div>

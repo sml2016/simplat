@@ -119,15 +119,29 @@
   padding-top:5px;
   }
    
+   @media(max-width:$sizeSmallPhone){
+      margin:0px 15px; 
+      
+      .figure-caption{
+        font-size: small;
+        padding-bottom: 10px;
+        }
+        
+      .figure img{
+      padding-left: 10px;
+      }
+   }
+   
    @media (max-width:$sizePhone){
        margin:0px 15px; 
        
         .figure-caption{
         font-size: small;
-        }
-        
-        .figure-caption{
         padding-bottom: 10px;
+        }
+
+        .figure img{
+        padding-left: 40px;
         }
    }
    

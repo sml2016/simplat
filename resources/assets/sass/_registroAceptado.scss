@@ -27,9 +27,7 @@
         font-size: 16px;
         color: #333;
         text-align: center;
-        padding-top: 40px;
-        padding-bottom: 20px;
-        font-weight: bold;
+        padding:40px 55px 20px 55px;
     }
 
     @media (max-width: $sizeLessThanTablet) {
@@ -47,27 +45,26 @@
         }
 
         p {
-            font-size: 16px;
-            font-weight: bold;
             text-align: justify;
         }
     }
 
-    @media (min-width:$sizeTablet ) and (max-width: $sizeLessThanDesktop) {
+    @media (min-width:$sizeTablet ) {
         margin-left: 45px;
         margin-right: 45px;
 
         h1 {
-            font-size: 22px;
+            font-size: 20px;
         }
 
         h2 {
             font-size: 18px;
+            text-align: center;
         }
 
         p {
-            font-size: 15px;
-            font-weight: bold;
+            padding-left:18px;
+            padding-right:18px;
         }
     }
 
@@ -81,7 +78,7 @@
         }
 
         p {
-            font-size: 14px;
+            font-size: 16px;
         }
     }
 }
@@ -91,5 +88,5 @@
 }
 
 .cancelar {
-    color: #0cb095;
+    color: #f04942;
 }

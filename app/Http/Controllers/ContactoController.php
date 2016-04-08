@@ -37,7 +37,6 @@ class ContactoController extends Controller
             'message' => 'required|string|min:1|max:255',
         ]);
 
-        /*
         $name = $request->get('name');
         $email = $request->get('email');
         $title = $request->get('title');
@@ -51,7 +50,6 @@ class ContactoController extends Controller
 
             $m->to($simposioEmail, 'Contactanos simposio de mujeres latinas')->subject('CONTACTANOS: '.$title);
         });
-        */
 
         return redirect('/contacto/enviado')->with('enviado', 'true');
     }

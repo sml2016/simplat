@@ -41,6 +41,7 @@ class RegistroController extends Controller
      */
     public function store(CreateAttendeeRequest $request)
     {
+        $daycarenumber = 0;
         $settings = Settings::find(1);
         $attendeeCount = Attendee::count();
         $daycareCount = Children::count();
@@ -84,7 +85,10 @@ class RegistroController extends Controller
             }
         }
 
-        return redirect('/registro/aceptado')->with('aceptado', 'true');
+        return redirect('/registro/aceptado')->with([
+            'aceptado' => 'true',
+            'hayGuarderia' => $daycarenumber > 0 ? 'true' : 'false'
+        ]);
     }
 
     /**
@@ -96,8 +100,15 @@ class RegistroController extends Controller
     {
         if (session('aceptado') == 'true')
         {
+            $hayGuarderia = false; 
             Session()->forget('aceptado');
-            return view('pages.registro.aceptado');
+            
+            if (session('hayGuarderia') == 'true') 
+            {
+                Session()->forget('hayGuarderia');
+                $hayGuarderia = true; 
+            }
+            return view('pages.registro.aceptado', ['hayGuarderia' => $hayGuarderia]);
         }
 
         return redirect('/');

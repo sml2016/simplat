@@ -7253,8 +7253,6 @@ select.input-lg, .input-group-lg > select.form-control,
         font-size: 18px;
         text-align: justify; }
       .registrada p {
-        font-size: 16px;
-        font-weight: bold;
         text-align: justify; } }
   @media (min-width: 768px) {
     .registrada {
@@ -7266,7 +7264,6 @@ select.input-lg, .input-group-lg > select.form-control,
         font-size: 18px;
         text-align: center; }
       .registrada p {
-        font-size: 16px;
         padding-left: 18px;
         padding-right: 18px; } }
   @media (min-width: 992px) and (max-width: 1200px) {
@@ -7275,7 +7272,7 @@ select.input-lg, .input-group-lg > select.form-control,
     .registrada h2 {
       font-size: 18px; }
     .registrada p {
-      font-size: 14px; } }
+      font-size: 16px; } }
 
 .fecha1 {
   color: #f04942; }

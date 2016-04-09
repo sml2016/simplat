@@ -7236,24 +7236,65 @@ select.input-lg, .input-group-lg > select.form-control,
     padding-top: 10px;
     line-height: 2;
     padding-bottom: 30px; }
+  .registrada h3 {
+    font-family: 'Opensans',sans-serif;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px; }
   .registrada p {
     font-family: 'Opensans',sans-serif;
     font-size: 16px;
     color: #333;
     text-align: center;
     padding: 40px 55px 20px 55px; }
-  @media (max-width: 767px) {
+  .registrada .fecha1 {
+    color: #f04942; }
+  .registrada .cancelar {
+    color: #f04942; }
+  @media (max-width: 480px) {
     .registrada {
-      margin-left: -10px;
-      margin-right: -5px; }
+      margin: 0px 10px; }
+      .registrada h1 {
+        font-size: 20px;
+        margin-top: 0px;
+        padding-top: 30px;
+        padding-bottom: 0px; }
+      .registrada h2 {
+        margin-bottom: 0px;
+        padding-bottom: 20px; }
+      .registrada h3 {
+        margin-bottom: 30px;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 0px; }
+      .registrada p {
+        padding: 0px; }
+      .registrada .fecha1 {
+        font-size: 15px; }
+      .registrada .cancelar {
+        font-size: 15px; } }
+  @media (max-width: 767px) and (min-width: 481px) {
+    .registrada {
+      margin: 0px 25px; }
       .registrada h1 {
         font-size: 18px;
-        text-align: justify; }
+        text-align: center; }
       .registrada h2 {
         font-size: 18px;
-        text-align: justify; }
+        text-align: center; }
+      .registrada h3 {
+        margin-bottom: 30px;
+        font-size: 18px; }
+      .registrada .fecha1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 18px; }
       .registrada p {
-        text-align: justify; } }
+        font-size: 16px;
+        padding: 0px 5px; } }
   @media (min-width: 768px) {
     .registrada {
       margin-left: 45px;
@@ -7263,6 +7304,11 @@ select.input-lg, .input-group-lg > select.form-control,
       .registrada h2 {
         font-size: 18px;
         text-align: center; }
+      .registrada h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px; }
       .registrada p {
         padding-left: 18px;
         padding-right: 18px; } }
@@ -7271,14 +7317,15 @@ select.input-lg, .input-group-lg > select.form-control,
       font-size: 20px; }
     .registrada h2 {
       font-size: 18px; }
+    .registrada h3 {
+      font-size: 18px;
+      text-align: center;
+      font-weight: normal;
+      margin-top: 0px;
+      margin-bottom: 10px; }
     .registrada p {
-      font-size: 16px; } }
-
-.fecha1 {
-  color: #f04942; }
-
-.cancelar {
-  color: #f04942; }
+      font-size: 16px;
+      padding-top: 20px; } }
 
 /*------------------------------
           Patrocinanos

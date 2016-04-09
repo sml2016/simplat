@@ -7264,7 +7264,8 @@ select.input-lg, .input-group-lg > select.form-control,
         padding-bottom: 0px; }
       .registrada h2 {
         margin-bottom: 0px;
-        padding-bottom: 20px; }
+        padding-bottom: 20px;
+        font-size: 17px; }
       .registrada h3 {
         margin-bottom: 30px;
         font-size: 16px;

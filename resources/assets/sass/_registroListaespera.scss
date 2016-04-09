@@ -1,0 +1,101 @@
+/*-----------------------
+   Lista de espera
+ -------------------------*/
+ 
+ .lista{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+   h1{
+        font-family: 'TenorSans',sans-serif;
+        font-size: 28px;
+        color: #212121;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        }
+   
+   h2 {
+        font-family: 'Opensans',sans-serif;
+        font-size: 22px;
+        color: #333;
+        text-align: center;
+        padding-top: 10px;
+        line-height: 2;
+        padding-bottom: 30px;
+        }
+   
+    p {
+        font-family: 'Opensans',sans-serif;
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+        padding:40px 55px 20px 55px;
+       }
+    
+    .fecha1 {
+       color: #f04942;
+       }
+     
+      @media (max-width:$sizePhone){
+       margin:0px 10px;
+       
+       h1{
+       font-size: 20px;
+       margin-top: 0px;
+       padding-top: 30px;
+       padding-bottom: 0px;
+       } 
+       
+       h2{
+       margin-bottom: 0px;
+       padding-bottom: 20px;
+       font-size: 17px;
+       } 
+       
+        p{
+       padding:0px;
+       }
+       
+       .fecha1{
+       font-size: 15px;
+       }
+    }
+    
+       @media (min-width:$sizeTablet ) {
+        margin-left: 45px;
+        margin-right: 45px;
+
+        h1 {
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        p {
+            padding-left:18px;
+            padding-right:18px;
+        }
+    }
+
+    
+       @media (min-width:$sizeDesktop ) and (max-width: $sizeLargeDesktop) {
+        h1 {
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 16px;
+            padding-top: 20px;
+        }
+    }
+ }
+ 

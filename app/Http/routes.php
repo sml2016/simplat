@@ -79,6 +79,7 @@ Route::group(['middleware' => ['web', 'setlocale']], function () {
     Route::get('/registro', 'RegistroController@create');
     Route::post('/registro', 'RegistroController@store');
     Route::get('/registro/aceptado', 'RegistroController@getAcceptedView');    
+    Route::get('/registro/listaespera', 'RegistroController@getWaitingListView');    
 
     /* Footer routes */
     Route::get('/historia', 'HomeController@historiaView');

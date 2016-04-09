@@ -35,7 +35,8 @@
           </div>
         </div>
       </div>
-      @if ($daycareCount >= $settings->daycare_limit)
+      @if ($attendeeCount >= $settings->number_of_attendees)
+      @elseif ($daycareCount >= $settings->daycare_limit)
         <h3>{{ trans('registro.servicioGuarderialleno') }}</h3>
       @else
         <div class="section2R">

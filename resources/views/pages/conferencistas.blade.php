@@ -25,8 +25,8 @@
                             {!! trans('conferencistas.Maru') !!} 
                         </div>
                         <div id="leermas" class="" style="display:block;">
-                            <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                            <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                            <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conferencistas.leerMas') }}</button>
+                            <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conferencistas.leerMenos') }}</button>
                         </div>
                     </div>
                 </div>
@@ -45,8 +45,8 @@
                             {!! trans('conferencistas.MariaS') !!} 
                         </div>
                         <div id="leermas" class="" style="display:block;">
-                            <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                            <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                            <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conferencistas.leerMas') }}</button>
+                            <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conferencistas.leerMenos') }}</button>
                         </div>
                     </div>
                 </div>
@@ -66,8 +66,8 @@
                         
                         </div>
                         <div id="leermas" class="" style="display:block;">
-                            <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                            <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                            <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conferencistas.leerMas') }}</button>
+                            <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conferencistas.leerMenos') }}</button>
                         </div>
                     </div>
                 </div>
@@ -93,8 +93,8 @@
                        {!! trans('conferencistas.Elodia') !!} 
                        </div>
                         <div id="leermas" class="" style="display:block;">
-                            <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                            <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                            <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conferencistas.leerMas') }}</button>
+                            <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conferencistas.leerMenos') }}</button>
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
             <div class="row">
                 <div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-4 col-md-offset-1  col-lg-4 col-lg-offset-1">
                     <div class="conferencistas1">
-                        <img  src="images/conferencista1.jpg"  class="img-responsive" alt="ana" width="250" height="200"/>
+                        <img  src="images/panelistaAna.jpg"  class="img-responsive" alt="ana" width="250" height="200"/>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
@@ -112,8 +112,8 @@
                       {!! trans('conferencistas.Ana') !!} 
                       </div>
                         <div id="leermas" class="" style="display:block;">
-                            <button type="button" class="btn btn-leer btn-sm readMoreButton">Leer más</button>
-                            <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">Leer menos</button>
+                            <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conferencistas.leerMas') }}</button>
+                            <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conferencistas.leerMenos') }}</button>
                         </div>
                     </div>
                 </div>

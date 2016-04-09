@@ -12,7 +12,7 @@ return [
     'email' => 'Correo Electrónico',
     'servicioGuarderialleno' => 'Servicio de guarderia ya esta lleno.',
     'servicioGuarderia' => '¿Necesita servicio de guardería?',
-    'No' =>  'Si',
+    'Si' =>  'Si',
     'No' => 'No',
     'cuantosNinos' =>  '¿Cuántos niños o niñas va a registrar?',
     'maximoNinos' => 'Cada participante puede registrar máximo dos menores de edad entre 3 y 11 años de edades.',

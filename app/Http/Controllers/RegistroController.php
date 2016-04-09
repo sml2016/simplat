@@ -85,10 +85,17 @@ class RegistroController extends Controller
             }
         }
 
-        return redirect('/registro/aceptado')->with([
-            'aceptado' => 'true',
-            'hayGuarderia' => $daycarenumber > 0 ? 'true' : 'false'
-        ]);
+        if (!$attendee->waiting_list) 
+        {
+            return redirect('/registro/aceptado')->with([
+                'aceptado' => 'true',
+                'hayGuarderia' => $daycarenumber > 0 ? 'true' : 'false'
+            ]);
+        }
+        else
+        {
+            return redirect('/registro/listaespera');
+        }
     }
 
     /**

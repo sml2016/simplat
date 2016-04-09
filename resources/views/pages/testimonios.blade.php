@@ -19,41 +19,61 @@
            <div class="testimonio1">  
             <div class="row">
               <div class="col-sm-10 col-md-6">
-                 <div class="bubble">
-                {!! trans('testimonios.Dicen') !!}
-                  </div>
-                 <h2>{{ trans('testimonios.nombreXochi') }}</h2>
+                <div class="bubble">
+                 {!! trans('testimonios.diceJueza') !!}
+                </div>
+                <h2>{{ trans('testimonios.nombreJueza') }}</h2>
                 <h3>{{ trans('testimonios.Fecha') }}</h3>
-               </div>
+              </div>
             
             
               <div class="col-sm-10 col-md-6">
                 <div class="bubble">
-                 {!! trans('testimonios.Dicen1') !!}
+                 {!! trans('testimonios.diceLupita') !!}
                 </div>
-                <h2>{{ trans('testimonios.nombreJueza') }}</h2>
+                <h2>{{ trans('testimonios.nombrelupita') }}</h2>
                 <h3>{{ trans('testimonios.Fecha') }}</h3>
               </div>
             </div><!--END ROW-->
            
             
             <div class="row">
-             <div class="col-sm-10 col-md-6">
-               <div class="bubble">
-                 {!! trans('testimonios.Dicen2') !!}
+              <div class="col-sm-10 col-md-6">
+                <div class="bubble">
+                 {!! trans('testimonios.diceMaria') !!}
                 </div>
-                <h2>{{ trans('testimonios.nombreMaribel') }}</h2>
+                <h2>{{ trans('testimonios.nombreMaria') }}</h2>
                 <h3>{{ trans('testimonios.Fecha') }}</h3>
-              </div>
+              </div> 
+            
               
                  <div class="col-sm-10 col-md-6">
                 <div class="bubble">
-                 {!! trans('testimonios.Dicen3') !!}
+                 {!! trans('testimonios.diceAle') !!}
+                </div>
+                <h2>{{ trans('testimonios.nombreAle') }}</h2>
+                <h3>{{ trans('testimonios.Fecha') }}</h3>
+              </div> 
+            </div><!--END ROW-->
+            
+            <div class="row">
+              <div class="col-sm-10 col-md-6">
+                 <div class="bubble">
+                {!! trans('testimonios.diceXochi') !!}
+                  </div>
+                 <h2>{{ trans('testimonios.nombreXochi') }}</h2>
+                <h3>{{ trans('testimonios.Fecha') }}</h3>
+               </div>
+               
+               <div class="col-sm-10 col-md-6">
+                <div class="bubble">
+                 {!! trans('testimonios.diceMarcela') !!}
                 </div>
                 <h2>{{ trans('testimonios.nombreMarcela') }}</h2>
                 <h3>{{ trans('testimonios.Fecha') }}</h3>
               </div> 
-            </div><!--END ROW-->
+              
+           </div>
           </div>
          </div><!--End testimonio-->
        

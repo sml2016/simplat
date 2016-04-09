@@ -28,6 +28,8 @@ return [
              deportation campaign to Fergusson MO.</p>
              <p>Maru is also a single mother raising a mature, critical thinker and beautiful teenage girl who recently 
              appeared with her on Democracy Now! </p>',
+ 'leerMas' => 'Read More',
+ 'leerMenos' => 'Read Less',
 'MariaS' => '<h2>María-José Soerens <span class="bio">Biography</span></h2>
              <h3>Puentes Seattle</h3>
             <p>Maria-Jose “Coté” Soerens is the founding executive director of Puentes, an immigrant-led organization mobilizing mental health resources
@@ -55,6 +57,7 @@ return [
              <p>I support my parents economic in Mexico and lots of family members because there is a great need for basic needs. God has bless me in so many ways like my family, faith, an education, work, and getting to know so many people. This is just a little part of my life of so many blessings that it is hard to name all of them. And thanks be to God.</p>',
 'Ana' =>  '<h2>Ana Castro <span class="bio"> Biography</span></h2>
            <h3>Owner of Salvadorean Bakery </h3>
-           <p>English writer Virginia Woolf was raised in a remarkable household. arents had been married and widowed before marrying each other. The eight children lived under one roof at 22 Hyde Park Gate, Kensington.</p>
-           Two of Woolf’s brothers had been educated at Cambridge, but all the girls were taught at            home and utilized the              splendid confines of the family’s lush Victorian library. Moreover,  Woolf’s parents were extremely well connected, both                   socially and artistically. Her father was            a friend to William Thackeray and George Henry Lewes, as</p>'
+           <p>Ana Castro and her sister Aminta came to the US in the 80’s running away from the war in El Salvador. Now they are the owners of the Salvadorean Bakery at White Center, in West Seattle.  During 14 years, they saved money from their jobs cleaning hotel rooms. The dream came true in 1996. </p>
+           <p>“We had a small bakery in El Salvador, but we left, leaving everything behind because the war," said Ana Castro. They never thought about opening a bakery during the first years in this country, but Ana Castro always knew she didn’t want to clean hotel rooms for her whole life. </p>
+           <p>They opened the Salvadorean Bakery when nobody was willing to open a new business in White Center, and now they have a successful business offering up authentic food at a fair price. The message from Ana Castro to other women: “You have to be persistent, and consistent".</p>'
 ];

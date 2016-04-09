@@ -14,6 +14,8 @@ return [
                <p>Ella es una analista política invitada en Latino Radio y TV en Oregon, en el estado de Washington y en toda la nación. Es oradora a favor de los inmigrantes indocumentados, sirve en la comisión del Blue Ribbon de los indocumentados y ex indocumentados y se unió a la delegación nacional de campaña de deportación Not1More para Fergusson MO.</p>
                <p>Maru es también madre soltera y esta criando una hermosa adolescente, madura, de pensamiento crítico, quien recientemente apareció junto a ella en Democracy Now ¡</p>
              </div>',
+ 'leerMas' => 'Leer más',
+ 'leerMenos' => 'Leer menos',
  'MariaS' => '<h2>María-José Soerens <span class="bio"> Biografía</span></h2>
              <h3>Fundadora de Puentes Seattle</h3>
              <p>Maria-Jose “Coté” Soerens es la directora ejecutiva fundadora de Puentes, una organización dirigida por inmigrantes que moviliza recursos de salud mental para apoyar a los inmigrantes indocumentados y a sus familias que se enfentan a los estragos del un sistema de immigración quebrantado. </p>
@@ -34,8 +36,12 @@ return [
             and both of my parent do not know how to write or read. Growing up, I dreamed of having an education however, it was not available to me since we lived in a very small village and poverty. My father did not believe in education and my oldest brothers had to work a few days and go to school the other days of the week in order to finish elementary school and help the family.</p>',
 'Ana' => ' <h2>Ana Castro <span class="bio"> Biografía</span></h2>
            <h3>Propietaria de la Panadería Salvadoreña </h3>
-           <p>English writer Virginia Woolf was raised in a remarkable household. arents had been married and widowed before marrying each other. The eight children lived under one roof at 22 Hyde Park Gate, Kensington.</p>
-           <p>Two of Woolf’s brothers had been educated at Cambridge, but all the girls were taught at  home and utilized the splendid confines of the family’s lush Victorian library. Moreover,  Woolf’s parents were extremely well connected, both socially and artistically. Her father was  a friend to William Thackeray and George Henry Lewes, as</p>'
+           <p>Ana Castro y su hermana Aminta llegaron a los Estados Unidos huyendo de la guerra en El Salvador en la década del 80. Con mucho trabajo duro limpiando cuartos de hotel y un préstamo las hermanas pudieron abrir la Panadería Salvadoreña en West Seattle, WA. De tener nada, pasaron a abrir uno de los locales más visitados en el White Center.</p>
+           <p>“En El Salvador teníamos una pequeña panadería y tuvimos que dejar todo atrás por la guerra (…) Cuando vinimos a los Estados Unidos, yo nunca pensé que iba a estar haciendo lo que hacíamos en El Salvador. Solíamos limpiar en hoteles pero en mi mente, siempre pensé que no quería hacer eso por el resto de mi vida”, explicó la señora Castro.</p>
+           <p>En 1996 abrieron el local y lucharon durante años por mantenerlo abierto, aunque a veces era tentadora la idea de cerrar las puertas dado que no llegaban suficientes clientes. Ahorrar durante 14 años para cumplir su sueño, apoyo del sistema bancario y nunca perder la fe, fueron hechos claves para superar todas las trabas en el camino.</p>
+           <p>“Tienes que ser persistente y consistente en lo que estás haciendo, tal vez cuando comenzamos no teníamos suficientes clientes y pensamos en cerrar las puertas. Teníamos que mantenernos abiertos, no podíamos cerrar las puertas porque la panadera o el contador no estaban aquí. Tuve que aprender a hacer todo”, explicó. </p>
+           <p>Ana Castro y su hermana construyeron con mucho tesón uno de los negocios más conocidos del White Center. Ellas apostaron al vecindario cuando nadie se atrevía a hacerlo, ahora estás mujeres son una prueba de que el trabajo duro rinde frutos. La Panadería Salvadoreña es un negocio visitado por americanos y latinos, quienes adoran el gusto de las pupusas, las tortas tres leches y las quesadillas salvadoreñas.</p>'
+
 ];
 
 

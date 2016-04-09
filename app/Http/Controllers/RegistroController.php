@@ -94,7 +94,9 @@ class RegistroController extends Controller
         }
         else
         {
-            return redirect('/registro/listaespera');
+            return redirect('/registro/listaespera')->with([
+                'listadeespera' => 'true'
+            ]);
         }
     }
 
@@ -116,6 +118,23 @@ class RegistroController extends Controller
                 $hayGuarderia = true; 
             }
             return view('pages.registro.aceptado', ['hayGuarderia' => $hayGuarderia]);
+        }
+
+        return redirect('/');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function getWaitingListView()
+    {
+        if (session('listadeespera') == 'true')
+        {
+            Session()->forget('listadeespera');
+
+            return view('pages.registro.listaespera');
         }
 
         return redirect('/');

@@ -12,7 +12,7 @@ return [
               que quieren hacer un cambio en su comunidad. Participa como voluntario en la realización de 
               nuestro simposio. <span class="color"> ¡Involúcrate!</p>',
     'QuieresApoyarnos' => ' <h1>¿Quieres apoyarnos pero no sabes en qué? Ingresa a nuestra página en Genius, solo tienes que hacer
-             <a href="https://nscef.ejoinme.org/MyPages/LatinaSymposiumEnglish/tabid/741216/Default.aspx">clic aquí</a></h1> ',
+             <a href="https://www.signupgenius.com/go/30e054bacae2fa4f58-involcrate">clic aquí</a></h1> ',
     'Email' => ' <h2>Ahí podrás encontrar las diferentes actividades en las que puedes participar. O si lo prefieres, comunícate con 
               Angie al correo electrónico <br><span class="color1">simposiomujereslatinas.gente@gmail.com</span></br></h2>'
   

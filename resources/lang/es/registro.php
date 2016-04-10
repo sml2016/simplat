@@ -5,7 +5,7 @@
 */
 return [
     'titulo' => 'Registro para el Tercer Simposio de Mujeres Latinas 2016',
-    'tituloListaDeEspera' => 'El simposio ya está lleno! Registrate en la lista de espera!',
+    'tituloListaDeEspera' => '¡El simposio ya está lleno! Registrate en la lista de espera.',
     'nombre' => 'Nombre',
     'apellido' => 'Apellido',
     'telefono' => 'Teléfono',
@@ -16,6 +16,8 @@ return [
     'No' => 'No',
     'cuantosNinos' =>  '¿Cuántos niños o niñas va a registrar?',
     'maximoNinos' => 'Cada participante puede registrar máximo dos menores de edad entre 3 y 11 años de edades.',
+    'maximoNinos1' => 'Uno',
+    'maximoNinos2' => 'Dos',
     'UnLugarGuarderia' => 'Solo queda un lugar en la guarderia',
     'edaddenino' => 'El menor debe tener la edad entre 3 y 11 años',
     'Uno' => 'Uno',
@@ -28,10 +30,10 @@ return [
     'Femenino1' => 'Femenino',
     'Niña2' => 'Niña(o) número 2',
     'Nombre2' => 'Nombre',
-    'Apellido2' => 'Apellido'
-    
-    
-    
-    
-    
+    'Apellido2' => 'Apellido',
+    'Edad2' => 'Edad2',
+    'genero2' => 'Género',
+    'cancelar' => 'Cancelar',
+    'registrarse' => 'Registrarse'
+ 
 ];

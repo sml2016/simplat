@@ -1,5 +1,9 @@
-@extends('layouts.master')
-@section('content')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
 
 <div  class="emailAceptado style= width:100%; border:0; cellspacing:0; cellpadding:0; margin:30px 20px;">
 
@@ -9,6 +13,8 @@
   
       <h3 style="font-family:verdana; text-align:center; color:#9541c7; padding:10px">Te esperamos el S&aacute;bado 21 de Mayo a partir de la 10:30am hasta las 3:00pm</br>
       En las instalaciones de North Seattle College.</h3>
+      
+      <h3 style="font-family:verdana; text-align:center; color:#808080;">Recibir&aacute;s un correo electr&oacute;nico con m&aacute;s informaci&oacute;n sobre el servicio de guarder&iacute;a</h3>
 
   <p style="font-family:verdana; font-size:20px; padding:10px;text-align:center; color#333333;">www.simposiomujereslatinas.com</p>
   <p style="font-family:verdana; text-align:center; color:#9541c7; font-size:20px;"><a href="https://www.facebook.com/latinasymposium/"><i class="fa fa-facebook-square fa-lg"></i></a>
@@ -17,5 +23,5 @@
   
   </div>
 
-@stop
-
+</body>
+</html>

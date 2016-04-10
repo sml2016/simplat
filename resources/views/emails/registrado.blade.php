@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <style>
         h1 {
-            color:red;
+            color:#9541c7;
         }
     </style>
 </head>

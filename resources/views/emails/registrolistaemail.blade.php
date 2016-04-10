@@ -1,5 +1,9 @@
-@extends('layouts.master')
-@section('content')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
 <div  class="emailAceptado style= width:100%; border:0; cellspacing:0; cellpadding:0; margin:30px 20px;">
 
        <h1 style="font-family:verdana; text-align:center; color:#9541c7; padding:40px 10px 30px 10px;">&iexcl;Ya eres parte de nuestra lista de espera!</h1>
@@ -15,5 +19,5 @@
   
   </div>
 
-
-@stop
+</body>
+</html>

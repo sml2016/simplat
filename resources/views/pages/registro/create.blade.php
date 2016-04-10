@@ -28,17 +28,20 @@
               <label for="InputApellido">{{ trans('registro.apellido') }}</label>
               <input type="apellido" class="form-control" id="InputApellido" placeholder="{{ trans('registro.apellido') }}" name="lastname" value="{{Request::old('lastname')}}" required>
               <label for="InputTel">{{ trans('registro.telefono') }}</label>
-              <input type="telefono" class="form-control" id="InputTel" placeholder="Teléfono" name="phonenumber" value="{{Request::old('phonenumber')}}" required>
+              <input type="telefono" class="form-control" id="InputTel" placeholder="{{ trans('registro.telefono') }}" name="phonenumber" value="{{Request::old('phonenumber')}}" required>
               <label for="InputEmail">{{ trans('registro.email') }}</label>
-              <input type="Correo Eléctronico" class="form-control" id="InputEmail" placeholder="Correo Electrónico" name="email" value="{{Request::old('email')}}" required>
+              <input type="Correo Eléctronico" class="form-control" id="InputEmail" placeholder="{{ trans('registro.email') }}" name="email" value="{{Request::old('email')}}" required>
             </div>
           </div>
         </div>
       </div>
       @if ($attendeeCount >= $settings->number_of_attendees)
       @elseif ($daycareCount >= $settings->daycare_limit)
+      <div class="serviciolleno">
         <h3>{{ trans('registro.servicioGuarderialleno') }}</h3>
+      </div>
       @else
+      
         <div class="section2R">
           <h1>{{ trans('registro.servicioGuarderia') }}</h1>
           <div class="row">
@@ -62,8 +65,8 @@
               <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
                 <div class="ninos">
                   <select id="daycarenumber" name="daycarenumber" class="form-control input-lg">
-                    <option value="1" {{ Request::old('daycarenumber') == '1' ? 'selected' : '' }}>Uno</option>
-                    <option value="2" {{ Request::old('daycarenumber') == '2' ? 'selected' : '' }}>Dos</option>
+                    <option value="1" {{ Request::old('daycarenumber') == '1' ? 'selected' : '' }}>{{ trans('registro.maximoNinos1') }}</option>
+                    <option value="2" {{ Request::old('daycarenumber') == '2' ? 'selected' : '' }}>{{ trans('registro.maximoNinos2') }}</option>
                   </select>
                 </div>
               </div>
@@ -84,9 +87,9 @@
               <h1>{{ trans('registro.NinoNumero') }}</h1>
               <div class="form-group-lg">
                 <label for="InputNombreN1">{{ trans('registro.Nombre1') }}</label>
-                <input type="text" class="form-control" name="child1name" id="InputNombreN1" placeholder="Nombre" value="{{Request::old('child1name')}}">
+                <input type="text" class="form-control" name="child1name" id="InputNombreN1" placeholder="{{ trans('registro.Nombre1') }}" value="{{Request::old('child1name')}}">
                 <label for="InputApellidoN1">{{ trans('registro.Apellido1') }}</label>
-                <input type="apellido" class="form-control" name="child1lastname" id="InputApellidoN1" placeholder="Apellido" value="{{Request::old('child1lastname')}}">
+                <input type="apellido" class="form-control" name="child1lastname" id="InputApellidoN1" placeholder="{{ trans('registro.Apellido1') }}" value="{{Request::old('child1lastname')}}">
               </div>
               <h2>{{ trans('registro.Edad1') }}</h2>
               <div class="nino1">
@@ -111,21 +114,21 @@
               <h1>{{ trans('registro.Niña2') }}</h1>
               <div class="form-group-lg">
                 <label for="InputNombreN2">{{ trans('registro.Nombre2') }}</label>
-                <input type="text" class="form-control" name="child2name" id="InputNombreN2" placeholder="Nombre" value="{{Request::old('child2name')}}">
+                <input type="text" class="form-control" name="child2name" id="InputNombreN2" placeholder="{{ trans('registro.Nombre2') }}" value="{{Request::old('child2name')}}">
                 <label for="InputApellidoN2">{{ trans('registro.Apellido2') }}</label>
-                <input type="apellido" class="form-control" name="child2lastname" id="InputApellidoN2" placeholder="Apellido" value="{{Request::old('child2lastname')}}" >
+                <input type="apellido" class="form-control" name="child2lastname" id="InputApellidoN2" placeholder="{{ trans('registro.Apellido2') }}" value="{{Request::old('child2lastname')}}" >
               </div>
-              <h2> Edad </h2>
+              <h2> {{ trans('registro.Edad2') }}</h2>
               <div class="nino2">
                 <select name="child2age" id="child2Age" class="form-control input-lg">
                     @for($age = $settings->daycare_min_age ; $age <= $settings->daycare_max_age ; $age++)
                       <option value="{{$age}}" {{ Request::old('child2age') == $age ? 'selected' : '' }}>{{$age}}</option>
                     @endfor
                 </select>
-                <h3>Género </h3>
+                <h3>{{ trans('registro.genero2') }}</h3>
                 <select name="child2sex" class="form-control input-lg">
-                  <option value="0" {{ Request::old('child2sex') == '0' ? 'selected' : '' }}>Masculino</option>
-                  <option value="1" {{ Request::old('child2sex') == '1' ? 'selected' : '' }}>Femenino</option>
+                  <option value="0" {{ Request::old('child2sex') == '0' ? 'selected' : '' }}>{{ trans('registro.Masculino1') }}</option>
+                  <option value="1" {{ Request::old('child2sex') == '1' ? 'selected' : '' }}>{{ trans('registro.Femenino1') }}</option>
                 </select>
               </div>
             </div>
@@ -135,8 +138,8 @@
       <div class="section6R">
         <div class="row">
           <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-            <button type="submit" class="btn btn-primary btn-lg btn-block">Registrarse</button>
-            <a href="/" class="btn btn-default btn-lg btn-block">Cancelar</a>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">{{ trans('registro.registrarse') }}</button>
+            <a href="/" class="btn btn-default btn-lg btn-block">{{ trans('registro.cancelar') }}</a>
           </div>
         </div>
       </div>

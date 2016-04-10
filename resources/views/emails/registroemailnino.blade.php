@@ -1,5 +1,9 @@
-@extends('layouts.master')
-@section('content')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
 
 <div  class="emailAceptado style= width:100%; border:0; cellspacing:0; cellpadding:0; margin:30px 20px;">
 
@@ -19,4 +23,5 @@
   
   </div>
 
-@stop
+</body>
+</html>

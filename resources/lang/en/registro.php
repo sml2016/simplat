@@ -10,7 +10,7 @@ return [
     'apellido' => 'Last Name',
     'telefono' => 'Phone Number',
     'email' => 'E-mail',
-    'servicioGuarderialleno' => 'The day care service is already full.',
+    'servicioGuarderialleno' => 'The daycare service is already full!',
     'servicioGuarderia' => 'Do you need daycare service?',
     'Si' =>  'Yes',
     'No' => 'No',

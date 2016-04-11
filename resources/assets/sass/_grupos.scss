@@ -2,7 +2,7 @@
   Grupos de seguimiento
   ----------------------*/
   
-.grupos{
+.seguimiento{
    margin-left: 20px;
    margin-right: 20px;
    
@@ -16,19 +16,80 @@
       padding-bottom: 50px;
      }
 
-   .grupoimg1{
+   .seguimientoimg1{
+    
+    img{
     padding-left: 400px;
     padding-right: 400px;
     padding-bottom: 40px;
    }
+  
+    @media (max-width:$sizePhone){
+     
+    img{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-top:10px;
+    }   
+  }
+ }
    
+   .seguimientoescrito{
+     text-align: justify; 
+     padding-left: 100px;
+     padding-right: 100px; 
+     
+     
    .p{
      font-family: 'Opensans',sans-serif;
-     font-size: 15px;
+     font-size: 16px;
      color: #333;
      margin-top: 10px;      
      padding-bottom: 10px;
-     text-align: justify; 
     }
-  
+    
+     h2{
+      font-family: 'Lobster', cursive;
+      font-size: 20px;
+      color: #f04942;
+      padding: 20px 50px 0px 0px;
+      font-weight: lighter;
+      text-align: end;
+      }
+      
+      h3{
+      font-family: 'TenorSans',sans-serif;
+      font-size: 16px;
+      color: #333;
+      padding: 5px 50px 70px 0px;   
+      text-align: end;
+      }
+      
+   @media (max-width:$sizePhone){
+      padding-left: 5px;
+      padding-right: 5px;
+      
+      h2{
+      padding: 10px 20px 0px 0px;
+      font-size: 17px;
+      }
+      
+      h3{
+      padding: 5px 20px 0px 0px;
+      }
+    }
+  }
+     
+   @media (max-width:$sizePhone){
+        margin-left: 10px;
+        margin-right: 10px;
+        
+        h1{
+        padding-bottom: 0px;
+        padding-top: 0px;
+        font-size: 20px;
+        }
+        
+    }
   }

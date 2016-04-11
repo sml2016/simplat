@@ -39,6 +39,15 @@ label {
     }
 }
 
+ 
+    @media (max-width:$sizePhone){
+     
+     .serviciolleno h3{
+      font-size: 16px;
+      }
+      
+    }
+
 .section2R h1 {
     font-family: 'TenorSans',sans-serif;
     font-size: 22px;

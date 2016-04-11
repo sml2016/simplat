@@ -2,6 +2,6 @@
 
 return [
   
-  'Titulo1' => 'Latina Women Symposium 2015'
+  'Titulo1' => 'Latina Symposium 2015'
   
 ];

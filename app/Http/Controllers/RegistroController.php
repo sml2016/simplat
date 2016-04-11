@@ -12,6 +12,7 @@ use App\Settings;
 use App\Attendee;
 use App\Children;
 use Session;
+use Mail;
 
 class RegistroController extends Controller
 {
@@ -53,6 +54,7 @@ class RegistroController extends Controller
         $attendee->phone_number = $request->get('phonenumber');
         $attendee->waiting_list = $attendeeCount >= $settings->number_of_attendees;
         $attendee->save();
+        $fullname = $attendee->name.' '.$attendee->last_name;
 
         if ($daycareCount < $settings->daycare_limit)
         {
@@ -87,6 +89,15 @@ class RegistroController extends Controller
 
         if (!$attendee->waiting_list) 
         {
+            if ($daycarenumber > 0)
+            {
+                $this->sendMail('emails.registroemail', 'Confirmación del registro del 3er. Simposio de Mujeres Latinas', $attendee->email, $fullname);
+            }
+            else
+            {
+                $this->sendMail('emails.registroemailnino', 'Confirmación del registro del 3er. Simposio de Mujeres Latinas', $attendee->email, $fullname);
+            }
+
             return redirect('/registro/aceptado')->with([
                 'aceptado' => 'true',
                 'hayGuarderia' => $daycarenumber > 0 ? 'true' : 'false'
@@ -94,12 +105,23 @@ class RegistroController extends Controller
         }
         else
         {
+            $this->sendMail('emails.registrolistaemail', 'Confirmación de la lista de espera del 3er. Simposio de Mujeres Latinas', $attendee->email, $fullname);
             return redirect('/registro/listaespera')->with([
                 'listadeespera' => 'true'
             ]);
         }
     }
 
+    public function sendMail($mailTemplate, $title, $email, $name)
+    {
+        $simposioEmail = env('MAIL_USERNAME');
+
+        Mail::send($mailTemplate, [], function ($m) use ($title, $email, $simposioEmail, $name) {
+            $m->from($simposioEmail, 'Simposio Mujeres Latinas');
+            $m->to($email, $name)->subject($title);
+        });
+    }
+    
     /**
      * Display a listing of the resource.
      *

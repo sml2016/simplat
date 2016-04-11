@@ -104,6 +104,18 @@ class AttendeesController extends Controller
     }
 
     /**
+     * delete all attendees
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function deleteAllAttendees()
+    {
+        Children::truncate();
+        Attendee::truncate();
+        return redirect('/admin/attendees');
+    }
+
+    /**
      * Shows the attendee view
      *
      * @return \Illuminate\Http\Response

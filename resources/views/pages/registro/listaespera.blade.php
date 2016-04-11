@@ -9,7 +9,7 @@
       En las instalaciones de North Seattle College.</h2>
       <p>Nosotros nos comunicaremos contigo en caso de que tengamos un lugar para ti.</p>
    
-    </div>  
+    </div> <!-- Lista --> 
   </div> <!-- Fondo1 -->
-</div>
+</div><!--Container -->
 @stop

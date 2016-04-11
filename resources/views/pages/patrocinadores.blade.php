@@ -95,7 +95,7 @@
               
                 <div class="col-sm-3">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/conexiónContigo.jpg" alt="conexiónContigo"/>
+                <img src="/images/patrocinadores/conexionContigo.jpg" alt="conexiónContigo"/>
                 <p>{{ trans('patrocinadores.Gracias1') }}  </p>
                 </div>
                 </div>

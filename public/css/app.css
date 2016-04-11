@@ -6732,7 +6732,8 @@ hr p {
     margin: 30px 20px 10px;
     font-family: 'Tenor-Sans';
     font-size: 22px;
-    color: #000; }
+    color: #000;
+    font-weight: bold; }
   .sectionC h2 {
     margin: 30px 20px 10px;
     font-family: 'Tenor-Sans';

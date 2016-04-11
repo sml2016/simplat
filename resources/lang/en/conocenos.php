@@ -2,6 +2,18 @@
 
 return [
 'Quienes' => 'Who we are',
+ 'nomTania' => 'Tania Hino',
+ 'comiteTania' => 'Finance & Presenter Committee',  
+  'Tania' => '<p>My goal as an organizer of the North Seattle College Latina Symposium is to create unity within the Latinas.                                      Everyone  has their own dreams in life.
+              I am a true believer that Latinas Women can be successful at any goal they set their mind to with the right support.</p>
+            <p>My dream has come through with hard work, support and encouragement from many people around me that                                               includes family members, friends, and good teachers who  believed in me.</p> 
+            <p>Now I am a Licensed Social Worker with a Masters from the University of Washington and also an Adlerian therapist, Parenting coach and a Parent Education Instructor at North Seattle College.  As a mother of three kids, my dream is that as our kids grow up and navigate the world, there will be lot more Latina Women in power and as role models.</p>  
+            <p>We need more Latinas to empower our children and show them that they all can reach their dreams.</p>
+            <p>This Latina Symposium, a dream that was only made possible by the grant provided by the Parent Education Program from North Seattle College.  The dream is to organize and bring together Latinas from different educational backgrounds, economical status, and cultures to form a sense of community and to empower each other and make their dreams a possibility.</p>
+            <p>This is my story:</p>
+            <p>My family relocated from Mexico to the United States looking for a better future about 20 years ago. When I was 15 years old and could barely speak or understand English, my high school carrier counselor in San Antonio asked me in broken Spanish, “What do you want to do when you grow up?”  I answered without a hesitation, “A nurse!”.  Growing up in Mexico and watching my Godmother who was a town nurse, I was inspired to become a nurse. So, with a high confidence & enthusiasm, I answered “A Nurse!”.</p>
+            <p>The counselor looked at me with a puzzled look on her face.  She then proceeded to give me a carrier/vocational test which I did my best with my limited English knowledge.</p> 
+            <p>The counselor graded my test and came back with a striking news that I will be no more than a fast food restaurant worker.  My heart sank but my hopes endured.  From that point on I made a conscious decision that I will not only become successful but also be a bridge to encourage and motivate any minority or less privileged population;especially Latinas to continue their own dreams.</p>',
 'nomJessica' => 'Jessica Cabrera',
 'comiteJessica' => 'Register - Basket Committee',
  'Jessica'=>'<p>I’d like you to know that as a Latina woman I am filled with excitement, joy and pride to be 
@@ -17,18 +29,6 @@ return [
            <p> This life is a constant learning experience and I believe that every single one of us can achieve our goals and dreams as long as we support and fight together as the strong women that we are, and truly hope that our stories can serve as an inspiration for many women seeking means of support for the benefit of their personal and professional development. We look forward to see you all there!</p>',
    'leerMas' => 'Read more',
 'leerMenos' => 'Read less',
- 'nomTania' => 'Tania Hino',
- 'comiteTania' => 'Finance Committee',  
-  'Tania' => '<p>My goal as an organizer of the North Seattle College Latina Symposium is to create unity within the Latinas.                                      Everyone  has their own dreams in life.
-              I am a true believer that Latinas Women can be successful at any goal they set their mind to with the right support.</p>
-            <p>My dream has come through with hard work, support and encouragement from many people around me that                                               includes family members, friends, and good teachers who  believed in me.</p> 
-            <p>Now I am a Licensed Social Worker with a Masters from the University of Washington and also an Adlerian therapist, Parenting coach and a Parent Education Instructor at North Seattle College.  As a mother of three kids, my dream is that as our kids grow up and navigate the world, there will be lot more Latina Women in power and as role models.</p>  
-            <p>We need more Latinas to empower our children and show them that they all can reach their dreams.</p>
-            <p>This Latina Symposium, a dream that was only made possible by the grant provided by the Parent Education Program from North Seattle College.  The dream is to organize and bring together Latinas from different educational backgrounds, economical status, and cultures to form a sense of community and to empower each other and make their dreams a possibility.</p>
-            <p>This is my story:</p>
-            <p>My family relocated from Mexico to the United States looking for a better future about 20 years ago. When I was 15 years old and could barely speak or understand English, my high school carrier counselor in San Antonio asked me in broken Spanish, “What do you want to do when you grow up?”  I answered without a hesitation, “A nurse!”.  Growing up in Mexico and watching my Godmother who was a town nurse, I was inspired to become a nurse. So, with a high confidence & enthusiasm, I answered “A Nurse!”.</p>
-            <p>The counselor looked at me with a puzzled look on her face.  She then proceeded to give me a carrier/vocational test which I did my best with my limited English knowledge.</p> 
-            <p>The counselor graded my test and came back with a striking news that I will be no more than a fast food restaurant worker.  My heart sank but my hopes endured.  From that point on I made a conscious decision that I will not only become successful but also be a bridge to encourage and motivate any minority or less privileged population;especially Latinas to continue their own dreams.</p>',
 'nomVelia' => 'Velia Lara',
 'comiteVelia' => 'Banquet -  Decoration Committee',
  'Velia' => '<p>I was interested in participating in the Latinas Symposium board because through this opportunity I can support and facilitate some resources to empower other women.  I firmly believe in the important role that women play in family and society, and us, as women and immigrants who come to this country and go through so much changes, we need this type of support to help us move forward.</p>
@@ -55,11 +55,8 @@ return [
               <p>After experience being mother and student, I finished my master and life took me back to Seattle. Now I am here, helping in this event, to grow with all the women that come to the symposium with fears, hopes and dreams.</p>',
 'nomSixta' => 'Sixta Morel',   
 'comiteSixta' => 'Publicity Committee ',
-   'Sixta' => '<p>I love people, and the stories behind their faces, I believe that smiles, good energy and kindness can make a                                 difference. This is my third year at the symposium, I liked it so much when I first came, that I decided I wanted to             be a              part of it, and collaborate in any way that I could, to promote this great platform for the talented and full of            energy                 community of Latinas of the state of Washington.</p>
-             <p> I moved to Seattle from the Dominican Republic a few years ago, and I live  with my husband and son, I enjoy                                  flowers, reading and writing in my blog Gente, Historias y Sonrisas. </p>
-              <p>I started working in the television business since the age of 17, Im experienced as news anchor, magazines host, arts  and entertainment editor, bilingual MC, interviewer, marketing coordinator, and also as producer in my own inspirational TV show: "Vida y Valores".</p>
-             <p> Graduated as Radio and TV broadcaster, I hold a bachelors degree in Business Administration and certificates in Cultural  Journalism and Public Relations and Strategic Communications. </p>
-             </p>',
+   'Sixta' => '<p>When I moved to Seattle from the Dominican Republic I left behind everything I knew:  my hometown, my family, my friends and my career. I married the love of my life and decided to leave it all and start over in this beautiful city of Seattle. Far away from the lovely Dominican weather and my circle, and knowing that I would probably had to wait a good time before ‘standing on my feet ‘ again I made a decision: It was my choice to come, so I would make the best of it, and since the beginning the journey has been nothing but rewarding.</p>
+              <p>I started working in the television business since the age of 17, I am experienced as news anchor, magazines host, arts and entertainment editor, bilingual MC, interviewer, and also as producer in my own inspirational TV show: "Vida y Valores".  Graduated as Radio and TV broadcaster, I hold a bachelor  degree in Business Administration and certificates in Cultural Journalism and Public Relations and Strategic Communications. </p>',
 'nomAmarilis' => 'Amarilis Aranguren',
 'comiteAmarilis' => 'Content - Register Committee', 
 'Amarilis' => '<p>I’m against injustice and women are affected by this every day. I met Tania Hino and Perla Mendoza in the Seattle Public Library,                 in the Spanish Storytime for kids. They are the heart of the Latina Symposium and an example of the strength that every Latina has                    inside.</p>

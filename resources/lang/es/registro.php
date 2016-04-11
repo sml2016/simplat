@@ -34,6 +34,7 @@ return [
     'Edad2' => 'Edad2',
     'genero2' => 'Género',
     'cancelar' => 'Cancelar',
-    'registrarse' => 'Registrarse'
- 
+    'registrarse' => 'Registrarse',
+    'inscripcionesNoHabiertas1' => 'Las inscripciones aún no están habiertas!',
+    'inscripcionesNoHabiertas2' => 'Las incripciones se habriran el Lunes 11 de abril a las 6:30 pm.' 
 ];

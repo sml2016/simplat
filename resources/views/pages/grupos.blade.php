@@ -8,14 +8,18 @@
   <div class="container">
     <div class="fondo1">
     
-     <div class="grupos">
+     <div class="seguimiento">
        <h1>Grupos de Seguimiento</h1>
       
        <div class="row">
         <div class="col-sm-12 col-md-12">
-          <div class="grupoimg1">
+          <div class="seguimientoimg1">
           <img class="img-responsive" src="/images/grupo/grupoYuri.jpg" alt="Yuri";/>
-        </div> 
+         </div> 
+        </div>
+        
+        <div class="seguimientoescrito">
+        <div class="col-sm-12 col-md-12">
          <p>¡Fue una hermosa experiencia el haber sido parte del Simposio de Mujeres Latinas 2015! Estar rodeada de tantas mujeres bellas y de un ambiente tan enriquecedor, divertido, positivo y amistoso, me hizo sentir como si estuviera en mi país con mi familia y amigos 
             que deje al venir me a Estados Unidos.</p>
          <p>Entre risas y platicas amenas me inspire tanto que inmediatamente surgieron ideas paraapoyar mas a nuestra comunidad que me llevo a organizar en ese dia una campana para llevar apoyo financiero, útiles escolares y juguetes en un pueblo de México y lo logre. ¡Es verdad que nada parece imposible cuando hay apoyo entre nosotras!</p>
@@ -24,20 +28,28 @@
          <h2>Con amor y respecto,<br>
              Yuri Jenson</h2>
          <h3>05/Abril/2016</h3>
-       </div>
-       </div> <!-- ENd ROw-->
+         </div>
+        </div> 
+       </div><!-- ENd ROw-->
        
          <div class="row">
         <div class="col-sm-12 col-md-12">
+       <div class="seguimientoimg1">
         <img class="img-responsive" src="/images/grupo/grupoTodas.jpg" alt="Yuri";/>
+        </div> 
+        </div>
+        
+        <div class="seguimientoescrito">
+        <div class="col-sm-12 col-md-12">
         <p>Mi nombre es María Concepción y soy madre de tres niños, el año pasado me invitaron al Simposio de Mujeres Latinas y fui muy emocionada. Desde el momento en que salí de la casa me sentí "libre", ya tenía mucho tiempo que no hacia nada de lo que a mí me gustaba hacer, porque solamente me dedique a trabajas y, después me enfoque a mi familia, que también me sentía feliz de dedicarles tiempos a ellos pero sin darme cuenta me olvide de mi.</p>
         <p>Gracias al Simposio me volví a encontrar conmigo misma, ahí mismo me enteré del programa de "Liderazgo y Desarrollo Personal" que es un entrenamiento de nueve meses.</p> 
         <p>Después de la conferencia asistí al entrenamiento, el cual recomiendo porque a mi me ha ayudado mucho,  y me ha servido de tener motivación y ganas de seguir aprendiendo.</p>
         <p>Gracias a las coordinadoras por haberse tomado su valioso tiempo para hacer posible este tipo de eventos. Y gracias a sus invitadas nos sentimos conmovidas y animadas de seguir adelante sobre todo como latinas, como personas, como mujeres.</p>
         <h2>María Concepción</h2>
-       <h3>01/Abril/2016</h3> 
-      </div>
-      </div> <!-- ENd ROw-->
+        <h3>01/Abril/2016</h3> 
+        </div>
+        </div> 
+       </div><!-- ENd ROw-->
      </div><!-- END Grupo -->    
       
    </div><!---END fondo1--->

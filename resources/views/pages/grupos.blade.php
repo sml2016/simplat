@@ -1,7 +1,5 @@
 @extends('layouts.master')
 @section('content')
-@extends('layouts.master')
-@section('content')
 <div class="naranjaR"></div> <!-- naranjaR -->
 
 <div class="semiblanco">
@@ -29,7 +27,6 @@
         <img src="/images/grupo/grupoTodas1.JPG" class="img center-block" alt="Yuri"/>
        </div>
       </div>
-      
       
         
        <div class="row">

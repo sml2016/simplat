@@ -16,10 +16,12 @@
       
       <h3 style="font-family:verdana; text-align:center; color:#808080;">Recibir&aacute;s un correo electr&oacute;nico con m&aacute;s informaci&oacute;n sobre el servicio de guarder&iacute;a</h3>
 
-  <p style="font-family:verdana; font-size:20px; padding:10px;text-align:center; color#333333;">www.simposiomujereslatinas.com</p>
-  <p style="font-family:verdana; text-align:center; color:#9541c7; font-size:20px;"><a href="https://www.facebook.com/latinasymposium/"><i class="fa fa-facebook-square fa-lg"></i></a>
-  <a href="https://twitter.com/SimposioLatinas"><i class="fa fa-twitter-square fa-lg"></i></a>
-  <a href="https://www.instagram.com/simposiomujereslatinas/"><i class="fa fa-instagram fa-lg"></i></a></p>
+
+                   
+  <p style="font-family:verdana; font-size:20px; padding:10px;text-align:center; color#333333; "><b>www.simposiomujereslatinas.com</b></p>
+ <a href="https://www.facebook.com/latinasymposium/"> <img src="<?php echo $message->embed('images/emailFacebook.png'); ?>"></a>
+ <a href="https://twitter.com/SimposioLatinas"> <img src="<?php echo $message->embed('images/emailTwitter.png'); ?>"></a>
+ <a href="https://www.instagram.com/simposiomujereslatinas/"> <img src="<?php echo $message->embed('images/emailInstagram.png'); ?>"></a>
   
   </div>
 

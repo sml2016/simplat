@@ -20,13 +20,13 @@
        
        <div class="row hidden-xs">
         <div class="col-sm-12 col-md-12 col-lg-12">
-        <img src="/images/grupo/grupoTodas.jpg" class="img center-block" alt="Yuri"/>
+        <img src="/images/grupo/grupoTodas.JPG" class="img center-block" alt="Yuri"/>
        </div>
       </div>
       
        <div class="row visible-xs">
         <div class="col-sm-12 col-md-12 col-lg-12">
-        <img src="/images/grupo/grupoTodas1.jpg" class="img center-block" alt="Yuri"/>
+        <img src="/images/grupo/grupoTodas1.JPG" class="img center-block" alt="Yuri"/>
        </div>
       </div>
       

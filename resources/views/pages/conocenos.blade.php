@@ -9,28 +9,9 @@
 
         <!-- Row Mujeres-->
         <div class="row">
-          <!--Jessica--> 
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="thumbnails">
-              <div class="img-thumbnail img-circle">
-                <img src="images/ComiteSMLJessica.jpg" alt="Jessica" class="img-circle"/>
-              </div>
-
-              <div class="caption">
-                <h2>{{ trans('conocenos.nomJessica') }}</h2>
-                <h3>{{ trans('conocenos.comiteJessica') }}</h3>
-              <div class="collapsable" collapsed-height="280">
-                {!! trans('conocenos.Jessica') !!}
-              </div>
-                <div id="leermas" class="" style="display:block;">
-                 <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
-                 </div>
-              </div><!-- End Caption -->
-            </div><!-- End thumbnails -->
-          </div><!-- End Col -->
-
-          <!--Tania-->
+            
+            
+         <!--Tania-->
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
@@ -49,6 +30,29 @@
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
+          
+          <!--Jessica--> 
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="thumbnails">
+              <div class="img-thumbnail img-circle">
+                <img src="images/ComiteSMLJessica.jpg" alt="Jessica" class="img-circle"/>
+              </div>
+
+              <div class="caption">
+                <h2>{{ trans('conocenos.nomJessica') }}</h2>
+                <h3>{{ trans('conocenos.comiteJessica') }}</h3>
+              <div class="collapsable" collapsed-height="280">
+                   {!! trans('conocenos.Jessica') !!}
+              </div>
+                <div id="leermas" class="" style="display:block;">
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
+                 </div>
+              </div><!-- End Caption -->
+            </div><!-- End thumbnails -->
+          </div><!-- End Col -->
+
+       
           
           <div class="clearfix hidden-md hidden-lg"></div>  
 

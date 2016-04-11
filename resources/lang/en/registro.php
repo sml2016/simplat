@@ -44,8 +44,8 @@ return [
     'Edad2' => 'Age',
     'genero2' => 'Gender',
     'cancelar' => 'Cancel',
-    'registrarse' => 'Register'
-    
-    
+    'registrarse' => 'Register',
+    'inscripcionesNoHabiertas1' => 'Registration is not open yet!',
+    'inscripcionesNoHabiertas2' => 'Registration will be open on Monday April 11 at 6:30 pm.'
 ];
 

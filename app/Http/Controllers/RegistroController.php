@@ -23,6 +23,7 @@ class RegistroController extends Controller
      */
     public function create()
     {
+        return view('pages.registro.inscripcionesNoHabiertas');
         $settings = Settings::find(1);
         $attendeeCount = Attendee::count();
         $daycareCount = Children::count();

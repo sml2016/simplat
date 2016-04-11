@@ -91,11 +91,11 @@ class RegistroController extends Controller
         {
             if ($daycarenumber > 0)
             {
-                $this->sendMail('emails.registroemail', 'Confirmación del registro del 3er. Simposio de Mujeres Latinas', $attendee->email, $fullname);
+                $this->sendMail('emails.registroemailnino', 'Confirmación del registro del 3er. Simposio de Mujeres Latinas', $attendee->email, $fullname);
             }
             else
             {
-                $this->sendMail('emails.registroemailnino', 'Confirmación del registro del 3er. Simposio de Mujeres Latinas', $attendee->email, $fullname);
+                $this->sendMail('emails.registroemail', 'Confirmación del registro del 3er. Simposio de Mujeres Latinas', $attendee->email, $fullname);
             }
 
             return redirect('/registro/aceptado')->with([

@@ -34,6 +34,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'web'], function() {
     Route::get('/attendees', 'Admin\Attendees\AttendeesController@index');
     Route::get('/attendees/create', 'Admin\Attendees\AttendeesController@showCreateForm');
     Route::post('/attendees', 'Admin\Attendees\AttendeesController@store');
+    Route::get('/attendees/deleteAll', 'Admin\Attendees\AttendeesController@deleteAllAttendees');
     Route::get('/attendees/{id}', 'Admin\Attendees\AttendeesController@show');
     Route::put('/attendees/{id}', 'Admin\Attendees\AttendeesController@update');
     Route::get('/attendees/{id}/edit', 'Admin\Attendees\AttendeesController@showEditForm');

@@ -6727,13 +6727,13 @@ hr p {
 .sectionC {
   border-top: 1px solid #bdbdbd;
   margin: 0px 20px;
-  padding: 35px 0px 35px 0px;
-  text-align: justify; }
+  padding: 35px 0px 35px 0px; }
   .sectionC h1 {
     margin: 30px 20px 10px;
     font-family: 'Tenor-Sans';
     font-size: 22px;
-    color: #000; }
+    color: #000;
+    font-weight: bold; }
   .sectionC h2 {
     margin: 30px 20px 10px;
     font-family: 'Tenor-Sans';
@@ -6756,7 +6756,8 @@ hr p {
   .sectionC .sidebarC h2 {
     margin: 40px 0px 10px; }
   .sectionC .sidearC p {
-    margin: 15px 0px 10px 0px; }
+    margin: 15px 0px 10px 0px;
+    text-align: justify; }
   .sectionC .edificio {
     font-family: 'OpenSans-Regular', sans-serif;
     font-size: 17px;
@@ -6768,7 +6769,8 @@ hr p {
       padding: 25px 0px 35px 0px; }
       .sectionC h1 {
         margin: 30px 20px 10px;
-        font-size: 21px; }
+        font-size: 21px;
+        text-align: normal; }
       .sectionC h2 {
         margin: 30px 10px 10px; }
       .sectionC p {
@@ -6780,9 +6782,11 @@ hr p {
         border-top: 1px solid #bdbdbd;
         font-size: 21px;
         font-weight: bold;
-        margin-top: 25px; }
+        margin-top: 25px;
+        text-align: normal; }
       .sectionC .sidebarC h2 {
-        margin: 40px 10px 10px 10px; }
+        margin: 40px 10px 10px 10px;
+        text-align: normal; }
       .sectionC .edificio {
         font-weight: normal;
         font-size: 16px; } }
@@ -7338,6 +7342,73 @@ select.input-lg, .input-group-lg > select.form-control,
       margin-top: 0px;
       margin-bottom: 10px; }
     .registrada p {
+      font-size: 16px;
+      padding-top: 20px; } }
+
+/*-----------------------
+   Lista de espera
+ -------------------------*/
+.lista {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px; }
+  .lista h1 {
+    font-family: 'TenorSans',sans-serif;
+    font-size: 28px;
+    color: #212121;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px; }
+  .lista h2 {
+    font-family: 'Opensans',sans-serif;
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 2;
+    padding-bottom: 30px; }
+  .lista p {
+    font-family: 'Opensans',sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    padding: 40px 55px 20px 55px; }
+  .lista .fecha1 {
+    color: #f04942; }
+  @media (max-width: 480px) {
+    .lista {
+      margin: 0px 10px; }
+      .lista h1 {
+        font-size: 20px;
+        margin-top: 0px;
+        padding-top: 30px;
+        padding-bottom: 0px; }
+      .lista h2 {
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+        font-size: 17px; }
+      .lista p {
+        padding: 0px; }
+      .lista .fecha1 {
+        font-size: 15px; } }
+  @media (min-width: 768px) {
+    .lista {
+      margin-left: 45px;
+      margin-right: 45px; }
+      .lista h1 {
+        font-size: 20px; }
+      .lista h2 {
+        font-size: 18px;
+        text-align: center; }
+      .lista p {
+        padding-left: 18px;
+        padding-right: 18px; } }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .lista h1 {
+      font-size: 20px; }
+    .lista h2 {
+      font-size: 18px; }
+    .lista p {
       font-size: 16px;
       padding-top: 20px; } }
 

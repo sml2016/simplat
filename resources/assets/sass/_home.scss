@@ -456,7 +456,7 @@
     border-top:1px solid #bdbdbd;
     margin:0px 20px;
     padding:35px 0px 35px 0px;
-    text-align: justify;
+   
    
   
  h1{
@@ -464,6 +464,7 @@
     font-family: 'Tenor-Sans';
     font-size: 22px;
     color:#000;
+    font-weight: bold;
     }
 
  h2{
@@ -498,6 +499,7 @@
   
 .sidearC p{
   margin:15px 0px 10px 0px;
+  text-align: justify;
 }
 
 .edificio{
@@ -516,6 +518,7 @@
       h1{
       margin:30px 20px 10px;
       font-size: 21px;
+      text-align: normal;
       }
       
       h2{
@@ -534,10 +537,12 @@
         font-size: 21px;
         font-weight: bold;
         margin-top: 25px;
+        text-align: normal;
         }
         
         .sidebarC h2{
         margin:40px 10px 10px 10px;
+        text-align: normal;
         }
         
         .edificio{

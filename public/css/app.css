@@ -7366,10 +7366,12 @@ select.input-lg, .input-group-lg > select.form-control,
     text-align: center;
     padding-top: 10px;
     line-height: 2;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 50px; }
   .lista p {
     font-family: 'Opensans',sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #333;
     text-align: center;
     padding: 40px 55px 20px 55px; }
@@ -7379,15 +7381,18 @@ select.input-lg, .input-group-lg > select.form-control,
     .lista {
       margin: 0px 10px; }
       .lista h1 {
-        font-size: 20px;
+        font-size: 19px;
         margin-top: 0px;
         padding-top: 30px;
         padding-bottom: 0px; }
       .lista h2 {
         margin-bottom: 0px;
         padding-bottom: 20px;
-        font-size: 17px; }
+        font-size: 17px;
+        padding-right: 3px;
+        padding-left: 3px; }
       .lista p {
+        font-size: 16px;
         padding: 0px; }
       .lista .fecha1 {
         font-size: 15px; } }
@@ -7402,14 +7407,15 @@ select.input-lg, .input-group-lg > select.form-control,
         text-align: center; }
       .lista p {
         padding-left: 18px;
-        padding-right: 18px; } }
+        padding-right: 18px;
+        font-size: 17px; } }
   @media (min-width: 992px) and (max-width: 1200px) {
     .lista h1 {
       font-size: 20px; }
     .lista h2 {
       font-size: 18px; }
     .lista p {
-      font-size: 16px;
+      font-size: 17px;
       padding-top: 20px; } }
 
 /*------------------------------
@@ -7968,7 +7974,10 @@ select.input-lg, .input-group-lg > select.form-control,
         margin-left: 0px; }
         .involucrate .involucrate1 h1 {
           font-size: 16px;
-          padding: 15px 5px 0px 5px;
+          padding-top: 15px;
+          padding-bottom: 0px;
+          padding-left: 15px;
+          padding-right: 15px;
           line-height: 1.5; }
         .involucrate .involucrate1 h2 {
           padding: 15px 5px;

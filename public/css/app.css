@@ -6727,8 +6727,7 @@ hr p {
 .sectionC {
   border-top: 1px solid #bdbdbd;
   margin: 0px 20px;
-  padding: 35px 0px 35px 0px;
-  text-align: justify; }
+  padding: 35px 0px 35px 0px; }
   .sectionC h1 {
     margin: 30px 20px 10px;
     font-family: 'Tenor-Sans';
@@ -6756,7 +6755,8 @@ hr p {
   .sectionC .sidebarC h2 {
     margin: 40px 0px 10px; }
   .sectionC .sidearC p {
-    margin: 15px 0px 10px 0px; }
+    margin: 15px 0px 10px 0px;
+    text-align: justify; }
   .sectionC .edificio {
     font-family: 'OpenSans-Regular', sans-serif;
     font-size: 17px;
@@ -6768,7 +6768,8 @@ hr p {
       padding: 25px 0px 35px 0px; }
       .sectionC h1 {
         margin: 30px 20px 10px;
-        font-size: 21px; }
+        font-size: 21px;
+        text-align: normal; }
       .sectionC h2 {
         margin: 30px 10px 10px; }
       .sectionC p {
@@ -6780,9 +6781,11 @@ hr p {
         border-top: 1px solid #bdbdbd;
         font-size: 21px;
         font-weight: bold;
-        margin-top: 25px; }
+        margin-top: 25px;
+        text-align: normal; }
       .sectionC .sidebarC h2 {
-        margin: 40px 10px 10px 10px; }
+        margin: 40px 10px 10px 10px;
+        text-align: normal; }
       .sectionC .edificio {
         font-weight: normal;
         font-size: 16px; } }

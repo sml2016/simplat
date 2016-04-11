@@ -25,13 +25,13 @@ return [
      'Twitter'=> '¡Síguenos en Twitter!',
  'Direcciones' => '<h1>¿Cómo llegar al Simposio?</h1> 
                 <p>North Seattle College está al lado de I-5, justo 4 millas al norte del centro de Seattle. Si está llegando al Colegio desde los puentes 520 o I-90, deberá viajar hacia el norte por I-5 para llegar al campus.</br></br></p>
-                <h2>Si vienes del Norte</h2>  
+                <h2>Si viene del Norte</h2>  
                 <p>1. Tome la salida #173 (Salida Northgate)
                  2. Doble a la derecha en Northgate Way N.
                  3.Doble a la izquierda en la avenida Meridian N (se vuelve College Way N)
                  4. El colegio está sobre la izquierda.
                  5. Estaciónese en la zona de Biblioteca.</p>
-                 <h2>Si vienes del Sur</h2>
+                 <h2>Si viene del Sur</h2>
                  <p>1. Tome la salida  #173 (Salida Northgate)
                  2. Doble a la derecha en  la avenida 1st NE.
                  3. Doble a la derecha de nuevo en la calle 92st NE.

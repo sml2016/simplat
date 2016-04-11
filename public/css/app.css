@@ -8694,26 +8694,18 @@ select.input-lg, .input-group-lg > select.form-control,
     text-align: center;
     padding-top: 40px;
     padding-bottom: 50px; }
-  .seguimiento .seguimientoimg1 img {
-    padding-left: 400px;
-    padding-right: 400px;
-    padding-bottom: 40px; }
-  @media (max-width: 480px) {
-    .seguimiento .seguimientoimg1 img {
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-bottom: 20px;
-      padding-top: 10px; } }
   .seguimiento .seguimientoescrito {
     text-align: justify;
     padding-left: 100px;
-    padding-right: 100px; }
+    padding-right: 100px;
+    padding-top: 30px; }
     .seguimiento .seguimientoescrito .p {
       font-family: 'Opensans',sans-serif;
       font-size: 16px;
       color: #333;
       margin-top: 10px;
-      padding-bottom: 10px; }
+      padding-bottom: 10px;
+      padding-top: 30px; }
     .seguimiento .seguimientoescrito h2 {
       font-family: 'Lobster', cursive;
       font-size: 20px;
@@ -8725,7 +8717,7 @@ select.input-lg, .input-group-lg > select.form-control,
       font-family: 'TenorSans',sans-serif;
       font-size: 16px;
       color: #333;
-      padding: 5px 50px 70px 0px;
+      padding: 5px 40px 40px 0px;
       text-align: end; }
     @media (max-width: 480px) {
       .seguimiento .seguimientoescrito {
@@ -8736,13 +8728,37 @@ select.input-lg, .input-group-lg > select.form-control,
           font-size: 17px; }
         .seguimiento .seguimientoescrito h3 {
           padding: 5px 20px 0px 0px; } }
+    @media (min-width: 481px) and (max-width: 767px) {
+      .seguimiento .seguimientoescrito {
+        padding-left: 10px;
+        padding-right: 10px; }
+        .seguimiento .seguimientoescrito h2 {
+          padding: 10px 20px 0px 0px;
+          font-size: 18px; }
+        .seguimiento .seguimientoescrito h3 {
+          padding: 5px 20px 0px 0px; } }
+    @media (min-width: 768px) {
+      .seguimiento .seguimientoescrito {
+        padding-left: 30px;
+        padding-right: 30px; } }
   @media (max-width: 480px) {
     .seguimiento {
       margin-left: 10px;
       margin-right: 10px; }
       .seguimiento h1 {
-        padding-bottom: 0px;
+        padding-bottom: 10px;
         padding-top: 0px;
         font-size: 20px; } }
+  @media (max-width: 767px) {
+    .seguimiento h1 {
+      padding-bottom: 20px;
+      padding-top: 10px;
+      font-size: 20px; } }
+  @media (min-width: 768px) {
+    .seguimiento {
+      margin-left: 10px;
+      margin-right: 10px; }
+      .seguimiento h1 {
+        font-size: 25px; } }
 
 /*# sourceMappingURL=app.css.map */

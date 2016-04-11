@@ -57,6 +57,16 @@
                         </select>
                     </div>
                 </div>
+                <div class="form-group">
+                    <label for="inputManAge" class="col-sm-3 control-label">Inscripciones</label>
+                    <div class="col-sm-9">
+                        <select name="inscripciones" id="inputMaxAge" class="form-control">
+                            <option value="0" selected>No habiertas</option>
+                            <option value="1" selected>Abiertas</option>
+                            <option value="2" selected>Cerradas</option>
+                        </select>
+                    </div>
+                </div>
 
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">

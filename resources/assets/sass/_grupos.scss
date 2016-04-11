@@ -1,0 +1,34 @@
+/*----------------------
+  Grupos de seguimiento
+  ----------------------*/
+  
+.grupos{
+   margin-left: 20px;
+   margin-right: 20px;
+   
+   h1{
+      font-family: 'TenorSans',sans-serif;
+      font-size: 30px;
+      color: #212121;
+      font-weight: bold;       
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 50px;
+     }
+
+   .grupoimg1{
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 40px;
+   }
+   
+   .p{
+     font-family: 'Opensans',sans-serif;
+     font-size: 15px;
+     color: #333;
+     margin-top: 10px;      
+     padding-bottom: 10px;
+     text-align: justify; 
+    }
+  
+  }

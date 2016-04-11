@@ -22,7 +22,7 @@
         
        <div><!--END Historia--> 
            
-     </div> <!-- Fondo1 -->
+    </div> <!-- Fondo1 -->
   </div> <!-- container -->
 </div><!--End semiblanco-->
 @stop

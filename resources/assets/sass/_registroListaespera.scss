@@ -24,11 +24,13 @@
         padding-top: 10px;
         line-height: 2;
         padding-bottom: 30px;
+        padding-right: 50px;
+        padding-left: 50px;
         }
    
     p {
         font-family: 'Opensans',sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         color: #333;
         text-align: center;
         padding:40px 55px 20px 55px;
@@ -42,7 +44,7 @@
        margin:0px 10px;
        
        h1{
-       font-size: 20px;
+       font-size: 19px;
        margin-top: 0px;
        padding-top: 30px;
        padding-bottom: 0px;
@@ -52,9 +54,12 @@
        margin-bottom: 0px;
        padding-bottom: 20px;
        font-size: 17px;
+       padding-right: 3px;
+       padding-left: 3px;
        } 
        
         p{
+       font-size: 16px;
        padding:0px;
        }
        
@@ -79,6 +84,7 @@
         p {
             padding-left:18px;
             padding-right:18px;
+            font-size: 17px;
         }
     }
 
@@ -93,7 +99,7 @@
         }
 
         p {
-            font-size: 16px;
+            font-size: 17px;
             padding-top: 20px;
         }
     }

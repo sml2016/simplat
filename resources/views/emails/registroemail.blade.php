@@ -15,7 +15,7 @@
                   En las instalaciones de North Seattle College.</h3>
                   
                   
- <p style="font-family:verdana; font-size:20px; padding:10px; text-align:center; color#333333; "><b>www.simposiomujereslatinas.com</b></p>
+ <p style="font-family:verdana; font-size:20px; text-align:center; padding:10px; color#333333; "><b>www.simposiomujereslatinas.com</b></p>
  <a href="https://www.facebook.com/latinasymposium/"> <img src="<?php echo $message->embed('images/emailFacebook.png'); ?>"></a>
  <a href="https://twitter.com/SimposioLatinas"> <img src="<?php echo $message->embed('images/emailTwitter.png'); ?>"></a>
  <a href="https://www.instagram.com/simposiomujereslatinas/"> <img src="<?php echo $message->embed('images/emailInstagram.png'); ?>"></a>

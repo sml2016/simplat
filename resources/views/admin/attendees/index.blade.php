@@ -12,6 +12,7 @@
                  -->
             <br>
             <br>
+            <h4>Mujeres registradas: {{ $attendeesCount }}</h4>
             <table class="table table-hover">
                 <tr>
                     <th>Nombre</th>

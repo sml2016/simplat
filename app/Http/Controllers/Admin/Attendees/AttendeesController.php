@@ -31,8 +31,9 @@ class AttendeesController extends Controller
     public function index()
     {
         $attendees = Attendee::All();
+        $attendeesCount = Attendee::count();
 
-        return view('admin.attendees.index', ['attendees' => $attendees]);
+        return view('admin.attendees.index', ['attendees' => $attendees, 'attendeesCount' => $attendeesCount]);
     }
 
     /**

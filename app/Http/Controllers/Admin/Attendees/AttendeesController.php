@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin\Attendees;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\User;
-use App\Http\Requests\CreateAttendeeRequest;
+use App\Http\Requests\CreateAttendeeAdminRequest;
 use App\Http\Requests\UpdateAttendeeRequest;
 use App\Attendee;
 use App\Settings;
@@ -51,7 +51,7 @@ class AttendeesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function store(CreateAttendeeRequest $request)
+    public function store(CreateAttendeeAdminRequest $request)
     {
         $attendee = new Attendee;
         $attendee->name = $request->get('name');

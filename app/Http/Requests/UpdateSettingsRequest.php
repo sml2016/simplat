@@ -33,6 +33,7 @@ class UpdateSettingsRequest extends Request
             'numberChildren' => 'required|integer|min:1|max:1000',
             'minAge' => 'required|integer|min:0|max:'.$maxAge,
             'maxAge' => 'required|integer|min:'.$minAge.'|max:17',
+            'registrationState' => 'required|integer|between:0,2'
         ];
 
         return $validationRules;

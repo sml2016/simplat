@@ -54,6 +54,7 @@ class SettingsController extends Controller
         $settings->daycare_limit = $request->get('numberChildren');
         $settings->daycare_min_age = $request->get('minAge');
         $settings->daycare_max_age = $request->get('maxAge');
+        $settings->registration_state = $request->get('registrationState');
         $settings->save();
 
         return redirect('/admin/settings');

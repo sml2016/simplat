@@ -38,6 +38,18 @@
                     </div>
                 </div>
                 <div class="form-group">
+                    <label class="col-sm-3 control-label">Inscripciones</label>
+                    <div class="col-sm-9">
+                        @if ($settings->registration_state == 0)
+                            <label class="control-label">No abiertas</label>
+                        @elseif ($settings->registration_state == 1)
+                            <label class="control-label">Abiertas</label>
+                        @else
+                            <label class="control-label">Cerradas</label>
+                        @endif
+                    </div>
+                </div>
+                <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                         <a href="{{ url('/admin/settings/edit') }}" class="btn btn-primary">Editar</a>
                         <a href="{{ url('/admin') }}" class="btn btn-default">Regresar</a>

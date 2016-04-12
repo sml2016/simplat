@@ -23,16 +23,27 @@ class RegistroController extends Controller
      */
     public function create()
     {
-        return view('pages.registro.inscripcionesNoHabiertas');
         $settings = Settings::find(1);
-        $attendeeCount = Attendee::count();
-        $daycareCount = Children::count();
 
-        return view('pages.registro.create', [
-            'settings' => $settings, 
-            'attendeeCount' => $attendeeCount,
-            'daycareCount' => $daycareCount
-        ]);
+        if ($settings->registration_state == 0)
+        {
+            return view('pages.registro.inscripcionesNoHabiertas');
+        }
+        elseif ($settings->registration_state == 1)
+        {
+            $attendeeCount = Attendee::count();
+            $daycareCount = Children::count();
+
+            return view('pages.registro.create', [
+                'settings' => $settings, 
+                'attendeeCount' => $attendeeCount,
+                'daycareCount' => $daycareCount
+            ]);            
+        }
+        else
+        {
+            return view('pages.registro.inscripcionesCerradas');
+        }
     }
 
     /**

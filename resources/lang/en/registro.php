@@ -46,6 +46,8 @@ return [
     'cancelar' => 'Cancel',
     'registrarse' => 'Register',
     'inscripcionesNoHabiertas1' => 'Registration is not open yet!',
-    'inscripcionesNoHabiertas2' => 'Registration will be open on Monday April 11 at 6:30 pm.'
+    'inscripcionesNoHabiertas2' => 'Registration will be open on Monday April 11 at 6:30 pm.',
+    'inscripcionesCerradas1' => 'Registration is now closed!',
+    'inscripcionesCerradas2' => 'Contact us for more information about the next Simposio de Mujeres Latinas!'
 ];
 

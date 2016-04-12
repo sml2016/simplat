@@ -1,0 +1,6 @@
+<?php
+
+return [
+    'Conferencias2015' => 'Conferencias2015',
+       
+];

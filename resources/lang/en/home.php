@@ -15,7 +15,7 @@ return [
                    </br></br>We are honored to give this award to:
                    </br></br><span class="puno">Puño de Oro</span></h2></br>',
     'Vision' => ' <h1>Our Vision</h1>
-                  <p>El Simposio de Mujeres Latinas es nuestro punto de partida para dotar a la comunidad de herramientas que le permitan participar activamente sobre las decisiones y acciones que afectan sus vidas.</p>
+                  <p>This Symposium is our main contribution to the Latina women community, offering them tools to become more engaged in the decision-making process in their lives.</p>
                   <h2>Who are we?</h2>
                   <p>We are a group of women that offers help to the Hispanic community through the organization of this event, which promotes networking among Latin American women in their different levels of social and cultural immersion. Our goal is to provide the necessary tools to help women make decisions, and take control in the different aspects of their lives.</p>
                   <h2>Who do we give recognition?</h2>

@@ -7,7 +7,7 @@ return [
 Being surrounded by so many beautiful women in such a rich, positive and friendly environment, I felt I was in my own country with my family and friends (the ones I left when I came to the US).</p>
          <p>Over nice conversation, laughter and sharing, I got so inspired that ideas to support our community started flowing in my mind immediately. As a result, that day, I started organizing a campaign to bring financial support, school supplies and toys to a small town in Mexico, and I succeeded. It is really true that nothing is impossible when we support each other!</p>
          <p>One of the best benefits I got from the symposium was enrolling in the program - “Leadership and Personal Development”. During those nine months in the program, Laura Evelia and Edgar Cruz guided and supported our personal and professional development with love and patience. The results were amazing. I increased my potential, my skills and strengths as woman and as a leader. I got in love with the best version of myself. I took the challenge to find a daily balance in every area of my life that makes me and the ones around me happy.</p>',
-  'yuri1' => 'With love and respect,<br>
+  'yuri1' => 'With love and respect,
              Yuri Jenson',
   'yurifecha' => 'April/05l/2016',
   'maria' => '<p>My name is Maria Concepción, I am mother of three children. Last year I was invited to the “Simposio de Mujeres Latinas”. I was very excited to attend it. The day of the event, from the moment I left home, I felt “free”. It had been long time since I did something I like to do, because I had kept myself busy with work and family. I felt very happy that I could spend time with my kids after work. And without noticing it, I forgot to keep time for me.</p>

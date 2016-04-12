@@ -8680,6 +8680,29 @@ select.input-lg, .input-group-lg > select.form-control,
     .galeria h1 {
       font-size: 28px; } }
 
+/*---------------------
+    Conferencias 2015 
+ -----------------------*/
+.conferencias h1 {
+  font-family: 'TenorSans',sans-serif;
+  font-size: 30px;
+  color: #212121;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  letter-spacing: 1px; }
+
+@media (min-width: 767px) and (max-width: 768px) {
+  .conferencias h1 {
+    font-size: 28px;
+    padding-bottom: 25px; } }
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .conferencias h1 {
+    font-size: 28px;
+    padding-bottom: 30px; } }
+
 /*----------------------
   Grupos de seguimiento
   ----------------------*/

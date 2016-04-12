@@ -1,0 +1,35 @@
+/*---------------------
+    Conferencias 2015 
+ -----------------------*/
+ 
+ 
+.conferencias{
+    
+    h1 {
+        font-family: 'TenorSans',sans-serif;
+        font-size: 30px;
+        color: #212121;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        letter-spacing: 1px;
+        }
+        
+    
+    @media (min-width:$sizeLessThanTablet) and (max-width:$sizeTablet){
+       
+       h1{
+       font-size: 28px;
+       padding-bottom: 25px;
+       }
+    }
+    
+     @media (min-width:$sizeMoreThanTablet) and (max-width:$sizeLargeDesktop){
+       
+        h1{
+       font-size: 28px;
+       padding-bottom: 30px;
+       }  
+    }
+}

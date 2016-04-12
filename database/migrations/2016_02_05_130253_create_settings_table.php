@@ -18,6 +18,7 @@ class CreateSettingsTable extends Migration
             $table->smallinteger('daycare_limit');
             $table->smallinteger('daycare_min_age');
             $table->smallinteger('daycare_max_age');
+            $table->smallinteger('registration_state');
             $table->timestamps();
         });
     }

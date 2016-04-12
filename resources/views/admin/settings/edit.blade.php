@@ -62,9 +62,9 @@
                     <div class="col-sm-9">
                         <select name="registrationState" id="inputMaxAge" class="form-control">
                             @if($settings->registration_state == 0)
-                                <option value="0" selected>No habiertas</option>
+                                <option value="0" selected>No Abiertas</option>
                             @else
-                                <option value="0">No habiertas</option>
+                                <option value="0">No Abiertas</option>
                             @endif
                             @if($settings->registration_state == 1)
                                 <option value="1" selected>Abiertas</option>

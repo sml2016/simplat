@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'coverDesktop' => '/images/coverIngles.jpg',
+    'coverMobile' => '/images/covermobileIngles.jpg',
     'BotonRegistro' => 'Register',
     'BotonPatrocina' => 'Sponsor',
     'BotonInvolucrate' => 'Get Involved',

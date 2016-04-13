@@ -5,11 +5,11 @@
 <div class="naranja">
     <div class="container">
       <div class="cover1 hidden-xs">
-         <img class="img-responsive" src="/images/cover.jpg"  style="width:100% height:auto";/>
+         <img class="img-responsive" src="{!! trans('home.coverDesktop') !!}"  style="width:100% height:auto";/>
       </div>  
      
     <div class="cover2 visible-xs">
-         <img class="img-responsive" src="/images/covermobile.jpg"  style="width:100% height:auto";/>
+         <img class="img-responsive" src="{!! trans('home.coverMobile') !!}"  style="width:100% height:auto";/>
       </div>  
       
     </div> <!--Contanier-->

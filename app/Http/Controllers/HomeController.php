@@ -160,7 +160,7 @@ class HomeController extends Controller
      */
     public function conferencias2014View()
     {
-        return view('pages.conferencias.2014');
+        return view('pages.simposio.2014');
     }
 
     /**
@@ -170,6 +170,6 @@ class HomeController extends Controller
      */
     public function conferencias2015View()
     {
-        return view('pages.conferencias.2015');
+        return view('pages.simposio.2015');
     }
 }

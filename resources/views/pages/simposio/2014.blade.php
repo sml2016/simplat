@@ -6,11 +6,11 @@
     <div class="container">
       <div class="fondo1">
           
-         <div class="conferencias1">
+         <div class="conferencias">
 
              <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h1>{{ trans('conferencias2015.Conferencias2014') }}</h1>
+                    <h1>{{ trans('simposio2015.Conferencias2014') }}</h1>
                 </div>
             </div> <!--End ROW -->
  

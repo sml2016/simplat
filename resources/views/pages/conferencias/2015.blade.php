@@ -16,7 +16,11 @@
  
        <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">  
-          <img class="img-responsive" src="{!! trans('conferencias2015.OrdendeldiaJPG') !!}" "/images/ordendeldia2simposio2015.jpg"/>
+        
+          <img  class="img-responsive" src="{!! trans('conferencias2015.foto') !!}"/>
+         
+            </div>
+           </div> <!--End col-md-7 Section-->
          </div>
        </div><!--End Row-->  
         

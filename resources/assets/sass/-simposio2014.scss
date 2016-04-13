@@ -1,9 +1,9 @@
 /*---------------------
-    Conferencias 2015 
+    Conferencias 2014 
  -----------------------*/
  
  
-.conferencias{
+.conferencias1{
     
     h1 {
         font-family: 'TenorSans',sans-serif;
@@ -15,7 +15,25 @@
         padding-bottom: 50px;
         letter-spacing: 1px;
         }
-        
+    
+    @media (max-width: $sizePhone){
+       
+       h1{
+       font-size: 22px;
+       padding-top: 30px;
+       padding-bottom: 20px;
+       }
+       
+       p{
+       font-size: 16px;
+       }
+    }
+    
+    @media (min-width:$sizeMoreThanPhone){
+       p{
+       font-size: 16px;
+       }  
+    }
     
     @media (min-width:$sizeLessThanTablet) and (max-width:$sizeTablet){
        
@@ -23,6 +41,10 @@
        font-size: 28px;
        padding-bottom: 25px;
        }
+       
+       p{
+       font-size: 16px;
+       }  
     }
     
      @media (min-width:$sizeMoreThanTablet) and (max-width:$sizeLargeDesktop){
@@ -31,5 +53,8 @@
        font-size: 28px;
        padding-bottom: 30px;
        }  
-    }
-}
+    } 
+    
+} 
+    
+  

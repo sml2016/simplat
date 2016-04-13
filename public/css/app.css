@@ -8693,10 +8693,24 @@ select.input-lg, .input-group-lg > select.form-control,
   padding-bottom: 50px;
   letter-spacing: 1px; }
 
+@media (max-width: 480px) {
+  .conferencias h1 {
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 20px; }
+  .conferencias p {
+    font-size: 16px; } }
+
+@media (min-width: 481px) {
+  .conferencias p {
+    font-size: 16px; } }
+
 @media (min-width: 767px) and (max-width: 768px) {
   .conferencias h1 {
     font-size: 28px;
-    padding-bottom: 25px; } }
+    padding-bottom: 25px; }
+  .conferencias p {
+    font-size: 16px; } }
 
 @media (min-width: 769px) and (max-width: 1200px) {
   .conferencias h1 {

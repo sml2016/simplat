@@ -15,8 +15,8 @@
                </div> <!--Col-->
              
               <div class="col-sm-3">
-               <li><a href="{{ url('/conferencias/2014') }}">{{ trans('footer.Conferencias2014') }}</a></li>
-               <li><a href="{{ url('/conferencias/2015') }}">{{ trans('footer.Conferencias2015') }}</a></li>
+               <li><a href="{{ url('/simposio/2014') }}">{{ trans('footer.Simposio2014') }}</a></li>
+               <li><a href="{{ url('/simposio/2015') }}">{{ trans('footer.Simposio2015') }}</a></li>
               </div>  <!--Col-->
             
               <div class="col-sm-3">

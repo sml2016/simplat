@@ -8028,7 +8028,7 @@ select.input-lg, .input-group-lg > select.form-control,
        Noticias
    ----------------------*/
 .noticias {
-  margin: 40px 100px; }
+  margin: 60px 100px; }
   .noticias .news20161 h1 {
     margin-top: 80px;
     font-family: 'TenorSans',sans-serif;
@@ -8061,7 +8061,7 @@ select.input-lg, .input-group-lg > select.form-control,
       margin-top: 25px;
       font-size: 20px; }
     .noticias .news20161 h2 {
-      font-size: 17px; }
+      font-size: 16px; }
     .noticias .news20161 h3 {
       font-size: 14px; } }
   @media (min-width: 481px) and (max-width: 767px) {
@@ -8082,7 +8082,8 @@ select.input-lg, .input-group-lg > select.form-control,
       font-size: 16px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .noticias .news20161 h1 {
-      font-size: 25px; }
+      font-size: 25px;
+      margin-top: 60px; }
     .noticias .news20161 h2 {
       font-size: 18px; }
     .noticias .news20161 h3 {
@@ -8125,7 +8126,7 @@ select.input-lg, .input-group-lg > select.form-control,
       margin: 0px 50px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     .noticias {
-      margin: 0px 70px; } }
+      margin: 10px 70px; } }
 
 /* --------------------
        Conócenos
@@ -8679,6 +8680,43 @@ select.input-lg, .input-group-lg > select.form-control,
     padding-left: 25px; }
     .galeria h1 {
       font-size: 28px; } }
+
+/*---------------------
+    Conferencias 2014 
+ -----------------------*/
+.conferencias h1 {
+  font-family: 'TenorSans',sans-serif;
+  font-size: 30px;
+  color: #212121;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  letter-spacing: 1px; }
+
+@media (max-width: 480px) {
+  .conferencias h1 {
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 20px; }
+  .conferencias p {
+    font-size: 16px; } }
+
+@media (min-width: 481px) {
+  .conferencias p {
+    font-size: 16px; } }
+
+@media (min-width: 767px) and (max-width: 768px) {
+  .conferencias h1 {
+    font-size: 28px;
+    padding-bottom: 25px; }
+  .conferencias p {
+    font-size: 16px; } }
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .conferencias h1 {
+    font-size: 28px;
+    padding-bottom: 30px; } }
 
 /*---------------------
     Conferencias 2015 

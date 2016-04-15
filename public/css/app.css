@@ -7876,6 +7876,13 @@ select.input-lg, .input-group-lg > select.form-control,
   .involucrate .color {
     color: #f04942;
     padding-left: 0px; }
+  .involucrate p a {
+    color: #f04942;
+    text-decoration: none; }
+  .involucrate p a:hover,
+  .involucrate p a:focus {
+    color: #c597e6;
+    text-decoration: none; }
   @media (max-width: 480px) {
     .involucrate {
       margin: 30px 15px 0px 15px; }

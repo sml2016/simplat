@@ -7900,7 +7900,14 @@ select.input-lg, .input-group-lg > select.form-control,
       .involucrate p {
         padding: 10px 0px 20px 0px;
         font-size: 16px;
-        text-align: justify; } }
+        text-align: justify; }
+      .involucrate p a {
+        color: #f04942;
+        text-decoration: none; }
+      .involucrate p a:hover,
+      .involucrate p a:focus {
+        color: #c597e6;
+        text-decoration: none; } }
   @media (min-width: 481px) and (max-width: 767px) {
     .involucrate {
       margin: 40px 20px 0px 20px; }

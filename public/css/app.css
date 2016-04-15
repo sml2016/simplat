@@ -7843,7 +7843,12 @@ select.input-lg, .input-group-lg > select.form-control,
           Involúcrate
  --------------------------------*/
 .involucrate {
-  margin: 40px 20px; }
+  margin: 40px 20px;
+  /*   .color{
+     color: #f04942;
+     padding-left: 0px;   
+     }
+     */ }
   .involucrate h1 {
     font-family: 'TenorSans',sans-serif;
     font-size: 30px;
@@ -7873,12 +7878,10 @@ select.input-lg, .input-group-lg > select.form-control,
     padding-top: 30px;
     padding-bottom: 40px;
     padding-right: 53px; }
-  .involucrate .color {
-    color: #f04942;
-    padding-left: 0px; }
   .involucrate p a {
     color: #f04942;
-    text-decoration: none; }
+    text-decoration: none;
+    padding-left: 0px; }
   .involucrate p a:hover,
   .involucrate p a:focus {
     color: #c597e6;
@@ -7900,14 +7903,7 @@ select.input-lg, .input-group-lg > select.form-control,
       .involucrate p {
         padding: 10px 0px 20px 0px;
         font-size: 16px;
-        text-align: justify; }
-      .involucrate p a {
-        color: #f04942;
-        text-decoration: none; }
-      .involucrate p a:hover,
-      .involucrate p a:focus {
-        color: #c597e6;
-        text-decoration: none; } }
+        text-align: justify; } }
   @media (min-width: 481px) and (max-width: 767px) {
     .involucrate {
       margin: 40px 20px 0px 20px; }

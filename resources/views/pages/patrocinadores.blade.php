@@ -99,15 +99,14 @@
                 <p>{{ trans('patrocinadores.Gracias1') }}  </p>
                 </div>
                 </div>
-           <!--     
+            
                 <div class="col-sm-2">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/NSC.png" alt="NSC"/>
+                <img src="/images/patrocinadores/mercadoMendoza.jpg" alt="MercadoMendoza"/>
                 <p>{{ trans('patrocinadores.Gracias1') }} </p>
                 </div>
              </div>
-             
-             -->
+        
           </div>  <!---End ROw -->
        </div> <!--End Patrocinadores -->
 

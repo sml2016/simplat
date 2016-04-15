@@ -85,6 +85,18 @@
      font-size: 16px;
      text-align: justify;
      }
+     
+       p a{
+       color: #f04942;
+       text-decoration: none;      
+       }
+   
+       p a:hover,
+       p a:focus{
+       color: #c597e6;
+       text-decoration: none; 
+       }
+     
   }
   
   @media (min-width:$sizeMoreThanPhone) and (max-width:$sizeLessThanTablet){

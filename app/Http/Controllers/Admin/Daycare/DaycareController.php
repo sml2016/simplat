@@ -29,9 +29,18 @@ class DaycareController extends Controller
      */
     public function index()
     {
+        $settings = Settings::find(1);
         $children = Children::All();
+        $childrenCount = $children->Count();
+        $childrenWaitingListCount = Children::where('waiting_list', '=', true)->get()->count();
+        $childrenRegisteredCount =  $childrenCount - $childrenWaitingListCount;
 
-        return view('admin.daycare.index', ['children' => $children]);
+        return view('admin.daycare.index', [
+            'children' => $children, 
+            'childrenCount' => $childrenCount,
+            'childrenWaitingListCount' => $childrenWaitingListCount,
+            'childrenRegisteredCount' => $childrenRegisteredCount,
+            ]);
     }
 
     /**
@@ -132,7 +141,7 @@ class DaycareController extends Controller
         $child->last_name = $request->get('lastName');
         $child->sex = $request->get('sex');
         $child->age = $request->get('age');
-        $child->waiting_list = $request->get('waitinglist');
+        $child->waiting_list = $mother->waiting_list == false ? $request->get('waitinglist') : true;
         $child->attendee_id = $id;
         $child->save();
 

@@ -12,7 +12,9 @@
                  -->
             <br>
             <br>
-            <h4>Mujeres registradas: {{ $attendeesCount }}</h4>
+            <h4>Mujeres en la lista: {{ $attendeesCount }}</h4>
+            <h4>Mujeres registradas: {{ $attendeesRegisteredCount }}</h4>
+            <h4>Mujeres en lista de espera: {{ $attendeesWaitingListCount }}</h4>
             <table class="table table-hover">
                 <tr>
                     <th>Nombre</th>

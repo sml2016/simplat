@@ -83,6 +83,11 @@ class DaycareController extends Controller
         return view('admin.daycare.edit', ['child' => $child, 'settings' => $settings]);
     }
 
+    /**
+     * Update the Child information
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function update($id, UpdateChildRequest $request)
     {
         $child = Children::findOrFail($id);
@@ -94,5 +99,43 @@ class DaycareController extends Controller
         $child->save();
         
         return redirect('/admin/daycare/'.$id);
+    }
+
+    /**
+     * Gets the view to add a child for a mother
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function getAddChildView($id)
+    {
+        $settings = Settings::find(1);
+        $mother = Attendee::find($id);
+
+        if ($mother == null)
+        {
+            return redirect('/admin/');
+        }
+
+        return view('admin.daycare.create', ['mother' => $mother, 'settings' => $settings]);
+    }
+
+    public function addChild($id, UpdateChildRequest $request)
+    {
+        $mother = Attendee::find($id);
+        if (!$mother)
+        {
+            return redirect('/admin/');
+        }
+
+        $child = new Children;
+        $child->name = $request->get('name');
+        $child->last_name = $request->get('lastName');
+        $child->sex = $request->get('sex');
+        $child->age = $request->get('age');
+        $child->waiting_list = $request->get('waitinglist');
+        $child->attendee_id = $id;
+        $child->save();
+
+        return view('admin.daycare.show', ['child' => $child, 'mother' => $mother]);
     }
 }

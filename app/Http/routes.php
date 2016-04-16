@@ -39,7 +39,8 @@ Route::group(['prefix' => 'admin', 'middleware' => 'web'], function() {
     Route::put('/attendees/{id}', 'Admin\Attendees\AttendeesController@update');
     Route::get('/attendees/{id}/edit', 'Admin\Attendees\AttendeesController@showEditForm');
     Route::get('/attendees/{id}/delete', 'Admin\Attendees\AttendeesController@deleteAttendee');
-    Route::get('/attendees/{id}/daycare', 'Admin\Daycare\DaycareController@addChild');
+    Route::get('/attendees/{id}/addChild', 'Admin\Daycare\DaycareController@getAddChildView');
+    Route::post('/attendees/{id}/daycare', 'Admin\Daycare\DaycareController@addChild');
 
     /* Daycare */
     Route::get('/daycare', 'Admin\Daycare\DaycareController@index');

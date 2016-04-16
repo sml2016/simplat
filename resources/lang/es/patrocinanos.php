@@ -27,7 +27,7 @@ return [
 'Patrocinadores5' => 'PATROCINADOR  BRONCE',
     'Beneficios5' => '<li><i class="fa fa-heart"></i>Agradecimiento en el programa del evento.</li>',
       'Impuestos' => '<p class="text-justify"><b>Importante:</b>  Tu aporte te permitirá la reducción de impuestos porque estarás donando a una organización sin fines de lucro, al fondo de educación del NSC. 
-                      <span><b>Impuestos federales</b> ID# 41-2178833</span>. Si prefieres hacer un cheque de donación va dirigido a: <span>"The North Seattle Educational Fund"</span>.  Es muy importanteque en el memorando escriba: <span><b>"Parented Latina Symposium"</b></span>.</p>',
+                      <span><b>Impuestos federales</b> ID# 41-2178833</span>. Si prefieres hacer un cheque de donación va dirigido a: <span>"The North Seattle Educational Fund"</span>.  Es muy importante que en el memorando escriba: <span><b>"Parented Latina Symposium"</b></span>.</p>',
       'MesasInfo' => '<h1>Mesas de Información</h1>
       <p>Durante el Tercer Simposio de Mujeres Latinas ofrecemos la colocación de mesas de información para quienes busquen dar a conocer sus servicios. Nuestro evento contará con 225 participantes de la comunidad latina en el estado de Washington. Los negocios o personas que quieran acompañarnos estarán ubicados puntos de mucho tráfico para garantizar la visita de las mujeres que nos acompañarán. </p>
       <p>Para mayor información, contáctanos a <span class="mesa">simposiomujereslatina.media@gmail.com</span></p>',

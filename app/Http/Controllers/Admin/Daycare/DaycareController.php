@@ -5,9 +5,10 @@ namespace App\Http\Controllers\Admin\Daycare;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\User;
-use App\Http\Requests\CreateAttendeeRequest;
+use App\Http\Requests\UpdateChildRequest;
 use App\Children;
 use App\Attendee;
+use App\Settings;
 
 class DaycareController extends Controller
 {
@@ -73,10 +74,25 @@ class DaycareController extends Controller
      */
     public function showEditForm($id)
     {
+        $settings = Settings::find(1);
         $child = Children::find($id);
+
         if ($child == null) {
             return redirect('/admin/daycare');
         }
-        return view('admin.daycare.edit', ['child' => $child]);
+        return view('admin.daycare.edit', ['child' => $child, 'settings' => $settings]);
+    }
+
+    public function update($id, UpdateChildRequest $request)
+    {
+        $child = Children::findOrFail($id);
+        $child->name = $request->get('name');
+        $child->last_name = $request->get('lastName');
+        $child->sex = $request->get('sex');
+        $child->age = $request->get('age');
+        $child->waiting_list = $request->get('waitinglist');
+        $child->save();
+        
+        return redirect('/admin/daycare/'.$id);
     }
 }

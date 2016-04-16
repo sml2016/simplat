@@ -16,7 +16,13 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">Sexo:</label>
                     <div class="col-sm-9">
-                        <label class="control-label">{{ $child->sex ? 'Masculino' : 'Femenino' }}</label>
+                        <label class="control-label">{{ $child->sex == false ? 'Masculino' : 'Femenino' }}</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">Lista de espera:</label>
+                    <div class="col-sm-9">
+                        <label class="control-label">{{ $child->waiting_list == false ? 'No' : 'Si' }}</label>
                     </div>
                 </div>
                 <div class="form-group">
@@ -31,7 +37,7 @@
                 <div class="form-group">
                     <div class="col-sm-offset-3 col-sm-9">
                         <a href="{{ url('/admin/daycare/'.$child->id.'/edit') }}" class="btn btn-primary">Editar</a>
-                        <a href="{{ url('/admin/daycare') }}" class="btn btn-default">Cancelar</a>
+                        <a href="{{ url('/admin/daycare') }}" class="btn btn-default">Guarderia</a>
                     </div>
                 </div>
             </div>

@@ -35,12 +35,21 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputDaycareNumber" class="col-sm-2 control-label">Day care</label>
+                    <label for="WaitingList" class="col-sm-2 control-label">Lista de espera</label>
+                    <div class="col-sm-10">
+                        <select name="WaitingList" id="WaitingList" class="form-control">
+                            <option value="0">No</option>
+                            <option value="1">Si</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputDaycareNumber" class="col-sm-2 control-label">Guarderia</label>
                     <div class="col-sm-10">
                         <select name="daycarenumber" id="daycarenumber" class="form-control">
                           <option value="0">No</option>
-                          <option value="1">One child</option>
-                          <option value="2">Two children</option>
+                          <option value="1">Un niño</option>
+                          <option value="2">Dos niños</option>
                         </select>
                     </div>
                 </div>
@@ -51,37 +60,46 @@
                     <div class="form-group">
                         <label for="child1Label" class="col-sm-2 control-label"></label>
                         <div class="col-sm-10">
-                            <label id="child1Label">Child 1 registration</label>
+                            <label id="child1Label">Registro del primer niño</label>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputChild1Name" class="col-sm-2 control-label">Name</label>
+                        <label for="inputChild1Name" class="col-sm-2 control-label">Nombre</label>
                         <div class="col-sm-10">
                             <input type="text" name="child1name" class="form-control" id="inputChild1Name" maxlength="60" placeholder="Enter name" value="{{Request::old('child1name')}}">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputChild1LastName" class="col-sm-2 control-label">Last name</label>
+                        <label for="inputChild1LastName" class="col-sm-2 control-label">Apellido</label>
                         <div class="col-sm-10">
                             <input type="text" name="child1lastname" class="form-control" id="inputChild1LastName" maxlength="60" placeholder="Enter last name" value="{{Request::old('child1lastname')}}">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="child1Sex" class="col-sm-2 control-label">Sex</label>
+                        <label for="child1Sex" class="col-sm-2 control-label">Sexo</label>
                         <div class="col-sm-10">
                             <select name="child1sex" id="child1Sex" class="form-control">
-                              <option value="0">Male</option>
-                              <option value="1">Female</option>
+                              <option value="0">Masculino</option>
+                              <option value="1">Femenino</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="child1Age" class="col-sm-2 control-label">Age</label>
+                        <label for="child1Age" class="col-sm-2 control-label">Edad</label>
                         <div class="col-sm-10">
                             <select name="child1age" id="child1Age" class="form-control">
                                 @for($age = $settings->daycare_min_age ; $age <= $settings->daycare_max_age ; $age++)
                                   <option value="{{$age}}">{{$age}}</option>
                                 @endfor
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="child1WaitingList" class="col-sm-2 control-label">Lista de espera</label>
+                        <div class="col-sm-10">
+                            <select name="child1WaitingList" id="child1WaitingList" class="form-control">
+                                <option value="0">No</option>
+                                <option value="1">Si</option>
                             </select>
                         </div>
                     </div>
@@ -94,27 +112,27 @@
                     <div class="form-group">
                         <label for="child1Label" class="col-sm-2 control-label"></label>
                         <div class="col-sm-10">
-                            <label id="child1Label">Child 2 registration</label>
+                            <label id="child1Label">Registro del segundo niño</label>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputChild2Name" class="col-sm-2 control-label">Name</label>
+                        <label for="inputChild2Name" class="col-sm-2 control-label">Nombre</label>
                         <div class="col-sm-10">
                             <input type="text" name="child2name" class="form-control" id="inputChild2Name" maxlength="60" placeholder="Enter name" value="{{Request::old('child2name')}}">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputChild2LastName" class="col-sm-2 control-label">Last name</label>
+                        <label for="inputChild2LastName" class="col-sm-2 control-label">Apellido</label>
                         <div class="col-sm-10">
                             <input type="text" name="child2lastname" class="form-control" id="inputChild2LastName" maxlength="60" placeholder="Enter last name" value="{{Request::old('child2lastname')}}">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="child2Sex" class="col-sm-2 control-label">Sex</label>
+                        <label for="child2Sex" class="col-sm-2 control-label">Sexo</label>
                         <div class="col-sm-10">
                             <select name="child2sex" id="child2Sex" class="form-control">
-                              <option value="0">Male</option>
-                              <option value="1">Female</option>
+                              <option value="0">Masculino</option>
+                              <option value="1">Femenino</option>
                             </select>
                         </div>
                     </div>
@@ -128,6 +146,15 @@
                             </select>
                         </div>
                     </div>
+                    <div class="form-group">
+                        <label for="child2WaitingList" class="col-sm-2 control-label">Lista de espera</label>
+                        <div class="col-sm-10">
+                            <select name="child2WaitingList" id="child2WaitingList" class="form-control">
+                                <option value="0">No</option>
+                                <option value="1">Si</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- 
@@ -135,8 +162,8 @@
                 -->
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" class="btn btn-primary">Add</button>
-                        <a href="{{ url('/admin/attendees') }}" class="btn btn-default">Cancel</a>
+                        <button type="submit" class="btn btn-primary">Agregar</button>
+                        <a href="{{ url('/admin/attendees') }}" class="btn btn-default">Cancelar</a>
                     </div>
                 </div>
             </form>

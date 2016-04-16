@@ -41,7 +41,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/admin') }}">
-                    Attendees
+                    Participantes
                 </a>
             </div>
 
@@ -49,10 +49,10 @@
                 <!-- Left Side Of Navbar -->
                 @if (Auth::check())
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/admin/daycare') }}">Daycare</a></li>
+                    <li><a href="{{ url('/admin/daycare') }}">Guarderia</a></li>
                 </ul>
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/') }}">Home</a></li>
+                    <li><a href="{{ url('/') }}">SML</a></li>
                 </ul>
                 @endif
 
@@ -66,9 +66,9 @@
                             </a>
 
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="{{ url('/admin/accounts') }}"><i class="fa fa-btn"></i>Accounts</a></li>
-                                <li><a href="{{ url('/admin/settings') }}"><i class="fa fa-btn"></i>Settings</a></li>
-                                <li><a href="{{ url('/admin/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                                <li><a href="{{ url('/admin/accounts') }}"><i class="fa fa-btn"></i>Usuarios</a></li>
+                                <li><a href="{{ url('/admin/settings') }}"><i class="fa fa-btn"></i>Configuración</a></li>
+                                <li><a href="{{ url('/admin/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Cerrar sesión</a></li>
                             </ul>
                         </li>
                     @endif

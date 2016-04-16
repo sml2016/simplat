@@ -4,19 +4,19 @@ return [
     'Introduccion' => '<h1>Con tu patrocinio será posible el Simposio de Mujeres Latinas</h1>
                        <p>Brinda una oportunidad a la mujer latina de capacitarse para liderar proyectos en su comunidad con tu donación.
                         El patrocinio a nuestro evento es una oportunidad para que otros líderes conozcan tu apoyo firme a la creación de comunidades a través de las mujeres latinas, además,
-                        a través del mismo demuestras tu deseo de colaborar y dar. Se trata de un evento gratuito para las 255 participantes. </p>',
+                        por medio del mismo demuestras tu deseo de colaborar y dar. Se trata de un evento gratuito para las 255 participantes. </p>',
     'Patrocinadores1' => 'PATROCINADOR DIAMANTE',
     'Donar' => 'Dona aquí',
     'Beneficios1' => '<li><i class="fa fa-heart-o"></i>Agradecimiento en el programa del evento.</li>
                      <li><i class="fa fa-heart-o"></i>Logo en la página interna de nuestro sitio de Internet.</li>
                      <li><i class="fa fa-heart-o"></i>Logo en el volante de promoción del Simposio.</li>
-                     <li><i class="fa fa-heart-o"></i>Mencion de agradecimiento al inicio y final del evento.</li>
+                     <li><i class="fa fa-heart-o"></i>Mención de agradecimiento al inicio y final del evento.</li>
                      <li><i class="fa fa-heart"></i>Logo del patrocinador en la página principal del website</li>',
     'Patrocinadores2' => 'PATROCINADOR PLATINO',
     'Beneficios2' => '<li><i class="fa fa-heart-o"></i>Agradecimiento en el programa del evento. </li>
                      <li><i class="fa fa-heart-o"></i>Logo en la página interna de nuestro sitio de Internet.</li>
                      <li><i class="fa fa-heart-o"></i>Logo en el volante de promoción del Simposio.</li>
-                     <li><i class="fa fa-heart"></i>Mencion de agradecimiento al inicio y final del evento.</li>',
+                     <li><i class="fa fa-heart"></i>Mención de agradecimiento al inicio y final del evento.</li>',
 'Patrocinadores3' => 'PATROCINADOR ORO',
     'Beneficios3' => '<li><i class="fa fa-heart-o"></i>Agradecimiento en el programa del evento.</li>
                       <li><i class="fa fa-heart-o"></i>Logo en la página interna de nuestro sitio de Internet.</li>

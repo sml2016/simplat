@@ -43,10 +43,22 @@
       padding-right: 53px;
      }
      
-     .color{
+  /*   .color{
      color: #f04942;
-     padding-left: 0px;
+     padding-left: 0px;   
      }
+     */
+       p a{
+       color: #f04942;
+       text-decoration: none;   
+       padding-left: 0px;    
+       }
+   
+       p a:hover,
+       p a:focus{
+       color: #c597e6;
+       text-decoration: none; 
+       }
      
   
   @media (max-width:$sizePhone){
@@ -167,7 +179,7 @@
    
        h1 a:hover,
        h1 a:focus{
-       color:  #c597e6;;
+       color:  #c597e6;
        text-decoration: none; 
        }
        

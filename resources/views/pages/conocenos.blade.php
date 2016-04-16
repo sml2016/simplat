@@ -208,7 +208,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
-                <img src="images/ComiteSMLLeonor.jpg" alt="Leonor" class="img-circle"/>
+                <img src="images/comiteSMLLeonor.jpg" alt="Leonor" class="img-circle"/>
               </div>
               <div class="caption">
                 <h2>Leonor </h2>

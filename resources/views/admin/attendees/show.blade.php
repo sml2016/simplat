@@ -39,7 +39,7 @@
                 @if ($children->count() < 2)
                     <div class="form-group">
                         <div class="col-sm-offset-3 col-sm-9">
-                            <a href="{{ url('/admin/attendees') }}">Agregar niño a guarderia</a>
+                            <a href="{{ url('/admin/attendees/'.$attendee->id.'/addChild') }}">Agregar niño a guarderia</a>
                         </div>
                     </div>
                 @endif

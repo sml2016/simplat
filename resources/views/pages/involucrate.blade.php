@@ -15,28 +15,25 @@
        
        <div class="row">
         <div class="col-md-10">
-         {!! trans('involucrate.proverbioChino') !!}
-         
+       <h2>  {!! trans('involucrate.proverbioChino') !!}</h2>
           </div>
         </div><!--End ROw---> 
        
        <div class="row">
         <div class="col-md-12">
         {!! trans('involucrate.Invitacion') !!}
-       
+       </div>
+       </div><!--End ROw---> 
         
        <div class="involucrate1">
        <div class="row">
        <div class="col-md-6">
        {!! trans('involucrate.QuieresApoyarnos') !!}
-       
-        </div>
-       <div class="col-md-6">
-         {!! trans('involucrate.Email') !!}
-         </div>
-        </div>
        </div>
-      </div>
+       
+       <div class="col-md-6">
+       {!! trans('involucrate.Email') !!}
+        </div>
       </div><!--End ROw---> 
      </div><!--End Involucrate-->
       

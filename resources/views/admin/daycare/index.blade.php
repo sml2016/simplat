@@ -6,6 +6,10 @@
         <div class="col-md-10 col-md-offset-1">
             <h1>Daycare</h1>
             <hr>
+            <h4>Niños(as) en la lista: {{ $childrenCount }}</h4>
+            <h4>Niños(as) registrados: {{ $childrenRegisteredCount }}</h4>
+            <h4>Niños(as) en la lista de espera: {{ $childrenWaitingListCount }}</h4>
+            <br>
             <table class="table table-hover">
                 <tr>
                     <th>Nombre</th>

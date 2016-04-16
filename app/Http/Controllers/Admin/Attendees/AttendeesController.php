@@ -31,9 +31,17 @@ class AttendeesController extends Controller
     public function index()
     {
         $attendees = Attendee::All();
-        $attendeesCount = Attendee::count();
+        $attendeesCount = $attendees->Count();
+        $attendeesWaitingListCount = Attendee::where('waiting_list', '=', true)->get()->count();
+        $attendeesRegisteredCount =  $attendeesCount - $attendeesWaitingListCount;
 
-        return view('admin.attendees.index', ['attendees' => $attendees, 'attendeesCount' => $attendeesCount]);
+        return view('admin.attendees.index', [
+            'attendees' => $attendees,
+            'attendeesCount' => $attendeesCount,
+            'attendeesWaitingListCount' => $attendeesWaitingListCount,
+            'attendeesRegisteredCount' => $attendeesRegisteredCount
+            ]
+        );
     }
 
     /**

@@ -54,12 +54,16 @@ class AttendeesController extends Controller
      */
     public function store(CreateAttendeeAdminRequest $request)
     {
+        $settings = Settings::find(1);
         $attendee = new Attendee;
         $attendee->name = $request->get('name');
         $attendee->last_name = $request->get('lastname');
         $attendee->email = $request->get('email');
         $attendee->phone_number = $request->get('phonenumber');
+        $attendee->waiting_list = $request->get('WaitingList');
         $attendee->save();
+        // $registeredChildrenNumber = Children::where('waiting_list', '=', false);
+        // $registeredChildrenNumber >= $settings->daycare_limit;
 
         $daycarenumber = $request->get('daycarenumber');
         if ($daycarenumber > 0 && $daycarenumber <= 2)
@@ -72,6 +76,7 @@ class AttendeesController extends Controller
                 $child->sex = $request->get('child1sex');
                 $child->age = $request->get('child1age');
                 $child->attendee_id = $attendee->id;
+                $child->waiting_list =  $request->get('child1WaitingList') == 1;
                 $child->save();
             }
             if ($daycarenumber == 2)
@@ -82,6 +87,7 @@ class AttendeesController extends Controller
                 $child->sex = $request->get('child2sex');
                 $child->age = $request->get('child2age');
                 $child->attendee_id = $attendee->id;
+                $child->waiting_list =  $request->get('child2WaitingList') == 1;
                 $child->save();
             }
         }

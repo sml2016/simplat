@@ -52,8 +52,6 @@
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
 
-       
-          
           <div class="clearfix hidden-md hidden-lg"></div>  
 
           <!--Velia-->    
@@ -76,6 +74,7 @@
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
            <div class="clearfix hidden-xs hidden-sm"></div> 
+           
           <!---Ximena-->
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
@@ -96,7 +95,8 @@
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
-          <div class="clearfix hidden-md hidden-lg"></div>  
+          <div class="clearfix hidden-md hidden-lg"></div> 
+           
           <!---Perla-->       
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
@@ -116,8 +116,7 @@
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
-
-
+ 
           <!-- Sixta-->  
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
@@ -139,7 +138,8 @@
             </div><!--End thumbnails -->
           </div><!--End Col -->
           
-        <div class="clearfix hidden-xs hidden-sm"></div> 
+          <div class="clearfix"></div> 
+
            <!-- Amarilis -->
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
@@ -160,7 +160,7 @@
               </div> <!-- End Caption -->
             </div> <!-- End thumbnails -->
           </div> <!-- End Col -->
-
+  
           <!---Angelica-->
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
@@ -180,6 +180,8 @@
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
+ 
+          <div class="clearfix hidden-md hidden-lg"></div> 
 
           <!---Veronica--> 
           <div class="col-xs-12 col-sm-6 col-md-4">
@@ -199,8 +201,10 @@
                 </div> 
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
-          </div><!-- End Col -->         
-         <div class="clearfix hidden-xs hidden-sm"></div>   
+          </div><!-- End Col -->    
+               
+          <div class="clearfix hidden-xs hidden-sm"></div>   
+          
           <!-- Leonor -->       
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
@@ -222,6 +226,8 @@
           </div> <!--End Col -->
         </div><!-- End ROW-->
        
+        <div class="clearfix"></div> 
+
         <div class="aliados">
           <h1>{{ trans('conocenos.Aliados') }}</h1> 
            </div><!-- END Aliados -->

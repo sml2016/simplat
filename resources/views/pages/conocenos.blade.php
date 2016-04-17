@@ -161,10 +161,8 @@
             </div> <!-- End thumbnails -->
           </div> <!-- End Col -->
 
-
-
           <!---Angelica-->
-          <div class="col-xs-122 col-sm-6 col-md-4">
+          <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
                 <img src="images/ComiteSMLAngie.jpg" alt="Angie" class="img-circle"/>
@@ -172,17 +170,16 @@
               <div class="caption">
                 <h2>{{ trans('conocenos.nomAngie') }}</h2>
                 <h3>{{ trans('conocenos.comiteAngie') }}</h3>
-              <div class="collapsable" collapsed-height="280">  
-               {!! trans('conocenos.Angie') !!} 
+                <div class="collapsable" collapsed-height="280">  
+                 {!! trans('conocenos.Angie') !!} 
                 </div>
-                  <div id="leermas" class="" style="display:block;">
+                <div id="leermas" class="" style="display:block;">
                   <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
+                  <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
                 </div> 
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
-         
 
           <!---Veronica--> 
           <div class="col-xs-12 col-sm-6 col-md-4">

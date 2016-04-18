@@ -3,7 +3,7 @@
 return [
    
   'Introduccion' => '<h1>With your support the 2016 Latina Symposium will be possible</h1>
-                     <p>You can sponsor Latina women to learn new leadership skills to implement community projects. Your donation is an opportunity to show other community leaders your strong support for creating communities through empowering the Latina Community, and your strong belief in giving back. Our sponsors receive a wide variety of valuable benefits.The Latina Symposium is a free event for all of its 255 attendants. We need your support to help all these women!
+                     <p>You can sponsor Latina women to learn new leadership skills to implement community projects. Your donation is an opportunity to show other community leaders your strong support for creating communities through empowering the Latina Community, and your strong belief in giving back. Our sponsors receive a wide variety of valuable benefits. The Latina Symposium is a free event for all of its 255 attendants. We need your support to help all these women!
                      </p>',
  'Patrocinadores1' => 'SPONSORSHIP DIAMOND',                 
           'Donar' => 'Donate here',

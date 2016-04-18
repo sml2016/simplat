@@ -4,12 +4,12 @@ return [
 'Quienes' => 'Who we are',
  'nomTania' => 'Tania Hino',
  'comiteTania' => 'Finance & Presenter Committee',  
-  'Tania' => '<p>My goal as an organizer of the North Seattle College Latina Symposium is to create unity within the Latinas.                                      Everyone  has their own dreams in life.
+  'Tania' => '<p>My goal as an organizer of the North Seattle College Latina Symposium is to create unity within the                 Latinas. Everyone  has their own dreams in life.
               I am a true believer that Latinas Women can be successful at any goal they set their mind to with the right support.</p>
             <p>My dream has come through with hard work, support and encouragement from many people around me that  includes family members, friends, and good teachers who  believed in me.</p> 
             <p>Now I am a Licensed Social Worker with a Masters from the University of Washington and also an Adlerian therapist, Parenting coach and a Parent Education Instructor at North Seattle College.  As a mother of three kids, my dream is that as our kids grow up and navigate the world, there will be lot more Latina Women in power and as role models.</p>  
             <p>We need more Latinas to empower our children and show them that they all can reach their dreams.</p>
-            <p>This Latina Symposium, a dream that was only made possible by the grant provided by the Parent Education Program from North Seattle College.  The dream is to organize and bring together Latinas from different educational backgrounds, economical status, and cultures to form a sense of community and to empower each other and make their dreams a possibility.</p>
+            <p>This Latina Symposium, a dream that was only made possible by the grant provided by the Parent Education Program from North Seattle College. The dream is to organize and bring together Latinas from different educational backgrounds, economical status, and cultures to form a sense of community and to empower each other and make their dreams a possibility.</p>
             <p>This is my story:</p>
             <p>My family relocated from Mexico to the United States looking for a better future about 20 years ago. When I was 15 years old and could barely speak or understand English, my high school carrier counselor in San Antonio asked me in broken Spanish, “What do you want to do when you grow up?”  I answered without a hesitation, “A nurse!”.  Growing up in Mexico and watching my Godmother who was a town nurse, I was inspired to become a nurse. So, with a high confidence & enthusiasm, I answered “A Nurse!”.</p>
             <p>The counselor looked at me with a puzzled look on her face.  She then proceeded to give me a carrier/vocational test which I did my best with my limited English knowledge.</p> 

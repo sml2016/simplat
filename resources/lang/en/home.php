@@ -23,7 +23,7 @@ return [
                   <h2>Who do we give recognition?</h2>
                   <p>As part of our collaboration to the community, the Latin American Women Symposium acknowledges the contribution of women who lead projects that help empower many Hispanic families. </p>',
      'Twitter'=> 'Follow us on Twitter!',
-    'Direcciones' =>'<h1>¿Cómo llegar al Simposio?</h1> 
+    'Direcciones' =>'<h1>How I can get to the Symposium?</h1> 
                 <p>North Seattle College is next to Interstate-5, just 4 miles north of downtown Seattle. If you are coming to the college from the 520 or I-90 bridges, you should be 
                  traveling North on Interstate-5 to reach the campus.</br></br></p>
                 <h2>Heading North on I-5</h2>  

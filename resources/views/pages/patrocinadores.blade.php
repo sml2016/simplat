@@ -10,7 +10,7 @@
      <h1>{{ trans('patrocinadores.Gracias') }}</h1>
         
        
-            <!---Patrocinadores 2nd--->    
+            <!---Patrocinadores 1--->    
                 <div class="row">
                 <div class="col-sm-3">
                 <div class="thumbnail">
@@ -42,18 +42,18 @@
               </div>  <!---End ROw -->  
               
                    
-       <!---Patrocinadores 2nd--->    
+       <!---Patrocinadores 2--->    
                 <div class="row">
                 <div class="col-sm-3">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/mejariSushi.png" alt="Mejari"/>
+                <img src="/images/patrocinadores/molinaHealthcare.JPG" alt="MolinaHealcare"/>
                 <p>{{ trans('patrocinadores.Gracias1') }} </p>
                 </div>
                 </div>
         
                 <div class="col-sm-3">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/univisionSeattle.jpg" alt="Univision"/>
+                <img src="/images/patrocinadores/mejariSushi.png" alt="Mejari"/>
                 <p> {{ trans('patrocinadores.Gracias1') }}</p>
                 </div>
              </div>
@@ -62,21 +62,21 @@
      
                 <div class="col-sm-3">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/laraza.png" alt="NSC"/>
+               <img src="/images/patrocinadores/univisionSeattle.jpg" alt="Univision"/>
                 <p> {{ trans('patrocinadores.Gracias1') }} </p>
                 </div>
                 </div>
                 
                 <div class="col-sm-3">
                 <div class="thumbnail">
-                <img src="/images/patrocinadores/latinoAdvocacy.jpg" alt="LatinoAdvocacy"/>
+               <img src="/images/patrocinadores/laraza.png" alt="LaRaza"/>
                 <p> {{ trans('patrocinadores.Gracias1') }} </p>
                 </div>
                 </div>
                </div>  <!---End ROw -->  
               
                    
-       <!---Patrocinadores 2nd--->    
+       <!---Patrocinadores 3--->    
                 <div class="row">
                 <div class="col-sm-3">
                 <div class="thumbnail">
@@ -106,7 +106,25 @@
                 <p>{{ trans('patrocinadores.Gracias1') }} </p>
                 </div>
              </div>
-        
+           </div>
+           
+                <!---Patrocinadores 4--->    
+                <div class="row">
+                <div class="col-sm-3">
+                <div class="thumbnail">
+                 <img src="/images/patrocinadores/latinoAdvocacy.jpg" alt="LatinoAdvocacy"/>
+                <p>{{ trans('patrocinadores.Gracias1') }} </p>
+                </div>
+                </div>
+                
+                <div class="col-sm-3">
+                <div class="thumbnail">
+                 <img src="/images/patrocinadores/amistadSchool.png" alt="amistadSchool"/>
+                <p>{{ trans('patrocinadores.Gracias1') }} </p>
+                </div>
+                </div>
+                
+                
           </div>  <!---End ROw -->
        </div> <!--End Patrocinadores -->
 

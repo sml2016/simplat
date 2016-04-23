@@ -121,7 +121,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
-                <img src="images/ComiteSMLSixta.jpeg" alt="logocirculo" class="img-circle"/>
+                <img src="images/ComiteSMLSixta.jpg" alt="logocirculo" class="img-circle"/>
               </div>
 
               <div class="caption">

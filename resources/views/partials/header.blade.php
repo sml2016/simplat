@@ -1,6 +1,20 @@
 
   <div class="navbar navbar-default navbar-margin-bottom">
     <div class="container">
+       
+       <!--Hosting-->
+       <div class="host">
+        <div class="row">
+          <div class="col-xs-9 col-sm-10 col-md-10 col-lg-10">
+           <h1>{{ trans('header.host') }}</h1>
+           </div>
+           <div class="col-xs-3 col-sm-2 col-md-2  col-lg-2">
+           <img src="/images/NSChost.png" class="img-responsive";/>
+         </div>
+        </div>
+       </div>  
+       
+  
         <!--Logo-->
         <div class="row">
             <div class="col-xs-6  col-sm-4  col-md-4  col-lg-8 col-xl-5">

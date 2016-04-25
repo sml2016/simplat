@@ -5862,6 +5862,32 @@ button.close {
 .clear {
   *zoom: 1; }
 
+/*-----------------
+    Hosting
+-------------------*/
+.host {
+  margin-top: 12px; }
+  .host h1 {
+    font-family: 'OpenSans',sans-serif;
+    font-size: 15px;
+    color: #212121;
+    text-align: right;
+    padding-top: 4px; }
+  @media (max-width: 480px) {
+    .host {
+      margin-top: 15px; } }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .host {
+      margin-top: 16px; }
+      .host h1 {
+        text-align: center;
+        font-size: 15px; } }
+  @media (min-width: 768px) {
+    .host {
+      margin-top: 15px; }
+      .host h1 {
+        font-size: 13px; } }
+
 /* --------------------
         Logo
 -----------------------*/
@@ -5869,6 +5895,12 @@ button.close {
   width: 100%;
   margin-top: 25px;
   margin-left: 20px; }
+  @media (max-width: 480px) {
+    .corazon {
+      margin-top: 15px; } }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .corazon {
+      margin-top: 20px; } }
   @media (max-width: 992px) {
     .corazon {
       margin-top: 45px; } }

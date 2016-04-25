@@ -19,7 +19,7 @@ return [
     'Vision' => ' <h1>Nuestra Visión</h1>
                   <p>El Simposio de Mujeres Latinas es nuestro punto de partida para dotar a la comunidad de herramientas que le permitan participar activamente sobre las decisiones y acciones que afectan sus vidas.</p>
                   <h2>¿Quiénes somos?</h2>
-                  <p>Somos un grupo de mujeres que ofrece ayuda a la comunidad de latinas a través de la organización de un evento que genera redes de contacto entre las mujere en sus distintos niveles de inmersión en una nueva sociedad y cultura. 
+                  <p>Somos un grupo de mujeres que ofrece ayuda a la comunidad de latinas a través de la organización de un evento que genera redes de contacto entre las mujeres en sus distintos niveles de inmersión en una nueva sociedad y cultura. 
                   Nuestra meta es proveer las herramientas necesarias para tomar decisiones y ejercer el control en los distintos aspectos de su vida.</p>
                   <h2>¿A quién reconocemos?</h2>
                   <p>Como parte de nuestro aporte a la comunidad, en el Simposio de Mujeres Latinas nosotras reconocemos a las mujeres que lideran proyectos para empoderar

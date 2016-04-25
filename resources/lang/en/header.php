@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'host' => 'North Seattle Parent program is hosting Latinas Symposium',
     'Inicio' => 'Home',
     'Conferencistas' => 'Speakers',
     'Registro' => 'Register',

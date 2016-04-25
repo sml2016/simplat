@@ -106,13 +106,13 @@
       
       <div class="sectionD hidden-xs">
        <div class="row">
-        <div class="col-xs-4 col-sm-4">  
+      <!--  <div class="col-xs-4 col-sm-4">  
          <img class="img-responsive" src="images/patrocinadores/NSC.png"/>  
-         </div>
-          <div class="col-xs-4 col-sm-4">   
+         </div> -->
+          <div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1">   
            <img class="img-responsive" src="images/patrocinadores/latinofoundation.png"/>   
            </div> 
-            <div class="col-xs-4 col-sm-4">   
+            <div class="col-xs-5 col-xs-offset-1  col-sm-5 col-offset-1">   
            <img class="img-responsive" src="images/patrocinadores/SeattlePublicLibrary.jpg"/>   
            </div> 
           </div> <!---End Row D---> 

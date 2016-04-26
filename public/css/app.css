@@ -5892,9 +5892,11 @@ button.close {
       margin-top: 15px; }
       .host h1 {
         font-size: 13px; } }
-  @media (max-width: 992px) {
-    .host h1 {
-      font-size: 15px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .host {
+      margin-top: 15px; }
+      .host h1 {
+        font-size: 15px; } }
 
 /* --------------------
         Logo

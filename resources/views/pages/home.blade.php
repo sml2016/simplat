@@ -16,7 +16,7 @@
 </div> <!-- end naranaja -->
 
   <div class="cover2logos visible-xs">
-      <img class="img-responsive" src="/images/coverLogoMobile1.jpg"  style="width:100% height:auto";/>
+      <img class="img-responsive" src="/images/coverMobileLogo.jpg"  style="width:100% height:auto";/>
    </div>  
       
       

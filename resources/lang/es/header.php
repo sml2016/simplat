@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'host' => 'El programa de Padres de North Seattle está organizando el Simposio de Mujeres Latinas',
+    'host' => 'El programa de North Seattle Parent es anfitrión del Simposio de Mujeres Latinas.',
     'Inicio' => 'Inicio',
     'Conferencistas' => 'Conferencistas',
     'Registro' => 'Registro',

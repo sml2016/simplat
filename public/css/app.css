@@ -5892,7 +5892,7 @@ button.close {
       margin-top: 15px; }
       .host h1 {
         font-size: 13px; } }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 992px) {
     .host {
       margin-top: 15px; }
       .host h1 {
@@ -6496,6 +6496,12 @@ hr p {
   border: 2px solid #c597e6;
   color: #fff;
   text-decoration: none; }
+
+.row-of-blocks {
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 30px; }
 
 /*-----------------------
      Section

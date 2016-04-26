@@ -64,6 +64,7 @@
      Buttons
 --------------------------*/
 
+
 .button {
     background-color: #ffffff; 
     border: 2px solid #0cb095;
@@ -82,7 +83,8 @@
     transition-duration: 0.4s;
     box-shadow: 0 2px 3px 0 rgba(189,189,189,0.20), 0 6px 8px 0 rgba(169,169,169,0.15);
     border-radius: 4px;
-    @media (min-width: $sizeLargeDesktop) {
+  
+   @media (min-width: $sizeLargeDesktop) {
        width:100%;
        padding-top: 30px;
        padding-bottom: 30px;

@@ -35,10 +35,17 @@
     
    @media (min-width: $sizeTablet){
     margin-top:15px;
-   h1{
+    h1{
     font-size: 13px;
      }
    }
+   
+    @media (min-width: $sizeDesktop){
+    
+     h1{
+     font-size: 15px;
+     }
+    }
 }
 
 /* --------------------

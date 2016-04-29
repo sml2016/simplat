@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'host' => 'North Seattle Parent program is hosting Latinas Symposium.',
+    'host' => 'Northgate Seattle College Parent Education Program Presents: Latina Symposium',
     'Inicio' => 'Home',
     'Conferencistas' => 'Speakers',
     'Registro' => 'Register',

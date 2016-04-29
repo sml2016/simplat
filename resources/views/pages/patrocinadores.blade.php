@@ -123,7 +123,13 @@
                 <p>{{ trans('patrocinadores.Gracias1') }} </p>
                 </div>
                 </div>
-                
+             
+              <div class="col-sm-3">
+                <div class="thumbnail">
+                 <img src="/images/patrocinadores/immigrantSeattle.JPG" alt="ImmigrantSeattle"/>
+                <p>{{ trans('patrocinadores.Gracias1') }} </p>
+                </div>
+                </div>   
                 
           </div>  <!---End ROw -->
        </div> <!--End Patrocinadores -->

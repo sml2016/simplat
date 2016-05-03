@@ -23,16 +23,18 @@
 <div class="semiblanco">
     <div class="container">
  <div class="row row-of-blocks hidden-xs">
-            <div class="col-xs-12  col-sm-4  col-md-4" style="padding-left:0px;  padding-right:18px;"> <a href="{{ url('/registro') }}" class="button">{{ trans('home.BotonRegistro') }}</a></div>
-            <div class="col-xs-12  col-sm-4  col-md-4" style="padding-left:10px; padding-right:10px;"><a href="{{ url('/patrocinanos') }}" class="button">{{ trans('home.BotonPatrocina') }}</a></div>
-            <div class="col-xs-12  col-sm-4  col-md-4" style="padding-left:18px; padding-right:0px;" ><a href="{{ url('/involucrate') }}" class="button">{{ trans('home.BotonInvolucrate') }}</a></div>
+            <div class="col-xs-12  col-sm-3  col-md-3" style="padding-left:0px;  padding-right:15px;"><a href="{{ url('/registro') }}" class="button">{{ trans('home.BotonRegistro') }}</a></div>
+            <div class="col-xs-12  col-sm-3  col-md-3" style="padding-left:10px; padding-right:12px;"><a href="https://nscef.ejoinme.org/latina" class="button">{{ trans('home.BotonDonacion') }}</a></div>
+            <div class="col-xs-12  col-sm-3  col-md-3" style="padding-left:12px; padding-right:10px;"><a href="{{ url('/patrocinanos') }}" class="button">{{ trans('home.BotonPatrocina') }}</a></div>
+            <div class="col-xs-12  col-sm-3  col-md-3" style="padding-left:15px; padding-right:0px;" ><a href="{{ url('/involucrate') }}" class="button">{{ trans('home.BotonInvolucrate') }}</a></div>
         </div>  
         
  
   <div class="row row-of-blocks visible-xs">
-            <div class="col-xs-12  col-sm-4  col-md-4" style="padding-left:0px;  padding-right:0px;"> <a href="{{ url('/registro') }}" class="button">{{ trans('home.BotonRegistro') }}</a></div>
-            <div class="col-xs-12  col-sm-4  col-md-4" style="padding-left:0px;  padding-right:0px;"><a href="{{ url('/patrocinanos') }}" class="button">{{ trans('home.BotonPatrocina') }}</a></div>
-            <div class="col-xs-12  col-sm-4  col-md-4" style="padding-left:0px;  padding-right:0px;"><a href="{{ url('/involucrate') }}" class="button">{{ trans('home.BotonInvolucrate') }}</a></div>
+            <div class="col-xs-12  col-sm-3  col-md-3" style="padding-left:0px;  padding-right:0px;"> <a href="{{ url('/registro') }}" class="button">{{ trans('home.BotonRegistro') }}</a></div>
+            <div class="col-xs-12  col-sm-3  col-md-3" style="padding-left:0px;  padding-right:0px;"><a href="https://nscef.ejoinme.org/latina class="button">{{ trans('home.BotonDonacion') }}</a></div>
+            <div class="col-xs-12  col-sm-3  col-md-3" style="padding-left:0px;  padding-right:0px;"><a href="{{ url('/patrocinanos') }}" class="button">{{ trans('home.BotonPatrocina') }}</a></div>
+            <div class="col-xs-12  col-sm-3  col-md-3" style="padding-left:0px;  padding-right:0px;"><a href="{{ url('/involucrate') }}" class="button">{{ trans('home.BotonInvolucrate') }}</a></div>
         </div>
     </div>   <!--Contanier-->
 

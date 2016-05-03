@@ -4,6 +4,7 @@ return [
     'coverDesktop' => '/images/cover.jpg',
     'coverMobile' => '/images/covermobile.jpg',
     'BotonRegistro' => 'Registro',
+    'BotonDonacion' => 'Donación',
     'BotonPatrocina' => 'Patrocina',
     'BotonInvolucrate' => 'Involúcrate',
     'VideoUrl' => 'https://player.vimeo.com/video/159162565',

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 namespace App\Http\Controllers;
 
@@ -124,6 +124,9 @@ class RegistroController extends Controller
         }
     }
 
+    /**
+     * Sends a mail
+     */
     public function sendMail($mailTemplate, $title, $email, $name)
     {
         $simposioEmail = env('MAIL_USERNAME');

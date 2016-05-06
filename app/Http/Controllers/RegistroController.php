@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 namespace App\Http\Controllers;
 
@@ -125,7 +125,7 @@ class RegistroController extends Controller
     }
 
     /**
-     * Sends a mail
+     * Sends a mail with template
      */
     public function sendMail($mailTemplate, $title, $email, $name)
     {

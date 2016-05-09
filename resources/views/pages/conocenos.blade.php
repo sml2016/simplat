@@ -97,8 +97,8 @@
           </div><!-- End Col -->
           <div class="clearfix hidden-md hidden-lg"></div> 
            
-          <!---Perla-->       
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <!---Perla-->    
+ <!--         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
                 <img src="images/ComiteSMLPerla.jpg" alt="Perla" class="img-circle"/>
@@ -114,8 +114,32 @@
                  <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
                  </div>  
               </div><!-- End Caption -->
-            </div><!-- End thumbnails -->
-          </div><!-- End Col -->
+         <!--   </div><!-- End thumbnails -->
+     <!--     </div><!-- End Col -->
+ 
+   <!-- Amarilis -->
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="thumbnails"> 
+              <div class="img-thumbnail img-circle">  
+                <img src="images/ComiteSMLAmarilis.jpg" alt="Amarilis" class="img-circle"/>
+              </div>
+
+              <div class="caption">
+                <h2>{{ trans('conocenos.nomAmarilis') }}</h2>
+                <h3>{{ trans('conocenos.comiteAmarilis') }}</h3>
+                 <div class="collapsable" collapsed-height="280">
+                {!! trans('conocenos.Amarilis') !!} 
+                 </div>
+                <div id="leermas" class="" style="display:block;">
+                 <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
+                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
+                 </div>  
+              </div> <!-- End Caption -->
+            </div> <!-- End thumbnails -->
+          </div> <!-- End Col -->
+ 
+ 
+ 
  
           <!-- Sixta-->  
           <div class="col-xs-12 col-sm-6 col-md-4">
@@ -140,28 +164,7 @@
           
           <div class="clearfix"></div> 
 
-           <!-- Amarilis -->
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="thumbnails"> 
-              <div class="img-thumbnail img-circle">  
-                <img src="images/ComiteSMLAmarilis.jpg" alt="Amarilis" class="img-circle"/>
-              </div>
-
-              <div class="caption">
-                <h2>{{ trans('conocenos.nomAmarilis') }}</h2>
-                <h3>{{ trans('conocenos.comiteAmarilis') }}</h3>
-                 <div class="collapsable" collapsed-height="280">
-                {!! trans('conocenos.Amarilis') !!} 
-                 </div>
-                <div id="leermas" class="" style="display:block;">
-                 <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
-                 </div>  
-              </div> <!-- End Caption -->
-            </div> <!-- End thumbnails -->
-          </div> <!-- End Col -->
-  
-          <!---Angelica-->
+      <!---Angelica-->
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
@@ -180,10 +183,8 @@
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->
- 
-          <div class="clearfix hidden-md hidden-lg"></div> 
-
-          <!---Veronica--> 
+  
+       <!---Veronica--> 
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
@@ -201,11 +202,11 @@
                 </div> 
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
-          </div><!-- End Col -->    
-               
-          <div class="clearfix hidden-xs hidden-sm"></div>   
-          
-          <!-- Leonor -->       
+          </div><!-- End Col -->   
+ 
+          <div class="clearfix hidden-md hidden-lg"></div> 
+
+      <!-- Leonor -->       
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
@@ -224,9 +225,11 @@
               </div> <!--End Caption -->
             </div> <!--End thumbnails -->
           </div> <!--End Col -->
-        </div><!-- End ROW-->
+        </div><!-- End ROW--> 
+               
+          <div class="clearfix hidden-xs hidden-sm"></div>   
+          
        
-        <div class="clearfix"></div> 
 
         <div class="aliados">
           <h1>{{ trans('conocenos.Aliados') }}</h1> 

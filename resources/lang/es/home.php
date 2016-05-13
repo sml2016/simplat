@@ -7,12 +7,47 @@ return [
     'BotonDonacion' => 'Donación',
     'BotonPatrocina' => 'Patrocina',
     'BotonInvolucrate' => 'Involúcrate',
-    'VideoUrl' => 'https://player.vimeo.com/video/159162565',
-    'TeEsperamos' => '<h1>¡El Tercer Simposio de Mujeres Latinas</br> es un evento gratuito!</h1>
+    'Agenda' => 'Agenda del 3er Simposio',
+    'horario1' => '<p>10:30am - 10:55am</p>
+                 <p>10:30am - 11:00am</p>
+                 <p>11:00am – 11:05am<br></br></p>
+                 <p>11:05am - 11:10am<br></br></p>
+                 <p>11:10am – 12:00pm<br></br><br></br></p>
+                 <p>12:05pm – 12:35pm</p>
+                 <p>12:35pm - 12:50pm<br></br></p>
+                 <p>12:50pm - 01:20pm<br></br><br></br></p>
+                 <p>01:20pm - 01:50pm<br></br></p>
+                 <p><br>01:55pm - 02:30pm</br><br></br><br></br></p>
+                 <p>02:30pm - 02:50pm</p>
+                 <p>02:50pm - 03:05pm</p>
+                 <p>03:05pm - 03:10pm<br></br></p>
+                 <p>03:10pm - 04:00pm</p>',
+      'horario2' => '<p>Las puertas se abren y comienza el registro.</p>
+              <p>Tiempo para visitar las mesas de información.</p>
+              <p>¡Bienvenidas! La maestra de ceremonia nos da un resumen del día.</p>
+              <p>Unas palabras de Dean Steve Thomas North Seattle College.</p>
+              <p>Premio Puño de Oro- Reconocimiento por su trabajo de empoderar a la comunidad Latina:
+                 <br><span>Maru Mora-Villalpando, Activista y fundadora de Latino Advocacy.</span></br></p>
+              <p>Almuerzo y Música por Enrique Carbajal García.</p>
+              <p>Seattle World Youth Orchestra - Paula Nava Madrigal Directora de la Orquestra.</p>
+              <p>Panel: Historias de nuestros viajes personales:
+              <br><span>Elodia González, Psicóloga.</span></br>
+                  <span>Ana Castro, Propietaria de la Panadería Salvadoreña.</span></b></p>
+              <p>Nuestra Salud después de Migrar:
+                  <br><span>María-José “Coté” Soerens. Fundadora y Directora Ejecutiva de Puentes.</span><br></p>
+              <p>La auto-estima después de migrar:
+                  <br><span>Lizeth Gutiérrez, candidata de Doctorado de Estudios Americanos del Departamento de Cultura Crítica, Géneros y Estudios Raciales de la Universidad Estatal de Washington.</span></br></p> 
+              <p>Diálogo en nuestras mesas.</p>
+              <p>Grupo Folclórico Nicaragüense Ometepec.</p>
+              <p>Por favor completar la evaluación. ¡Gracias por Venir!</p>
+              <p>Tiempo para visitar las mesas de información.</p>',
+      'ordendeldiafoto' => '/images/ordendeldiaSML.png',
+      'TeEsperamos' => '<h1>¡El Tercer Simposio de Mujeres Latinas</br> es un evento gratuito!</h1>
                       <h2>Se llevará acabo el <span class="fecha">sábado 21 de Mayo </span> del 2016
                       a partir de las <span class="fecha"> 10:30 a.m. hasta las 3:00 p.m.</span>
                       En las instalaciones de North Seattle College.</h2>
                       <h3>¡Te esperamos!</h3>',
+    'VideoUrl' => 'https://player.vimeo.com/video/159162565',
     'ElPremio' => '<h1> Maru Mora Villalpando</h1>
                    <h2> Por su entrega en defensa de los derechos de los inmigrantes latinos y su trabajo constante para empoderar a la mujer latina.
                    </br></br>Nos honra entregar el premio:

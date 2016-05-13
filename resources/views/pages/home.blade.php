@@ -43,6 +43,59 @@
     <div class="container">
         <div class="fondo">
 
+       
+       <!--Orde del dia -->
+      <div class="agenda">
+      
+       <div class="row">
+         <div class="col-md-7 hidden-xs">
+          <div class="ordendeldia"> 
+          <div class="collapsable" collapsed-height="280"> 
+           <h1>{{ trans('home.Agenda') }}</h1>
+            <div class="row">
+             <div class="col-xs-4 col-sm-4 col-md-4"> 
+               <div class="orden1"> 
+                 {!! trans('home.horario1') !!}
+              </div> <!--End Orden1 -->  
+             </div> <!-- End Col 4 -->
+             
+            <div class="col-xs-8 col-sm-8 col-md-8">  
+             <div class="orden2">
+               {!! trans('home.horario2') !!} 
+             </div> <!-- End orden2 -->    
+            </div> <!--End col -8 -->
+            </div> <!--Row orden del dia -->
+           </div> <!--End Collapsed --> 
+           <div id="leermas" class="" style="display:block;">
+              <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conferencistas.leerMas') }}</button>
+              <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conferencistas.leerMenos') }}</button>
+           </div>
+          </div>  <!--Col 7 --> 
+         </div>   <!-- Orden del dia -->
+        
+        <div class="col-md-7 visible-xs">
+          <div class="ordendeldia"> 
+            <div class="collapsable" collapsed-height="280"> 
+           <h1>{{ trans('home.Agenda') }}</h1>
+           <img class="img-responsive" src="{!! trans('home.ordendeldiafoto') !!}" style="width:100% height:auto";/>
+          </div> <!--End Collapsed --> 
+           <div id="leermas" class="" style="display:block;">
+              <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conferencistas.leerMas') }}</button>
+              <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conferencistas.leerMenos') }}</button>
+           </div>
+          </div>   <!-- Orden del dia -->
+         </div>
+        
+
+        <div class="col-md-5">
+          <div class="sidebar0">
+             {!! trans('home.TeEsperamos') !!}
+          </div> <!--End sidebar0 -->
+        </div>  
+       </div> <!--End Row -->
+      </div> <!-- END Agenda ->
+       
+       
         <!--Section-->
    
         <div class="section">

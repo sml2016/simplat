@@ -48,6 +48,9 @@ return [
                       at the North Seattle Community College.</h2>
                       <h3>Please Join Us!</h3>',
     'VideoUrl' => 'https://player.vimeo.com/video/155624043',
+     'Mision' => '<h1>Our Mission</h1>
+                 <p>We promote a support network among Latinas and their communities, to strengthen their talents and to develop their
+                   social leadership skills.</p>',
     'ElPremio' => '<h1> Maru Mora Villalpando</h1>
                    <h2>For her contribution in the defense of Latin American immigrants\' rights and constant work empowering the Hispanic woman.
                    </br></br>We are honored to give this award to:

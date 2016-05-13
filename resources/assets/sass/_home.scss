@@ -445,7 +445,7 @@
     margin-top: 10px;
   }
     
-  h2{
+  p{
     padding-top:10px;
     font-family: 'OpenSans-Regular', sans-serif;
     font-size:18px;
@@ -454,14 +454,7 @@
     color:#333;
   }  
  
-  h3{
-    padding-top:0px;
-    font-family: 'Tenor-Sans';
-    font-size:19px;
-    color:#000;
-    text-align: center;
-    font-weight: bolder;   
-  }
+
    
    @media (max-width: $sizePhone){
      padding: 20px 10px 0px 0px;
@@ -471,7 +464,7 @@
       font-size:20px;
       }
       
-      h2{
+      p{
       font-size:17px;
       }
    }  
@@ -488,7 +481,7 @@
       padding-right:40px;
       
     h1 {
-       font-size:18px; 
+       font-size:20px; 
        margin-top:5px;
       }
    }
@@ -497,65 +490,35 @@
         padding:20px 25px;
         
        h1{
-           font-size:18px; 
-           margin-top:5px;
+           font-size:21px; 
+           margin-top:10px;
+           margin-bottom: 20px;
       }
       
-      h2 { 
+      p { 
           font-size:17px; 
           padding-top:0px;
       }
-      
-      h3{
-          font-size:18px; 
-          padding-top:5px;
-      }
+    
    } 
    
     @media (min-width: $sizeLargeDesktop) {
          padding:25px;
         
        h1{
-           font-size:20px; 
-           margin-top:10px;
+           font-size:25px; 
+           margin-top:30px;
+           margin-bottom: 30px;
       }
       
-       h2{
+       p{
            font-size:18px; 
            padding-top:20px;
            line-height: 1.5;
-      }
-      
-      h3{
-          font-size:19px;
-          padding-top:15px; 
-      }
+      } 
   }
-
 }
 
-.fecha{
-    color: #f04942;
-    font-family: 'OpenSans-Regular', sans-serif;
-    font-size:18px;
-   
-     @media (max-width: $sizePhone){
-     font-size:17px;
-      }   
-   
-   
-    @media (min-width: $sizeDesktop){
-       font-size:17px; 
-      }
-    
-    @media (min-width: $sizeLargeDesktop) {
-      font-size:18px;
-    } 
-}
-
-.espacio{
-    margin-left:25px;
-}
 
 
     

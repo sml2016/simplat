@@ -93,7 +93,7 @@
       color:#333;
       }
     
-    @media (max-width: $sizePhone){
+  /*  @media (max-width: $sizePhone){
         p{
        font-size: 14px;
        }
@@ -103,7 +103,7 @@
        p{
        font-size: 14px;
        }
-      } 
+      } */
     @media (min-width:600px) and (max-width:$sizeLessThanTablet){
         p{
        font-size: 15px;
@@ -131,7 +131,7 @@
       text-align: justify;
       color:#333;
       }
-       @media (max-width: $sizePhone){
+    /*     @media (max-width: $sizePhone){
        .col-xs-8 {
       padding-left:0px;
        }
@@ -142,7 +142,7 @@
        }
        } 
       
-      @media(min-width:$sizeMoreThanPhone) and (max-width:599px){
+    @media(min-width:$sizeMoreThanPhone) and (max-width:599px){
       .col-xs-8 {
       padding-left:0px;
        }
@@ -150,7 +150,7 @@
        p{
        font-size: 14px;
        }
-      }
+      }*/
       @media (min-width:600px) and (max-width:$sizeLessThanTablet){
       padding-right: 20px;
       

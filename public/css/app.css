@@ -6522,54 +6522,70 @@ hr p {
       text-align: center;
       padding-bottom: 13px;
       padding-top: 20px; }
-    .agenda .ordendeldia .orden1 p {
-      font-family: 'OpenSans-Regular', sans-serif;
-      font-size: 16px;
-      color: #333; }
-    @media (max-width: 480px) {
+    .agenda .ordendeldia .orden1 {
+      /*  @media (max-width: $sizePhone){
+        p{
+       font-size: 14px;
+       }
+       }
+      @media(min-width:$sizeMoreThanPhone) and (max-width:599px){
+       
+       p{
+       font-size: 14px;
+       }
+      } */ }
       .agenda .ordendeldia .orden1 p {
-        font-size: 14px; } }
-    @media (min-width: 481px) and (max-width: 599px) {
-      .agenda .ordendeldia .orden1 p {
-        font-size: 14px; } }
-    @media (min-width: 600px) and (max-width: 767px) {
-      .agenda .ordendeldia .orden1 p {
-        font-size: 15px; } }
-    @media (min-width: 992px) and (max-width: 1199px) {
-      .agenda .ordendeldia .orden1 p {
-        font-size: 15px; } }
-    @media (min-width: 1200px) {
-      .agenda .ordendeldia .orden1 p {
-        font-size: 16px; } }
-    .agenda .ordendeldia .orden2 p {
-      font-family: 'OpenSans-Regular', sans-serif;
-      font-size: 16px;
-      text-align: justify;
-      color: #333; }
-    @media (max-width: 480px) {
-      .agenda .ordendeldia .orden2 .col-xs-8 {
-        padding-left: 0px; }
-      .agenda .ordendeldia .orden2 p {
-        font-size: 14px;
-        padding-left: 0px; } }
-    @media (min-width: 481px) and (max-width: 599px) {
-      .agenda .ordendeldia .orden2 .col-xs-8 {
-        padding-left: 0px; }
-      .agenda .ordendeldia .orden2 p {
-        font-size: 14px; } }
-    @media (min-width: 600px) and (max-width: 767px) {
-      .agenda .ordendeldia .orden2 {
-        padding-right: 20px; }
-        .agenda .ordendeldia .orden2 .col-xs-8 {
-          padding-left: 0px; }
-        .agenda .ordendeldia .orden2 p {
+        font-family: 'OpenSans-Regular', sans-serif;
+        font-size: 16px;
+        color: #333; }
+      @media (min-width: 600px) and (max-width: 767px) {
+        .agenda .ordendeldia .orden1 p {
           font-size: 15px; } }
-    @media (min-width: 992px) and (max-width: 1199px) {
+      @media (min-width: 992px) and (max-width: 1199px) {
+        .agenda .ordendeldia .orden1 p {
+          font-size: 15px; } }
+      @media (min-width: 1200px) {
+        .agenda .ordendeldia .orden1 p {
+          font-size: 16px; } }
+    .agenda .ordendeldia .orden2 {
+      /*     @media (max-width: $sizePhone){
+       .col-xs-8 {
+      padding-left:0px;
+       }
+       
+        p{
+       font-size: 14px;
+       padding-left: 0px;
+       }
+       } 
+      
+    @media(min-width:$sizeMoreThanPhone) and (max-width:599px){
+      .col-xs-8 {
+      padding-left:0px;
+       }
+       
+       p{
+       font-size: 14px;
+       }
+      }*/ }
       .agenda .ordendeldia .orden2 p {
-        font-size: 14px; } }
-    @media (min-width: 1200px) {
-      .agenda .ordendeldia .orden2 p {
-        font-size: 16px; } }
+        font-family: 'OpenSans-Regular', sans-serif;
+        font-size: 16px;
+        text-align: justify;
+        color: #333; }
+      @media (min-width: 600px) and (max-width: 767px) {
+        .agenda .ordendeldia .orden2 {
+          padding-right: 20px; }
+          .agenda .ordendeldia .orden2 .col-xs-8 {
+            padding-left: 0px; }
+          .agenda .ordendeldia .orden2 p {
+            font-size: 15px; } }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        .agenda .ordendeldia .orden2 p {
+          font-size: 14px; } }
+      @media (min-width: 1200px) {
+        .agenda .ordendeldia .orden2 p {
+          font-size: 16px; } }
     .agenda .ordendeldia span {
       font-weight: bolder;
       color: #000; }
@@ -6790,14 +6806,15 @@ hr p {
       padding-left: 40px;
       padding-right: 40px; }
       .sidebar h1 {
-        font-size: 18px;
+        font-size: 20px;
         margin-top: 5px; } }
   @media (min-width: 992px) {
     .sidebar {
       padding: 20px 25px; }
       .sidebar h1 {
-        font-size: 18px;
-        margin-top: 5px; }
+        font-size: 21px;
+        margin-top: 10px;
+        margin-bottom: 20px; }
       .sidebar p {
         font-size: 17px;
         padding-top: 0px; } }

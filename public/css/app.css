@@ -6764,27 +6764,20 @@ hr p {
     text-align: center;
     line-height: 1.2;
     margin-top: 10px; }
-  .sidebar h2 {
+  .sidebar p {
     padding-top: 10px;
     font-family: 'OpenSans-Regular', sans-serif;
     font-size: 18px;
     text-align: justify;
     line-height: 1.5;
     color: #333; }
-  .sidebar h3 {
-    padding-top: 0px;
-    font-family: 'Tenor-Sans';
-    font-size: 19px;
-    color: #000;
-    text-align: center;
-    font-weight: bolder; }
   @media (max-width: 480px) {
     .sidebar {
       padding: 20px 10px 0px 0px; }
       .sidebar h1 {
         padding-top: 20px;
         font-size: 20px; }
-      .sidebar h2 {
+      .sidebar p {
         font-size: 17px; } }
   @media (min-width: 481px) and (max-width: 767px) {
     .sidebar {
@@ -6805,42 +6798,20 @@ hr p {
       .sidebar h1 {
         font-size: 18px;
         margin-top: 5px; }
-      .sidebar h2 {
+      .sidebar p {
         font-size: 17px;
-        padding-top: 0px; }
-      .sidebar h3 {
-        font-size: 18px;
-        padding-top: 5px; } }
+        padding-top: 0px; } }
   @media (min-width: 1200px) {
     .sidebar {
       padding: 25px; }
       .sidebar h1 {
-        font-size: 20px;
-        margin-top: 10px; }
-      .sidebar h2 {
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 30px; }
+      .sidebar p {
         font-size: 18px;
         padding-top: 20px;
-        line-height: 1.5; }
-      .sidebar h3 {
-        font-size: 19px;
-        padding-top: 15px; } }
-
-.fecha {
-  color: #f04942;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 18px; }
-  @media (max-width: 480px) {
-    .fecha {
-      font-size: 17px; } }
-  @media (min-width: 992px) {
-    .fecha {
-      font-size: 17px; } }
-  @media (min-width: 1200px) {
-    .fecha {
-      font-size: 18px; } }
-
-.espacio {
-  margin-left: 25px; }
+        line-height: 1.5; } }
 
 /*-----------------------
      section A

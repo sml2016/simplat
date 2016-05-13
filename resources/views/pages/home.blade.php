@@ -108,7 +108,8 @@
           
            <div class="col-md-5">
              <div class="sidebar">
-                 {!! trans('home.TeEsperamos') !!}
+                 {!! trans('home.Mision') !!}
+              
               </div> <!--End sidebar -->
             </div>  
            </div> <!-- End Row -->

@@ -97,50 +97,28 @@
           </div><!-- End Col -->
           <div class="clearfix hidden-md hidden-lg"></div> 
            
-          <!---Perla-->    
- <!--         <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="thumbnails"> 
-              <div class="img-thumbnail img-circle">  
-                <img src="images/ComiteSMLPerla.jpg" alt="Perla" class="img-circle"/>
-              </div>
-              <div class="caption">
-                <h2>{{ trans('conocenos.nomPerla') }}</h2>
-                <h3>{{ trans('conocenos.comitePerla') }}</h3>
-               <div class="collapsable" collapsed-height="280">
-                {!! trans('conocenos.Perla') !!}
-                </div>
-                <div id="leermas" class="" style="display:block;">
-                 <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
-                 </div>  
-              </div><!-- End Caption -->
-         <!--   </div><!-- End thumbnails -->
-     <!--     </div><!-- End Col -->
  
-   <!-- Amarilis -->
+ <!---Angelica-->
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
-                <img src="images/ComiteSMLAmarilis.jpg" alt="Amarilis" class="img-circle"/>
+                <img src="images/ComiteSMLAngie.jpg" alt="Angie" class="img-circle"/>
               </div>
-
               <div class="caption">
-                <h2>{{ trans('conocenos.nomAmarilis') }}</h2>
-                <h3>{{ trans('conocenos.comiteAmarilis') }}</h3>
-                 <div class="collapsable" collapsed-height="280">
-                {!! trans('conocenos.Amarilis') !!} 
-                 </div>
+                <h2>{{ trans('conocenos.nomAngie') }}</h2>
+                <h3>{{ trans('conocenos.comiteAngie') }}</h3>
+                <div class="collapsable" collapsed-height="280">  
+                 {!! trans('conocenos.Angie') !!} 
+                </div>
                 <div id="leermas" class="" style="display:block;">
-                 <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
-                 <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
-                 </div>  
-              </div> <!-- End Caption -->
-            </div> <!-- End thumbnails -->
-          </div> <!-- End Col -->
- 
- 
- 
- 
+                  <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
+                  <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
+                </div> 
+              </div><!-- End Caption -->
+            </div><!-- End thumbnails -->
+          </div><!-- End Col -->
+  
+
           <!-- Sixta-->  
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
@@ -164,27 +142,7 @@
           
           <div class="clearfix"></div> 
 
-      <!---Angelica-->
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="thumbnails"> 
-              <div class="img-thumbnail img-circle">  
-                <img src="images/ComiteSMLAngie.jpg" alt="Angie" class="img-circle"/>
-              </div>
-              <div class="caption">
-                <h2>{{ trans('conocenos.nomAngie') }}</h2>
-                <h3>{{ trans('conocenos.comiteAngie') }}</h3>
-                <div class="collapsable" collapsed-height="280">  
-                 {!! trans('conocenos.Angie') !!} 
-                </div>
-                <div id="leermas" class="" style="display:block;">
-                  <button type="button" class="btn btn-leer btn-sm readMoreButton">{{ trans('conocenos.leerMas') }}</button>
-                  <button type="button" class="btn btn-leer btn-sm readLessButton" style="display:none">{{ trans('conocenos.leerMenos') }}</button>
-                </div> 
-              </div><!-- End Caption -->
-            </div><!-- End thumbnails -->
-          </div><!-- End Col -->
-  
-       <!---Veronica--> 
+    <!---Veronica--> 
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
               <div class="img-thumbnail img-circle">  
@@ -203,9 +161,7 @@
               </div><!-- End Caption -->
             </div><!-- End thumbnails -->
           </div><!-- End Col -->   
- 
-          <div class="clearfix hidden-md hidden-lg"></div> 
-
+  
       <!-- Leonor -->       
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="thumbnails"> 
@@ -224,10 +180,12 @@
                 </div> 
               </div> <!--End Caption -->
             </div> <!--End thumbnails -->
-          </div> <!--End Col -->
+          </div> <!--End Col --> 
+ 
+          <div class="clearfix hidden-md hidden-lg"></div> 
         </div><!-- End ROW--> 
                
-          <div class="clearfix hidden-xs hidden-sm"></div>   
+         <!-- <div class="clearfix hidden-xs hidden-sm"></div>   -->
           
        
 

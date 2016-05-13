@@ -48,6 +48,9 @@ return [
                       En las instalaciones de North Seattle College.</h2>
                       <h3>¡Te esperamos!</h3>',
     'VideoUrl' => 'https://player.vimeo.com/video/159162565',
+    'Mision' => '<h1>Nuestra Misión</h1>
+                 <p>Impulsamos una red de apoyo entre las mujeres latinas y su comunidad, fortaleciendo sus talentos y desarrollando su
+                  liderazgo social.</p>',
     'ElPremio' => '<h1> Maru Mora Villalpando</h1>
                    <h2> Por su entrega en defensa de los derechos de los inmigrantes latinos y su trabajo constante para empoderar a la mujer latina.
                    </br></br>Nos honra entregar el premio:

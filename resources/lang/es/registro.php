@@ -38,5 +38,5 @@ return [
     'inscripcionesNoHabiertas1' => 'Las inscripciones aún no están abiertas!',
     'inscripcionesNoHabiertas2' => 'Las inscripciones se abrirán el Lunes 11 de abril después de las 7:00 pm.',
     'inscripcionesCerradas1' => '¡Las inscripciones ya están cerradas!',
-    'inscripcionesCerradas2' => 'Contactanos para más información sobre el próximo Simposio de Mujeres Latinas!'
+    'inscripcionesCerradas2' => 'Contáctanos para más información sobre el próximo Simposio de Mujeres Latinas'
 ];

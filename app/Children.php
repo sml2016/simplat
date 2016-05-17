@@ -13,6 +13,6 @@ class Children extends Model
 	 */
 	public function mother() 
 	{
-		return $this->belongsTo('App\Attendee');
+		return $this->belongsTo('App\Attendee', 'attendee_id');
 	}
 }

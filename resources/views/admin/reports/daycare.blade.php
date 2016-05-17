@@ -11,22 +11,22 @@
                 <table class="table table-striped">
                     <tr>
                         <th>#</th>
-                        <th>Nombre de la Mamá</th>
-                        <th>Apellido</th>       
+                        <th>Apellido</th>
                         <th>Nombre</th>
                         <th>Edad</th>
                         <th>En Espera</th>
+                        <th>Nombre de la Mamá</th>
                         <th>Teléfono</th>
                         <th>Email</th>
                     </tr>
                     @foreach ($children as $key=>$child)
                     <tr>
                         <td>{{ $key + 1 }}</td>
-                        <td>{{ $child->mother->name.' '.$child->mother->last_name }}</td>
                         <td>{{ $child->last_name }}</td>
                         <td>{{ $child->name }}</td>
                         <td>{{ $child->age }}</td>
                         <td>{{ $child->waiting_list ? 'Si' : 'No' }}</td>
+                        <td>{{ $child->mother->name.' '.$child->mother->last_name }}</td>
                         <td>{{ $child->mother->phone_number }}</td>
                         <td>{{ $child->mother->email }}</td>
                     </tr>

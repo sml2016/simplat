@@ -52,7 +52,7 @@ class ReportsController extends Controller
      */
     public function daycareView()
     {
-        $children = Children::All();
+        $children = Children::orderBy('last_name', 'ASC')->get();
 
         return view('admin.reports.daycare', [ 'children' => $children ]);
     }

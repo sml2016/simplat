@@ -52,6 +52,19 @@
                     <li><a href="{{ url('/admin/daycare') }}">Guarderia</a></li>
                 </ul>
                 <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            Reportes <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="{{ url('/admin/reports/registered') }}"><i class="fa fa-btn"></i>Mujeres registradas</a></li>
+                            <li><a href="{{ url('/admin/reports/waiting-list') }}"><i class="fa fa-btn"></i>Mujeres en lista de espera</a></li>
+                            <li><a href="{{ url('/admin/reports/daycare') }}"><i class="fa fa-btn"></i>Guarderia</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav">
                     <li><a href="{{ url('/') }}">SML</a></li>
                 </ul>
                 @endif

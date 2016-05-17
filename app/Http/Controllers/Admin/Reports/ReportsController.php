@@ -54,7 +54,7 @@ class ReportsController extends Controller
     {
         $children = Children::All()->sortBy(function($child) {
             return $this->transliterateString($child->last_name);
-        })>values()->all();
+        })->values()->all();
 
         return view('admin.reports.daycare', [ 'children' => $children ]);
     }

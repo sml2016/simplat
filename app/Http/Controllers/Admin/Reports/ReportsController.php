@@ -28,7 +28,7 @@ class ReportsController extends Controller
      */
     public function registeredView()
     {
-        $attendees = Attendee::where('waiting_list', '=', false)->orderBy('last_name', 'DESC')->get();
+        $attendees = Attendee::where('waiting_list', '=', false)->orderBy('last_name', 'ASC')->get();
 
         return view('admin.reports.registered', [ 'attendees' => $attendees ]);
     }

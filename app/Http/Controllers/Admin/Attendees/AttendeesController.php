@@ -6,7 +6,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\User;
 use App\Http\Requests\CreateAttendeeAdminRequest;
-use App\Http\Requests\UpdateAttendeeRequest;
+use App\Http\Requests\UpdateAttendeeAdminRequest;
 use App\Attendee;
 use App\Settings;
 use App\Children;
@@ -165,7 +165,7 @@ class AttendeesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function update($id, UpdateAttendeeRequest $request)
+    public function update($id, UpdateAttendeeAdminRequest $request)
     {
         $attendee = Attendee::find($id);
 

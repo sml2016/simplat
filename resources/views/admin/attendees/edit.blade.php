@@ -26,7 +26,7 @@
                 <div class="form-group">
                     <label for="inputEmail" class="col-sm-3 control-label">Correo electrónico</label>
                     <div class="col-sm-9">
-                        <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Dirección del correo electrónico" value="{{Request::old('email', $attendee->email)}}"  required>
+                        <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Dirección del correo electrónico" value="{{Request::old('email', $attendee->email)}}">
                     </div>
                 </div>
                 <div class="form-group">

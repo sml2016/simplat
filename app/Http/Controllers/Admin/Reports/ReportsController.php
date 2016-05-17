@@ -28,7 +28,7 @@ class ReportsController extends Controller
      */
     public function registeredView()
     {
-        $attendees = Attendee::where('waiting_list', '=', false)->get()->sortBy('last_name', SORT_NATURAL|SORT_FLAG_CASE|SORT_LOCALE_STRING);
+        $attendees = Attendee::where('waiting_list', '=', false)->get()->sortBy('last_name', SORT_LOCALE_STRING);
 
         return view('admin.reports.registered', [ 'attendees' => $attendees ]);
     }
@@ -40,7 +40,7 @@ class ReportsController extends Controller
      */
     public function waitingListView()
     {
-        $attendees = Attendee::where('waiting_list', '=', true)->get()->sortBy('last_name', SORT_NATURAL|SORT_FLAG_CASE|SORT_LOCALE_STRING);
+        $attendees = Attendee::where('waiting_list', '=', true)->get()->sortBy('last_name', SORT_LOCALE_STRING);
 
         return view('admin.reports.waitinglist', [ 'attendees' => $attendees ]);
     }    
@@ -54,7 +54,7 @@ class ReportsController extends Controller
     {
         $children = Children::All()->sortBy(function($child) {
             return $this->transliterateString($child->last_name);
-        })->values()->all();
+        }, SORT_NATURAL)->values()->all();
 
         return view('admin.reports.daycare', [ 'children' => $children ]);
     }

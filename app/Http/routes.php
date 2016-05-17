@@ -48,6 +48,9 @@ Route::group(['prefix' => 'admin', 'middleware' => 'web'], function() {
     Route::put('/daycare/{id}', 'Admin\Daycare\DaycareController@update');
     Route::get('/daycare/{id}/edit', 'Admin\Daycare\DaycareController@showEditForm');
     Route::get('/daycare/{id}/delete', 'Admin\Daycare\DaycareController@deleteChild');
+
+    /* Reports */
+    Route::get('/reports/registered', 'Admin\Reports\ReportsController@registeredView');
 });
 
 

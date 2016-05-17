@@ -10,4 +10,9 @@ class Attendee extends Model
   {
     return $this->hasMany('App\Children');
   }
+
+  public function childrenWaitingList() 
+  {
+    return $this->hasMany('App\Children')->where('waiting_list', '=', 'true');
+  }
 }

@@ -19,9 +19,10 @@
                         <th>Teléfono</th>
                         <th>Email</th>
                     </tr>
-                    @foreach ($children as $key=>$child)
+                    <?php $index = 1; ?>
+                    @foreach ($children as $child)
                     <tr>
-                        <td>{{ $key + 1 }}</td>
+                        <td>{{ $index }}</td>
                         <td>{{ $child->last_name }}</td>
                         <td>{{ $child->name }}</td>
                         <td>{{ $child->age }}</td>
@@ -29,6 +30,7 @@
                         <td>{{ $child->mother->name.' '.$child->mother->last_name }}</td>
                         <td>{{ $child->mother->phone_number }}</td>
                         <td>{{ $child->mother->email }}</td>
+                        <?php $index++; ?>
                     </tr>
                     @endforeach
                 </table>

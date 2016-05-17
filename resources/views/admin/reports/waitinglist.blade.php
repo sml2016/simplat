@@ -18,15 +18,17 @@
                         <th>Teléfono</th>
                         <th>Email</th> 
                     </tr>
-                    @foreach ($attendees as $key=>$attendee)
+                    <?php $index = 1; ?>
+                    @foreach ($attendees as $attendee)
                     <tr>
-                        <td>{{ $key + 1 }}</td>
+                        <td>{{ $index }}</td>
                         <td>{{ $attendee->last_name }}</td>
                         <td>{{ $attendee->name }}</td>
                         <td>{{ $attendee->children->count() }}</td>
                         <td>{{ $attendee->childrenWaitingList->count() }}</td>
                         <td>{{ $attendee->phone_number }}</td>
                         <td>{{ $attendee->email }}</td>
+                        <?php $index++; ?>
                     </tr>
                     @endforeach
                 </table>

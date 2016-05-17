@@ -51,6 +51,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'web'], function() {
 
     /* Reports */
     Route::get('/reports/registered', 'Admin\Reports\ReportsController@registeredView');
+    Route::get('/reports/waiting-list', 'Admin\Reports\ReportsController@waitingListView');
 });
 
 

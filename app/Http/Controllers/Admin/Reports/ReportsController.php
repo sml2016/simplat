@@ -32,4 +32,16 @@ class ReportsController extends Controller
 
         return view('admin.reports.registered', [ 'attendees' => $attendees ]);
     }
+
+    /**
+     * show the list of registered people
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function waitingListView()
+    {
+        $attendees = Attendee::where('waiting_list', '=', true)->orderBy('last_name', 'ASC')->get();
+
+        return view('admin.reports.waitinglist', [ 'attendees' => $attendees ]);
+    }    
 }

@@ -34,7 +34,7 @@ class ReportsController extends Controller
     }
 
     /**
-     * show the list of registered people
+     * show the list of waiting list people
      *
      * @return \Illuminate\Http\Response
      */
@@ -44,4 +44,16 @@ class ReportsController extends Controller
 
         return view('admin.reports.waitinglist', [ 'attendees' => $attendees ]);
     }    
+
+    /**
+     * show the list of children in daycare
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function daycareView()
+    {
+        $children = Children::All();
+
+        return view('admin.reports.daycare', [ 'children' => $children ]);
+    }
 }
